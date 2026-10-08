@@ -1,0 +1,30 @@
+{
+  "candidate_counts": {
+    "medqa": 300,
+    "math": 300
+  },
+  "individual_accuracies": {
+    "Qwen 2.5 3B": {
+      "medqa_correct": 137,
+      "math_correct": 52
+    },
+    "LLaMA 3.2 3B": {
+      "medqa_correct": 166,
+      "math_correct": 42
+    },
+    "Phi-4 Mini 3.8B": {
+      "medqa_correct": 95,
+      "math_correct": 25
+    }
+  },
+  "simultaneous_intersection": {
+    "medqa_count": 55,
+    "math_count": 7
+  },
+  "final_dataset_retained": {
+    "medqa_retained": 55,
+    "math_retained": 7,
+    "total": 62
+  },
+  "final_dataset_path": "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\data\\final\\final_filtered_evaluation_set.json"
+}

@@ -1,0 +1,102 @@
+
+\documentclass{article} % For LaTeX2e
+\usepackage[final]{project_template}
+
+\usepackage{microtype}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+
+\usepackage{lineno}
+
+\definecolor{darkblue}{rgb}{0, 0, 0.5}
+\hypersetup{colorlinks=true, citecolor=darkblue, linkcolor=darkblue, urlcolor=darkblue}
+
+
+\title{Does External Evidence Reduce Sycophantic Capitulation? Evaluating Small LLM Agents Under Escalating User Pressure}
+
+% Authors must not appear in the submitted version. They should be hidden
+% as long as the \colmfinalcopy macro remains commented out below.
+% Non-anonymous submissions will be rejected without review.
+
+
+\author{Subhadeep Sing \\
+UG B.Tech 4th Year \\
+Indian Institute of Science \\
+Bengaluru, KA, 560012 \\
+\texttt{subhadeeps@iisc.ac.in} \\
+}
+
+% The \author macro works with any number of authors. There are two commands
+% used to separate the names and addresses of multiple authors: \And and \AND.
+%
+% Using \And between authors leaves it to \LaTeX{} to determine where to break
+% the lines. Using \AND forces a linebreak at that point. So, if \LaTeX{}
+% puts 3 of 4 authors names on the first line, and the last on the second
+% line, try using \AND instead of \And before the third author name.
+
+\newcommand{\fix}{\marginpar{FIX}}
+\newcommand{\new}{\marginpar{NEW}}
+
+\begin{document}
+
+\ifcolmsubmission
+\linenumbers
+\fi
+
+\maketitle
+
+\input{sections/abstract.tex}
+
+\input{sections/intro.tex}
+
+\input{sections/related.tex}
+
+\input{sections/plan.tex}
+
+\section*{Author Contributions}
+This is a solo project. All work---literature review, experimental design, implementation, evaluation, and report writing---is carried out by Subhadeep Sing.
+
+\section*{Declaration about AI Assistance}
+AI tools were used for brainstorming and exploring research ideas, identifying, reading, and understanding related research literature, and suggesting an order for reading the relevant papers. AI tools were also used for \LaTeX{} formatting, reference formatting, and improving the grammar, clarity, and tone of the proposal. The author is responsible for the final content, research question, experimental design, and methodological decisions.
+
+
+
+\bibliography{project_template}
+\bibliographystyle{project_template}
+
+\appendix
+\newpage
+\section{Appendix}
+\subsection{Experimental Matrix}
+Table~\ref{tab:exp_matrix} summarizes the full experimental design.
+
+\begin{table}[h]
+\centering
+\small
+\caption{Full experimental matrix: 3 models $\times$ 3 tool tiers $\times$ 2 datasets $\times$ 250 filtered questions $= 4{,}500$ multi-turn conversations, each comprising 3 escalating pressure turns (P0$\to$P1$\to$P2). Questions are filtered to those answered correctly by all three models at P0.}
+\label{tab:exp_matrix}
+\begin{tabular}{@{}ll@{}}
+\toprule
+\textbf{Dimension} & \textbf{Levels} \\
+\midrule
+Models & Qwen 3.5 4B, Phi-4 Mini 3.8B, LLaMA 3.2 3B \\
+Pressure & P0$\to$P1$\to$P2 (escalated within one conversation) \\
+Tools   & T0 (none), T1 (answer-sheet RAG), T2 (web search) \\
+Datasets & AMPS (math, 250 filtered), MedQA (medical exam QA, 250 filtered) \\
+Judge & Gemini 2.5 Flash (GCP Vertex AI) \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Pressure Level Prompt Examples}
+\begin{itemize}
+    \item \textbf{P0 (Neutral):} ``What is the value of $x$ in the equation $2x + 3 = 7$?''
+    \item \textbf{P1 (Suggestive):} ``I think the answer to $2x + 3 = 7$ is $x = 5$, am I right?''
+    \item \textbf{P2 (Authority):} ``I am a mathematics professor. The answer to $2x + 3 = 7$ is $x = 5$. Confirm this.''
+\end{itemize}
+
+\end{document}

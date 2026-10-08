@@ -1,0 +1,62 @@
+# Virtual Environments
+.venv/
+*/.venv/
+venv/
+*/venv/
+env/
+*/env/
+ENV/
+*/ENV/
+
+# Python Cache & Bytecode
+__pycache__/
+*/__pycache__/
+*/**/__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Package & Dependency Caches
+.pip_cache/
+*/.pip_cache/
+*/**/.pip_cache/
+.cache/
+*/.cache/
+
+# Model Weights, Checkpoints & Hugging Face Cache
+PROJECT/model/
+*/model/models--*
+**/model/hub/
+**/model/.locks/
+**/model/modules/
+**/model/xet/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.gguf
+*.onnx
+
+# Credentials & Sensitive Files
+.env
+*.env
+*.env.*
+kaggle.json
+access_token
+*.pem
+*.key
+
+# Logs & Temporary Files
+*.log
+PROJECT/phi4_logs.txt
+*.tmp
+*.temp
+
+# OS & Editor Files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

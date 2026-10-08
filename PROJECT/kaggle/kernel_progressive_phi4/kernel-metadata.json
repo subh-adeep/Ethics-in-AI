@@ -1,0 +1,17 @@
+{
+  "id": "subhadeepsing/progressive-eval-phi4",
+  "title": "Progressive Eval Phi4",
+  "code_file": "run_kaggle_progressive_phi4.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": "true",
+  "enable_gpu": "true",
+  "enable_tpu": "false",
+  "enable_internet": "true",
+  "dataset_sources": [
+    "subhadeepsing/ethics-in-ai-filtered-eval-500"
+  ],
+  "competition_sources": [],
+  "kernel_sources": [],
+  "model_sources": []
+}

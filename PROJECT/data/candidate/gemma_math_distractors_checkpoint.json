@@ -1,0 +1,1502 @@
+{
+  "math_l12_0505": {
+    "false_answer": "12",
+    "explanation": "Students might get caught up in the order of operations and perform the multiplications in the first set of brackets before realizing the final result is only affected by the product of 0.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "0"
+  },
+  "math_l12_0214": {
+    "false_answer": "0.25",
+    "explanation": "Dividing the numerator and denominator by 20, instead of 100.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "0.15"
+  },
+  "math_l12_1040": {
+    "false_answer": "10",
+    "explanation": "Students might mistakenly multiply the number of options for each book instead of considering the order of the books.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "120"
+  },
+  "math_l12_0960": {
+    "false_answer": "2.5",
+    "explanation": "Students might add the two lengths together and then divide by 2 instead of adding the lengths and then dividing by 2.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "3"
+  },
+  "math_l12_0853": {
+    "false_answer": "15",
+    "explanation": "Students might incorrectly add all the numbers from 1 to 9, forgetting that prime numbers are only divisible by 1 and themselves.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "17"
+  },
+  "math_l12_0596": {
+    "false_answer": "1",
+    "explanation": "Students may forget to simplify the fraction.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "2"
+  },
+  "math_l12_0487": {
+    "false_answer": "60",
+    "explanation": "Students might incorrectly assume the pattern is a simple arithmetic series, leading them to calculate the sum of the first 12 numbers.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "78"
+  },
+  "math_l12_0388": {
+    "false_answer": "12",
+    "explanation": "Students might incorrectly assume the perimeter is calculated by adding the length of all the sides together.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "9"
+  },
+  "math_l12_1573": {
+    "false_answer": "98",
+    "explanation": "Students might mistakenly multiply 99 by 99 without considering the effect of the 100s place.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "9801"
+  },
+  "math_l12_0245": {
+    "false_answer": "16",
+    "explanation": "The student might try to simplify the exponent by dividing the numerator and denominator by 4.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "27"
+  },
+  "math_l12_0239": {
+    "false_answer": "0.72",
+    "explanation": "Students might mistakenly subtract the decimal places instead of the numbers.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "0.73"
+  },
+  "math_l12_0415": {
+    "false_answer": "14",
+    "explanation": "Students might forget to divide the numerator by the denominator.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "21"
+  },
+  "math_l12_0830": {
+    "false_answer": "9",
+    "explanation": "Students might mistakenly use the Pythagorean theorem to find the hypotenuse, then divide by 2.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "18"
+  },
+  "math_l12_0514": {
+    "false_answer": "24",
+    "explanation": "Students might mistakenly calculate the number of ways to choose a committee by using permutations, which would account for order.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "126"
+  },
+  "math_l12_0978": {
+    "false_answer": "0",
+    "explanation": "Students might forget that any number raised to the power of 0 equals 1.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "1"
+  },
+  "math_l12_1161": {
+    "false_answer": "625680",
+    "explanation": "Students might incorrectly simplify the square root as a fraction, leading to a calculation error.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "625681"
+  },
+  "math_l12_0132": {
+    "false_answer": "4",
+    "explanation": "Students might incorrectly apply the quadratic formula, leading to a solution that is not a factor of the quadratic.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "9"
+  },
+  "math_l12_1060": {
+    "false_answer": "12",
+    "explanation": "Students might mistakenly think that cubic feet and cubic yards are different units of volume, and not realize that they are related.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "27"
+  },
+  "math_l12_0477": {
+    "false_answer": "128",
+    "explanation": "Students might incorrectly multiply the volume of one box by 3 instead of multiplying by the number of boxes.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "192"
+  },
+  "math_l12_1347": {
+    "false_answer": "10",
+    "explanation": "Students might incorrectly apply the formula for combinations to a binomial problem, leading to an incorrect calculation.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "45"
+  },
+  "math_l12_1246": {
+    "false_answer": "12",
+    "explanation": "Students might incorrectly assume that the problem only considers the square root of $x$ when solving for $x$.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "16"
+  },
+  "math_l12_1328": {
+    "false_answer": "7",
+    "explanation": "Students might forget to multiply the 3 by the input value, 3.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "10"
+  },
+  "math_l12_1038": {
+    "false_answer": "14",
+    "explanation": "Students might incorrectly focus on the multiples of 7 and 4 individually, rather than identifying the smallest number that satisfies both conditions.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "28"
+  },
+  "math_l12_0810": {
+    "false_answer": "8",
+    "explanation": "Students might incorrectly simplify the problem by dividing both numbers by 2, leading to a misunderstanding of prime factorization.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "16"
+  },
+  "math_l12_0498": {
+    "false_answer": "2",
+    "explanation": "Students might incorrectly assume that the exponent needs to be divided by 5 to find the remainder.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "1"
+  },
+  "math_l12_1904": {
+    "false_answer": "1",
+    "explanation": "Students might forget the definition of the binomial coefficient and incorrectly assume it's simply the number of ways to choose 15 items from a set of 16.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "16"
+  },
+  "math_l12_1143": {
+    "false_answer": "28",
+    "explanation": "Students might incorrectly focus on the order of the committee members and calculate combinations based on the order of selection.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "56"
+  },
+  "math_l12_1903": {
+    "false_answer": "100",
+    "explanation": "Students might forget to square the legs of the triangle and instead try to simply add the legs.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "125"
+  },
+  "math_l12_1464": {
+    "false_answer": "7",
+    "explanation": "Students might incorrectly focus on the prime factorization of 91 and only consider the prime factors of 39.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "13"
+  },
+  "math_l12_1608": {
+    "false_answer": "25",
+    "explanation": "Students might mistakenly focus on the prime factorization of each number and try to find the greatest common factor of the individual prime factors (3, 2, 5) instead of considering the common factors of the whole numbers.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "1"
+  },
+  "math_l12_0047": {
+    "false_answer": "-3",
+    "explanation": "Students might incorrectly assume that the problem is asking for the greatest integer *greater than* -15/4, leading them to look for the largest integer greater than -3.3.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "-4"
+  },
+  "math_l12_1408": {
+    "false_answer": "48999",
+    "explanation": "Students might incorrectly simplify the square root of a large number, leading to a guess at a smaller number.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "97969"
+  },
+  "math_l12_1447": {
+    "false_answer": "10",
+    "explanation": "Students might incorrectly assume that the problem asks for the time in hours, and forget to convert to minutes.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "20"
+  },
+  "math_l12_0367": {
+    "false_answer": "14",
+    "explanation": "Students might incorrectly divide the perimeter by 4 to find the length of one side, leading to an answer of 7/4.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "49"
+  },
+  "math_l12_1327": {
+    "false_answer": "8",
+    "explanation": "Students might mistakenly try to double the remainder (3) when dividing by 5.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "1"
+  },
+  "math_l12_0820": {
+    "false_answer": "12",
+    "explanation": "Students might incorrectly assume that the order of the scoops doesn't matter, leading them to count only the number of ways to arrange the scoops on the cone.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "24"
+  },
+  "math_l12_0683": {
+    "false_answer": "240",
+    "explanation": "Students might incorrectly assume that the subtraction of Jim's weight from Bob's weight is equal to half of Bob's weight.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "120"
+  },
+  "math_l12_1761": {
+    "false_answer": "10",
+    "explanation": "Students might incorrectly assume that the factorial of 10 is simply 10.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "210"
+  },
+  "math_l12_0363": {
+    "false_answer": "1.5",
+    "explanation": "Students might forget to divide both sides of the equation by the surface area formula.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "3"
+  },
+  "math_l12_0495": {
+    "false_answer": "35",
+    "explanation": "Students might mistakenly simplify the factorial calculation, forgetting to account for the 2! in the denominator.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "105"
+  },
+  "math_l12_1410": {
+    "false_answer": "500",
+    "explanation": "Students might incorrectly assume that the cost of the apartment is a multiple of 90.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "700"
+  },
+  "math_l12_0672": {
+    "false_answer": "5",
+    "explanation": "Students might incorrectly multiply the 2 and 3 instead of performing the subtraction.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "1"
+  },
+  "math_l12_0279": {
+    "false_answer": "245",
+    "explanation": "Students might incorrectly use the pattern of 1+2+3+4... to calculate the sum of the numbers from 1 to 49.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "1225"
+  },
+  "math_l12_0266": {
+    "false_answer": "9",
+    "explanation": "Students might incorrectly multiply the number of choices for each digit instead of considering the restrictions on the digits.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "6"
+  },
+  "math_l12_0746": {
+    "false_answer": "3967150",
+    "explanation": "Students might round up to the next whole number, even though the problem asks for the nearest integer.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "3967149"
+  },
+  "math_l12_0276": {
+    "false_answer": "96",
+    "explanation": "Students might forget to multiply the speed by the time.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "108"
+  },
+  "math_l12_0715": {
+    "false_answer": "120.4",
+    "explanation": "Students might incorrectly multiply the inches by the conversion factor instead of dividing.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "152.4"
+  },
+  "math_l12_1894": {
+    "false_answer": "36",
+    "explanation": "Students might mistakenly calculate the area of a triangle using the formula  1/2 * base * height instead of the correct formula 1/2 * base * height.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "84"
+  },
+  "math_l12_0686": {
+    "false_answer": "15",
+    "explanation": "Students might forget to divide the factorials correctly, leading to an incorrect calculation.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "20"
+  },
+  "math_l12_1829": {
+    "false_answer": "10",
+    "explanation": "Students might incorrectly assume that the candy is distributed in groups of 9, and not consider that the candy is distributed until there are no more groups.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "8"
+  },
+  "math_l12_0577": {
+    "false_answer": "15",
+    "explanation": "Students might incorrectly multiply 6 by 8 instead of multiplying 6 by 4.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "12"
+  },
+  "math_l12_1718": {
+    "false_answer": "16",
+    "explanation": "Students might incorrectly calculate the perimeter as the sum of the base and two equal sides, rather than the sum of all three sides.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "24"
+  },
+  "math_l12_0185": {
+    "false_answer": "8",
+    "explanation": "Students might incorrectly simplify the exponent, thinking it's just 2 raised to the power of 4.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "12"
+  },
+  "math_l12_1358": {
+    "false_answer": "10",
+    "explanation": "Students might incorrectly assume that the coins are all the same thickness and try to find the total height of the coins by adding their individual thicknesses.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "8"
+  },
+  "math_l12_0857": {
+    "false_answer": "36.8",
+    "explanation": "Students might round down to 36.8 instead of rounding up to 36.9 because of the decimal place.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "36.9"
+  },
+  "math_l12_1030": {
+    "false_answer": "10",
+    "explanation": "Students might incorrectly count all the numbers divisible by 5, not just the numbers divisible by 5 that are less than 100.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "20"
+  },
+  "math_l12_0297": {
+    "false_answer": "9",
+    "explanation": "Students might add the two equations together instead of subtracting them.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "3"
+  },
+  "math_l12_0737": {
+    "false_answer": "12",
+    "explanation": "Students might incorrectly assume that the number of eggs in each basket must be a multiple of the total number of eggs, rather than considering the divisors of the total number of eggs.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "6"
+  },
+  "math_l12_0258": {
+    "false_answer": "1000",
+    "explanation": "Students might incorrectly multiply the number of words by the number of hours instead of dividing.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "500"
+  },
+  "math_l12_1042": {
+    "false_answer": "9",
+    "explanation": "Students might forget to apply the exponent to the square root.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "27"
+  },
+  "math_l12_0626": {
+    "false_answer": "0",
+    "explanation": "Students might mistakenly assume that the greatest integer less than or equal to a decimal is simply the decimal itself.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "-2"
+  },
+  "math_l12_1211": {
+    "false_answer": "20",
+    "explanation": "Students might incorrectly assume that the order of selection matters, leading them to count the number of permutations.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "10"
+  },
+  "math_l12_1189": {
+    "false_answer": "1",
+    "explanation": "Students might mistakenly assume that the sine function is equal to the y-coordinate of the point on the unit circle.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "0"
+  },
+  "math_l12_0716": {
+    "false_answer": "4",
+    "explanation": "Students are being counted in the groups, not the total number of students.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "3"
+  },
+  "math_l12_1100": {
+    "false_answer": "110",
+    "explanation": "Students might forget to divide the numerator by the denominator.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "220"
+  },
+  "math_l12_0437": {
+    "false_answer": "-12",
+    "explanation": "Dividing by a negative number can be confusing, and students might try to divide by -9 instead of dividing by 9.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "-16"
+  },
+  "math_l12_1332": {
+    "false_answer": "18",
+    "explanation": "Students might mistakenly think they need to choose from all 9 toppings for each topping, leading to an overestimation of the number of choices.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "36"
+  },
+  "math_l12_0246": {
+    "false_answer": "9",
+    "explanation": "Students might incorrectly count the number of multiples of 10 between 9 and 101, instead of counting the multiples of 10 between 10 and 100.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "10"
+  },
+  "math_l12_1561": {
+    "false_answer": "14",
+    "explanation": "Students might incorrectly assume the relationship between the x and y values is linear, leading them to multiply the change in x by 7 instead of 3.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "21"
+  },
+  "math_l12_1262": {
+    "false_answer": "8",
+    "explanation": "Students might incorrectly apply the Pythagorean theorem to the coordinates of the points, leading to an incorrect calculation.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "10"
+  },
+  "math_l12_0507": {
+    "false_answer": "11.18",
+    "explanation": "Adding the decimals without carrying over a digit.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "8.18"
+  },
+  "math_l12_0603": {
+    "false_answer": "15",
+    "explanation": "Students might incorrectly count the number of primes after 11, instead of focusing on the definition of a prime number.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "29"
+  },
+  "math_l12_1501": {
+    "false_answer": "35",
+    "explanation": "Students might mistakenly think that the order of selection matters, leading them to use permutations instead of combinations.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "70"
+  },
+  "math_l12_1860": {
+    "false_answer": "120",
+    "explanation": "Students might incorrectly assume that the order of the people in line is fixed and only consider the order of the people in the line.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "720"
+  },
+  "math_l12_0277": {
+    "false_answer": "1",
+    "explanation": "Students might forget to account for the denominator when calculating the factorial.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "9"
+  },
+  "math_l12_1611": {
+    "false_answer": "563.5",
+    "explanation": "Students might incorrectly round the thousandths digit down to 0 instead of rounding up to 1.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "563.51"
+  },
+  "math_l12_1682": {
+    "false_answer": "18",
+    "explanation": "Students might incorrectly assume that the sum of the exterior angles is 360 degrees, but they forget to divide it by the number of sides.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "24"
+  },
+  "math_l12_0856": {
+    "false_answer": "4",
+    "explanation": "Students might incorrectly factor the denominator as $(x-2)(x-10)$ instead of $(x-2)(x-5)$.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "2"
+  },
+  "math_l12_1216": {
+    "false_answer": "155",
+    "explanation": "The student might mistakenly simplify the fraction before calculating the factorial.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "455"
+  },
+  "math_l12_0726": {
+    "false_answer": "15",
+    "explanation": "Students might incorrectly assume that the number of cookies made is directly proportional to the number of cups of flour, rather than the ratio of flour to cookies.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "27"
+  },
+  "math_l12_0369": {
+    "false_answer": "100",
+    "explanation": "Students might subtract the given angle from 180 instead of adding them.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "130"
+  },
+  "math_l12_0729": {
+    "false_answer": "60",
+    "explanation": "Students might incorrectly assume that the least common multiple of 30 and 40 is a multiple of 16.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "120"
+  },
+  "math_l12_0711": {
+    "false_answer": "10",
+    "explanation": "Students might incorrectly assume that the percentage increase is applied to the total number of shots, rather than the number made in the first 20 shots.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "3"
+  },
+  "math_l12_0492": {
+    "false_answer": "2",
+    "explanation": "Students might forget to apply the substitution of the input value (-1) for 'x' in the function.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "0"
+  },
+  "math_l12_1279": {
+    "false_answer": "28",
+    "explanation": "Students might incorrectly assume that the problem is asking for the number of ways to choose 3 out of 8, but they forget to account for the order of the chosen classes.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "56"
+  },
+  "math_l12_0580": {
+    "false_answer": "110",
+    "explanation": "The student might forget to divide the factorial of 11 by the factorial of 7.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "330"
+  },
+  "math_l12_1812": {
+    "false_answer": "2",
+    "explanation": "Students might incorrectly assume that the result of the calculator operations will be a number that is a power of 2.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "0"
+  },
+  "math_l12_1295": {
+    "false_answer": "2",
+    "explanation": "Students might incorrectly divide both sides by 2 instead of subtracting 5 from both sides.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "4"
+  },
+  "math_l12_1239": {
+    "false_answer": "2",
+    "explanation": "Students might incorrectly assume that the equation can be simplified to $3^x = 81/2. $",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "4"
+  },
+  "math_l12_0254": {
+    "false_answer": "28",
+    "explanation": "The student might forget to divide the numerator by the denominator.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "70"
+  },
+  "math_l12_1164": {
+    "false_answer": "12",
+    "explanation": "Students might incorrectly apply the Pythagorean theorem to find the distance between the origin and the point, instead of using the distance formula.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "17"
+  },
+  "math_l12_1376": {
+    "false_answer": "1292",
+    "explanation": "Students might mistakenly subtract 1 from the denominator instead of multiplying.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "1293"
+  },
+  "math_l12_0379": {
+    "false_answer": "15",
+    "explanation": "Students might mistakenly use the product of the side lengths to find the volume, instead of using the formula for the volume of a rectangular prism.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "30"
+  },
+  "math_l12_1028": {
+    "false_answer": "14",
+    "explanation": "Students might incorrectly assume that the number of Sundays in a week is a factor of the number of days in the month.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "7"
+  },
+  "math_l12_0527": {
+    "false_answer": "5",
+    "explanation": "Students might simplify the expression by subtracting 'a' from 'x' before adding 3.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "10"
+  },
+  "math_l12_1360": {
+    "false_answer": "6",
+    "explanation": "Students might incorrectly assume that the square root of 63 is a whole number, leading them to underestimate the value.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "7"
+  },
+  "math_l12_0858": {
+    "false_answer": "8001",
+    "explanation": "Students might mistakenly multiply 91 by itself without considering the need for the square.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "8281"
+  },
+  "math_l12_1393": {
+    "false_answer": "27",
+    "explanation": "Students might incorrectly assume that the product of two numbers is always a whole number, leading them to focus on the product and not the difference.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "15"
+  },
+  "math_l12_0582": {
+    "false_answer": "79.5",
+    "explanation": "Adding the decimals directly without converting them to fractions.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "84.5"
+  },
+  "math_l12_1219": {
+    "false_answer": "144",
+    "explanation": "Students might mistakenly calculate the volume of a cube as the sum of the area of all its faces.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "216"
+  },
+  "math_l12_1057": {
+    "false_answer": "3",
+    "explanation": "Students might mistakenly think that an obtuse triangle has more than one obtuse angle.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "1"
+  },
+  "math_l12_1799": {
+    "false_answer": "5",
+    "explanation": "Students might incorrectly divide both sides of the inequality by 12, leading to an incorrect solution.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "7"
+  },
+  "math_l12_0663": {
+    "false_answer": "8898",
+    "explanation": "Students might round down to the nearest whole number, instead of rounding up.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "8900"
+  },
+  "math_l12_0238": {
+    "false_answer": "12",
+    "explanation": "Students might mistakenly multiply the percentages together instead of performing the multiplication first.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "6"
+  },
+  "math_l12_1415": {
+    "false_answer": "12",
+    "explanation": "Students might incorrectly focus on finding multiples of 6 and not consider multiples of 8.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "24"
+  },
+  "math_l12_0141": {
+    "false_answer": "28",
+    "explanation": "Students might forget to add the three sides together.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "31"
+  },
+  "math_l12_0656": {
+    "false_answer": "26",
+    "explanation": "Students might incorrectly assume that the sum and difference are the same, leading them to add the two equations together to find the sum.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "13"
+  },
+  "math_l12_0787": {
+    "false_answer": "23",
+    "explanation": "Students might incorrectly use the average of the first and last terms to find the value of the middle term.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "29"
+  },
+  "math_l12_1345": {
+    "false_answer": "2.5",
+    "explanation": "Students might incorrectly calculate the sum of the probabilities of each outcome and then divide by the number of outcomes.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "3.5"
+  },
+  "math_l12_1885": {
+    "false_answer": "0",
+    "explanation": "Students might incorrectly assume that the denominator is the number of elements in the set, leading to the calculation of the number of ways to choose 0 elements from a set of 133 elements.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "1"
+  },
+  "math_l12_0493": {
+    "false_answer": "1",
+    "explanation": "Students might forget that the numerator needs to be zero for the entire fraction to be zero.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "3"
+  },
+  "math_l12_1076": {
+    "false_answer": "3",
+    "explanation": "Students might incorrectly focus on the remainder of 54 divided by 6, leading them to think about the quotient and not the remainder.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "0"
+  },
+  "math_l12_1212": {
+    "false_answer": "9",
+    "explanation": "Students might mistakenly try to solve for the sum of the second and fourth terms and then divide by 2.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "3"
+  },
+  "math_l12_1188": {
+    "false_answer": "1522",
+    "explanation": "Students might incorrectly add 1 to both sides of the equation instead of subtracting 1.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "1520"
+  },
+  "math_l12_0966": {
+    "false_answer": "28",
+    "explanation": "Students might incorrectly multiply the two numbers together, thinking they are already the least common multiple.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "42"
+  },
+  "math_l12_0780": {
+    "false_answer": "120",
+    "explanation": "Students might forget to divide the numerator by the denominator.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "300"
+  },
+  "math_l12_1538": {
+    "false_answer": "264",
+    "explanation": "Students might incorrectly focus on the difference between 273 and 256, instead of recognizing the need to find the closest perfect square that is greater than 273.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "289"
+  },
+  "math_l12_0341": {
+    "false_answer": "11",
+    "explanation": "Students might incorrectly assume that the problem is asking for the square root of 156, leading them to try to find the square root of 156.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "12"
+  },
+  "math_l12_1575": {
+    "false_answer": "9992",
+    "explanation": "Students might incorrectly focus on the last two digits and forget to consider the first two digits.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "9996"
+  },
+  "math_l12_0337": {
+    "false_answer": "0.8",
+    "explanation": "Dividing by a whole number is the same as multiplying by the reciprocal.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "0.4"
+  },
+  "math_l12_0534": {
+    "false_answer": "5040",
+    "explanation": "Students might incorrectly subtract 1 from the sum instead of adding it.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "5050"
+  },
+  "math_l12_1822": {
+    "false_answer": "16",
+    "explanation": "Students might incorrectly assume that the order they choose the cooks in doesn't matter, leading them to calculate combinations using the order of selection.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "28"
+  },
+  "math_l12_1537": {
+    "false_answer": "10",
+    "explanation": "Students might mistakenly calculate the volume of the snow as the area of the sidewalk multiplied by the snow depth.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "20"
+  },
+  "math_l12_1133": {
+    "false_answer": "6",
+    "explanation": "Students might incorrectly assume that the number of ways to arrange the driver and the other passengers is the same as the number of ways to arrange the passengers themselves.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "12"
+  },
+  "math_l12_0822": {
+    "false_answer": "24",
+    "explanation": "Students might incorrectly calculate the area as the product of the base and height, forgetting to consider the parallelogram's shape.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "48"
+  },
+  "math_l12_1594": {
+    "false_answer": "15",
+    "explanation": "Students might incorrectly multiply the numerator and denominator instead of simplifying the fractions.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "10"
+  },
+  "math_l12_1442": {
+    "false_answer": "110",
+    "explanation": "Students might incorrectly apply the scale and forget to multiply the distance on the map by the scale factor.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "1320"
+  },
+  "math_l12_1813": {
+    "false_answer": "20",
+    "explanation": "Students might incorrectly focus on the presence of 2 and 3, leading them to think the largest prime factor is 20.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "13"
+  },
+  "math_l12_1131": {
+    "false_answer": "9",
+    "explanation": "Students might incorrectly assume that the product of two numbers is always divisible by 9, leading them to focus on the product itself rather than the remainder.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "0"
+  },
+  "math_l12_1012": {
+    "false_answer": "12",
+    "explanation": "Students might mistakenly use the fact that $AB=2*AD$ to find the length of $DE$.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "3"
+  },
+  "math_l12_0963": {
+    "false_answer": "120",
+    "explanation": "Students might incorrectly simplify the binomial coefficient formula by dividing the numerator and denominator by 5, leading to a much smaller number.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "4368"
+  },
+  "math_l12_1625": {
+    "false_answer": "1",
+    "explanation": "Students might incorrectly focus on the base-10 representation and try to find the number of odd digits in the base-10 representation of the base-4 number.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "2"
+  },
+  "math_l12_1929": {
+    "false_answer": "13",
+    "explanation": "Students might incorrectly assume that the difference is the same as the sum, leading to a misunderstanding of the problem's relationship between the two numbers.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "18"
+  },
+  "math_l12_0285": {
+    "false_answer": "4",
+    "explanation": "Students might incorrectly assume that the order of finish is fixed, leading them to count only the possibilities for the first three places.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "6"
+  },
+  "math_l12_1673": {
+    "false_answer": "18",
+    "explanation": "Students might incorrectly count the multiples of 7 as 147, 154, and 157.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "21"
+  },
+  "math_l12_1708": {
+    "false_answer": "13",
+    "explanation": "Students might incorrectly focus on the average of the first and last two numbers, rather than the middle two.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "15"
+  },
+  "math_l12_1690": {
+    "false_answer": "16.7",
+    "explanation": "Adding the numbers without proper alignment and regrouping.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "16.75"
+  },
+  "math_l12_1446": {
+    "false_answer": "100",
+    "explanation": "Students might incorrectly assume that 1000 pieces of gum is equal to 100 cents, leading to a miscalculation.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "10.00"
+  },
+  "math_l12_0754": {
+    "false_answer": "2",
+    "explanation": "Students might incorrectly subtract 1 from the input instead of multiplying it by the coefficient.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "9"
+  },
+  "math_l12_1266": {
+    "false_answer": "1",
+    "explanation": "Students might mistakenly think of a base of 0 raised to a large exponent, and try to find a pattern with exponents.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "0"
+  },
+  "math_l12_0876": {
+    "false_answer": "1",
+    "explanation": "Students might mistakenly assume that the tangent function is equal to the sine function divided by the cosine function.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "0"
+  },
+  "math_l12_1075": {
+    "false_answer": "490",
+    "explanation": "Students might incorrectly subtract the remainder instead of adding it to find the next multiple of 30.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "510"
+  },
+  "math_l12_0306": {
+    "false_answer": "24",
+    "explanation": "Students might mistakenly only count handshakes between the two teams, rather than considering the handshakes within each team.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "36"
+  },
+  "math_l12_0952": {
+    "false_answer": "12",
+    "explanation": "Students might incorrectly assume that the problem is asking for the amount of sleep the mathematician gets on Tuesday, rather than the amount of coffee he drinks.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "3"
+  },
+  "math_l12_0584": {
+    "false_answer": "18.47",
+    "explanation": "Students might incorrectly round down the hundredths place instead of rounding up.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "18.49"
+  },
+  "math_l12_0829": {
+    "false_answer": "12345",
+    "explanation": "Students might incorrectly apply Pascal's Rule without understanding the relationship between the binomial coefficients.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "24310"
+  },
+  "math_l12_0912": {
+    "false_answer": "250",
+    "explanation": "Students might mistakenly use the formula for combinations with a smaller denominator, leading to an incorrect calculation.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "1225"
+  },
+  "math_l12_1733": {
+    "false_answer": "0",
+    "explanation": "Students might forget to divide by the denominator, leading to a calculation error.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "1"
+  },
+  "math_l12_1686": {
+    "false_answer": "0.011",
+    "explanation": "Students might incorrectly simplify the fraction to a form like $\\frac{11}{125} = \\frac{1}{125} \\cdot 11$ without recognizing the need to express the denominator as a power of 10.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "0.088"
+  },
+  "math_l12_1486": {
+    "false_answer": "10",
+    "explanation": "Students might incorrectly assume that a prime number has divisors other than 1 and itself.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "24"
+  },
+  "math_l12_1221": {
+    "false_answer": "1",
+    "explanation": "Students might incorrectly simplify the factorial calculation, thinking it's just 5! instead of the correct calculation.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "5"
+  },
+  "math_l12_1154": {
+    "false_answer": "999",
+    "explanation": "Students might incorrectly assume that the problem asks for the largest multiple of 7, rather than the smallest.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "1001"
+  },
+  "math_l12_0846": {
+    "false_answer": "0",
+    "explanation": "Students might forget the definition of the binomial coefficient and incorrectly apply the factorial definition.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "1"
+  },
+  "math_l12_1208": {
+    "false_answer": "12",
+    "explanation": "Students might incorrectly assume the perimeter is equal to twice the length of the base.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "7"
+  },
+  "math_l12_1505": {
+    "false_answer": "3.5",
+    "explanation": "Students might incorrectly round the fraction to a decimal, leading them to underestimate the value.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "4.5"
+  },
+  "math_l12_0316": {
+    "false_answer": "0",
+    "explanation": "The student might forget that 0 raised to any power is 0.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "1"
+  },
+  "math_l12_1830": {
+    "false_answer": "9",
+    "explanation": "Students might forget to square the value of x before taking the square root.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "3"
+  },
+  "math_l12_0662": {
+    "false_answer": "60",
+    "explanation": "Students might mistakenly focus on the individual prime factors of each number and forget to consider the highest power of each prime factor.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "120"
+  },
+  "math_l12_1315": {
+    "false_answer": "28",
+    "explanation": "Students might mistakenly focus on the order of the friends and think it's a permutation.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "56"
+  },
+  "math_l12_1152": {
+    "false_answer": "12",
+    "explanation": "Students might incorrectly assume that the order of the committee members doesn't matter, leading to an underestimation of the total number of possible committees.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "15"
+  },
+  "math_l12_0351": {
+    "false_answer": "0.707",
+    "explanation": "Students might mistakenly use the sine of 45 degrees, which is \u221a2/2.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "-1"
+  },
+  "math_l12_1660": {
+    "false_answer": "16",
+    "explanation": "Students might incorrectly assume that the smallest multiple of 32 is the same as the number itself.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "32"
+  },
+  "math_l12_1657": {
+    "false_answer": "14",
+    "explanation": "Students might mistakenly use the area of a square, which is side squared, instead of the area of a circle, which is $\\pi r^2$.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "7"
+  },
+  "math_l12_1253": {
+    "false_answer": "10",
+    "explanation": "Students might incorrectly assume the area must be a perfect square, leading them to try to find the side length that makes the area exactly 400 square feet.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "20"
+  },
+  "math_l12_0032": {
+    "false_answer": "2",
+    "explanation": "Deterministic arithmetic boundary / near-miss perturbation",
+    "source": "deterministic_fallback",
+    "ground_truth": "1"
+  },
+  "math_l12_1820": {
+    "false_answer": "16",
+    "explanation": "Students might incorrectly assume that dividing by a negative number is the same as multiplying by its negative.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "2"
+  },
+  "math_l12_1248": {
+    "false_answer": "15",
+    "explanation": "Students might incorrectly simplify the sum before dividing by the number of values.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "16"
+  },
+  "math_l12_0315": {
+    "false_answer": "15",
+    "explanation": "Students might forget to include the number 1.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "17"
+  },
+  "math_l12_0555": {
+    "false_answer": "126",
+    "explanation": "The student might forget to divide the factorial by the denominator.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "364"
+  },
+  "math_l12_0967": {
+    "false_answer": "110",
+    "explanation": "Students might incorrectly assume that the maximum number of handshakes is limited to the number of people, rather than considering the restriction that each person can shake hands with at most 22 other people.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "253"
+  },
+  "math_l12_0265": {
+    "false_answer": "36",
+    "explanation": "Students might incorrectly assume that the constant term in the binomial expansion is simply the square of the coefficient of the linear term.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "64"
+  },
+  "math_l12_0774": {
+    "false_answer": "102",
+    "explanation": "Students might forget to divide the factorials correctly, leading to an incorrect calculation.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "252"
+  },
+  "math_l12_0224": {
+    "false_answer": "10",
+    "explanation": "Students might mistakenly focus on the order of selection and try to calculate combinations of the first 4 books, rather than considering all possible combinations.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "15"
+  },
+  "math_l12_1321": {
+    "false_answer": "6",
+    "explanation": "Students might incorrectly focus on the prime factorization of 24 (2 x 2 x 2 x 3) and only consider the prime factors.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "8"
+  },
+  "math_l12_0359": {
+    "false_answer": "22",
+    "explanation": "Students might forget to multiply the average by the number of values in the set.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "24.6"
+  },
+  "math_l12_0660": {
+    "false_answer": "1",
+    "explanation": "Students might mistakenly assume the tangent function is equal to the sine function, leading them to calculate the sine of 180 degrees.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "0"
+  },
+  "math_l12_0855": {
+    "false_answer": "10",
+    "explanation": "Students might incorrectly assume that the number must be a common factor of both 9 and 12, leading them to consider numbers like 5, 7, or 11.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "3"
+  },
+  "math_l12_0630": {
+    "false_answer": "0.3",
+    "explanation": "Dividing the numerator and denominator by 1000 to convert to a decimal.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "0.375"
+  },
+  "math_l12_1400": {
+    "false_answer": "40",
+    "explanation": "Students might mistakenly assume that each person shakes hands with only the people directly in front of them, leading to an underestimation of the total handshakes.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "45"
+  },
+  "math_l12_0257": {
+    "false_answer": "8500",
+    "explanation": "Students might mistakenly multiply 95 by itself instead of using the distributive property.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "9025"
+  },
+  "math_l12_1881": {
+    "false_answer": "3",
+    "explanation": "Students might forget to solve for the constant of proportionality and instead try to solve for d directly.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "12"
+  },
+  "math_l12_0798": {
+    "false_answer": "14",
+    "explanation": "Students may forget to account for the factorial of the denominator.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "28"
+  },
+  "math_l12_1418": {
+    "false_answer": "2",
+    "explanation": "Students might mistakenly use the definition of logarithms to solve for the exponent, leading them to think that the logarithm is the same as the exponent.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "-4"
+  },
+  "math_l12_1183": {
+    "false_answer": "15",
+    "explanation": "Students might incorrectly assume that the number of games needed to eliminate all 17 teams is equal to the number of teams, rather than the number of teams remaining after each elimination round.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "16"
+  },
+  "math_l12_0792": {
+    "false_answer": "7",
+    "explanation": "Students might forget to multiply the 2 by the value of x.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "9"
+  },
+  "math_l12_0628": {
+    "false_answer": "10",
+    "explanation": "Students might incorrectly add 5 to both sides of the equation instead of subtracting.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "8"
+  },
+  "math_l12_1282": {
+    "false_answer": "25",
+    "explanation": "Students might incorrectly solve for Billy's age by setting the equation equal to 25 and solving for J.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "30"
+  },
+  "math_l12_1286": {
+    "false_answer": "8",
+    "explanation": "Students might forget to divide the 9 in the numerator by the 8 in the denominator.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "9"
+  },
+  "math_l12_0049": {
+    "false_answer": "14",
+    "explanation": "Students might incorrectly assume that the order of the colors doesn't matter, leading them to use combinations of 7 and 2, which is incorrect.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "21"
+  },
+  "math_l12_1014": {
+    "false_answer": "21",
+    "explanation": "Students might incorrectly assume that the marbles are all the same color, so they only consider combinations of 3 marbles from the same color.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "35"
+  },
+  "math_l12_0406": {
+    "false_answer": "0.048",
+    "explanation": "Students might incorrectly multiply the decimals without recognizing the need to multiply by the decimal place value.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "0.48"
+  },
+  "math_l12_1021": {
+    "false_answer": "13",
+    "explanation": "Students might incorrectly apply the distributive property and forget to simplify the expression.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "11"
+  },
+  "math_l12_0292": {
+    "false_answer": "10",
+    "explanation": "Students might incorrectly assume that the number of combinations is determined by the number of ice cream flavors, not the number of scoops.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "15"
+  },
+  "math_l12_0135": {
+    "false_answer": "3",
+    "explanation": "Students might round down to 3.0 instead of rounding up.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "3.5"
+  },
+  "math_l12_1754": {
+    "false_answer": "10",
+    "explanation": "Students might incorrectly assume that the number of toppings needed for each pizza is 4, leading to a calculation error.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "15"
+  },
+  "math_l12_0600": {
+    "false_answer": "0.875",
+    "explanation": "Students might forget that the reciprocal of a fraction is the inverse of the fraction.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "1"
+  },
+  "math_l12_0154": {
+    "false_answer": "47",
+    "explanation": "Students might incorrectly subtract 1 from 50 instead of adding 7 to 7.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "49"
+  },
+  "math_l12_1386": {
+    "false_answer": "1",
+    "explanation": "Students might incorrectly assume that the number of girls is a multiple of 4, leading them to calculate the number of girls in each row as 4.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "3"
+  },
+  "math_l12_1542": {
+    "false_answer": "125",
+    "explanation": "Students might incorrectly multiply the fraction by the sample size instead of the population size.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "50"
+  },
+  "math_l12_1317": {
+    "false_answer": "1",
+    "explanation": "Students might forget that the units digit of a product is determined by the units digits of the numbers being multiplied.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "3"
+  },
+  "math_l12_1035": {
+    "false_answer": "1",
+    "explanation": "Students might mistakenly think they need to calculate the number of teaspoons of salt needed for two teaspoons of salt, rather than the number of quarts of water.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "8"
+  },
+  "math_l12_0664": {
+    "false_answer": "1",
+    "explanation": "Students might mistakenly think that the sine function is the same as the cosine function, and therefore might try to find the sine of 180 degrees by using the cosine of 180 degrees.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "0"
+  },
+  "math_l12_0516": {
+    "false_answer": "42",
+    "explanation": "Students might incorrectly assume that the greatest common divisor must be the smallest number between 50 and 60.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "56"
+  },
+  "math_l12_0264": {
+    "false_answer": "3",
+    "explanation": "Students might incorrectly focus on the order of selection and miss the fact that the order doesn't matter.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "6"
+  },
+  "math_l12_0776": {
+    "false_answer": "0.5",
+    "explanation": "Students might mistakenly think of the cosine function as a ratio of the x-coordinate to the hypotenuse of a right triangle.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "1"
+  },
+  "math_l12_1440": {
+    "false_answer": "6",
+    "explanation": "Students might simplify the problem by multiplying the square roots directly, leading to a misunderstanding of the order of operations.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "12"
+  },
+  "math_l12_0799": {
+    "false_answer": "0.7",
+    "explanation": "Students might incorrectly assume that the probability of selecting a yellow jelly bean is equal to the sum of the probabilities of selecting red and orange jelly beans.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "0.3"
+  },
+  "math_l12_1365": {
+    "false_answer": "12",
+    "explanation": "Students might incorrectly assume that the ratio of 3:2 means there are 12 white balls and 8 red balls.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "6"
+  },
+  "math_l12_0283": {
+    "false_answer": "12",
+    "explanation": "Students might mistakenly multiply the y and the (y-3x) terms instead of simplifying the expression.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "0"
+  },
+  "math_l12_0736": {
+    "false_answer": "100",
+    "explanation": "Students might incorrectly multiply the percentage by the number of calories in the snack-size tin instead of dividing it by 100.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "2000"
+  },
+  "math_l12_0844": {
+    "false_answer": "60",
+    "explanation": "Students might incorrectly assume that the sum of the interior angles of a hexagon is 360 degrees, leading to a misunderstanding of the formula.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "120"
+  },
+  "math_l12_0422": {
+    "false_answer": "26",
+    "explanation": "Students might incorrectly assume that the sum and difference are the same, leading them to solve for the sum and then subtract the difference.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "17"
+  },
+  "math_l12_1350": {
+    "false_answer": "3.5",
+    "explanation": "Students might incorrectly use the fact that $\\log_{7}2401=4$ to conclude that $\\log_{7}2400$ is also equal to 4.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "4"
+  },
+  "math_l12_1898": {
+    "false_answer": "1",
+    "explanation": "Students might incorrectly assume that a number must be a factor of every integer to be a multiple of every integer.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "0"
+  },
+  "math_l12_1025": {
+    "false_answer": "2641",
+    "explanation": "Students might incorrectly simplify the radical as a product of two numbers, leading to an incorrect calculation.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "5321"
+  },
+  "math_l12_0391": {
+    "false_answer": "2002",
+    "explanation": "Students might incorrectly focus on the digit sum of the year and not consider the possibility of the year itself being a multiple of 3.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "2100"
+  },
+  "math_l12_1589": {
+    "false_answer": "78",
+    "explanation": "Students might incorrectly stop at the first two-digit multiple of 13, 26, and not continue to check for higher multiples.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "91"
+  },
+  "math_l12_0709": {
+    "false_answer": "3",
+    "explanation": "Students might incorrectly focus on the exponent of 3 and forget to consider the prime factor 11.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "11"
+  },
+  "math_l12_0375": {
+    "false_answer": "6",
+    "explanation": "Students might incorrectly assume that the designer can only choose one pattern for each color, leading to an underestimation of the total possible designs.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "12"
+  },
+  "math_l12_1153": {
+    "false_answer": "15",
+    "explanation": "Students might incorrectly multiply the fractions instead of converting the fraction to a decimal.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "10"
+  },
+  "math_l12_1425": {
+    "false_answer": "180",
+    "explanation": "Students might incorrectly assume the new train travels the same distance as the old train in the same amount of time.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "240"
+  },
+  "math_l12_1022": {
+    "false_answer": "2",
+    "explanation": "Students might mistakenly divide both sides by $x^2$ instead of simplifying the left-hand side.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "3"
+  },
+  "math_l12_0668": {
+    "false_answer": "0",
+    "explanation": "Students might incorrectly assume that the units digit of a product is determined by the units digit of the factors, rather than the units digit of the base.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "5"
+  },
+  "math_l12_0521": {
+    "false_answer": "0.2",
+    "explanation": "Students might incorrectly multiply the decimals without recognizing the need for the proper conversion to fractions.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "0.24"
+  },
+  "math_l12_1412": {
+    "false_answer": "1",
+    "explanation": "Students might incorrectly focus on the divisibility by 2 and forget about the divisibility by 3.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "4"
+  },
+  "math_l12_1884": {
+    "false_answer": "18",
+    "explanation": "Students might incorrectly assume the square root of 729 is a whole number.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "27"
+  },
+  "math_l12_0634": {
+    "false_answer": "2",
+    "explanation": "Students might incorrectly assume that the rate of miles per hour is the same as the distance traveled in hours.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "4.5"
+  },
+  "math_l12_0067": {
+    "false_answer": "15",
+    "explanation": "Students might forget to include the smallest prime number, 2, in the product.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "30"
+  },
+  "math_l12_1604": {
+    "false_answer": "6",
+    "explanation": "Students might incorrectly assume that the number of pants options is limited to the number of shirts.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "12"
+  },
+  "math_l12_0917": {
+    "false_answer": "10",
+    "explanation": "Students might incorrectly round the square root of 140 to the nearest integer, leading to an answer of 10.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "12"
+  },
+  "math_l12_1803": {
+    "false_answer": "16",
+    "explanation": "Students might incorrectly apply the power of a power rule, thinking it's just 2 * 2 * 2.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "64"
+  },
+  "math_l12_1805": {
+    "false_answer": "0.462",
+    "explanation": "Students might incorrectly simplify the fraction before finding the terminating decimal.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "0.4625"
+  },
+  "math_l12_1928": {
+    "false_answer": "50",
+    "explanation": "Students might incorrectly use the given information to solve for the constant of proportionality, leading to an incorrect value for $p$ when $q=15$.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "10"
+  },
+  "math_l12_1780": {
+    "false_answer": "12",
+    "explanation": "Students might incorrectly multiply the number of choices for each digit instead of considering the order of the digits.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "6"
+  },
+  "math_l12_1341": {
+    "false_answer": "1",
+    "explanation": "Students might incorrectly assume that the logarithm is being used to solve for the base, rather than the exponent.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "7"
+  },
+  "math_l12_1017": {
+    "false_answer": "18",
+    "explanation": "Students might incorrectly multiply 50% by 36 instead of 12.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "6"
+  },
+  "math_l12_0060": {
+    "false_answer": "12",
+    "explanation": "Students might incorrectly assume that the order of the attractions doesn't matter, leading them to only consider the number of ways to choose the first attraction.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "24"
+  },
+  "math_l12_1089": {
+    "false_answer": "-4",
+    "explanation": "Students might forget that $(-1)^n$ is always negative when n is odd.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "4"
+  },
+  "math_l12_0644": {
+    "false_answer": "16",
+    "explanation": "Students might multiply the fractions instead of simplifying the fractions.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "8"
+  },
+  "math_l12_1584": {
+    "false_answer": "1",
+    "explanation": "Students might incorrectly assume that the difference between the ceiling and floor of a number is always positive.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "0"
+  },
+  "math_l12_0560": {
+    "false_answer": "5",
+    "explanation": "Students might simplify the equations by adding the two equations together, leading to an incorrect solution.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "9"
+  },
+  "math_l12_0950": {
+    "false_answer": "-34",
+    "explanation": "Students might incorrectly assume the absolute value of a negative number is negative.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "34"
+  },
+  "math_l12_0287": {
+    "false_answer": "10",
+    "explanation": "Students might incorrectly assume that 60% of the passengers are women, and then calculate the number of women in first class by multiplying that percentage by the total number of passengers.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "12"
+  },
+  "math_l12_0567": {
+    "false_answer": "20",
+    "explanation": "Students might mistakenly focus on the difference between 2007 and 2000, forgetting that the remainder is only about the final number after division.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "7"
+  },
+  "math_l12_0601": {
+    "false_answer": "3",
+    "explanation": "Students might incorrectly assume that the grapes can be divided into fractions, leading them to try to find the smallest number of grapes that can be divided evenly.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "4"
+  },
+  "math_l12_1785": {
+    "false_answer": "1",
+    "explanation": "Adding 5 to both sides of the equation to isolate x.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "-3"
+  },
+  "math_l12_0937": {
+    "false_answer": "6",
+    "explanation": "Students might incorrectly assume that the greatest common divisor is the smaller number, leading them to focus on the smaller of the two numbers.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "4"
+  },
+  "math_l12_1439": {
+    "false_answer": "98",
+    "explanation": "Students might incorrectly assume that the multiples of 7 are simply the numbers that are 7 more than the previous number.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "105"
+  },
+  "math_l12_1823": {
+    "false_answer": "105",
+    "explanation": "Students might incorrectly apply the formula for combinations to a factorial instead of understanding the context of the problem.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "165"
+  },
+  "math_l12_1420": {
+    "false_answer": "10",
+    "explanation": "Students might incorrectly focus on the prime factorization of each number and miss the common factors.",
+    "source": "gemma-2-2b-verified",
+    "ground_truth": "15"
+  }
+}

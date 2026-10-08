@@ -1,0 +1,16 @@
+# Week 1 Requirements
+# Note: torch is installed with CUDA 12 support
+transformers>=4.48.0
+accelerate>=1.2.0
+bitsandbytes>=0.45.0
+duckduckgo-search>=7.0.0
+psutil>=6.1.0
+pydantic>=2.10.0
+huggingface_hub>=0.28.0
+optimum>=1.24.0
+scipy>=1.14.0
+sentencepiece>=0.2.0
+tiktoken>=0.8.0
+protobuf>=5.28.0
+rich>=13.9.0
+datasets>=3.0.0

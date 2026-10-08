@@ -1,0 +1,85 @@
+\begin{thebibliography}{9}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Fanous et~al.(2025)Fanous, Goldberg, Agarwal, Lin, Zhou, Xu, Bikia,
+  Daneshjou, and Koyejo]{fanous2025syceval}
+Aaron Fanous, Jacob Goldberg, Ank Agarwal, Joanna Lin, Anson Zhou, Sonnet Xu,
+  Vasiliki Bikia, Roxana Daneshjou, and Sanmi Koyejo.
+\newblock Syceval: Evaluating llm sycophancy.
+\newblock In \emph{Proceedings of the AAAI/ACM Conference on AI, Ethics, and
+  Society (AIES)}, volume~8, pp.\  893--900, 2025.
+\newblock URL \url{https://arxiv.org/abs/2502.08177}.
+
+\bibitem[Hendrycks et~al.(2021)Hendrycks, Burns, Kadavath, Arora, Basart, Tang,
+  Song, and Steinhardt]{hendrycks2021measuring}
+Dan Hendrycks, Collin Burns, Saurav Kadavath, Akul Arora, Steven Basart, Eric
+  Tang, Dawn Song, and Jacob Steinhardt.
+\newblock Measuring mathematical problem solving with the {MATH} dataset.
+\newblock \emph{Advances in Neural Information Processing Systems}, 34, 2021.
+\newblock URL \url{https://arxiv.org/abs/2103.03874}.
+
+\bibitem[Hong et~al.(2025)Hong, Byun, Kim, and Shu]{hong2025sycon}
+Jiseung Hong, Grace Byun, Seungone Kim, and Kai Shu.
+\newblock Measuring sycophancy of language models in multi-turn dialogues.
+\newblock In \emph{Findings of the Conference on Empirical Methods in Natural
+  Language Processing (EMNLP)}, pp.\  2239--2259, 2025.
+\newblock URL \url{https://aclanthology.org/2025.findings-emnlp.121}.
+
+\bibitem[Jin et~al.(2021)Jin, Pan, Oufattole, Weng, Fang, and
+  Szolovits]{jin2021disease}
+Di~Jin, Eileen Pan, Nassim Oufattole, Wei-Hung Weng, Hanyi Fang, and Peter
+  Szolovits.
+\newblock What disease does this patient have? a large-scale open domain
+  question answering dataset from medical exams.
+\newblock In \emph{Applied Sciences}, volume~11, pp.\  6421, 2021.
+\newblock URL \url{https://arxiv.org/abs/2009.13081}.
+
+\bibitem[Jittham(2026)]{jittham2026agentic}
+Thantham Jittham.
+\newblock Agentic scaffolding amplifies sycophantic behavior in large language
+  models.
+\newblock \emph{arXiv preprint / UAI Safe AI Workshop}, 2026.
+\newblock URL \url{https://arxiv.org/abs/2608.21377}.
+
+\bibitem[Li et~al.(2026)Li, Li, Chu, and Fang]{li2026balancing}
+Shuowei Li, Haoxin Li, Wenda Chu, and Yi~Fang.
+\newblock How large language models balance internal knowledge with user and
+  document assertions.
+\newblock In \emph{Findings of the Association for Computational Linguistics
+  (ACL)}, pp.\  25323--25346, 2026.
+\newblock URL \url{https://arxiv.org/abs/2604.22193}.
+
+\bibitem[Perez et~al.(2023)Perez, Ringer, Luko{\v{s}}i{\=u}t{\.e}, Nguyen,
+  Chen, Heiner, Pettit, Olsson, Kundu, Kadavath, et~al.]{perez2023discovering}
+Ethan Perez, Sam Ringer, Kamil{\.e} Luko{\v{s}}i{\=u}t{\.e}, Karina Nguyen,
+  Edwin Chen, Scott Heiner, Craig Pettit, Catherine Olsson, Sandipan Kundu,
+  Saurav Kadavath, et~al.
+\newblock Discovering language model behaviors with model-written evaluations.
+\newblock \emph{Findings of the Association for Computational Linguistics
+  (ACL)}, 2023.
+\newblock URL \url{https://arxiv.org/abs/2212.09251}.
+
+\bibitem[Ranaldi \& Pucci(2026)Ranaldi and Pucci]{ranaldi2026sycophancy}
+Leonardo Ranaldi and Andr\'{e} Pucci.
+\newblock Sycophancy as an agentic policy problem.
+\newblock In \emph{Proceedings of the European Chapter of the Association for
+  Computational Linguistics (EACL)}, 2026.
+\newblock URL \url{https://aclanthology.org/2026.eacl-long.169}.
+
+\bibitem[Sharma et~al.(2024)Sharma, Tong, Korbak, Duvenaud, Askell, Bowman,
+  Cheng, Durmus, Hatfield-Dodds, Johnston, Kravec, Maxwell, McCandlish,
+  Ndousse, Rausch, Schiefer, Yan, Zhang, and Perez]{sharma2024towards}
+Mrinank Sharma, Meg Tong, Tomasz Korbak, David Duvenaud, Amanda Askell,
+  Samuel~R. Bowman, Newton Cheng, Esin Durmus, Zac Hatfield-Dodds, Scott~R.
+  Johnston, Shauna Kravec, Timothy Maxwell, Sam McCandlish, Kamal Ndousse,
+  Oliver Rausch, Nicholas Schiefer, Da~Yan, Miranda Zhang, and Ethan Perez.
+\newblock Towards understanding sycophancy in language models.
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2024.
+\newblock URL \url{https://arxiv.org/abs/2310.13548}.
+
+\end{thebibliography}

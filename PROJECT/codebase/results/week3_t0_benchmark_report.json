@@ -1,0 +1,272 @@
+{
+  "timestamp": "2026-10-02T22:21:36.083856",
+  "total_questions": 497,
+  "dataset_composition": {
+    "medqa": 247,
+    "math": 250
+  },
+  "models_evaluated": {
+    "qwen": {
+      "model_name": "Qwen 2.5 3B",
+      "model_id": "Qwen/Qwen2.5-3B-Instruct",
+      "total_duration_sec": 27431.77,
+      "metrics": {
+        "overall": {
+          "total_questions": 459,
+          "turn1_baseline_accuracy": 96.08,
+          "p1_suggestive_pressure": {
+            "resistance_count": 267,
+            "resistance_rate_pct": 58.17,
+            "flip_count": 107,
+            "flip_rate_pct": 23.31,
+            "unforced_error_count": 85,
+            "unforced_error_rate_pct": 18.52
+          },
+          "p2_authority_pressure": {
+            "resistance_count": 13,
+            "resistance_rate_pct": 2.83,
+            "flip_count": 392,
+            "flip_rate_pct": 85.4,
+            "unforced_error_count": 54,
+            "unforced_error_rate_pct": 11.76
+          },
+          "cumulative_trajectory": {
+            "cumulative_flip_count": 402,
+            "cumulative_flip_rate_pct": 87.58,
+            "consistently_resistant_count": 11,
+            "consistently_resistant_rate_pct": 2.4
+          }
+        },
+        "by_dataset": {
+          "medqa": {
+            "total_questions": 209,
+            "turn1_baseline_accuracy": 98.09,
+            "p1_suggestive_pressure": {
+              "resistance_count": 104,
+              "resistance_rate_pct": 49.76,
+              "flip_count": 68,
+              "flip_rate_pct": 32.54,
+              "unforced_error_count": 37,
+              "unforced_error_rate_pct": 17.7
+            },
+            "p2_authority_pressure": {
+              "resistance_count": 9,
+              "resistance_rate_pct": 4.31,
+              "flip_count": 159,
+              "flip_rate_pct": 76.08,
+              "unforced_error_count": 41,
+              "unforced_error_rate_pct": 19.62
+            },
+            "cumulative_trajectory": {
+              "cumulative_flip_count": 167,
+              "cumulative_flip_rate_pct": 79.9,
+              "consistently_resistant_count": 7,
+              "consistently_resistant_rate_pct": 3.35
+            }
+          },
+          "math": {
+            "total_questions": 250,
+            "turn1_baseline_accuracy": 94.4,
+            "p1_suggestive_pressure": {
+              "resistance_count": 163,
+              "resistance_rate_pct": 65.2,
+              "flip_count": 39,
+              "flip_rate_pct": 15.6,
+              "unforced_error_count": 48,
+              "unforced_error_rate_pct": 19.2
+            },
+            "p2_authority_pressure": {
+              "resistance_count": 4,
+              "resistance_rate_pct": 1.6,
+              "flip_count": 233,
+              "flip_rate_pct": 93.2,
+              "unforced_error_count": 13,
+              "unforced_error_rate_pct": 5.2
+            },
+            "cumulative_trajectory": {
+              "cumulative_flip_count": 235,
+              "cumulative_flip_rate_pct": 94.0,
+              "consistently_resistant_count": 4,
+              "consistently_resistant_rate_pct": 1.6
+            }
+          }
+        }
+      }
+    },
+    "llama": {
+      "model_name": "LLaMA 3.2 3B",
+      "model_id": "unsloth/Llama-3.2-3B-Instruct-bnb-4bit",
+      "total_duration_sec": 19530.74,
+      "metrics": {
+        "overall": {
+          "total_questions": 459,
+          "turn1_baseline_accuracy": 85.4,
+          "p1_suggestive_pressure": {
+            "resistance_count": 305,
+            "resistance_rate_pct": 66.45,
+            "flip_count": 136,
+            "flip_rate_pct": 29.63,
+            "unforced_error_count": 18,
+            "unforced_error_rate_pct": 3.92
+          },
+          "p2_authority_pressure": {
+            "resistance_count": 101,
+            "resistance_rate_pct": 22.0,
+            "flip_count": 190,
+            "flip_rate_pct": 41.39,
+            "unforced_error_count": 168,
+            "unforced_error_rate_pct": 36.6
+          },
+          "cumulative_trajectory": {
+            "cumulative_flip_count": 251,
+            "cumulative_flip_rate_pct": 54.68,
+            "consistently_resistant_count": 80,
+            "consistently_resistant_rate_pct": 17.43
+          }
+        },
+        "by_dataset": {
+          "medqa": {
+            "total_questions": 209,
+            "turn1_baseline_accuracy": 100.0,
+            "p1_suggestive_pressure": {
+              "resistance_count": 124,
+              "resistance_rate_pct": 59.33,
+              "flip_count": 80,
+              "flip_rate_pct": 38.28,
+              "unforced_error_count": 5,
+              "unforced_error_rate_pct": 2.39
+            },
+            "p2_authority_pressure": {
+              "resistance_count": 43,
+              "resistance_rate_pct": 20.57,
+              "flip_count": 90,
+              "flip_rate_pct": 43.06,
+              "unforced_error_count": 76,
+              "unforced_error_rate_pct": 36.36
+            },
+            "cumulative_trajectory": {
+              "cumulative_flip_count": 114,
+              "cumulative_flip_rate_pct": 54.55,
+              "consistently_resistant_count": 41,
+              "consistently_resistant_rate_pct": 19.62
+            }
+          },
+          "math": {
+            "total_questions": 250,
+            "turn1_baseline_accuracy": 73.2,
+            "p1_suggestive_pressure": {
+              "resistance_count": 181,
+              "resistance_rate_pct": 72.4,
+              "flip_count": 56,
+              "flip_rate_pct": 22.4,
+              "unforced_error_count": 13,
+              "unforced_error_rate_pct": 5.2
+            },
+            "p2_authority_pressure": {
+              "resistance_count": 58,
+              "resistance_rate_pct": 23.2,
+              "flip_count": 100,
+              "flip_rate_pct": 40.0,
+              "unforced_error_count": 92,
+              "unforced_error_rate_pct": 36.8
+            },
+            "cumulative_trajectory": {
+              "cumulative_flip_count": 137,
+              "cumulative_flip_rate_pct": 54.8,
+              "consistently_resistant_count": 39,
+              "consistently_resistant_rate_pct": 15.6
+            }
+          }
+        }
+      }
+    },
+    "phi4": {
+      "model_name": "Phi-4 Mini 3.8B",
+      "model_id": "unsloth/Phi-4-mini-instruct-bnb-4bit",
+      "total_duration_sec": 0.21,
+      "metrics": {
+        "overall": {
+          "total_questions": 459,
+          "turn1_baseline_accuracy": 92.59,
+          "p1_suggestive_pressure": {
+            "resistance_count": 199,
+            "resistance_rate_pct": 43.36,
+            "flip_count": 158,
+            "flip_rate_pct": 34.42,
+            "unforced_error_count": 102,
+            "unforced_error_rate_pct": 22.22
+          },
+          "p2_authority_pressure": {
+            "resistance_count": 103,
+            "resistance_rate_pct": 22.44,
+            "flip_count": 268,
+            "flip_rate_pct": 58.39,
+            "unforced_error_count": 88,
+            "unforced_error_rate_pct": 19.17
+          },
+          "cumulative_trajectory": {
+            "cumulative_flip_count": 308,
+            "cumulative_flip_rate_pct": 67.1,
+            "consistently_resistant_count": 78,
+            "consistently_resistant_rate_pct": 16.99
+          }
+        },
+        "by_dataset": {
+          "medqa": {
+            "total_questions": 209,
+            "turn1_baseline_accuracy": 84.21,
+            "p1_suggestive_pressure": {
+              "resistance_count": 12,
+              "resistance_rate_pct": 5.74,
+              "flip_count": 103,
+              "flip_rate_pct": 49.28,
+              "unforced_error_count": 94,
+              "unforced_error_rate_pct": 44.98
+            },
+            "p2_authority_pressure": {
+              "resistance_count": 28,
+              "resistance_rate_pct": 13.4,
+              "flip_count": 109,
+              "flip_rate_pct": 52.15,
+              "unforced_error_count": 72,
+              "unforced_error_rate_pct": 34.45
+            },
+            "cumulative_trajectory": {
+              "cumulative_flip_count": 149,
+              "cumulative_flip_rate_pct": 71.29,
+              "consistently_resistant_count": 3,
+              "consistently_resistant_rate_pct": 1.44
+            }
+          },
+          "math": {
+            "total_questions": 250,
+            "turn1_baseline_accuracy": 99.6,
+            "p1_suggestive_pressure": {
+              "resistance_count": 187,
+              "resistance_rate_pct": 74.8,
+              "flip_count": 55,
+              "flip_rate_pct": 22.0,
+              "unforced_error_count": 8,
+              "unforced_error_rate_pct": 3.2
+            },
+            "p2_authority_pressure": {
+              "resistance_count": 75,
+              "resistance_rate_pct": 30.0,
+              "flip_count": 159,
+              "flip_rate_pct": 63.6,
+              "unforced_error_count": 16,
+              "unforced_error_rate_pct": 6.4
+            },
+            "cumulative_trajectory": {
+              "cumulative_flip_count": 159,
+              "cumulative_flip_rate_pct": 63.6,
+              "consistently_resistant_count": 75,
+              "consistently_resistant_rate_pct": 30.0
+            }
+          }
+        }
+      }
+    }
+  },
+  "grand_total_duration_sec": 47485.25
+}

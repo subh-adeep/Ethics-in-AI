@@ -1,0 +1,197 @@
+{
+  "LLaMA 3.2 3B": {
+    "overall": {
+      "total": 459,
+      "p1": {
+        "flips": 224,
+        "obstinate": 226,
+        "unforced": 9,
+        "flip_rate_pct": 48.8,
+        "obstinate_rate_pct": 49.24
+      },
+      "p2": {
+        "flips": 255,
+        "obstinate": 172,
+        "unforced": 32,
+        "flip_rate_pct": 55.56,
+        "obstinate_rate_pct": 37.47
+      },
+      "cumulative_flips": 328,
+      "consistently_obstinate": 114,
+      "cumulative_flip_rate_pct": 71.46,
+      "consistently_obstinate_pct": 24.84
+    },
+    "medqa": {
+      "total": 209,
+      "p1": {
+        "flips": 154,
+        "obstinate": 47,
+        "unforced": 8,
+        "flip_rate_pct": 73.68,
+        "obstinate_rate_pct": 22.49
+      },
+      "p2": {
+        "flips": 169,
+        "obstinate": 13,
+        "unforced": 27,
+        "flip_rate_pct": 80.86,
+        "obstinate_rate_pct": 6.22
+      },
+      "cumulative_flips": 187,
+      "consistently_obstinate": 8,
+      "cumulative_flip_rate_pct": 89.47,
+      "consistently_obstinate_pct": 3.83
+    },
+    "math": {
+      "total": 250,
+      "p1": {
+        "flips": 70,
+        "obstinate": 179,
+        "unforced": 1,
+        "flip_rate_pct": 28.0,
+        "obstinate_rate_pct": 71.6
+      },
+      "p2": {
+        "flips": 86,
+        "obstinate": 159,
+        "unforced": 5,
+        "flip_rate_pct": 34.4,
+        "obstinate_rate_pct": 63.6
+      },
+      "cumulative_flips": 141,
+      "consistently_obstinate": 106,
+      "cumulative_flip_rate_pct": 56.4,
+      "consistently_obstinate_pct": 42.4
+    }
+  },
+  "Qwen 2.5 3B": {
+    "overall": {
+      "total": 459,
+      "p1": {
+        "flips": 132,
+        "obstinate": 313,
+        "unforced": 14,
+        "flip_rate_pct": 28.76,
+        "obstinate_rate_pct": 68.19
+      },
+      "p2": {
+        "flips": 337,
+        "obstinate": 27,
+        "unforced": 95,
+        "flip_rate_pct": 73.42,
+        "obstinate_rate_pct": 5.88
+      },
+      "cumulative_flips": 377,
+      "consistently_obstinate": 19,
+      "cumulative_flip_rate_pct": 82.14,
+      "consistently_obstinate_pct": 4.14
+    },
+    "medqa": {
+      "total": 209,
+      "p1": {
+        "flips": 93,
+        "obstinate": 102,
+        "unforced": 14,
+        "flip_rate_pct": 44.5,
+        "obstinate_rate_pct": 48.8
+      },
+      "p2": {
+        "flips": 90,
+        "obstinate": 24,
+        "unforced": 95,
+        "flip_rate_pct": 43.06,
+        "obstinate_rate_pct": 11.48
+      },
+      "cumulative_flips": 129,
+      "consistently_obstinate": 17,
+      "cumulative_flip_rate_pct": 61.72,
+      "consistently_obstinate_pct": 8.13
+    },
+    "math": {
+      "total": 250,
+      "p1": {
+        "flips": 39,
+        "obstinate": 211,
+        "unforced": 0,
+        "flip_rate_pct": 15.6,
+        "obstinate_rate_pct": 84.4
+      },
+      "p2": {
+        "flips": 247,
+        "obstinate": 3,
+        "unforced": 0,
+        "flip_rate_pct": 98.8,
+        "obstinate_rate_pct": 1.2
+      },
+      "cumulative_flips": 248,
+      "consistently_obstinate": 2,
+      "cumulative_flip_rate_pct": 99.2,
+      "consistently_obstinate_pct": 0.8
+    }
+  },
+  "Phi-4 Mini 3.8B": {
+    "overall": {
+      "total": 459,
+      "p1": {
+        "flips": 315,
+        "obstinate": 120,
+        "unforced": 24,
+        "flip_rate_pct": 68.63,
+        "obstinate_rate_pct": 26.14
+      },
+      "p2": {
+        "flips": 373,
+        "obstinate": 57,
+        "unforced": 29,
+        "flip_rate_pct": 81.26,
+        "obstinate_rate_pct": 12.42
+      },
+      "cumulative_flips": 415,
+      "consistently_obstinate": 35,
+      "cumulative_flip_rate_pct": 90.41,
+      "consistently_obstinate_pct": 7.63
+    },
+    "medqa": {
+      "total": 209,
+      "p1": {
+        "flips": 182,
+        "obstinate": 8,
+        "unforced": 19,
+        "flip_rate_pct": 87.08,
+        "obstinate_rate_pct": 3.83
+      },
+      "p2": {
+        "flips": 172,
+        "obstinate": 12,
+        "unforced": 25,
+        "flip_rate_pct": 82.3,
+        "obstinate_rate_pct": 5.74
+      },
+      "cumulative_flips": 203,
+      "consistently_obstinate": 0,
+      "cumulative_flip_rate_pct": 97.13,
+      "consistently_obstinate_pct": 0.0
+    },
+    "math": {
+      "total": 250,
+      "p1": {
+        "flips": 133,
+        "obstinate": 112,
+        "unforced": 5,
+        "flip_rate_pct": 53.2,
+        "obstinate_rate_pct": 44.8
+      },
+      "p2": {
+        "flips": 201,
+        "obstinate": 45,
+        "unforced": 4,
+        "flip_rate_pct": 80.4,
+        "obstinate_rate_pct": 18.0
+      },
+      "cumulative_flips": 212,
+      "consistently_obstinate": 35,
+      "cumulative_flip_rate_pct": 84.8,
+      "consistently_obstinate_pct": 14.0
+    }
+  }
+}
