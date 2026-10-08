@@ -1,0 +1,33 @@
+\section{Related Work}
+\label{sec:related}
+
+We situate our study at the intersection of sycophancy characterization, knowledge conflict resolution, and tool-augmented LLM behavior. Table~\ref{tab:related_work} summarizes the positioning of our study.
+
+\textbf{Sycophancy in Language Models.}
+Early evaluation work identified sycophancy as a language-model behavior, showing that larger language models were more likely to repeat a dialogue user's preferred answer~\citep{perez2023discovering}. \citet{sharma2024towards} expanded this across five AI assistants, finding that matching a user's views is among the most predictive features of human preference judgments. The SYCON benchmark~\citep{hong2025sycon} introduced multi-turn metrics measuring how quickly and how often models shift their stance under sustained user pressure. \citet{fanous2025syceval} extended evaluation to the medical domain using AMPS and MedQuad, finding sycophancy in 58.19\% of cases. Unlike SycEval, we adopt MedQA~\citep{jin2021disease}---a multiple-choice medical exam dataset enabling unambiguous correctness evaluation. More recent work has begun studying sycophancy in agentic contexts: \citet{jittham2026agentic} demonstrated agentic sycophancy amplification under scaffolding, and \citet{ranaldi2026sycophancy} formulated sycophancy as an agentic policy problem. However, to our knowledge, these studies do not directly investigate how \emph{retrieved external evidence} affects sycophantic capitulation under escalating user pressure.
+
+\textbf{Knowledge Conflicts.}
+\citet{li2026balancing} proposed a three-source framework evaluating how 27 LLMs balance parametric knowledge, user assertions, and document assertions. Their finding that models prefer document-attributed assertions over user-attributed ones directly motivates our hypothesis that tool-retrieved evidence may counteract user-driven sycophancy.
+
+\textbf{Tool-Augmented LLMs.}
+Tool-augmented LLMs can search the web, execute code, and retrieve documents. While agentic sycophancy has been identified as a concern, the specific role of retrieved external evidence in modulating sycophantic behavior under sustained pressure remains unexplored. Our work focuses specifically on this interaction.
+
+\begin{table}[t]
+\centering
+\small
+\caption{Positioning relative to prior work. Our work focuses on how retrieved external evidence affects capitulation under escalating pressure.}
+\label{tab:related_work}
+\begin{tabular}{@{}lcccc@{}}
+\toprule
+\textbf{Study} & \textbf{Pressure} & \textbf{Multi-turn} & \textbf{Multi-source} & \textbf{Retrieved Evidence} \\
+\midrule
+\citet{sharma2024towards}   & \checkmark & \checkmark &            &            \\
+\citet{fanous2025syceval}   & \checkmark & \checkmark &            &            \\
+\citet{hong2025sycon}       & \checkmark & \checkmark &            &            \\
+\citet{li2026balancing}     &            &            & \checkmark &            \\
+\citet{jittham2026agentic}  & \checkmark & \checkmark &            &            \\
+\citet{ranaldi2026sycophancy} & \checkmark & \checkmark &          &            \\
+\textbf{Ours}               & \checkmark & \checkmark & \checkmark & \checkmark \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ethics in AI - Week 3 Sycophancy Evaluation Dashboard</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0a0e17;
+      --bg-secondary: #121826;
+      --bg-card: rgba(22, 30, 49, 0.75);
+      --border-color: rgba(255, 255, 255, 0.08);
+      --text-main: #f3f4f6;
+      --text-muted: #9ca3af;
+      --qwen-color: #3b82f6;
+      --llama-color: #f97316;
+      --phi4-color: #a855f7;
+      --resistant-color: #10b981;
+      --sycophant-color: #ef4444;
+      --unforced-color: #6b7280;
+      --accent-glow: rgba(59, 130, 246, 0.15);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background-color: var(--bg-primary);
+      color: var(--text-main);
+      font-family: 'Outfit', sans-serif;
+      padding: 2.5rem 2rem;
+      min-height: 100vh;
+      background-image: 
+        radial-gradient(circle at 10% 20%, rgba(59, 130, 246, 0.08) 0%, transparent 40%),
+        radial-gradient(circle at 90% 80%, rgba(168, 85, 247, 0.08) 0%, transparent 40%);
+    }
+
+    .container { max-width: 1350px; margin: 0 auto; }
+    
+    header {
+      margin-bottom: 2.5rem;
+      border-bottom: 1px solid var(--border-color);
+      padding-bottom: 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+
+    h1 {
+      font-size: 2.25rem;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      background: linear-gradient(135deg, #ffffff 40%, #9ca3af 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 0.5rem;
+    }
+
+    .subtitle {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+      font-weight: 400;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 0.35rem 0.8rem;
+      border-radius: 9999px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      background: rgba(16, 185, 129, 0.15);
+      color: #34d399;
+      border: 1px solid rgba(16, 185, 129, 0.3);
+    }
+
+    .kpi-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1.25rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .kpi-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 1rem;
+      padding: 1.5rem;
+      backdrop-filter: blur(12px);
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+      position: relative;
+      overflow: hidden;
+      transition: transform 0.2s ease, border-color 0.2s ease;
+    }
+
+    .kpi-card:hover {
+      transform: translateY(-2px);
+      border-color: rgba(255, 255, 255, 0.18);
+    }
+
+    .kpi-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0; height: 3px;
+    }
+    .kpi-card.blue::before { background: var(--qwen-color); }
+    .kpi-card.orange::before { background: var(--llama-color); }
+    .kpi-card.purple::before { background: var(--phi4-color); }
+    .kpi-card.green::before { background: var(--resistant-color); }
+
+    .kpi-label {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text-muted);
+      margin-bottom: 0.5rem;
+    }
+
+    .kpi-value {
+      font-size: 2rem;
+      font-weight: 800;
+      color: #ffffff;
+      margin-bottom: 0.25rem;
+    }
+
+    .kpi-sub {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+
+    .chart-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.5rem;
+      margin-bottom: 2.5rem;
+    }
+
+    @media (max-width: 1024px) {
+      .chart-grid { grid-template-columns: 1fr; }
+    }
+
+    .chart-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 1.25rem;
+      padding: 1.75rem;
+      backdrop-filter: blur(12px);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .chart-card.full-width {
+      grid-column: 1 / -1;
+    }
+
+    .chart-title {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 0.35rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .chart-desc {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin-bottom: 1.5rem;
+    }
+
+    .chart-container {
+      position: relative;
+      height: 340px;
+      width: 100%;
+    }
+
+    .table-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 1.25rem;
+      padding: 1.75rem;
+      backdrop-filter: blur(12px);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+      overflow-x: auto;
+      margin-bottom: 2.5rem;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.95rem;
+    }
+
+    th {
+      padding: 1rem;
+      background: rgba(255, 255, 255, 0.03);
+      color: var(--text-muted);
+      font-weight: 600;
+      text-transform: uppercase;
+      font-size: 0.75rem;
+      letter-spacing: 0.05em;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    td {
+      padding: 1rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+      color: #e5e7eb;
+    }
+
+    tr:hover td {
+      background: rgba(255, 255, 255, 0.02);
+    }
+
+    .model-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-weight: 700;
+    }
+
+    .dot {
+      width: 10px; height: 10px; border-radius: 50%; display: inline-block;
+    }
+
+    .tag {
+      padding: 0.2rem 0.5rem;
+      border-radius: 6px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      font-family: 'JetBrains Mono', monospace;
+    }
+    .tag-red { background: rgba(239, 68, 68, 0.15); color: #f87171; }
+    .tag-green { background: rgba(16, 185, 129, 0.15); color: #34d399; }
+    .tag-blue { background: rgba(59, 130, 246, 0.15); color: #60a5fa; }
+    .tag-amber { background: rgba(245, 158, 11, 0.15); color: #fbbf24; }
+
+    footer {
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border-color);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div>
+        <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.5rem;">
+          <h1>Week 3 Benchmark: Multi-Turn Sycophancy Evaluation</h1>
+          <span class="badge">T0 Baseline (No Tools)</span>
+        </div>
+        <p class="subtitle">Continuous conversational pressure ($P_0 \to P_1 \to P_2$) across 497 intersection test items (MedQA + MATH)</p>
+      </div>
+      <div>
+        <span style="color: var(--text-muted); font-size: 0.9rem;">Evaluation Target: <strong>497 Questions</strong></span>
+      </div>
+    </header>
+
+    <!-- Top KPI Grid -->
+    <div class="kpi-grid">
+      <div class="kpi-card blue">
+        <div class="kpi-label">Highest Baseline Accuracy</div>
+        <div class="kpi-value">96.08%</div>
+        <div class="kpi-sub">Qwen 2.5 3B (Turn 1 Unbiased)</div>
+      </div>
+      <div class="kpi-card orange">
+        <div class="kpi-label">Most Resilient Model</div>
+        <div class="kpi-value">54.68%</div>
+        <div class="kpi-sub">LLaMA 3.2 3B (Lowest Cumulative Flip)</div>
+      </div>
+      <div class="kpi-card purple">
+        <div class="kpi-label">Mathematical Mastery</div>
+        <div class="kpi-value">99.60%</div>
+        <div class="kpi-sub">Phi-4 Mini 3.8B (MATH Baseline Acc)</div>
+      </div>
+      <div class="kpi-card green">
+        <div class="kpi-label">Consistent Resistance Leader</div>
+        <div class="kpi-value">17.43%</div>
+        <div class="kpi-sub">LLaMA 3.2 3B (Resisted All 3 Turns)</div>
+      </div>
+    </div>
+
+    <!-- Chart Grid -->
+    <div class="chart-grid">
+      <!-- Chart 1: Trajectory -->
+      <div class="chart-card">
+        <div class="chart-title">📈 Sycophantic Flip Escalation Trajectory</div>
+        <div class="chart-desc">How model flip rates surge when progressing from peer suggestion (P1) to authoritative pressure (P2).</div>
+        <div class="chart-container">
+          <canvas id="trajectoryChart"></canvas>
+        </div>
+      </div>
+
+      <!-- Chart 2: Cumulative Resilience Profile -->
+      <div class="chart-card">
+        <div class="chart-title">🛡️ Robustness Profile: Capitulation vs Resistance</div>
+        <div class="chart-desc">Comparing cumulative flip rate across dialogue vs consistent resistance across all turns.</div>
+        <div class="chart-container">
+          <canvas id="resilienceChart"></canvas>
+        </div>
+      </div>
+
+      <!-- Chart 3: P1 vs P2 Outcome Breakdown -->
+      <div class="chart-card full-width">
+        <div class="chart-title">⚖️ 3-Way Outcome Decomposition at Challenged Turns</div>
+        <div class="chart-desc">Breakdown of Resistant, Sycophantic (flipped to false distractor), and Unforced Errors (hedging / invalid choice).</div>
+        <div class="chart-container" style="height: 380px;">
+          <canvas id="outcomesChart"></canvas>
+        </div>
+      </div>
+
+      <!-- Chart 4: Domain Asymmetry (MedQA vs MATH) -->
+      <div class="chart-card">
+        <div class="chart-title">🩺 Domain Sycophancy: MedQA (Clinical)</div>
+        <div class="chart-desc">Performance and sycophantic capitulation in complex medical diagnosis questions.</div>
+        <div class="chart-container">
+          <canvas id="medqaChart"></canvas>
+        </div>
+      </div>
+
+      <div class="chart-card">
+        <div class="chart-title">📐 Domain Sycophancy: MATH (Formal Reasoning)</div>
+        <div class="chart-desc">Performance and sycophantic capitulation in algorithmic & algebraic reasoning.</div>
+        <div class="chart-container">
+          <canvas id="mathChart"></canvas>
+        </div>
+      </div>
+    </div>
+
+    <!-- Dataset-Specific Figures Gallery -->
+    <div style="margin-bottom: 2.5rem;">
+      <div class="chart-title" style="margin-bottom: 0.5rem;">🖼️ High-Resolution Publication Figures</div>
+      <p class="subtitle" style="margin-bottom: 1.5rem;">Click any figure to view or download high-resolution 300 DPI exports.</p>
+      
+      <div style="display: grid; grid-template-columns: 1fr; gap: 1.5rem; margin-bottom: 1.5rem;">
+        <div class="chart-card">
+          <div class="chart-title">🩺 MedQA (USMLE Clinical) - Cross-Model Sycophancy Breakdown (N = 209)</div>
+          <div class="chart-desc">Flip trajectory, P2 outcome decomposition (Resistant vs Sycophantic vs Unforced Error), and cumulative resilience profile.</div>
+          <div style="border-radius: 8px; overflow: hidden; border: 1px solid var(--border-color); background: #ffffff; padding: 0.5rem;">
+            <img src="figures/figure_medqa_comparison.png" alt="MedQA Cross-Model Comparison" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+          </div>
+        </div>
+
+        <div class="chart-card">
+          <div class="chart-title">📐 MATH (Formal Reasoning) - Cross-Model Sycophancy Breakdown (N = 250)</div>
+          <div class="chart-desc">Flip trajectory, P2 outcome decomposition (Resistant vs Sycophantic vs Unforced Error), and cumulative resilience profile.</div>
+          <div style="border-radius: 8px; overflow: hidden; border: 1px solid var(--border-color); background: #ffffff; padding: 0.5rem;">
+            <img src="figures/figure_math_comparison.png" alt="MATH Cross-Model Comparison" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+          </div>
+        </div>
+
+        <div class="chart-card">
+          <div class="chart-title">🔢 Comprehensive Evaluation Matrix: Turn-by-Turn Metrics & Counts (N = 497)</div>
+          <div class="chart-desc">Complete cross-tabulation of baseline, suggestive (P1), and authoritative (P2) responses across all three models and datasets.</div>
+          <div style="border-radius: 8px; overflow: hidden; border: 1px solid var(--border-color); background: #ffffff; padding: 0.5rem;">
+            <img src="figures/figure_numerical_matrix.png" alt="Comprehensive Numerical Matrix" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Comprehensive Data Table Matrix with Numbers -->
+    <div class="table-card">
+      <div class="chart-title" style="margin-bottom: 0.5rem;">📊 Complete Numerical Matrix (Percentages & Exact Counts)</div>
+      <p class="subtitle" style="margin-bottom: 1.25rem;">Exact counts (N) and proportions (%) for all models partitioned across MedQA (209), MATH (250), and Combined Overall (497).</p>
+      <table>
+        <thead>
+          <tr>
+            <th>Dataset</th>
+            <th>Model</th>
+            <th>P0 Baseline Acc</th>
+            <th>P1 Resistant</th>
+            <th>P1 Flipped</th>
+            <th>P1 Unforced</th>
+            <th>P2 Resistant</th>
+            <th>P2 Flipped</th>
+            <th>P2 Unforced</th>
+            <th>Cumul. Flip</th>
+            <th>Consist. Res.</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- MedQA Section -->
+          <tr style="background: rgba(59, 130, 246, 0.05); font-weight: 600;">
+            <td rowspan="3" style="vertical-align: middle; border-right: 1px solid var(--border-color); font-weight: 700; color: #60a5fa;">
+              MedQA<br><span style="font-size: 0.75rem; color: var(--text-muted); font-weight: normal;">(N=209)</span>
+            </td>
+            <td>
+              <span class="model-badge"><span class="dot" style="background: var(--qwen-color);"></span>Qwen 2.5 3B</span>
+            </td>
+            <td><span class="tag tag-green">98.1% (205)</span></td>
+            <td>49.8% (104)</td>
+            <td><span class="tag tag-red">32.5% (68)</span></td>
+            <td>17.7% (37)</td>
+            <td>4.3% (9)</td>
+            <td><span class="tag tag-red">76.1% (159)</span></td>
+            <td>19.6% (41)</td>
+            <td><span class="tag tag-red">79.9% (167)</span></td>
+            <td><span class="tag tag-blue">3.3% (7)</span></td>
+          </tr>
+          <tr style="background: rgba(59, 130, 246, 0.05);">
+            <td>
+              <span class="model-badge"><span class="dot" style="background: var(--llama-color);"></span>LLaMA 3.2 3B</span>
+            </td>
+            <td><span class="tag tag-green">100.0% (209)</span></td>
+            <td>59.3% (124)</td>
+            <td><span class="tag tag-amber">38.3% (80)</span></td>
+            <td>2.4% (5)</td>
+            <td>20.6% (43)</td>
+            <td><span class="tag tag-amber">43.1% (90)</span></td>
+            <td>36.4% (76)</td>
+            <td><span class="tag tag-green">54.5% (114)</span></td>
+            <td><span class="tag tag-blue">19.6% (41)</span></td>
+          </tr>
+          <tr style="background: rgba(59, 130, 246, 0.05);">
+            <td>
+              <span class="model-badge"><span class="dot" style="background: var(--phi4-color);"></span>Phi-4 Mini 3.8B</span>
+            </td>
+            <td><span class="tag tag-green">84.2% (176)</span></td>
+            <td>5.7% (12)</td>
+            <td><span class="tag tag-red">49.3% (103)</span></td>
+            <td>45.0% (94)</td>
+            <td>13.4% (28)</td>
+            <td><span class="tag tag-amber">52.2% (109)</span></td>
+            <td>34.5% (72)</td>
+            <td><span class="tag tag-red">71.3% (149)</span></td>
+            <td><span class="tag tag-blue">1.4% (3)</span></td>
+          </tr>
+
+          <!-- MATH Section -->
+          <tr style="background: rgba(168, 85, 247, 0.05); font-weight: 600;">
+            <td rowspan="3" style="vertical-align: middle; border-right: 1px solid var(--border-color); font-weight: 700; color: #c084fc;">
+              MATH<br><span style="font-size: 0.75rem; color: var(--text-muted); font-weight: normal;">(N=250)</span>
+            </td>
+            <td>
+              <span class="model-badge"><span class="dot" style="background: var(--qwen-color);"></span>Qwen 2.5 3B</span>
+            </td>
+            <td><span class="tag tag-green">94.4% (236)</span></td>
+            <td>65.2% (163)</td>
+            <td><span class="tag tag-green">15.6% (39)</span></td>
+            <td>19.2% (48)</td>
+            <td>1.6% (4)</td>
+            <td><span class="tag tag-red">93.2% (233)</span></td>
+            <td>5.2% (13)</td>
+            <td><span class="tag tag-red">94.0% (235)</span></td>
+            <td><span class="tag tag-blue">1.6% (4)</span></td>
+          </tr>
+          <tr style="background: rgba(168, 85, 247, 0.05);">
+            <td>
+              <span class="model-badge"><span class="dot" style="background: var(--llama-color);"></span>LLaMA 3.2 3B</span>
+            </td>
+            <td><span class="tag tag-amber">73.2% (183)</span></td>
+            <td>72.4% (181)</td>
+            <td><span class="tag tag-green">22.4% (56)</span></td>
+            <td>5.2% (13)</td>
+            <td>23.2% (58)</td>
+            <td><span class="tag tag-green">40.0% (100)</span></td>
+            <td>36.8% (92)</td>
+            <td><span class="tag tag-green">54.8% (137)</span></td>
+            <td><span class="tag tag-blue">15.6% (39)</span></td>
+          </tr>
+          <tr style="background: rgba(168, 85, 247, 0.05);">
+            <td>
+              <span class="model-badge"><span class="dot" style="background: var(--phi4-color);"></span>Phi-4 Mini 3.8B</span>
+            </td>
+            <td><span class="tag tag-green">99.6% (249)</span></td>
+            <td>74.8% (187)</td>
+            <td><span class="tag tag-green">22.0% (55)</span></td>
+            <td>3.2% (8)</td>
+            <td>30.0% (75)</td>
+            <td><span class="tag tag-amber">63.6% (159)</span></td>
+            <td>6.4% (16)</td>
+            <td><span class="tag tag-amber">63.6% (159)</span></td>
+            <td><span class="tag tag-green">30.0% (75)</span></td>
+          </tr>
+
+          <!-- Overall Combined Section -->
+          <tr style="background: rgba(255, 255, 255, 0.06); font-weight: 700; border-top: 2px solid var(--border-color);">
+            <td rowspan="3" style="vertical-align: middle; border-right: 1px solid var(--border-color); font-weight: 800; color: #ffffff;">
+              OVERALL<br><span style="font-size: 0.75rem; color: var(--text-muted); font-weight: normal;">(N=497)</span>
+            </td>
+            <td>
+              <span class="model-badge"><span class="dot" style="background: var(--qwen-color);"></span>Qwen 2.5 3B</span>
+            </td>
+            <td><span class="tag tag-green">96.1% (441)</span></td>
+            <td>58.2% (267)</td>
+            <td><span class="tag tag-green">23.3% (107)</span></td>
+            <td>18.5% (85)</td>
+            <td>2.8% (13)</td>
+            <td><span class="tag tag-red">85.4% (392)</span></td>
+            <td>11.8% (54)</td>
+            <td><span class="tag tag-red">87.6% (402)</span></td>
+            <td><span class="tag tag-blue">2.4% (11)</span></td>
+          </tr>
+          <tr style="background: rgba(255, 255, 255, 0.06); font-weight: 700;">
+            <td>
+              <span class="model-badge"><span class="dot" style="background: var(--llama-color);"></span>LLaMA 3.2 3B</span>
+            </td>
+            <td><span class="tag tag-green">85.4% (392)</span></td>
+            <td>66.5% (305)</td>
+            <td><span class="tag tag-amber">29.6% (136)</span></td>
+            <td>3.9% (18)</td>
+            <td>22.0% (101)</td>
+            <td><span class="tag tag-green">41.4% (190)</span></td>
+            <td>36.6% (168)</td>
+            <td><span class="tag tag-green">54.7% (251)</span></td>
+            <td><span class="tag tag-blue">17.4% (80)</span></td>
+          </tr>
+          <tr style="background: rgba(255, 255, 255, 0.06); font-weight: 700;">
+            <td>
+              <span class="model-badge"><span class="dot" style="background: var(--phi4-color);"></span>Phi-4 Mini 3.8B</span>
+            </td>
+            <td><span class="tag tag-green">92.6% (425)</span></td>
+            <td>43.4% (199)</td>
+            <td><span class="tag tag-red">34.4% (158)</span></td>
+            <td>22.2% (102)</td>
+            <td>22.4% (103)</td>
+            <td><span class="tag tag-amber">58.4% (268)</span></td>
+            <td>19.2% (88)</td>
+            <td><span class="tag tag-amber">67.1% (308)</span></td>
+            <td><span class="tag tag-blue">17.0% (78)</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <footer>
+      Ethics in AI Project &bull; Evaluation Benchmark Report &bull; Programmatic Metric Extraction & Verification
+    </footer>
+  </div>
+
+  <script>
+    Chart.defaults.color = '#9ca3af';
+    Chart.defaults.font.family = "'Outfit', sans-serif";
+
+    // Chart 1: Trajectory
+    new Chart(document.getElementById('trajectoryChart'), {
+      type: 'line',
+      data: {
+        labels: ['Turn 1 (P0): Baseline', 'Turn 2 (P1): Suggestive', 'Turn 3 (P2): Authority'],
+        datasets: [
+          {
+            label: 'Qwen 2.5 3B',
+            data: [0.0, 23.31, 85.40],
+            borderColor: '#3b82f6',
+            backgroundColor: 'rgba(59, 130, 246, 0.1)',
+            borderWidth: 3,
+            pointRadius: 6,
+            pointBackgroundColor: '#3b82f6',
+            tension: 0.25,
+            fill: false
+          },
+          {
+            label: 'LLaMA 3.2 3B',
+            data: [0.0, 29.63, 41.39],
+            borderColor: '#f97316',
+            backgroundColor: 'rgba(249, 115, 22, 0.1)',
+            borderWidth: 3,
+            pointRadius: 6,
+            pointBackgroundColor: '#f97316',
+            tension: 0.25,
+            fill: false
+          },
+          {
+            label: 'Phi-4 Mini 3.8B',
+            data: [0.0, 34.42, 58.39],
+            borderColor: '#a855f7',
+            backgroundColor: 'rgba(168, 85, 247, 0.1)',
+            borderWidth: 3,
+            pointRadius: 6,
+            pointBackgroundColor: '#a855f7',
+            tension: 0.25,
+            fill: false
+          }
+        ]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: { position: 'top', labels: { usePointStyle: true, boxWidth: 8 } },
+          tooltip: {
+            callbacks: {
+              label: ctx => ` ${ctx.dataset.label}: ${ctx.raw.toFixed(1)}% flip rate`
+            }
+          }
+        },
+        scales: {
+          y: {
+            min: 0, max: 100,
+            grid: { color: 'rgba(255, 255, 255, 0.05)' },
+            ticks: { callback: v => v + '%' }
+          },
+          x: { grid: { display: false } }
+        }
+      }
+    });
+
+    // Chart 2: Robustness Profile
+    new Chart(document.getElementById('resilienceChart'), {
+      type: 'bar',
+      data: {
+        labels: ['Qwen 2.5 3B', 'LLaMA 3.2 3B', 'Phi-4 Mini 3.8B'],
+        datasets: [
+          {
+            label: 'Cumulative Flip Rate (Sycophantic)',
+            data: [87.58, 54.68, 67.10],
+            backgroundColor: 'rgba(239, 68, 68, 0.85)',
+            borderRadius: 6
+          },
+          {
+            label: 'Consistently Resistant (All Turns)',
+            data: [2.40, 17.43, 16.99],
+            backgroundColor: 'rgba(16, 185, 129, 0.85)',
+            borderRadius: 6
+          }
+        ]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: { position: 'top', labels: { usePointStyle: true, boxWidth: 8 } }
+        },
+        scales: {
+          y: {
+            min: 0, max: 100,
+            grid: { color: 'rgba(255, 255, 255, 0.05)' },
+            ticks: { callback: v => v + '%' }
+          },
+          x: { grid: { display: false } }
+        }
+      }
+    });
+
+    // Chart 3: 3-Way Outcomes
+    new Chart(document.getElementById('outcomesChart'), {
+      type: 'bar',
+      data: {
+        labels: [
+          'Qwen (P1 Suggestive)', 'Qwen (P2 Authority)',
+          'LLaMA (P1 Suggestive)', 'LLaMA (P2 Authority)',
+          'Phi-4 (P1 Suggestive)', 'Phi-4 (P2 Authority)'
+        ],
+        datasets: [
+          {
+            label: 'Resistant',
+            data: [58.17, 2.83, 66.45, 22.00, 43.36, 22.44],
+            backgroundColor: '#10b981',
+            borderRadius: 4
+          },
+          {
+            label: 'Sycophantic (Flipped)',
+            data: [23.31, 85.40, 29.63, 41.39, 34.42, 58.39],
+            backgroundColor: '#ef4444',
+            borderRadius: 4
+          },
+          {
+            label: 'Unforced Error',
+            data: [18.52, 11.76, 3.92, 36.60, 22.22, 19.17],
+            backgroundColor: '#6b7280',
+            borderRadius: 4
+          }
+        ]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: { position: 'top', labels: { usePointStyle: true, boxWidth: 8 } }
+        },
+        scales: {
+          x: { stacked: true, grid: { display: false } },
+          y: {
+            stacked: true, min: 0, max: 100,
+            grid: { color: 'rgba(255, 255, 255, 0.05)' },
+            ticks: { callback: v => v + '%' }
+          }
+        }
+      }
+    });
+
+    // Chart 4: MedQA
+    new Chart(document.getElementById('medqaChart'), {
+      type: 'bar',
+      data: {
+        labels: ['Qwen 2.5 3B', 'LLaMA 3.2 3B', 'Phi-4 Mini 3.8B'],
+        datasets: [
+          {
+            label: 'P0 Baseline Accuracy',
+            data: [98.09, 100.0, 84.21],
+            backgroundColor: 'rgba(16, 185, 129, 0.85)',
+            borderRadius: 6
+          },
+          {
+            label: 'Cumulative Flip Rate',
+            data: [79.90, 54.55, 71.29],
+            backgroundColor: 'rgba(239, 68, 68, 0.85)',
+            borderRadius: 6
+          }
+        ]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { position: 'top', labels: { usePointStyle: true, boxWidth: 8 } } },
+        scales: {
+          y: { min: 0, max: 110, grid: { color: 'rgba(255, 255, 255, 0.05)' }, ticks: { callback: v => v + '%' } },
+          x: { grid: { display: false } }
+        }
+      }
+    });
+
+    // Chart 5: MATH
+    new Chart(document.getElementById('mathChart'), {
+      type: 'bar',
+      data: {
+        labels: ['Qwen 2.5 3B', 'LLaMA 3.2 3B', 'Phi-4 Mini 3.8B'],
+        datasets: [
+          {
+            label: 'P0 Baseline Accuracy',
+            data: [94.40, 73.20, 99.60],
+            backgroundColor: 'rgba(16, 185, 129, 0.85)',
+            borderRadius: 6
+          },
+          {
+            label: 'Cumulative Flip Rate',
+            data: [94.00, 54.80, 63.60],
+            backgroundColor: 'rgba(239, 68, 68, 0.85)',
+            borderRadius: 6
+          }
+        ]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { position: 'top', labels: { usePointStyle: true, boxWidth: 8 } } },
+        scales: {
+          y: { min: 0, max: 110, grid: { color: 'rgba(255, 255, 255, 0.05)' }, ticks: { callback: v => v + '%' } },
+          x: { grid: { display: false } }
+        }
+      }
+    });
+  </script>
+</body>
+</html>

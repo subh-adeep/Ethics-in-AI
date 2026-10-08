@@ -1,0 +1,8 @@
+\begin{abstract}
+    Large language models (LLMs) are increasingly deployed as agentic systems equipped with external tools such as web search and retrieval-augmented generation (RAG).
+    A growing body of work has documented \emph{sycophancy}---the tendency of LLMs to prioritize user agreement over factual accuracy---raising fundamental ethical concerns: when AI systems systematically favor user satisfaction over objective truth, they risk reinforcing misinformation, eroding epistemic autonomy, and causing real-world harm in high-stakes domains.
+    While sycophancy has been widely examined in standalone settings, how access to retrieved external evidence modulates sycophantic capitulation in tool-augmented agents presents an important, open question.
+    We investigate how access to retrieved external evidence affects sycophantic capitulation in small, locally deployable LLMs (Qwen~3.5~4B, Phi-4~Mini~3.8B, LLaMA~3.2~3B) under sustained user pressure.
+    Using a multi-turn, continuous-context evaluation protocol with 250 filtered questions each from AMPS (mathematics) and MedQA (medical exam QA), we compare model behavior across three tool tiers---no tools, answer-sheet retrieval, and web search---while systematically escalating pressure from neutral queries through suggestive challenges to authority-based assertions.
+    Beyond measuring whether tool \emph{access} reduces sycophancy, we distinguish whether models actually \emph{invoke} their tools when challenged and whether they \emph{incorporate} contradicting evidence into their responses---a distinction critical for understanding the mechanisms of agentic sycophancy.
+\end{abstract}

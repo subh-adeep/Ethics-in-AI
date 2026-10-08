@@ -1,0 +1,27 @@
+\section{Action Plan}
+\label{sec:plan}
+
+This is a solo project. All milestones are achievable with locally available compute (NVIDIA GTX 1650, 4GB VRAM) and free-tier cloud resources (GCP Vertex AI \$300 credit for Gemini~2.5~Flash).
+
+\subsection{Phase 1: Infrastructure, Baselines and Experiments (Sept 11 -- Oct 16)}
+Deliverable: \textbf{Mid-term report.}
+\begin{itemize}\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}\setlength{\parsep}{0pt}
+    \item \textbf{Week 1 (Sept 11--17):} Set up the local inference environment using quantized models (4-bit GPTQ/AWQ) for Qwen~3.5~4B, Phi-4~Mini~3.8B, and LLaMA~3.2~3B. Benchmark memory usage and latency on the GTX~1650 to verify feasibility.
+    \item \textbf{Week 2 (Sept 18--24):} Download and preprocess AMPS~\citep{hendrycks2021measuring} and MedQA~\citep{jin2021disease}. Run the baseline filter at P0 under \textbf{T0 (no tools)} across all three models to identify questions answered correctly by all three simultaneously, retaining 250 filtered questions per dataset (500 total). The same fixed questions are then evaluated under T0, T1, and T2. Generate P1 and P2 pressure prompts \emph{deterministically} from ground-truth labels using fixed templates: for AMPS, a known incorrect answer is derived from the ground truth; for MedQA, a random incorrect option from the multiple-choice set is selected. This ensures the only manipulation between P1 and P2 is pressure framing, not the content of the false answer.
+    \item \textbf{Week 3 (Sept 25--Oct 1):} Run the \textbf{no-tool baseline} (T0) using the multi-turn evaluation protocol (Section~\ref{sec:protocol}). Implement the evaluation pipeline: \emph{programmatic evaluator} for correctness (matching against ground-truth labels), \emph{Gemini~2.5~Flash} for stance classification ($S \in \{\text{resists}, \text{capitulates}\}$) and ambiguous cases.
+    \item \textbf{Week 4 (Oct 2--8):} Implement \textbf{answer-sheet retrieval} (T1) and \textbf{web search} (T2). Run T1 and T2 experiments across all pressure levels. Log tool usage patterns (invocation rate, evidence incorporation).
+    \item \textbf{Week 5 (Oct 9--16):} Cross-condition comparisons (T0 vs.\ T1 vs.\ T2). Manually verify a subset of judge outputs. Compile preliminary results and write the mid-term report.
+\end{itemize}
+
+\subsection{Phase 2: Analysis, Ablations and Final Report (Oct 16 -- Nov 20)}
+Deliverable: \textbf{Final report.}
+\begin{itemize}\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}\setlength{\parsep}{0pt}
+    \item \textbf{Week 6 (Oct 16--22):} Compute core metrics (per model $\times$ dataset $\times$ tool tier): (a)~\emph{P1 Flip Rate}---proportion capitulating to the user's assertion at suggestive pressure; (b)~\emph{P2 Flip Rate}---proportion capitulating at authority pressure; (c)~\emph{Unforced Error Rate}---proportion adopting an unrelated incorrect answer (isolating instability from sycophancy); (d)~\emph{Tool Utilization Rate}---proportion of challenged turns where the model invokes its tool (T1/T2 only); (e)~\emph{Evidence Override Rate}---proportion where the model retrieves contradicting evidence but still capitulates (T1/T2 only). Present results in side-by-side model comparison tables, stratified by pressure level and dataset.
+    \item \textbf{Week 7 (Oct 23--29):} Conduct ablation analyses (e.g., does the ordering of tool evidence vs.\ user assertion in the prompt matter?). Produce visualizations and tables.
+    \item \textbf{Week 8 (Oct 30--Nov 5):} Statistical significance testing across all conditions. Identify limitations and propose future directions.
+    \item \textbf{Week 9 (Nov 6--12):} Draft the final report. Integrate all results, ablations, and discussion.
+    \item \textbf{Week 10 (Nov 13--20):} Revise, polish, and submit the final report.
+\end{itemize}
+
+\subsection{Feasibility}
+All three models (3--4B parameters) are expected to fit within 4GB VRAM at 4-bit precision; Week~1 will benchmark actual memory usage and latency. The full matrix of $4{,}500$ conversations (250 questions $\times$ 2 datasets $\times$ 3 tool tiers $\times$ 3 models, each comprising 3 pressure turns) is expected to complete within a few hours of GPU time. Correctness is evaluated programmatically against ground-truth labels; Gemini~2.5~Flash handles stance classification and is accessible via GCP Vertex AI. Both AMPS and MedQA are publicly available with unambiguous ground-truth labels. If web search API access proves unreliable, we fall back to cached results.
