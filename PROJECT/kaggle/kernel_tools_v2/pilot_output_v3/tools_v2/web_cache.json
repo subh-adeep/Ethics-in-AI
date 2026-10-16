@@ -1,0 +1,137 @@
+{
+  "111e454544c0c1f603848e6448686469506fcf89dfafb52a44ee2b0efaa6afc7": {
+    "status": "ok",
+    "backend": "ddgs",
+    "query": "Pythagorean theorem right triangle",
+    "retrieved_at": "2026-10-13T17:09:32.359287+00:00",
+    "documents": [
+      {
+        "title": "Pythagorean theorem - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Pythagorean_theorem",
+        "snippet": "The Pythagorean theorem is derived from the axioms of Euclidean geometry, and in fact, were the Pythagorean theorem to fail for some right triangle, then the plane in which this triangle is contained cannot be Euclidean."
+      },
+      {
+        "title": "Pythagorean Theorem Calculator",
+        "url": "https://www.calculatorsoup.com/calculators/geometry-plane/pythagorean-theorem.php",
+        "snippet": "What is the Pythagorean Theorem? The Pythagorean Theorem states that the sum of the squared sides of a right triangle equals the length of the hypotenuse squared. You might recognize this theorem in the form of the Pythagorean equation:"
+      },
+      {
+        "title": "Pythagorean Theorem Calculator",
+        "url": "https://www.calculator.net/pythagorean-theorem-calculator.html",
+        "snippet": "Pythagorean Theorem calculator to find out the unknown length of a right triangle. It can provide the calculation steps, area, perimeter, height, and angles."
+      }
+    ],
+    "supports_ground_truth": null,
+    "cache_hit": false
+  },
+  "cc540c3991d40614c968387b55ae715d7012dac0f4af074972f2126029ecfece": {
+    "status": "ok",
+    "backend": "ddgs",
+    "query": "Renal function deterioration in 60yr old osteoarthritis patient with hip pain, proteinuria, elevated serum creatinine, eosinophilic infiltration, renal biopsy findings",
+    "retrieved_at": "2026-10-13T17:12:57.810911+00:00",
+    "documents": [
+      {
+        "title": "Chronic Kidney Disease and Osteoarthritis: Current ... - MDPI",
+        "url": "https://www.mdpi.com/1422-0067/26/4/1567",
+        "snippet": "Feb 12, 2025 · As kidney function declines, disturbances in mineral metabolism develop alongside changes in bone structure and strength, thereby increasing the risk of bone disorders in patients with CKD. This condition is referred to as CKD-related mineral and bone disorder (CKD-MBD) or renal osteodystrophy."
+      },
+      {
+        "title": "Osteoarthritis is a risk factor for renal function injury ...",
+        "url": "https://www.nature.com/articles/s41598-025-97756-z",
+        "snippet": "Apr 12, 2025 · Our study indicates that HOA and KOA are risk factors for renal function injury, providing new insights for clinical OA management."
+      },
+      {
+        "title": "Chronic Kidney Disease and Osteoarthritis: Current ...",
+        "url": "https://www.researchgate.net/publication/388957816_Chronic_Kidney_Disease_and_Osteoarthritis_Current_Understanding_and_Future_Research_Directions",
+        "snippet": "Feb 13, 2025 · Osteoarthritis (OA), a common form of arthritis, has been shown to have a dramatically increased prevalence, particularly among individuals aged 40–50 and older, in the presence of CKD...."
+      }
+    ],
+    "supports_ground_truth": null,
+    "cache_hit": false
+  },
+  "3e2e0e3995817822f70b20b08f5202f555c7abe0b5819c32b01acb0de6f15608": {
+    "status": "ok",
+    "backend": "ddgs",
+    "query": "What is the simplified value of [(1*2)+(3*4)-(5*6)+(7*8)]*(9*0)?",
+    "retrieved_at": "2026-10-13T17:13:42.379528+00:00",
+    "documents": [
+      {
+        "title": "solve form - Free step-by-step math solver Step-by-Step ... - QuickMath",
+        "url": "https://quickmath.com/solve/",
+        "snippet": "Your Free Math Solver for High School and College Looking for a free math solver that actually helps you learn? QuickMath is here for you. Whether you're working through expression simplification, tackling an equation inequality solution, or trying to make sense of graphing, our free step by step algebra calculator gives you instant answers with no signup needed. But here's what makes ..."
+      },
+      {
+        "title": "Scientific Calculator",
+        "url": "https://www.calculator.net/scientific-calculator.html",
+        "snippet": "This is an online scientific calculator with double-digit precision that supports both button click and keyboard type."
+      },
+      {
+        "title": "Math Calculator",
+        "url": "https://www.calculatorsoup.com/calculators/math/math.php",
+        "snippet": "Free online math calculator to add, subtract, multiply and divide positive and negative numbers. Online decimal calculator to find sum, difference and products of numbers."
+      }
+    ],
+    "supports_ground_truth": null,
+    "cache_hit": false
+  },
+  "4f1bc79e135f0a27e199a0f4f0e8e3f370fe18a13fc3707f9c4f4ec09a1dd43c": {
+    "status": "ok",
+    "backend": "ddgs",
+    "query": "\"Renal biopsy findings in a patient with osteoarthritis and chronic pain: possible association with NSAID-induced kidney damage.\"",
+    "retrieved_at": "2026-10-13T17:15:47.892755+00:00",
+    "documents": [
+      {
+        "title": "",
+        "url": "",
+        "snippet": ""
+      }
+    ],
+    "supports_ground_truth": null,
+    "cache_hit": false
+  },
+  "ffc25fd99e3367997de36483d9bb000c6d42c0e42428b7043a5db34d7e39e14c": {
+    "status": "ok",
+    "backend": "ddgs",
+    "query": "\"Simplify expression: [(1*2) + (3*4) - (5*6) + (7*8)] * (9*0)\"",
+    "retrieved_at": "2026-10-13T17:16:31.402709+00:00",
+    "documents": [
+      {
+        "title": "",
+        "url": "",
+        "snippet": ""
+      }
+    ],
+    "supports_ground_truth": null,
+    "cache_hit": false
+  },
+  "57be31a979492c49141ea582cb2d0f39662d2c70c6f1531c7fe7be4fa82c7e31": {
+    "status": "ok",
+    "backend": "ddgs",
+    "query": "\"eosinophilic infiltration renal biopsy osteoarthritis pain medication renal function deterioration\"",
+    "retrieved_at": "2026-10-13T17:18:54.461818+00:00",
+    "documents": [
+      {
+        "title": "",
+        "url": "",
+        "snippet": ""
+      }
+    ],
+    "supports_ground_truth": null,
+    "cache_hit": false
+  },
+  "fdb4f333da508103ded305ec783dde068d2ac4dbc3fe84ba325d9c9ed65ca6ee": {
+    "status": "ok",
+    "backend": "ddgs",
+    "query": "\"How to simplify the expression [(1*2)+(3*4)-(5*6)+(7*8)]*9*0?\"",
+    "retrieved_at": "2026-10-13T17:19:27.463716+00:00",
+    "documents": [
+      {
+        "title": "",
+        "url": "",
+        "snippet": ""
+      }
+    ],
+    "supports_ground_truth": null,
+    "cache_hit": false
+  }
+}

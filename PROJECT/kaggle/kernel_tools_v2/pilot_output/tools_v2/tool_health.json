@@ -1,0 +1,32 @@
+{
+  "rag": {
+    "status": "ok",
+    "backend": "answer_sheet_bm25",
+    "documents": [
+      {
+        "id": "medqa_0278",
+        "score": 261.1149077929639,
+        "question": "A 60-year-old man with a history of osteoarthritis has been awaiting hip replacement surgery for 3 years. During his annual physical, he reports that he has been taking over the counter pain medications, but that no amount of analgesics can relieve his constant pain. Laboratory results reveal that his renal function has deteriorated when compared to his last office visit 2 years ago. Serum creatinine is 2.0 mg/dL, and urinalysis shows 1+ proteinuria. There are no abnormalities seen on microscopy of the urine. A renal biopsy shows eosinophilic infiltration and diffuse parenchymal inflammation. What is the most likely explanation for this patient's deterioration in renal function?",
+        "answer": "D",
+        "answer_text": "Toxic tubulointerstitial nephritis",
+        "solution": ""
+      },
+      {
+        "id": "medqa_1369",
+        "score": 75.7668098371919,
+        "question": "A 9-year-old boy is brought to the emergency department for the evaluation of diarrhea and vomiting for the last 2 days. During this period, he has had about 12 watery, non-bloody bowel movements and has vomited three times. He came back from a trip to India 3 days ago, where he and his family were visiting relatives. He has not been able to eat anything since the symptoms started. The patient has not urinated since yesterday. He appears pale. His temperature is 38°C (100.4°F), pulse is 106/min, and blood pressure is 96/60 mm Hg. Examination shows dry mucous membranes. The abdomen is soft with no organomegaly. Bowel sounds are hyperactive. Laboratory studies show:\nHemoglobin 13 g/dL\nSerum\nNa+ 148 mEq/L\nCl- 103 mEq/L\nK+ 3.7 mEq/L\nHCO3- 19 mEq/L\nUrea nitrogen 80 mg/dL\nGlucose 90 mg/dL\nCreatinine 2 mg/dL\nIntravenous fluid resuscitation is begun. Which of the following is the most likely cause of this patient's abnormal renal laboratory findings?\"",
+        "answer": "A",
+        "answer_text": "Decreased renal perfusion",
+        "solution": ""
+      }
+    ],
+    "supports_ground_truth": true
+  },
+  "web": {
+    "status": "error",
+    "backend": "ddgs",
+    "error": "BuilderError: Invalid impersonate: \"safari_15.5\"",
+    "documents": [],
+    "supports_ground_truth": null
+  }
+}

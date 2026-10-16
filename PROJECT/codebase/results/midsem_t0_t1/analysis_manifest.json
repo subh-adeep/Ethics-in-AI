@@ -1,0 +1,138 @@
+{
+  "generated_at_utc": "2026-10-14T18:52:27.167099+00:00",
+  "tiers_included": [
+    "T0",
+    "T1"
+  ],
+  "questions_per_run": 421,
+  "completed_dialogues": 2526,
+  "saved_answer_turns": 7578,
+  "common_T0_correct_n": 361,
+  "common_T0_T1_correct_n": 359,
+  "bootstrap_seed": 20261014,
+  "bootstrap_resamples": 5000,
+  "primary_labels": "stored frozen-run scorer",
+  "sensitivity_evaluator": "answer-parser-3.1",
+  "sources": {
+    "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\kaggle\\kernel_tools_v2\\parallel_capture_20261014\\parallel_results\\qwen_T0\\qwen_T0_optional.json": "3fce0db65be0b5818f7e83f062b55433940bee3f490224419665de3827a39d27",
+    "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\kaggle\\kernel_tools_v2\\parallel_capture_20261014\\parallel_results\\qwen_T1\\qwen_T1_optional.json": "fd75dac7dfcece03bc95d77f827d543d0462cfef37315194bd6f9dceee5ed4f5",
+    "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\kaggle\\kernel_tools_v2\\parallel_capture_20261014\\parallel_results\\llama_T0\\llama_T0_optional.json": "d43c3458c6c95285f7637d336a53e2c02cb99ccd7030fbf9104df443a8b8b094",
+    "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\kaggle\\kernel_tools_v2\\parallel_capture_20261014\\parallel_results\\llama_T1\\llama_T1_optional.json": "5f3f8c6ac510b37d49d60e223d5c09b86fc8509a7075ab8b13977dba2d8ba83a",
+    "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\kaggle\\kernel_tools_v2\\parallel_capture_20261014\\parallel_results\\phi4_T0\\phi4_T0_optional.json": "bea09d30fb1f74d64454727f803a9b18fbd2402be9bd84708a93c19e18ed527a",
+    "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\kaggle\\kernel_tools_v2\\parallel_capture_20261014\\parallel_results\\phi4_T1\\phi4_T1_optional.json": "7073250d8fb47c877f1e8efd999be4b01b35ba4522dcab000d6c111c9b7e9ea7"
+  },
+  "figures": [
+    {
+      "file": "01_completed_scope",
+      "caption": "All six runs are complete; each dialogue has P0, P1 and P2.",
+      "question_subset": "all_questions",
+      "questions_per_model_setting": 421,
+      "scope": "Full-run diagnostics: 421 questions (171 MedQA + 250 MATH)"
+    },
+    {
+      "file": "02_initial_accuracy",
+      "caption": "Current P0 accuracy is below 100% despite historical all-model-correct selection.",
+      "question_subset": "all_questions",
+      "questions_per_model_setting": 421,
+      "scope": "Full-run diagnostics: 421 questions (171 MedQA + 250 MATH)"
+    },
+    {
+      "file": "03_all_question_outcomes",
+      "caption": "T0 versus T1: outcomes on all 421 questions",
+      "question_subset": "all_questions",
+      "questions_per_model_setting": 421,
+      "scope": "Full-run diagnostics: 421 questions (171 MedQA + 250 MATH)"
+    },
+    {
+      "file": "04_common_correct_outcomes",
+      "caption": "T0 versus T1: shared T0-correct cohort (n=361)",
+      "question_subset": "shared_T0_correct",
+      "questions_per_model_setting": 361,
+      "scope": "Main comparison: shared 361 questions (146 MedQA + 215 MATH)"
+    },
+    {
+      "file": "05_resistance",
+      "caption": "Resistance on the common T0-correct subset. T1 is optional RAG availability, not universal RAG exposure.",
+      "question_subset": "shared_T0_correct",
+      "questions_per_model_setting": 361,
+      "scope": "Main comparison: shared 361 questions (146 MedQA + 215 MATH)"
+    },
+    {
+      "file": "06_false_agreement",
+      "caption": "Agreement with the supplied false answer on the common T0-correct subset. T1 is optional RAG availability, not universal RAG exposure.",
+      "question_subset": "shared_T0_correct",
+      "questions_per_model_setting": 361,
+      "scope": "Main comparison: shared 361 questions (146 MedQA + 215 MATH)"
+    },
+    {
+      "file": "07_pressure_sequence",
+      "caption": "P2 follows P1 in the same conversation; this is not an isolated authority effect.",
+      "question_subset": "shared_T0_correct",
+      "questions_per_model_setting": 361,
+      "scope": "Main comparison: shared 361 questions (146 MedQA + 215 MATH)"
+    },
+    {
+      "file": "08_domain_comparison",
+      "caption": "Domain-specific rates on shared T0-correct questions: 146 MedQA and 215 MATH.",
+      "question_subset": "shared_T0_correct",
+      "questions_per_model_setting": 361,
+      "scope": "Main comparison: shared 361 questions (146 MedQA + 215 MATH)"
+    },
+    {
+      "file": "09_paired_differences",
+      "caption": "Paired rate differences; 95% question-bootstrap intervals, 5,000 resamples, seed 20261014.",
+      "question_subset": "shared_T0_correct",
+      "questions_per_model_setting": 361,
+      "scope": "Main comparison: shared 361 questions (146 MedQA + 215 MATH)"
+    },
+    {
+      "file": "10_rag_utilization",
+      "caption": "Model chooses verify/answer; Python executes retrieval. Successful lookup does not imply correct final answer.",
+      "question_subset": "all_questions",
+      "questions_per_model_setting": 421,
+      "scope": "Full-run diagnostics: 421 questions (171 MedQA + 250 MATH)"
+    },
+    {
+      "file": "11_after_rag_outcomes",
+      "caption": "Conditional outcomes after successful RAG calls. Qwen n=13 is small; tool-calling subsets differ between models.",
+      "question_subset": "all_questions",
+      "questions_per_model_setting": 421,
+      "scope": "Full-run diagnostics: 421 questions (171 MedQA + 250 MATH)"
+    },
+    {
+      "file": "12_evidence_override",
+      "caption": "Denominator includes successful target-answer retrievals only; all 421-question runs, both pressure turns combined.",
+      "question_subset": "all_questions",
+      "questions_per_model_setting": 421,
+      "scope": "Full-run diagnostics: 421 questions (171 MedQA + 250 MATH)"
+    },
+    {
+      "file": "13_paired_transitions",
+      "caption": "Shared 361 questions per matrix; pairs the same question and turn across T0/T1. Cells are question counts.",
+      "question_subset": "shared_T0_correct",
+      "questions_per_model_setting": 361,
+      "scope": "Main comparison: shared 361 questions (146 MedQA + 215 MATH)"
+    },
+    {
+      "file": "14_response_quality",
+      "caption": "Hitting the token cap flags possible truncation; it does not prove the final answer is unusable.",
+      "question_subset": "all_questions",
+      "questions_per_model_setting": 421,
+      "scope": "Full-run diagnostics: 421 questions (171 MedQA + 250 MATH)"
+    },
+    {
+      "file": "15_response_lengths",
+      "caption": "Generated token lengths for pressure replies; boxplots show median, quartiles and 1.5-IQR whiskers, with outliers hidden.",
+      "question_subset": "all_questions",
+      "questions_per_model_setting": 421,
+      "scope": "Full-run diagnostics: 421 questions (171 MedQA + 250 MATH)"
+    },
+    {
+      "file": "16_parser_sensitivity",
+      "caption": "Parser 3.1 is applied consistently to all raw replies for sensitivity only; manual review remains necessary.",
+      "question_subset": "all_questions",
+      "questions_per_model_setting": 421,
+      "scope": "Full-run diagnostics: 421 questions (171 MedQA + 250 MATH)"
+    }
+  ]
+}

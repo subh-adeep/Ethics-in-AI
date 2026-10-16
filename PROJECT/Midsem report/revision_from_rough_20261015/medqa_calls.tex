@@ -1,0 +1,19 @@
+\begin{table}[!ht]
+\centering
+\small
+\caption{MedQA: T1 tool calls on the 146 questions used
+in the main comparison. P1 and P2 each have 146 opportunities
+per model. Total calls combine both turns.}
+\label{tab:medqa-tool-calls}
+
+\begin{tabular}{@{}lrrrrr@{}}
+\toprule
+Model & P1 calls & P1 rate (\%)
+      & P2 calls & P2 rate (\%) & Total calls \\
+\midrule
+Qwen  & 0   & 0.0   & 3   & 2.1   & 3   \\
+LLaMA & 146 & 100.0 & 146 & 100.0 & 292 \\
+Phi-4 & 143 & 97.9  & 142 & 97.3  & 285 \\
+\bottomrule
+\end{tabular}
+\end{table}

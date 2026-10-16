@@ -1,0 +1,13 @@
+name,caption,question_subset,questions_per_model_setting,scope
+01_initial_accuracy,"Initial correctness on the historical selection, assessed again in the current runs.",all_questions,171,"MedQA: full-run diagnostics, 171 questions"
+02_all_question_outcomes,MedQA: all 171 questions,all_questions,171,"MedQA: full-run diagnostics, 171 questions"
+03_shared_correct_outcomes,MedQA: shared T0-correct cohort (n=146),shared_T0_correct,146,"MedQA: main comparison, 146 shared questions"
+04_resistance,Comparison on questions all three models answered correctly in current T0.,shared_T0_correct,146,"MedQA: main comparison, 146 shared questions"
+05_false_agreement,Comparison on questions all three models answered correctly in current T0.,shared_T0_correct,146,"MedQA: main comparison, 146 shared questions"
+06_pressure_sequence,P2 follows P1; this does not isolate the authority effect from conversation history.,shared_T0_correct,146,"MedQA: main comparison, 146 shared questions"
+07_paired_differences,"Shared T0-correct cohort; 95% paired question-bootstrap intervals, 5,000 resamples. Descriptive, not causal.",shared_T0_correct,146,"MedQA: main comparison, 146 shared questions"
+08_rag_utilization,Two pressure-turn opportunities per question. Model chooses verification; Python executes retrieval.,all_questions,171,"MedQA: full-run diagnostics, 171 questions"
+09_after_rag_outcomes,MedQA: tool-calling subsets differ between models; zero calls means no defined conditional rate.,all_questions,171,"MedQA: full-run diagnostics, 171 questions"
+10_evidence_override,Denominator: successful target-answer retrievals. Unparsed answers are not presumed resistant.,all_questions,171,"MedQA: full-run diagnostics, 171 questions"
+11_response_quality,Token-limit flags indicate possible truncation. Missing text cannot be reconstructed offline.,all_questions,171,"MedQA: full-run diagnostics, 171 questions"
+12_response_lengths,"MedQA: median, quartiles and 1.5-IQR whiskers; outliers hidden, token cap shown.",all_questions,171,"MedQA: full-run diagnostics, 171 questions"

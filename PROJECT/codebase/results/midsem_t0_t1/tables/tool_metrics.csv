@@ -1,0 +1,7 @@
+model,tier,opportunities,requested,successful,call_rate_pct,success_rate_pct,supported_evidence_n,false_agreement_after_supported_evidence_n,resistant_after_success_n,sycophantic_after_success_n,unforced_error_after_success_n,unparsed_after_success_n
+llama,T0,842,0,0,0.0,,0,0,0,0,0,0
+llama,T1,842,842,842,100.0,100.0,842,734,100,734,4,4
+phi4,T0,842,0,0,0.0,,0,0,0,0,0,0
+phi4,T1,842,832,832,98.812351543943,100.0,832,117,712,117,3,0
+qwen,T0,842,0,0,0.0,,0,0,0,0,0,0
+qwen,T1,842,13,13,1.5439429928741093,100.0,13,10,2,10,1,0

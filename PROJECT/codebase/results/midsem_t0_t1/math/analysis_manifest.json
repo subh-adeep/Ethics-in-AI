@@ -1,0 +1,96 @@
+{
+  "domain": "math",
+  "tiers": [
+    "T0",
+    "T1"
+  ],
+  "questions_per_run": 250,
+  "shared_T0_correct_n": 215,
+  "figures": [
+    {
+      "name": "01_initial_accuracy",
+      "caption": "Initial correctness on the historical selection, assessed again in the current runs.",
+      "question_subset": "all_questions",
+      "questions_per_model_setting": 250,
+      "scope": "MATH: full-run diagnostics, 250 questions"
+    },
+    {
+      "name": "02_all_question_outcomes",
+      "caption": "MATH: all 250 questions",
+      "question_subset": "all_questions",
+      "questions_per_model_setting": 250,
+      "scope": "MATH: full-run diagnostics, 250 questions"
+    },
+    {
+      "name": "03_shared_correct_outcomes",
+      "caption": "MATH: shared T0-correct cohort (n=215)",
+      "question_subset": "shared_T0_correct",
+      "questions_per_model_setting": 215,
+      "scope": "MATH: main comparison, 215 shared questions"
+    },
+    {
+      "name": "04_resistance",
+      "caption": "Comparison on questions all three models answered correctly in current T0.",
+      "question_subset": "shared_T0_correct",
+      "questions_per_model_setting": 215,
+      "scope": "MATH: main comparison, 215 shared questions"
+    },
+    {
+      "name": "05_false_agreement",
+      "caption": "Comparison on questions all three models answered correctly in current T0.",
+      "question_subset": "shared_T0_correct",
+      "questions_per_model_setting": 215,
+      "scope": "MATH: main comparison, 215 shared questions"
+    },
+    {
+      "name": "06_pressure_sequence",
+      "caption": "P2 follows P1; this does not isolate the authority effect from conversation history.",
+      "question_subset": "shared_T0_correct",
+      "questions_per_model_setting": 215,
+      "scope": "MATH: main comparison, 215 shared questions"
+    },
+    {
+      "name": "07_paired_differences",
+      "caption": "Shared T0-correct cohort; 95% paired question-bootstrap intervals, 5,000 resamples. Descriptive, not causal.",
+      "question_subset": "shared_T0_correct",
+      "questions_per_model_setting": 215,
+      "scope": "MATH: main comparison, 215 shared questions"
+    },
+    {
+      "name": "08_rag_utilization",
+      "caption": "Two pressure-turn opportunities per question. Model chooses verification; Python executes retrieval.",
+      "question_subset": "all_questions",
+      "questions_per_model_setting": 250,
+      "scope": "MATH: full-run diagnostics, 250 questions"
+    },
+    {
+      "name": "09_after_rag_outcomes",
+      "caption": "MATH: tool-calling subsets differ between models; zero calls means no defined conditional rate.",
+      "question_subset": "all_questions",
+      "questions_per_model_setting": 250,
+      "scope": "MATH: full-run diagnostics, 250 questions"
+    },
+    {
+      "name": "10_evidence_override",
+      "caption": "Denominator: successful target-answer retrievals. Unparsed answers are not presumed resistant.",
+      "question_subset": "all_questions",
+      "questions_per_model_setting": 250,
+      "scope": "MATH: full-run diagnostics, 250 questions"
+    },
+    {
+      "name": "11_response_quality",
+      "caption": "Token-limit flags indicate possible truncation. Missing text cannot be reconstructed offline.",
+      "question_subset": "all_questions",
+      "questions_per_model_setting": 250,
+      "scope": "MATH: full-run diagnostics, 250 questions"
+    },
+    {
+      "name": "12_response_lengths",
+      "caption": "MATH: median, quartiles and 1.5-IQR whiskers; outliers hidden, token cap shown.",
+      "question_subset": "all_questions",
+      "questions_per_model_setting": 250,
+      "scope": "MATH: full-run diagnostics, 250 questions"
+    }
+  ],
+  "source_turn_table_sha256": "1cae2a54a99bbcc9768eb3fc9bc58f0969da1877bf4dfc5c2c2076cf9b3997f3"
+}

@@ -1,0 +1,22 @@
+\begin{table}[!ht]
+\centering
+\small
+\caption{MATH flip rates. All values are percentages.
+The denominator is 215, except LLaMA in T1, which uses
+213 questions answered correctly at P0.}
+\label{tab:math-flip-rates}
+
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+Model
+& \shortstack{P1 flip\\T0 (\%)}
+& \shortstack{P1 flip\\T1 (\%)}
+& \shortstack{P2 flip\\T0 (\%)}
+& \shortstack{P2 flip\\T1 (\%)} \\
+\midrule
+Qwen  & 0.0  & 0.0  & 98.6 & 97.7 \\
+LLaMA & 4.7  & 65.3 & 71.6 & 98.1 \\
+Phi-4 & 12.6 & 1.9  & 43.3 & 26.0 \\
+\bottomrule
+\end{tabular}
+\end{table}

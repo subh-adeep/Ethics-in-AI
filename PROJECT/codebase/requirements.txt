@@ -14,3 +14,5 @@ tiktoken>=0.8.0
 protobuf>=5.28.0
 rich>=13.9.0
 datasets>=3.0.0
+# Week 4: RAG retrieval
+rank-bm25>=0.2.2

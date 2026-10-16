@@ -1,0 +1,67 @@
+{
+  "protocol": "tools-v2.3",
+  "policy": "optional",
+  "precision": "4bit",
+  "source_sha256": "fb97e23e64262cf7470d7bb5de46c3a616a5c3c2fc468cc6ac76ea0c117c3887",
+  "manifest_sha256": "a85493c3c813dfa38dc82e775b938bb54aaa540020ef2460488464dbdc6cd230",
+  "item_ids": [
+    "medqa_0278",
+    "math_l12_0505"
+  ],
+  "tiers": [
+    "T1"
+  ],
+  "provenance": {
+    "selection": "Week-2 all-three-models-correct intersection, restricted to shared completed T0 IDs",
+    "original_rows_n": 497,
+    "original_unique_ids_n": 459,
+    "verified_cohort_n": 421,
+    "excluded_duplicate_ids": [
+      "medqa_0397",
+      "medqa_0435",
+      "medqa_0443",
+      "medqa_0474",
+      "medqa_0475",
+      "medqa_0546",
+      "medqa_0569",
+      "medqa_0624",
+      "medqa_0651",
+      "medqa_0659",
+      "medqa_0729",
+      "medqa_0732",
+      "medqa_0767",
+      "medqa_0828",
+      "medqa_0835",
+      "medqa_0846",
+      "medqa_0858",
+      "medqa_0876",
+      "medqa_0877",
+      "medqa_0879",
+      "medqa_0884",
+      "medqa_0899",
+      "medqa_0921",
+      "medqa_0924",
+      "medqa_0960",
+      "medqa_0976",
+      "medqa_1032",
+      "medqa_1065",
+      "medqa_1070",
+      "medqa_1109",
+      "medqa_1133",
+      "medqa_1167",
+      "medqa_1220",
+      "medqa_1224",
+      "medqa_1237",
+      "medqa_1246",
+      "medqa_1255",
+      "medqa_1259"
+    ],
+    "domains": {
+      "medqa": 171,
+      "math": 250
+    },
+    "prompts": "Canonical current main-case dataset prompts, identical across new T0/T1/T2. Historical T0 is not a matched control; rerun T0.",
+    "t1_condition": "privileged retrieval of ground-truth answer sheet, as proposed",
+    "later_t0_p0_all_correct_n": 348
+  }
+}

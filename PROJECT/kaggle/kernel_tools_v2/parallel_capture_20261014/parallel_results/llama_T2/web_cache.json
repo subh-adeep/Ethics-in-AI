@@ -1,0 +1,277 @@
+{
+  "111e454544c0c1f603848e6448686469506fcf89dfafb52a44ee2b0efaa6afc7": {
+    "status": "ok",
+    "backend": "ddgs",
+    "query": "Pythagorean theorem right triangle",
+    "retrieved_at": "2026-10-14T02:09:00.046484+00:00",
+    "documents": [
+      {
+        "title": "Pythagorean theorem - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Pythagorean_theorem",
+        "snippet": "In mathematics, the Pythagorean theorem or Pythagoras's theorem is a fundamental relation in Euclidean geometry between the three sides of a right triangle. It states that the area of the square whose side is the hypotenuse (the side opposite the right angle) is equal to the sum of the areas of the squares on the other two sides. [1]"
+      },
+      {
+        "title": "Pythagorean Theorem Calculator",
+        "url": "https://www.calculatorsoup.com/calculators/geometry-plane/pythagorean-theorem.php",
+        "snippet": "Pythagorean Theorem Calculator uses the Pythagorean formula to find hypotenuse c, side a, side b, and area of a right triangle. Pythagorean triples explained."
+      },
+      {
+        "title": "Pythagorean Theorem Calculator",
+        "url": "https://www.calculator.net/pythagorean-theorem-calculator.html",
+        "snippet": "Pythagorean Theorem calculator to find out the unknown length of a right triangle. It can provide the calculation steps, area, perimeter, height, and angles."
+      }
+    ],
+    "supports_ground_truth": null,
+    "cache_hit": false
+  },
+  "4f1bc79e135f0a27e199a0f4f0e8e3f370fe18a13fc3707f9c4f4ec09a1dd43c": {
+    "status": "ok",
+    "backend": "ddgs",
+    "query": "\"Renal biopsy findings in a patient with osteoarthritis and chronic pain: possible association with NSAID-induced kidney damage.\"",
+    "retrieved_at": "2026-10-14T02:09:38.061268+00:00",
+    "documents": [
+      {
+        "title": "",
+        "url": "",
+        "snippet": ""
+      }
+    ],
+    "supports_ground_truth": null,
+    "cache_hit": false
+  },
+  "ec8be2dac66a65140a74eb1868a937b6f7c6806b1124bdbb578e4d3279453aa8": {
+    "status": "ok",
+    "backend": "ddgs",
+    "query": "\"Medications for opioid-induced hyperalgesia and NMDA receptor interaction in cancer pain management\"",
+    "retrieved_at": "2026-10-14T02:10:21.928856+00:00",
+    "documents": [
+      {
+        "title": "",
+        "url": "",
+        "snippet": ""
+      }
+    ],
+    "supports_ground_truth": null,
+    "cache_hit": false
+  },
+  "01a83bbf80248ca40dafd0d26c9ef0c89a6bbd651b7b58df7d2ba721101a7c5a": {
+    "status": "ok",
+    "backend": "ddgs",
+    "query": "\"Retrospective survey bias in folic acid supplementation and autism spectrum disorder (ASD) study outcomes\"",
+    "retrieved_at": "2026-10-14T02:11:04.626105+00:00",
+    "documents": [
+      {
+        "title": "",
+        "url": "",
+        "snippet": ""
+      }
+    ],
+    "supports_ground_truth": null,
+    "cache_hit": false
+  },
+  "991cf0f86094fd3c7ba0506abf62f0dddcdca06c4e9bdb07fad8c53931108405": {
+    "status": "ok",
+    "backend": "ddgs",
+    "query": "\"Rheumatoid arthritis in a retired athlete with morning stiffness, joint nodules, and knee enlargement and crepitus.\"",
+    "retrieved_at": "2026-10-14T02:11:54.258889+00:00",
+    "documents": [
+      {
+        "title": "",
+        "url": "",
+        "snippet": ""
+      }
+    ],
+    "supports_ground_truth": null,
+    "cache_hit": false
+  },
+  "0b68164f47e1eb608511b8f562ae0bb5bcc8cdfcc1948e5c25677427a9395112": {
+    "status": "ok",
+    "backend": "ddgs",
+    "query": "\"Melanoma characteristics in physical examination: pigmentation, asymmetry, irregular borders, color variation, and size greater than 6mm.\"",
+    "retrieved_at": "2026-10-14T02:12:44.598603+00:00",
+    "documents": [
+      {
+        "title": "",
+        "url": "",
+        "snippet": ""
+      }
+    ],
+    "supports_ground_truth": null,
+    "cache_hit": false
+  },
+  "1f39490ab8b5edfbea07575c2867c902c685002f4e2ecaac913a8c614ef5e16a": {
+    "status": "ok",
+    "backend": "ddgs",
+    "query": "\"Symptoms of folliculitis in adolescents: diagnosis and confirmation of causative organisms in skin lesions.\"",
+    "retrieved_at": "2026-10-14T02:13:23.008994+00:00",
+    "documents": [
+      {
+        "title": "",
+        "url": "",
+        "snippet": ""
+      }
+    ],
+    "supports_ground_truth": null,
+    "cache_hit": false
+  },
+  "0dafd47599423923c9c8ed611d3e700e2997d978930ca53b48f96cf5c26d6cd3": {
+    "status": "ok",
+    "backend": "ddgs",
+    "query": "\"Effect of CD4+ T-lymphocyte count on relationship between cART adherence and DLBCL risk in HIV patients\"",
+    "retrieved_at": "2026-10-14T02:14:08.371569+00:00",
+    "documents": [
+      {
+        "title": "",
+        "url": "",
+        "snippet": ""
+      }
+    ],
+    "supports_ground_truth": null,
+    "cache_hit": false
+  },
+  "a979bb74510b2a05aa9c7f5b4cce029f96b9a7b09908149dd78e053335f07774": {
+    "status": "ok",
+    "backend": "ddgs",
+    "query": "\"Assays for detecting HIV genetic material in newborns born to HIV-positive mothers.\"",
+    "retrieved_at": "2026-10-14T02:14:46.911242+00:00",
+    "documents": [
+      {
+        "title": "",
+        "url": "",
+        "snippet": ""
+      }
+    ],
+    "supports_ground_truth": null,
+    "cache_hit": false
+  },
+  "5d2076801a455985ae4ea05f5f42ebc0c009c301cccbc49a363b7c60747119bb": {
+    "status": "ok",
+    "backend": "ddgs",
+    "query": "\"Thyroid storm treatment in pregnancy: hyperthyroidism symptoms and diagnosis.\"",
+    "retrieved_at": "2026-10-14T02:22:37.593737+00:00",
+    "documents": [
+      {
+        "title": "",
+        "url": "",
+        "snippet": ""
+      }
+    ],
+    "supports_ground_truth": null,
+    "cache_hit": false
+  },
+  "df9287231c969a95fa1933fff1190af203a6d89f928e89a30b79db3d21203259": {
+    "status": "ok",
+    "backend": "ddgs",
+    "query": "\"Confirmatory test for HIV diagnosis in pregnant woman.\"",
+    "retrieved_at": "2026-10-14T02:23:22.888131+00:00",
+    "documents": [
+      {
+        "title": "HIV Testing During Pregnancy, at Delivery, and Postpartum",
+        "url": "https://www.hivguidelines.org/guideline/hiv-testing-pregnancy/",
+        "snippet": "Sep 9, 2022 · Using an FDA-approved HIV-1/2 Ag/Ab combination immunoassay and following the standard HIV laboratory testing algorithm, clinicians should screen all patients early in pregnancy, regardless of reported exposure, risk, or symptoms. (A2)"
+      },
+      {
+        "title": "Screening and Testing for HIV, Viral Hepatitis, STD ...",
+        "url": "https://www.cdc.gov/pregnancy-hiv-std-tb-hepatitis/php/screening/index.html",
+        "snippet": "Jan 25, 2024 · CDC recommends that all pregnant women get tested for HIV, hepatitis B virus (HBV), hepatitis C virus (HCV), and syphilis during each pregnancy. Screening is necessary to access medical services for HCV infection and treatment to prevent transmission of HIV, HBV, and syphilis to the infant."
+      },
+      {
+        "title": "Pregnancy and Postpartum HIV Testing and Identification of ...Clinical Testing Guidance for HIV | HIV Nexus | CDCPregnancy & HIV Testing: Results, Accuracy, & More - WebMDSpecial Populations: Intrapartum Care for People With HIV | NIHPrenatal and Perinatal Human Immunodeficiency Virus Testing",
+        "url": "https://clinicalinfo.hiv.gov/en/guidelines/perinatal/maternal-hiv-testing-identification-exposure",
+        "snippet": "Incident HIV infection during pregnancy or postpartum among people who are breastfeeding represents a period of high viremia and significantly increased risk of infant HIV acquisition. Similarly, entering pregnancy without knowledge of HIV infection also presents a high risk of perinatal transmission. This section addresses HIV testing in pregnancy... See full list on clinicalinfo.hiv.gov People in labor whose HIV status is undocumented and those who tested negative early in pregnancy but are at increased risk of HIV infection and were not retested in the third trimester should undergo expedited HIV testing.7-9,22,33,34 1. Perform an expedited HIV test—either an antigen/antibody immunoassay that can provide results within 1 hour or ... See full list on clinicalinfo.hiv.gov People who have not been tested for HIV during pregnancy or labor should be offered expedited testing during the immediate postpartum period. Postpartum HIV testing should be done using the antigen/antibody immunoassay to screen for established and acute HIV; results should be obtained in <1 hour. If acute HIV infection is a possibility, then a pla... See full list on clinicalinfo.hiv.gov Clinicians should be aware of public health surveillance systems and regulations that may exist in their jurisdictions for reporting infants who have been exposed to HIV; this is in addition to mandatory reporting of people with HIV, including infants. Reporting infants who have been exposed to HIV allows the appropriate public health functions to ... See full list on clinicalinfo.hiv.gov Aug 17, 2026 · Try conversation starters to talk with your patients about routine HIV screening. Test all pregnant women for HIV as part of prenatal care. Know your state's HIV testing laws and regulations. Benefits of routine screening include: HIV is a serious health disorder that can be detected before symptoms develop. Feb 9, 2025 · Doctors recommend all pregnant women get tested for HIV. Medications are available to prevent the spread of the virus to your unborn baby. In addition, steps can be taken during delivery to... Jun 12, 2025 · See Pregnancy and Postpartum HIV Testing and Identification of Perinatal and Postnatal HIV Exposure for more information. Human immunodeficiency virus testing is recommended for all sexually active women or women who use intravenous drugs and should be a routine component of prepregnancy and prenatal care. All women should be screened for HIV infection before pregnancy."
+      }
+    ],
+    "supports_ground_truth": null,
+    "cache_hit": false
+  },
+  "55fd76482b83df1fb575570d50f2951e709d100ef0482a6700112e33e295ca58": {
+    "status": "ok",
+    "backend": "ddgs",
+    "query": "\"Hyperammonemia in cirrhotic patient with abdominal distension and altered mental status: possible precipitating factor?\"",
+    "retrieved_at": "2026-10-14T02:24:25.022548+00:00",
+    "documents": [
+      {
+        "title": "",
+        "url": "",
+        "snippet": ""
+      }
+    ],
+    "supports_ground_truth": null,
+    "cache_hit": false
+  },
+  "9309628beee6a88904bfffaf0e023ca35402899d218730fcc008a2b8e639d372": {
+    "status": "ok",
+    "backend": "ddgs",
+    "query": "\"Acute hemoperitoneum in trauma patient: best next step after initial stabilization and fluid resuscitation?\"",
+    "retrieved_at": "2026-10-14T02:25:16.374408+00:00",
+    "documents": [
+      {
+        "title": "",
+        "url": "",
+        "snippet": ""
+      }
+    ],
+    "supports_ground_truth": null,
+    "cache_hit": false
+  },
+  "26264832469b5a369ce9bbba597750ffac43e19a04bbbec2fb9990d90216167b": {
+    "status": "ok",
+    "backend": "ddgs",
+    "query": "\"Protein elevation in small cell lung cancer: serum calcium levels and parathyroid hormone related protein (PTHrP)\"",
+    "retrieved_at": "2026-10-14T02:25:58.332006+00:00",
+    "documents": [
+      {
+        "title": "",
+        "url": "",
+        "snippet": ""
+      }
+    ],
+    "supports_ground_truth": null,
+    "cache_hit": false
+  },
+  "6c0a89cdaebf6b33f0df8f8eb739c90e1d8e119e6997f58228072a08c74f0186": {
+    "status": "ok",
+    "backend": "ddgs",
+    "query": "\"Celiac disease in children with iron deficiency, diarrhea, and pruritic buttock lesions and elevated IgA titer.\"",
+    "retrieved_at": "2026-10-14T02:26:36.773795+00:00",
+    "documents": [
+      {
+        "title": "",
+        "url": "",
+        "snippet": ""
+      }
+    ],
+    "supports_ground_truth": null,
+    "cache_hit": false
+  },
+  "fd76ac031e0dbf3f50c705895339020bf16409f44a367edec94e9ff977fd2994": {
+    "status": "ok",
+    "backend": "ddgs",
+    "query": "\"Definitive surgical approach for penetrating injury to right ventricular free wall in trauma patient.\"",
+    "retrieved_at": "2026-10-14T02:27:26.515009+00:00",
+    "documents": [
+      {
+        "title": "",
+        "url": "",
+        "snippet": ""
+      }
+    ],
+    "supports_ground_truth": null,
+    "cache_hit": false
+  },
+  "f36c18989f83f189bc81372658de77d1a1700c7bcc31713a7ab07fbf296a9e8c": {
+    "status": "ok",
+    "backend": "ddgs",
+    "query": "\"Polycystic ovary syndrome (PCOS) symptoms and insulin resistance in a young woman with acne, hirsutism, and glucose intolerance.\"",
+    "retrieved_at": "2026-10-14T03:23:01.652612+00:00",
+    "documents": [
+      {
+        "title": "",
+        "url": "",
+        "snippet": ""
+      }
+    ],
+    "supports_ground_truth": null,
+    "cache_hit": false
+  }
+}

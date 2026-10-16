@@ -16,6 +16,7 @@ os.makedirs(DEFAULT_MODEL_DIR, exist_ok=True)
 
 os.environ["HF_HOME"] = os.environ.get("HF_HOME", DEFAULT_MODEL_DIR)
 os.environ["TORCH_HOME"] = os.environ.get("TORCH_HOME", os.path.join(DEFAULT_MODEL_DIR, "torch_cache"))
+os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 
 import typing
 import transformers.utils

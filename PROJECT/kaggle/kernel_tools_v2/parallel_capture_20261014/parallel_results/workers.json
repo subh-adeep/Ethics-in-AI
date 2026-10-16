@@ -1,0 +1,52 @@
+{
+  "pending": [],
+  "active": [
+    {
+      "gpu": 1,
+      "task": "llama_T2",
+      "pid": 645
+    },
+    {
+      "gpu": 0,
+      "task": "phi4_T2",
+      "pid": 2248
+    }
+  ],
+  "finished": [
+    {
+      "gpu": 0,
+      "task": "qwen_T0",
+      "exit_code": 0
+    },
+    {
+      "gpu": 1,
+      "task": "llama_T0",
+      "exit_code": 0
+    },
+    {
+      "gpu": 0,
+      "task": "phi4_T0",
+      "exit_code": 0
+    },
+    {
+      "gpu": 1,
+      "task": "qwen_T1",
+      "exit_code": 0
+    },
+    {
+      "gpu": 0,
+      "task": "llama_T1",
+      "exit_code": 0
+    },
+    {
+      "gpu": 1,
+      "task": "phi4_T1",
+      "exit_code": 0
+    },
+    {
+      "gpu": 0,
+      "task": "qwen_T2",
+      "exit_code": 0
+    }
+  ]
+}

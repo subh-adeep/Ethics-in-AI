@@ -1,0 +1,69 @@
+\begin{thebibliography}{8}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Fanous et~al.(2025)Fanous, Goldberg, Agarwal, Lin, Zhou, Daneshjou,
+  and Koyejo]{fanous2025}
+Aaron Fanous, Jacob Goldberg, Ank~A. Agarwal, Joanna Lin, Anson Zhou, Roxana
+  Daneshjou, and Sanmi Koyejo.
+\newblock {SycEval}: Evaluating {LLM} sycophancy.
+\newblock \emph{arXiv preprint arXiv:2502.08177}, 2025.
+\newblock URL \url{https://arxiv.org/abs/2502.08177}.
+
+\bibitem[Hendrycks et~al.(2021)Hendrycks, Burns, Kadavath, Arora, Basart, Tang,
+  Song, and Steinhardt]{hendrycks2021}
+Dan Hendrycks, Collin Burns, Saurav Kadavath, Akul Arora, Steven Basart, Eric
+  Tang, Dawn Song, and Jacob Steinhardt.
+\newblock Measuring mathematical problem solving with the {MATH} dataset.
+\newblock In \emph{Advances in Neural Information Processing Systems}, 2021.
+\newblock URL \url{https://arxiv.org/abs/2103.03874}.
+
+\bibitem[Hong et~al.(2025)Hong, Byun, Kim, and Shu]{hong2025}
+Jiseung Hong, Grace Byun, Seungone Kim, and Kai Shu.
+\newblock Measuring sycophancy of language models in multi-turn dialogues.
+\newblock In \emph{Findings of the Association for Computational Linguistics:
+  EMNLP 2025}, pp.\  2239--2259, 2025.
+\newblock URL \url{https://aclanthology.org/2025.findings-emnlp.121/}.
+
+\bibitem[Jin et~al.(2021)Jin, Pan, Oufattole, Weng, Fang, and
+  Szolovits]{jin2021}
+Di~Jin, Eileen Pan, Nassim Oufattole, Wei-Hung Weng, Hanyi Fang, and Peter
+  Szolovits.
+\newblock What disease does this patient have? a large-scale open domain
+  question answering dataset from medical exams.
+\newblock \emph{Applied Sciences}, 11\penalty0 (14):\penalty0 6421, 2021.
+\newblock URL \url{https://arxiv.org/abs/2009.13081}.
+
+\bibitem[Kaur et~al.(2024)Kaur, Choudhury, and Pruthi]{kaur2024}
+Navreet Kaur, Monojit Choudhury, and Danish Pruthi.
+\newblock Evaluating large language models for health-related queries with
+  presuppositions.
+\newblock \emph{arXiv preprint arXiv:2312.08800}, 2024.
+\newblock URL \url{https://arxiv.org/abs/2312.08800}.
+
+\bibitem[Li et~al.(2026)Li, Li, Chu, and Fang]{li2026}
+Shuowei Li, Haoxin Li, Wenda Chu, and Yi~Fang.
+\newblock How large language models balance internal knowledge with user and
+  document assertions.
+\newblock \emph{arXiv preprint arXiv:2604.22193}, 2026.
+\newblock URL \url{https://arxiv.org/abs/2604.22193}.
+
+\bibitem[Sathyanathan et~al.(2026)Sathyanathan, Vasisht, and
+  Pruthi]{sathyanathan2026}
+Rose Sathyanathan, Kinshuk Vasisht, and Danish Pruthi.
+\newblock Evaluating reasoning models for queries with presuppositions.
+\newblock \emph{arXiv preprint arXiv:2605.03050}, 2026.
+\newblock URL \url{https://arxiv.org/abs/2605.03050}.
+
+\bibitem[Sharma et~al.(2024)Sharma, Tong, Korbak, Duvenaud, Askell, Bowman,
+  et~al.]{sharma2024}
+Mrinank Sharma, Meg Tong, Tomasz Korbak, David Duvenaud, Amanda Askell,
+  Samuel~R. Bowman, et~al.
+\newblock Towards understanding sycophancy in language models.
+\newblock In \emph{International Conference on Learning Representations}, 2024.
+\newblock URL \url{https://arxiv.org/abs/2310.13548}.
+
+\end{thebibliography}

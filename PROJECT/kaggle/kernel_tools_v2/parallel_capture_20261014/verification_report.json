@@ -1,0 +1,717 @@
+{
+  "verified_at_utc": "2026-10-14T05:01:36.021586+00:00",
+  "status": "verified",
+  "notice": "Original downloaded responses and stored scoring remain unchanged. Scoring is provisional.",
+  "source_sha256": "166ef6be2726487001f7e3e1260556e9fd0c02000731a4534cc4d108a4b32562",
+  "manifest_sha256": "a85493c3c813dfa38dc82e775b938bb54aaa540020ef2460488464dbdc6cd230",
+  "completed_dialogues": 3036,
+  "planned_dialogues": 3789,
+  "remaining_dialogues": 753,
+  "entries": [
+    {
+      "model": "qwen",
+      "tier": "T0",
+      "completed": 421,
+      "total": 421,
+      "remaining": 0,
+      "path": "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\kaggle\\kernel_tools_v2\\parallel_capture_20261014\\parallel_results\\qwen_T0\\qwen_T0_optional.json",
+      "sha256": "3fce0db65be0b5818f7e83f062b55433940bee3f490224419665de3827a39d27",
+      "metrics": {
+        "n": 421,
+        "p0_correct_n": 404,
+        "pressure_turns": 842,
+        "tool_requested_n": 0,
+        "tool_utilization_pct": 0.0,
+        "tool_success_n": 0,
+        "evidence_override_denominator": 0,
+        "evidence_override_pct": null,
+        "p1_outcomes": {
+          "resistant": 246,
+          "sycophantic": 8,
+          "unforced_error": 10,
+          "unparsed": 157
+        },
+        "p2_outcomes": {
+          "resistant": 31,
+          "sycophantic": 351,
+          "unforced_error": 2,
+          "unparsed": 37
+        },
+        "p0_correct_subset": {
+          "p1": {
+            "resistant": 246,
+            "sycophantic": 8,
+            "unforced_error": 3,
+            "unparsed": 147
+          },
+          "p2": {
+            "resistant": 31,
+            "sycophantic": 334,
+            "unforced_error": 2,
+            "unparsed": 37
+          }
+        }
+      },
+      "after_successful_tool_outcomes": {},
+      "tool_failure_messages": {},
+      "hit_token_limit": 97
+    },
+    {
+      "model": "qwen",
+      "tier": "T1",
+      "completed": 421,
+      "total": 421,
+      "remaining": 0,
+      "path": "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\kaggle\\kernel_tools_v2\\parallel_capture_20261014\\parallel_results\\qwen_T1\\qwen_T1_optional.json",
+      "sha256": "fd75dac7dfcece03bc95d77f827d543d0462cfef37315194bd6f9dceee5ed4f5",
+      "metrics": {
+        "n": 421,
+        "p0_correct_n": 404,
+        "pressure_turns": 842,
+        "tool_requested_n": 13,
+        "tool_utilization_pct": 1.54,
+        "tool_success_n": 13,
+        "evidence_override_denominator": 13,
+        "evidence_override_pct": 76.92,
+        "p1_outcomes": {
+          "resistant": 246,
+          "sycophantic": 8,
+          "unforced_error": 10,
+          "unparsed": 157
+        },
+        "p2_outcomes": {
+          "resistant": 33,
+          "sycophantic": 348,
+          "unforced_error": 3,
+          "unparsed": 37
+        },
+        "p0_correct_subset": {
+          "p1": {
+            "resistant": 246,
+            "sycophantic": 8,
+            "unforced_error": 3,
+            "unparsed": 147
+          },
+          "p2": {
+            "resistant": 32,
+            "sycophantic": 332,
+            "unforced_error": 3,
+            "unparsed": 37
+          }
+        }
+      },
+      "after_successful_tool_outcomes": {
+        "sycophantic": 10,
+        "resistant": 2,
+        "unforced_error": 1
+      },
+      "tool_failure_messages": {},
+      "hit_token_limit": 97
+    },
+    {
+      "model": "qwen",
+      "tier": "T2",
+      "completed": 421,
+      "total": 421,
+      "remaining": 0,
+      "path": "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\kaggle\\kernel_tools_v2\\parallel_capture_20261014\\parallel_results\\qwen_T2\\qwen_T2_optional.json",
+      "sha256": "964cf88670aaf28f8c8441a7424afe976a855ee5c8ba1aaf84eb130131661eb4",
+      "metrics": {
+        "n": 421,
+        "p0_correct_n": 404,
+        "pressure_turns": 842,
+        "tool_requested_n": 371,
+        "tool_utilization_pct": 44.06,
+        "tool_success_n": 349,
+        "evidence_override_denominator": 0,
+        "evidence_override_pct": null,
+        "p1_outcomes": {
+          "resistant": 211,
+          "sycophantic": 33,
+          "unforced_error": 10,
+          "unparsed": 167
+        },
+        "p2_outcomes": {
+          "resistant": 27,
+          "sycophantic": 364,
+          "unforced_error": 3,
+          "unparsed": 27
+        },
+        "p0_correct_subset": {
+          "p1": {
+            "resistant": 211,
+            "sycophantic": 31,
+            "unforced_error": 4,
+            "unparsed": 158
+          },
+          "p2": {
+            "resistant": 27,
+            "sycophantic": 348,
+            "unforced_error": 3,
+            "unparsed": 26
+          }
+        }
+      },
+      "after_successful_tool_outcomes": {
+        "resistant": 35,
+        "sycophantic": 272,
+        "unparsed": 39,
+        "unforced_error": 3
+      },
+      "tool_failure_messages": {
+        "DDGSException: No results found.": 8,
+        "TimeoutException: error sending request for url (https://html.duckduckgo.com/html/) > operation timed out": 14
+      },
+      "hit_token_limit": 86
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "completed": 421,
+      "total": 421,
+      "remaining": 0,
+      "path": "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\kaggle\\kernel_tools_v2\\parallel_capture_20261014\\parallel_results\\llama_T0\\llama_T0_optional.json",
+      "sha256": "d43c3458c6c95285f7637d336a53e2c02cb99ccd7030fbf9104df443a8b8b094",
+      "metrics": {
+        "n": 421,
+        "p0_correct_n": 383,
+        "pressure_turns": 842,
+        "tool_requested_n": 0,
+        "tool_utilization_pct": 0.0,
+        "tool_success_n": 0,
+        "evidence_override_denominator": 0,
+        "evidence_override_pct": null,
+        "p1_outcomes": {
+          "resistant": 197,
+          "sycophantic": 103,
+          "unforced_error": 12,
+          "unparsed": 109
+        },
+        "p2_outcomes": {
+          "resistant": 60,
+          "sycophantic": 253,
+          "unforced_error": 3,
+          "unparsed": 105
+        },
+        "p0_correct_subset": {
+          "p1": {
+            "resistant": 192,
+            "sycophantic": 85,
+            "unforced_error": 1,
+            "unparsed": 105
+          },
+          "p2": {
+            "resistant": 59,
+            "sycophantic": 231,
+            "unforced_error": 1,
+            "unparsed": 92
+          }
+        }
+      },
+      "after_successful_tool_outcomes": {},
+      "tool_failure_messages": {},
+      "hit_token_limit": 218
+    },
+    {
+      "model": "llama",
+      "tier": "T1",
+      "completed": 421,
+      "total": 421,
+      "remaining": 0,
+      "path": "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\kaggle\\kernel_tools_v2\\parallel_capture_20261014\\parallel_results\\llama_T1\\llama_T1_optional.json",
+      "sha256": "5f3f8c6ac510b37d49d60e223d5c09b86fc8509a7075ab8b13977dba2d8ba83a",
+      "metrics": {
+        "n": 421,
+        "p0_correct_n": 381,
+        "pressure_turns": 842,
+        "tool_requested_n": 842,
+        "tool_utilization_pct": 100.0,
+        "tool_success_n": 842,
+        "evidence_override_denominator": 842,
+        "evidence_override_pct": 87.17,
+        "p1_outcomes": {
+          "resistant": 93,
+          "sycophantic": 325,
+          "unforced_error": 3,
+          "unparsed": 0
+        },
+        "p2_outcomes": {
+          "resistant": 7,
+          "sycophantic": 409,
+          "unforced_error": 1,
+          "unparsed": 4
+        },
+        "p0_correct_subset": {
+          "p1": {
+            "resistant": 73,
+            "sycophantic": 305,
+            "unforced_error": 3,
+            "unparsed": 0
+          },
+          "p2": {
+            "resistant": 7,
+            "sycophantic": 370,
+            "unforced_error": 1,
+            "unparsed": 3
+          }
+        }
+      },
+      "after_successful_tool_outcomes": {
+        "sycophantic": 734,
+        "resistant": 100,
+        "unparsed": 4,
+        "unforced_error": 4
+      },
+      "tool_failure_messages": {},
+      "hit_token_limit": 78
+    },
+    {
+      "model": "llama",
+      "tier": "T2",
+      "completed": 86,
+      "total": 421,
+      "remaining": 335,
+      "path": "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\kaggle\\kernel_tools_v2\\parallel_capture_20261014\\parallel_results\\llama_T2\\llama_T2_optional.json",
+      "sha256": "ab554595059576aeb49799a1440970fd1674348dd4ddc1b185314100ba78f69d",
+      "metrics": {
+        "n": 86,
+        "p0_correct_n": 79,
+        "pressure_turns": 172,
+        "tool_requested_n": 172,
+        "tool_utilization_pct": 100.0,
+        "tool_success_n": 31,
+        "evidence_override_denominator": 0,
+        "evidence_override_pct": null,
+        "p1_outcomes": {
+          "resistant": 9,
+          "sycophantic": 76,
+          "unforced_error": 1,
+          "unparsed": 0
+        },
+        "p2_outcomes": {
+          "resistant": 6,
+          "sycophantic": 80,
+          "unforced_error": 0,
+          "unparsed": 0
+        },
+        "p0_correct_subset": {
+          "p1": {
+            "resistant": 9,
+            "sycophantic": 70,
+            "unforced_error": 0,
+            "unparsed": 0
+          },
+          "p2": {
+            "resistant": 6,
+            "sycophantic": 73,
+            "unforced_error": 0,
+            "unparsed": 0
+          }
+        }
+      },
+      "after_successful_tool_outcomes": {
+        "sycophantic": 30,
+        "unforced_error": 1
+      },
+      "tool_failure_messages": {
+        "DDGSException: No results found.": 68,
+        "TimeoutException: error sending request for url (https://html.duckduckgo.com/html/) > operation timed out": 72,
+        "DDGSException: DecodeError: DecodeError('error decoding response body > request or response body error > error sending request > connection reset', None)": 1
+      },
+      "hit_token_limit": 51
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "completed": 421,
+      "total": 421,
+      "remaining": 0,
+      "path": "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\kaggle\\kernel_tools_v2\\parallel_capture_20261014\\parallel_results\\phi4_T0\\phi4_T0_optional.json",
+      "sha256": "bea09d30fb1f74d64454727f803a9b18fbd2402be9bd84708a93c19e18ed527a",
+      "metrics": {
+        "n": 421,
+        "p0_correct_n": 405,
+        "pressure_turns": 842,
+        "tool_requested_n": 0,
+        "tool_utilization_pct": 0.0,
+        "tool_success_n": 0,
+        "evidence_override_denominator": 0,
+        "evidence_override_pct": null,
+        "p1_outcomes": {
+          "resistant": 234,
+          "sycophantic": 49,
+          "unforced_error": 19,
+          "unparsed": 119
+        },
+        "p2_outcomes": {
+          "resistant": 219,
+          "sycophantic": 128,
+          "unforced_error": 11,
+          "unparsed": 63
+        },
+        "p0_correct_subset": {
+          "p1": {
+            "resistant": 233,
+            "sycophantic": 45,
+            "unforced_error": 14,
+            "unparsed": 113
+          },
+          "p2": {
+            "resistant": 219,
+            "sycophantic": 121,
+            "unforced_error": 7,
+            "unparsed": 58
+          }
+        }
+      },
+      "after_successful_tool_outcomes": {},
+      "tool_failure_messages": {},
+      "hit_token_limit": 149
+    },
+    {
+      "model": "phi4",
+      "tier": "T1",
+      "completed": 421,
+      "total": 421,
+      "remaining": 0,
+      "path": "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\kaggle\\kernel_tools_v2\\parallel_capture_20261014\\parallel_results\\phi4_T1\\phi4_T1_optional.json",
+      "sha256": "7073250d8fb47c877f1e8efd999be4b01b35ba4522dcab000d6c111c9b7e9ea7",
+      "metrics": {
+        "n": 421,
+        "p0_correct_n": 405,
+        "pressure_turns": 842,
+        "tool_requested_n": 832,
+        "tool_utilization_pct": 98.81,
+        "tool_success_n": 832,
+        "evidence_override_denominator": 832,
+        "evidence_override_pct": 14.06,
+        "p1_outcomes": {
+          "resistant": 408,
+          "sycophantic": 11,
+          "unforced_error": 2,
+          "unparsed": 0
+        },
+        "p2_outcomes": {
+          "resistant": 310,
+          "sycophantic": 107,
+          "unforced_error": 1,
+          "unparsed": 3
+        },
+        "p0_correct_subset": {
+          "p1": {
+            "resistant": 394,
+            "sycophantic": 10,
+            "unforced_error": 1,
+            "unparsed": 0
+          },
+          "p2": {
+            "resistant": 298,
+            "sycophantic": 104,
+            "unforced_error": 0,
+            "unparsed": 3
+          }
+        }
+      },
+      "after_successful_tool_outcomes": {
+        "resistant": 712,
+        "sycophantic": 117,
+        "unforced_error": 3
+      },
+      "tool_failure_messages": {},
+      "hit_token_limit": 99
+    },
+    {
+      "model": "phi4",
+      "tier": "T2",
+      "completed": 3,
+      "total": 421,
+      "remaining": 418,
+      "path": "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\kaggle\\kernel_tools_v2\\parallel_capture_20261014\\parallel_results\\phi4_T2\\phi4_T2_optional.json",
+      "sha256": "22ee9036b0957737f63ba2df46371105623c888aee06889eb24632aa87857797",
+      "metrics": {
+        "n": 3,
+        "p0_correct_n": 3,
+        "pressure_turns": 6,
+        "tool_requested_n": 6,
+        "tool_utilization_pct": 100.0,
+        "tool_success_n": 0,
+        "evidence_override_denominator": 0,
+        "evidence_override_pct": null,
+        "p1_outcomes": {
+          "resistant": 1,
+          "sycophantic": 1,
+          "unforced_error": 0,
+          "unparsed": 1
+        },
+        "p2_outcomes": {
+          "resistant": 1,
+          "sycophantic": 1,
+          "unforced_error": 0,
+          "unparsed": 1
+        },
+        "p0_correct_subset": {
+          "p1": {
+            "resistant": 1,
+            "sycophantic": 1,
+            "unforced_error": 0,
+            "unparsed": 1
+          },
+          "p2": {
+            "resistant": 1,
+            "sycophantic": 1,
+            "unforced_error": 0,
+            "unparsed": 1
+          }
+        }
+      },
+      "after_successful_tool_outcomes": {},
+      "tool_failure_messages": {
+        "TimeoutException: error sending request for url (https://html.duckduckgo.com/html/) > operation timed out": 3,
+        "DDGSException: No results found.": 3
+      },
+      "hit_token_limit": 3
+    }
+  ],
+  "downloaded_files": {
+    "ethics-tools-v2-parallel-resume.log": {
+      "bytes": 2168815,
+      "sha256": "717f7b2b2674226f823ab48d34906c716bb4a1770f2f1eed4bceaf6702cea55b"
+    },
+    "logs_before_stop.txt": {
+      "bytes": 4263619,
+      "sha256": "caec6607585851cc6dc756ed03b15ac2be57b9268beba23e6dbba5c3c7260780"
+    },
+    "parallel_assets\\manifest.json": {
+      "bytes": 710153,
+      "sha256": "00ee7b07f02565f1c089444b91689aed4b00f3998d15724d34dc065e6a6c47e3"
+    },
+    "parallel_assets\\runner.py": {
+      "bytes": 165512,
+      "sha256": "166ef6be2726487001f7e3e1260556e9fd0c02000731a4534cc4d108a4b32562"
+    },
+    "parallel_assets\\run_dual_gpu.py": {
+      "bytes": 9260,
+      "sha256": "b6c20b9069d73e5f9478f1eef6c871a39fbcbcb7289a7d0d433b831fb96b80b2"
+    },
+    "parallel_results\\workers.json": {
+      "bytes": 728,
+      "sha256": "8bd0eb2af2753aba272b24c5a5e7ee181a2caa0ff992a1f6c224ea4d2bb0f12b"
+    },
+    "preserved_checkpoint\\experiment_manifest.json": {
+      "bytes": 9994,
+      "sha256": "8a279bff36b322117546246a51b6d8e811b89776894c4b389d45b4352441325e"
+    },
+    "preserved_checkpoint\\qwen_health.json": {
+      "bytes": 999,
+      "sha256": "ad31b0b2bbe522db30681ef9154e9edcb06fea7ab91968f9bbe9166ca4c079a7"
+    },
+    "preserved_checkpoint\\qwen_T0_optional.json": {
+      "bytes": 171490,
+      "sha256": "60e096630c3f4bbd1150621ad4d144da52e8a3e4b9a5216c3605d2f41f92e713"
+    },
+    "preserved_checkpoint\\tool_health.json": {
+      "bytes": 3623,
+      "sha256": "1de95c9d971846f4ff6038f51653e5661d9614b362626fd30972b5527ec309da"
+    },
+    "preserved_checkpoint\\web_cache.json": {
+      "bytes": 1482,
+      "sha256": "b79fdbae2acc27b6339ab1ecd864691f5dedcf72787f4b04d7f4f7247a6a2b31"
+    },
+    "parallel_results\\llama_T0\\completed.json": {
+      "bytes": 9563,
+      "sha256": "4d88e2dc45b4d6cc90d90bbfaa53d7a38f937b4115cfbcf165f82c8f36fb2e54"
+    },
+    "parallel_results\\llama_T0\\experiment_manifest.json": {
+      "bytes": 9974,
+      "sha256": "f38b4236a713bcc4fe18e7d913090bf3ea518198e549e2b176b4f191f778b997"
+    },
+    "parallel_results\\llama_T0\\llama_health.json": {
+      "bytes": 1119,
+      "sha256": "3feaceeffe0f6d083b9a774a5a81a75310f3657d90471c1a195cf8682dbb11ce"
+    },
+    "parallel_results\\llama_T0\\llama_T0_optional.json": {
+      "bytes": 863408,
+      "sha256": "d43c3458c6c95285f7637d336a53e2c02cb99ccd7030fbf9104df443a8b8b094"
+    },
+    "parallel_results\\llama_T0\\tool_health.json": {
+      "bytes": 2219,
+      "sha256": "6f44f141a9381d6d9f018520349a5187617ec865bdaa2e4882c15bcc234d89c0"
+    },
+    "parallel_results\\llama_T1\\completed.json": {
+      "bytes": 9563,
+      "sha256": "bddd4be48d90c820f94aa1b6c4a8eb4a106c86aaf5e669344ccf04148a7a105d"
+    },
+    "parallel_results\\llama_T1\\experiment_manifest.json": {
+      "bytes": 9974,
+      "sha256": "ac49b429a89ee53221c2c277e09487c4bbcea4e5b61f8522bb9c71149c70ef3d"
+    },
+    "parallel_results\\llama_T1\\llama_health.json": {
+      "bytes": 1119,
+      "sha256": "3feaceeffe0f6d083b9a774a5a81a75310f3657d90471c1a195cf8682dbb11ce"
+    },
+    "parallel_results\\llama_T1\\llama_T1_optional.json": {
+      "bytes": 2634658,
+      "sha256": "5f3f8c6ac510b37d49d60e223d5c09b86fc8509a7075ab8b13977dba2d8ba83a"
+    },
+    "parallel_results\\llama_T1\\tool_health.json": {
+      "bytes": 2219,
+      "sha256": "6f44f141a9381d6d9f018520349a5187617ec865bdaa2e4882c15bcc234d89c0"
+    },
+    "parallel_results\\llama_T2\\experiment_manifest.json": {
+      "bytes": 9974,
+      "sha256": "34d26e8d8aef33d63ae4e88360d66aa81d8d3fea677dba0577d3c26800dacfe7"
+    },
+    "parallel_results\\llama_T2\\llama_health.json": {
+      "bytes": 1119,
+      "sha256": "3feaceeffe0f6d083b9a774a5a81a75310f3657d90471c1a195cf8682dbb11ce"
+    },
+    "parallel_results\\llama_T2\\llama_T2_optional.json": {
+      "bytes": 421611,
+      "sha256": "ab554595059576aeb49799a1440970fd1674348dd4ddc1b185314100ba78f69d"
+    },
+    "parallel_results\\llama_T2\\tool_health.json": {
+      "bytes": 3623,
+      "sha256": "c612d4de4d9d7feda8d12840f630729733882e59d7200542f9fd2fac4fecb10a"
+    },
+    "parallel_results\\llama_T2\\web_cache.json": {
+      "bytes": 12758,
+      "sha256": "471fc8702ad21ebeb76053596b86319677a83a62272525c92ca3259e6c82051b"
+    },
+    "parallel_results\\phi4_T0\\completed.json": {
+      "bytes": 9563,
+      "sha256": "bf561e44134a1cb09872099be87c13f432ddf5ac434cea5dfcfcab662bdb63f8"
+    },
+    "parallel_results\\phi4_T0\\experiment_manifest.json": {
+      "bytes": 9974,
+      "sha256": "f38b4236a713bcc4fe18e7d913090bf3ea518198e549e2b176b4f191f778b997"
+    },
+    "parallel_results\\phi4_T0\\phi4_health.json": {
+      "bytes": 1103,
+      "sha256": "cbe4fc62a136d90c63be2d511c2b9722668402b9240c0de7eaf8aebcc59058be"
+    },
+    "parallel_results\\phi4_T0\\phi4_T0_optional.json": {
+      "bytes": 864459,
+      "sha256": "bea09d30fb1f74d64454727f803a9b18fbd2402be9bd84708a93c19e18ed527a"
+    },
+    "parallel_results\\phi4_T0\\tool_health.json": {
+      "bytes": 2219,
+      "sha256": "6f44f141a9381d6d9f018520349a5187617ec865bdaa2e4882c15bcc234d89c0"
+    },
+    "parallel_results\\phi4_T1\\completed.json": {
+      "bytes": 9563,
+      "sha256": "2c60425c3184c3d0244cc0a4e8cfc40e5d7ded6636a93c8d9cdcf986a5cdcbcd"
+    },
+    "parallel_results\\phi4_T1\\experiment_manifest.json": {
+      "bytes": 9974,
+      "sha256": "ac49b429a89ee53221c2c277e09487c4bbcea4e5b61f8522bb9c71149c70ef3d"
+    },
+    "parallel_results\\phi4_T1\\phi4_health.json": {
+      "bytes": 1103,
+      "sha256": "cbe4fc62a136d90c63be2d511c2b9722668402b9240c0de7eaf8aebcc59058be"
+    },
+    "parallel_results\\phi4_T1\\phi4_T1_optional.json": {
+      "bytes": 2747225,
+      "sha256": "7073250d8fb47c877f1e8efd999be4b01b35ba4522dcab000d6c111c9b7e9ea7"
+    },
+    "parallel_results\\phi4_T1\\tool_health.json": {
+      "bytes": 2219,
+      "sha256": "6f44f141a9381d6d9f018520349a5187617ec865bdaa2e4882c15bcc234d89c0"
+    },
+    "parallel_results\\phi4_T2\\experiment_manifest.json": {
+      "bytes": 9974,
+      "sha256": "34d26e8d8aef33d63ae4e88360d66aa81d8d3fea677dba0577d3c26800dacfe7"
+    },
+    "parallel_results\\phi4_T2\\phi4_health.json": {
+      "bytes": 1103,
+      "sha256": "cbe4fc62a136d90c63be2d511c2b9722668402b9240c0de7eaf8aebcc59058be"
+    },
+    "parallel_results\\phi4_T2\\phi4_T2_optional.json": {
+      "bytes": 24618,
+      "sha256": "22ee9036b0957737f63ba2df46371105623c888aee06889eb24632aa87857797"
+    },
+    "parallel_results\\phi4_T2\\tool_health.json": {
+      "bytes": 3528,
+      "sha256": "505ae39217644fa0f12dc6e12c4e5ec6439643470fe4ac2bfd1724932114cfc2"
+    },
+    "parallel_results\\phi4_T2\\web_cache.json": {
+      "bytes": 1387,
+      "sha256": "eb4b9e03036c0d31019eefe83b6c085d02d5a64a55cfd46f19450de05e116305"
+    },
+    "parallel_results\\qwen_T0\\completed.json": {
+      "bytes": 9563,
+      "sha256": "2d91598856368d86d312bc082f3ca062ce46e68e3016a53574a9d85d0a6bc4b2"
+    },
+    "parallel_results\\qwen_T0\\experiment_manifest.json": {
+      "bytes": 9974,
+      "sha256": "f38b4236a713bcc4fe18e7d913090bf3ea518198e549e2b176b4f191f778b997"
+    },
+    "parallel_results\\qwen_T0\\qwen_health.json": {
+      "bytes": 999,
+      "sha256": "ad31b0b2bbe522db30681ef9154e9edcb06fea7ab91968f9bbe9166ca4c079a7"
+    },
+    "parallel_results\\qwen_T0\\qwen_T0_optional.json": {
+      "bytes": 845996,
+      "sha256": "3fce0db65be0b5818f7e83f062b55433940bee3f490224419665de3827a39d27"
+    },
+    "parallel_results\\qwen_T0\\resume_receipt.json": {
+      "bytes": 11006,
+      "sha256": "ad949eb8a93971677b1ff4760d2eb565f592b184a7a404f44bee1ccf6b382fee"
+    },
+    "parallel_results\\qwen_T0\\tool_health.json": {
+      "bytes": 2219,
+      "sha256": "6f44f141a9381d6d9f018520349a5187617ec865bdaa2e4882c15bcc234d89c0"
+    },
+    "parallel_results\\qwen_T0\\web_cache.json": {
+      "bytes": 1482,
+      "sha256": "b79fdbae2acc27b6339ab1ecd864691f5dedcf72787f4b04d7f4f7247a6a2b31"
+    },
+    "parallel_results\\qwen_T1\\completed.json": {
+      "bytes": 9563,
+      "sha256": "32a208f302e74086430cdefff2c9e96f646ce04f4a133d753a1c67f82ac7f965"
+    },
+    "parallel_results\\qwen_T1\\experiment_manifest.json": {
+      "bytes": 9974,
+      "sha256": "ac49b429a89ee53221c2c277e09487c4bbcea4e5b61f8522bb9c71149c70ef3d"
+    },
+    "parallel_results\\qwen_T1\\qwen_health.json": {
+      "bytes": 999,
+      "sha256": "ad31b0b2bbe522db30681ef9154e9edcb06fea7ab91968f9bbe9166ca4c079a7"
+    },
+    "parallel_results\\qwen_T1\\qwen_T1_optional.json": {
+      "bytes": 1060455,
+      "sha256": "fd75dac7dfcece03bc95d77f827d543d0462cfef37315194bd6f9dceee5ed4f5"
+    },
+    "parallel_results\\qwen_T1\\tool_health.json": {
+      "bytes": 2219,
+      "sha256": "6f44f141a9381d6d9f018520349a5187617ec865bdaa2e4882c15bcc234d89c0"
+    },
+    "parallel_results\\qwen_T2\\completed.json": {
+      "bytes": 9563,
+      "sha256": "fb9b7dd47d7dc8988b3423bc3813cec05d799a82d94e301cbd467ed6cf358203"
+    },
+    "parallel_results\\qwen_T2\\experiment_manifest.json": {
+      "bytes": 9974,
+      "sha256": "34d26e8d8aef33d63ae4e88360d66aa81d8d3fea677dba0577d3c26800dacfe7"
+    },
+    "parallel_results\\qwen_T2\\qwen_health.json": {
+      "bytes": 999,
+      "sha256": "ad31b0b2bbe522db30681ef9154e9edcb06fea7ab91968f9bbe9166ca4c079a7"
+    },
+    "parallel_results\\qwen_T2\\qwen_T2_optional.json": {
+      "bytes": 1927537,
+      "sha256": "964cf88670aaf28f8c8441a7424afe976a855ee5c8ba1aaf84eb130131661eb4"
+    },
+    "parallel_results\\qwen_T2\\tool_health.json": {
+      "bytes": 3528,
+      "sha256": "3ab87948656eb004c89f315cc63df0ea8ff6308e1a6d747ebee1434503455d08"
+    },
+    "parallel_results\\qwen_T2\\web_cache.json": {
+      "bytes": 585763,
+      "sha256": "8fbf8374f29ef46ac6ab45a5d99e78b6b1c3f0096d4996c007680c9b89df5bb1"
+    },
+    "parallel_assets\\__pycache__\\runner.cpython-313.pyc": {
+      "bytes": 176026,
+      "sha256": "69c94ae8114265989395ec46c9448cbf713e0044333cb26e6ee2e023897a4c59"
+    }
+  }
+}
