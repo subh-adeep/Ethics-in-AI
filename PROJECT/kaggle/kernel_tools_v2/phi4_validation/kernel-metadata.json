@@ -1,0 +1,15 @@
+{
+  "id": "subhadeepsing/ethics-tools-v2-pilot-phi4",
+  "title": "Ethics Tools V2 Pilot phi4",
+  "code_file": "run_kaggle_tools_v2.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "dataset_sources": [],
+  "competition_sources": [],
+  "kernel_sources": [],
+  "model_sources": []
+}

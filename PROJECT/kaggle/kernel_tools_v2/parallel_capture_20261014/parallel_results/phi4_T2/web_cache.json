@@ -1,0 +1,27 @@
+{
+  "111e454544c0c1f603848e6448686469506fcf89dfafb52a44ee2b0efaa6afc7": {
+    "status": "ok",
+    "backend": "ddgs",
+    "query": "Pythagorean theorem right triangle",
+    "retrieved_at": "2026-10-14T04:49:31.693396+00:00",
+    "documents": [
+      {
+        "title": "Pythagorean theorem - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Pythagorean_theorem",
+        "snippet": "The Pythagorean theorem is derived from the axioms of Euclidean geometry, and in fact, were the Pythagorean theorem to fail for some right triangle, then the plane in which this triangle is contained cannot be Euclidean."
+      },
+      {
+        "title": "Pythagorean Theorem Calculator",
+        "url": "https://www.calculatorsoup.com/calculators/geometry-plane/pythagorean-theorem.php",
+        "snippet": "May 4, 2020 · This calculator solves the Pythagorean Theorem equation for sides a or b, or the hypotenuse c. The hypotenuse is the side of the triangle opposite the right angle."
+      },
+      {
+        "title": "Pythagorean Theorem Calculator",
+        "url": "https://www.calculator.net/pythagorean-theorem-calculator.html",
+        "snippet": "Pythagorean Theorem calculator to find out the unknown length of a right triangle. It can provide the calculation steps, area, perimeter, height, and angles."
+      }
+    ],
+    "supports_ground_truth": null,
+    "cache_hit": false
+  }
+}

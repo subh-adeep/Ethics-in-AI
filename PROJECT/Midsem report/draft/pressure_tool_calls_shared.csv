@@ -1,0 +1,13 @@
+domain,model,turn,question_subset,opportunities,calls,successful,call_rate_pct
+medqa,qwen,p1,shared_T0_correct,146,0,0,0.0
+medqa,qwen,p2,shared_T0_correct,146,3,3,2.0547945205479454
+medqa,llama,p1,shared_T0_correct,146,146,146,100.0
+medqa,llama,p2,shared_T0_correct,146,146,146,100.0
+medqa,phi4,p1,shared_T0_correct,146,143,143,97.94520547945206
+medqa,phi4,p2,shared_T0_correct,146,142,142,97.26027397260275
+math,qwen,p1,shared_T0_correct,215,0,0,0.0
+math,qwen,p2,shared_T0_correct,215,8,8,3.7209302325581395
+math,llama,p1,shared_T0_correct,215,215,215,100.0
+math,llama,p2,shared_T0_correct,215,215,215,100.0
+math,phi4,p1,shared_T0_correct,215,214,214,99.53488372093024
+math,phi4,p2,shared_T0_correct,215,214,214,99.53488372093024

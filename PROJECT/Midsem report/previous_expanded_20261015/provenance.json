@@ -1,0 +1,40 @@
+{
+  "generated_at_utc": "2026-10-14T17:36:17.951524+00:00",
+  "template_repository": "https://github.com/FLAIR-IISc/project-template.git",
+  "template_commit": "13bf57b6cfd6d462401a364f2abed9cc05082271",
+  "status": "AI-assisted working draft; human rewrite/review not confirmed",
+  "quantitative_scope": [
+    "T0",
+    "T1 optional BM25 answer retrieval"
+  ],
+  "main_page_limit": 6,
+  "extra_experiment": "implementation and saved-run progress only; scoring audit pending",
+  "analysis_manifest_sha256": "3de32f322302a85c4cb62105e8c98b01dd1c09a3e31f4c1fd66481cd99f2bb50",
+  "source_generator": "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\Midsem report\\build_draft.py",
+  "template_style_unchanged": true,
+  "main_pages": 8,
+  "total_pages": 13,
+  "pdf_sha256": "ec8d8341e22b88d725ba2f382ff6e80d3230a57b4273fb1aa5d76c7201f2c8ae",
+  "language": "Simple English; technical terms explained; exact experimental prompts preserved",
+  "layout_verified": true,
+  "structure": [
+    "Abstract",
+    "Introduction",
+    "Related Work",
+    "Approach",
+    "Experiments",
+    "Results",
+    "Progress, challenges and next steps",
+    "Conclusion"
+  ],
+  "page_limit_enforced": false,
+  "expanded_at_user_request": true,
+  "results_layout": "Separate MedQA and MATH: outcome tables, comparison plots, count/percentage matrices, and full-run tool diagnostics",
+  "shared_question_counts": {
+    "medqa": 146,
+    "math": 215
+  },
+  "panel_labels": "Both datasets: (a) P1 correct; (b) P2 correct; (c) P1 false agreement; (d) P2 false agreement",
+  "table_rate_units": "Each rate column explicitly marked (%) in both dataset outcome tables",
+  "pressure_tool_calls": "T1 calls separated by P1/P2 on shared 146 MedQA and 215 MATH; full-run diagnostics preserved in appendix"
+}

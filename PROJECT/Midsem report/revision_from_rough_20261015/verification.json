@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-16",
+  "input_attachment": "b2f8d83a-35e0-464d-b0c0-e384b0956179/Pasted text.txt",
+  "input_sha256": "c14d4cbe3989fc0e388305da6a324a502da6de5de29b5a0a5c44afba7bab6e82",
+  "previous_drafts_opened_for_this_revision": false,
+  "basis": "new author-supplied rough draft and original professor template",
+  "main_pages": 6,
+  "total_pages": 7,
+  "table_count": 4,
+  "table_values_and_captions_preserved": "Four remaining tables unchanged; the two tool-call tables were replaced with bar graphs using their exact counts and rates.",
+  "graph_count": 2,
+  "original_template_style_unchanged": true,
+  "citations_resolved": true,
+  "pdf_sha256": "4167f4037c9bc9903c6238a8009e33d39f10b584e1f6295c53c89b560819009e",
+  "latest_edit": "Shortened AI-assistance opening to identify author-supplied rough LaTeX and English/syntax/organisation help, with accurate content-revision disclosure",
+  "diagram_count": 1,
+  "diagram_page": 2,
+  "diagram_source": "Editable existing TikZ flowchart; starting pool corrected to 1,400 MedQA + 1,944 MATH = 3,344 initial candidates",
+  "layout_note": "Removed two forced page breaks to fit the diagram; body font and template margins unchanged. Diagram text is small at full text width.",
+  "tool_call_bars": {
+    "MedQA": {
+      "opportunities_per_turn": 146,
+      "P1": [
+        0,
+        146,
+        143
+      ],
+      "P2": [
+        3,
+        146,
+        142
+      ]
+    },
+    "MATH": {
+      "opportunities_per_turn": 215,
+      "P1": [
+        0,
+        215,
+        214
+      ],
+      "P2": [
+        8,
+        215,
+        214
+      ]
+    }
+  }
+}

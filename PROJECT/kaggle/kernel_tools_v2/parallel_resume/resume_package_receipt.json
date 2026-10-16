@@ -1,0 +1,12 @@
+{
+  "preserved_qwen_T0": 57,
+  "worker_sha256": "166ef6be2726487001f7e3e1260556e9fd0c02000731a4534cc4d108a4b32562",
+  "manifest_sha256": "a85493c3c813dfa38dc82e775b938bb54aaa540020ef2460488464dbdc6cd230",
+  "checkpoint_sha256": "60e096630c3f4bbd1150621ad4d144da52e8a3e4b9a5216c3605d2f41f92e713",
+  "initial_tasks": [
+    "GPU 0: qwen T0 resume",
+    "GPU 1: llama T0"
+  ],
+  "schedule": "Separate model/tier tasks on two independent GPU processes; Phi-4 is queued.",
+  "evaluation": "Frozen scorer retained during inference; parser corrections are applied offline afterward."
+}

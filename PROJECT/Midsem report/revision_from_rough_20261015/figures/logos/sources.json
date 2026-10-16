@@ -1,0 +1,20 @@
+[
+  {
+    "name": "qwen",
+    "official_profile": "https://huggingface.co/Qwen",
+    "asset_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/6215ca5692c0ecfba9186921/hrRM50-6XcdWgg2AKpENG.jpeg",
+    "sha256": "5ef3a5d8dcdf6820720a5cbdc0d2778c97b154bc00bfcdee17726ebdc8c96efc"
+  },
+  {
+    "name": "llama",
+    "official_profile": "https://huggingface.co/meta-llama",
+    "asset_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/646cf8084eefb026fb8fd8bc/oCTqufkdTkjyGodsx1vo1.png",
+    "sha256": "9e65fb139fb765d131c1c817089fecaa27bdd64644bfc5d5e51201c58d50b90d"
+  },
+  {
+    "name": "microsoft",
+    "official_profile": "https://huggingface.co/microsoft",
+    "asset_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/1583646260758-5e64858c87403103f9f1055d.png",
+    "sha256": "6a287a02b1382cdb1a7388eb3e4d30ec810fbe21388aeced6696a6a541405785"
+  }
+]

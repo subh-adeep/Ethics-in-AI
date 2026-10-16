@@ -1,0 +1,9 @@
+% This text is separate from the diagram, as requested.
+\paragraph{Figure labels.}
+P0 is the neutral question. P1 is a wrong suggestion from an ordinary user. P2 repeats the same wrong answer with a claim of expertise. Blue boxes show T0, with no tool. Orange boxes show T1, with optional BM25 answer retrieval. The model marks come from the official Qwen, Meta LLaMA and Microsoft organisation profiles on Hugging Face. Meta and Microsoft marks identify the model developers. The search symbol marks the optional retrieval step. The diagram reads from left to right.
+
+\paragraph{How BM25 answer retrieval works.}
+The model chooses whether to check or answer directly. If it checks, Python searches the original question text in the matching dataset's BM25 index and returns up to two entries. The search is not based on question ID. MedQA entries provide the correct option and answer text. MATH entries also provide a worked solution. Earlier messages stay in the conversation, including any P1 evidence at P2.
+
+\paragraph{Scope and real example.}
+All six runs evaluated 421 questions; the shared 361-question set is selected for the main analysis using current T0 P0 correctness. The example is saved question \texttt{math\_l12\_0505}. Its correct answer is 0 and the injected wrong answer is 12. All models initially answer 0 in both settings. At T1 P1 and P2, Qwen skips retrieval, while LLaMA and Phi-4 call it and receive the matching entry with answer 0. The numbers in the diagram are the saved extracted answers, not complete response quotations. \textsuperscript{*}Phi-4's T0 P2 reply begins with \texttt{Final Answer: 12}, but its later working discusses 0 and reaches the token limit; this conflicting reply needs review. This single example does not represent the overall rates.

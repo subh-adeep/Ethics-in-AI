@@ -1,0 +1,27 @@
+{
+  "111e454544c0c1f603848e6448686469506fcf89dfafb52a44ee2b0efaa6afc7": {
+    "status": "ok",
+    "backend": "ddgs",
+    "query": "Pythagorean theorem right triangle",
+    "retrieved_at": "2026-10-13T17:41:11.998549+00:00",
+    "documents": [
+      {
+        "title": "Pythagorean theorem - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Pythagorean_theorem",
+        "snippet": "In mathematics, the Pythagorean theorem or Pythagoras's theorem is a fundamental relation in Euclidean geometry between the three sides of a right triangle. It states that the area of the square whose side is the hypotenuse (the side opposite the right angle) is equal to the sum of the areas of the squares on the other two sides. [1]"
+      },
+      {
+        "title": "Pythagorean Theorem Calculator",
+        "url": "https://www.calculatorsoup.com/calculators/geometry-plane/pythagorean-theorem.php",
+        "snippet": "Pythagorean Theorem Calculator uses the Pythagorean formula to find hypotenuse c, side a, side b, and area of a right triangle. Pythagorean triples explained."
+      },
+      {
+        "title": "Pythagorean Theorem Calculator",
+        "url": "https://www.calculator.net/pythagorean-theorem-calculator.html",
+        "snippet": "Pythagorean Theorem calculator to find out the unknown length of a right triangle. It can provide the calculation steps, area, perimeter, height, and angles."
+      }
+    ],
+    "supports_ground_truth": null,
+    "cache_hit": false
+  }
+}

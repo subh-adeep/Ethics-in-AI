@@ -60,3 +60,16 @@ Thumbs.db
 desktop.ini
 .vscode/
 .idea/
+
+# Local report previews, compiler outputs, and reference checkout
+PROJECT/Midsem report/**/preview/
+PROJECT/Midsem report/professor-reference/
+*.aux
+*.out
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# Regenerable web-search cache
+PROJECT/codebase/src/tools/.search_cache/

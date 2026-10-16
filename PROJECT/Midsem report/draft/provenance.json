@@ -1,0 +1,26 @@
+{
+  "revised_on": "2026-10-15",
+  "revision_basis": "Student-supplied report; English editing, organisation, technical corrections, citations and future work",
+  "student_source": "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\Midsem report\\student_source\\student_draft_20261015_original.tex",
+  "student_source_sha256": "ceb8c8e82025a210c7b55f64180868275b94c4cf30832a996f884554bfcc87a1",
+  "template_repository": "https://github.com/FLAIR-IISc/project-template.git",
+  "template_commit": "13bf57b6cfd6d462401a364f2abed9cc05082271",
+  "template_style_unchanged": true,
+  "main_page_limit": 6,
+  "page_limit_enforced": true,
+  "main_pages": 6,
+  "total_pages": 10,
+  "tables": 6,
+  "graphs_included": 0,
+  "shared_question_counts": {
+    "medqa": 146,
+    "math": 215
+  },
+  "llama_math_T1_flip_eligible": 213,
+  "scope": [
+    "T0 no tool",
+    "T1 optional BM25 answer retrieval"
+  ],
+  "status": "Edited student-supplied draft; author review required",
+  "pdf_sha256": "9776a3d43f04c01ccd37fcac6542aec3110ce3dd7ff167bdd829c2b322b028db"
+}
