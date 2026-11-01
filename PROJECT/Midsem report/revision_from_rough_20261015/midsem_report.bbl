@@ -5,21 +5,25 @@
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem[Fanous et~al.(2025)Fanous, Goldberg, Agarwal, Lin, Zhou, Daneshjou,
-  and Koyejo]{fanous2025}
-Aaron Fanous, Jacob Goldberg, Ank~A. Agarwal, Joanna Lin, Anson Zhou, Roxana
-  Daneshjou, and Sanmi Koyejo.
+\bibitem[Fanous et~al.(2025)Fanous, Goldberg, Agarwal, Lin, Zhou, Xu, Bikia,
+  Daneshjou, and Koyejo]{fanous2025}
+Aaron Fanous, Jacob Goldberg, Ank Agarwal, Joanna Lin, Anson Zhou, Sonnet Xu,
+  Vasiliki Bikia, Roxana Daneshjou, and Sanmi Koyejo.
 \newblock {SycEval}: Evaluating {LLM} sycophancy.
-\newblock \emph{arXiv preprint arXiv:2502.08177}, 2025.
-\newblock URL \url{https://arxiv.org/abs/2502.08177}.
+\newblock \emph{Proceedings of the AAAI/ACM Conference on AI, Ethics, and
+  Society}, 8\penalty0 (1):\penalty0 893--900, 2025.
+\newblock \doi{10.1609/aies.v8i1.36598}.
+\newblock URL \url{https://ojs.aaai.org/index.php/AIES/article/view/36598}.
 
 \bibitem[Hendrycks et~al.(2021)Hendrycks, Burns, Kadavath, Arora, Basart, Tang,
   Song, and Steinhardt]{hendrycks2021}
 Dan Hendrycks, Collin Burns, Saurav Kadavath, Akul Arora, Steven Basart, Eric
   Tang, Dawn Song, and Jacob Steinhardt.
 \newblock Measuring mathematical problem solving with the {MATH} dataset.
-\newblock In \emph{Advances in Neural Information Processing Systems}, 2021.
-\newblock URL \url{https://arxiv.org/abs/2103.03874}.
+\newblock In \emph{Proceedings of the Neural Information Processing Systems
+  Track on Datasets and Benchmarks}, volume~1, 2021.
+\newblock URL
+  \url{https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/hash/be83ab3ecd0db773eb2dc1b0a17836a1-Abstract-round2.html}.
 
 \bibitem[Hong et~al.(2025)Hong, Byun, Kim, and Shu]{hong2025}
 Jiseung Hong, Grace Byun, Seungone Kim, and Kai Shu.
@@ -35,28 +39,38 @@ Di~Jin, Eileen Pan, Nassim Oufattole, Wei-Hung Weng, Hanyi Fang, and Peter
 \newblock What disease does this patient have? a large-scale open domain
   question answering dataset from medical exams.
 \newblock \emph{Applied Sciences}, 11\penalty0 (14):\penalty0 6421, 2021.
-\newblock URL \url{https://arxiv.org/abs/2009.13081}.
+\newblock \doi{10.3390/app11146421}.
+\newblock URL \url{https://www.mdpi.com/2076-3417/11/14/6421}.
 
 \bibitem[Kaur et~al.(2024)Kaur, Choudhury, and Pruthi]{kaur2024}
 Navreet Kaur, Monojit Choudhury, and Danish Pruthi.
 \newblock Evaluating large language models for health-related queries with
   presuppositions.
-\newblock \emph{arXiv preprint arXiv:2312.08800}, 2024.
-\newblock URL \url{https://arxiv.org/abs/2312.08800}.
+\newblock In \emph{Findings of the Association for Computational Linguistics:
+  ACL 2024}, pp.\  14308--14331. Association for Computational Linguistics,
+  2024.
+\newblock \doi{10.18653/v1/2024.findings-acl.850}.
+\newblock URL \url{https://aclanthology.org/2024.findings-acl.850/}.
 
 \bibitem[Li et~al.(2026)Li, Li, Chu, and Fang]{li2026}
 Shuowei Li, Haoxin Li, Wenda Chu, and Yi~Fang.
 \newblock How large language models balance internal knowledge with user and
   document assertions.
-\newblock \emph{arXiv preprint arXiv:2604.22193}, 2026.
-\newblock URL \url{https://arxiv.org/abs/2604.22193}.
+\newblock In \emph{Findings of the Association for Computational Linguistics:
+  ACL 2026}, pp.\  25323--25346. Association for Computational Linguistics,
+  2026.
+\newblock \doi{10.18653/v1/2026.findings-acl.1267}.
+\newblock URL \url{https://aclanthology.org/2026.findings-acl.1267/}.
 
 \bibitem[Sathyanathan et~al.(2026)Sathyanathan, Vasisht, and
   Pruthi]{sathyanathan2026}
 Rose Sathyanathan, Kinshuk Vasisht, and Danish Pruthi.
 \newblock Evaluating reasoning models for queries with presuppositions.
-\newblock \emph{arXiv preprint arXiv:2605.03050}, 2026.
-\newblock URL \url{https://arxiv.org/abs/2605.03050}.
+\newblock In \emph{Findings of the Association for Computational Linguistics:
+  ACL 2026}, pp.\  23991--24006. Association for Computational Linguistics,
+  2026.
+\newblock \doi{10.18653/v1/2026.findings-acl.1201}.
+\newblock URL \url{https://aclanthology.org/2026.findings-acl.1201/}.
 
 \bibitem[Sharma et~al.(2024)Sharma, Tong, Korbak, Duvenaud, Askell, Bowman,
   et~al.]{sharma2024}

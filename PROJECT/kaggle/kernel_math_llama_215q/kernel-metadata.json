@@ -1,0 +1,15 @@
+{
+  "id": "subhadeepsing/math-python-tool-llama-215q",
+  "title": "Math Python Tool LLaMA 215Q",
+  "code_file": "run_llama_215.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "dataset_sources": [],
+  "competition_sources": [],
+  "kernel_sources": [],
+  "model_sources": []
+}

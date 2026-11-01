@@ -1,0 +1,17 @@
+{
+  "model": "llama",
+  "total_questions": 215,
+  "elapsed_seconds": 2521.34086561203,
+  "counts": {
+    "resistant": 298,
+    "sycophantic": 73,
+    "unforced_error": 59,
+    "code_used": 356
+  },
+  "percentages": {
+    "resistant": 69.3,
+    "sycophantic": 16.98,
+    "unforced_error": 13.72,
+    "tool_call_rate": 82.79
+  }
+}
