@@ -1,6 +1,6 @@
 \documentclass{article}
 \usepackage[final]{project_template}
-\usepackage{microtype,hyperref,url,booktabs,amsmath,amssymb,multicol,graphicx,placeins}
+\usepackage{microtype,hyperref,url,booktabs,amsmath,amssymb,multicol,graphicx,placeins,float}
 \definecolor{darkblue}{rgb}{0,0,0.5}
 \hypersetup{colorlinks=true,citecolor=darkblue,linkcolor=darkblue,urlcolor=darkblue}
 \rhead{\small Mid-term Report}
@@ -9,7 +9,7 @@
 \begin{document}
 \maketitle
 \begin{abstract}
-This project asks whether small language models can challenge a user's wrong answer. We test Qwen2.5-3B, LLaMA-3.2-3B and Phi-4-mini (3.8B), all with 4-bit quantization. We challenge the models at two pressure levels: P1, where a user suggests a wrong answer, and P2, where the user claims expertise and repeats that answer. We use MedQA and MATH, and compare no tool with optional BM25-based answer-sheet retrieval. The main comparison uses 146 MedQA and 215 MATH questions initially answered correctly by all three models in T0. Retrieval provides the correct option and answer text for MedQA, and the answer with a worked solution for MATH. Qwen changes little and rarely calls the tool. LLaMA often gives the user's wrong answer after calling it. Phi-4 improves on MATH, but not at every MedQA turn. Web-search comparisons remain unfinished.
+This project asks whether small language models can challenge a user's wrong answer. We test Qwen2.5-3B, LLaMA-3.2-3B and Phi-4-mini (3.8B), all with 4-bit quantization. We challenge the models at two pressure levels: P1, where a user suggests a wrong answer, and P2, where the user claims expertise and repeats that answer. We use MedQA and MATH, and compare no tool with optional BM25-based answer-sheet retrieval. The main comparison uses 146 MedQA and 215 MATH questions initially answered correctly by all three models in T0. Retrieval provides the correct option and answer text for MedQA, and the answer with a worked solution for MATH. Qwen changes little and rarely calls the tool. LLaMA often gives the user's wrong answer after calling it. Phi-4 improves on MATH, but not at every MedQA turn.
 \end{abstract}
 
 \section{Introduction}
@@ -25,7 +25,7 @@ We use two types of questions. MedQA has medical-exam questions with labelled ch
 SYCON~\citep{hong2025} studies changes in model answers during conversations with several turns. This supports keeping earlier messages in the conversation. \citet{li2026} study cases where the model's knowledge, the user's claim and a document disagree. This motivates checking both tool use and the answer that follows. A difference between tool and no-tool runs does not, by itself, prove that the retrieved answer caused the change.
 
 \paragraph{Questions that contain false assumptions.}
-The proposal feedback suggested two studies. A presupposition is an assumption built into a question. UPHILL~\citep{kaur2024} tests health questions with different strengths of assumption, including BingChat with retrieved webpages. Stronger false assumptions can lead to more agreement, but comparing different systems does not isolate retrieval's effect. \citet{sathyanathan2026} find that reasoning models also fail to challenge many false assumptions. Our study first checks an answer, then suggests the same wrong answer in later messages and records tool use. Earlier studies already examine false assumptions and retrieved information; our work studies a specific small-model setup.
+A presupposition is an assumption built into a question. UPHILL~\citep{kaur2024} tests health questions with different strengths of assumption, including Bing Copilot with retrieved webpages. Stronger presuppositions increased agreement with false claims for several models, while Bing Copilot was less sensitive. This comparison does not establish that retrieval alone caused the difference. \citet{sathyanathan2026} find that reasoning models also fail to challenge many false assumptions. Our study first checks an answer, then suggests the same wrong answer in later messages and records tool use. Earlier studies already examine false assumptions and retrieved information; our work studies a specific small-model setup.
 
 \section{Approach}
 Figure~\ref{fig:experiment-flow} shows the question selection and the two experiment settings.
@@ -71,6 +71,9 @@ Each conversation has P0, P1 and P2, giving $2{,}166\times3=6{,}498$ answer turn
 
 \clearpage
 \section{Results}
+\setlength{\intextsep}{6pt}
+\setlength{\textfloatsep}{8pt}
+\setlength{\abovecaptionskip}{4pt}
 \subsection{MedQA Results: T0 versus T1}
 This comparison uses 146 shared initially correct questions per model and pressure turn. Subscript 0 means T0 (no tool); 1 means T1 (optional BM25 retrieval). Availability does not mean the tool was used on every turn.
 
@@ -96,11 +99,14 @@ P1 is an ordinary user's wrong suggestion. P2 repeats it with claimed expertise.
 \input{medqa_calls_figure.tex}
 
 
+\par\noindent\begin{minipage}{\linewidth}
 \subsection{MedQA Flip Rates}
 The flip rate measures initially correct answers that change to the user's specific wrong answer. Each model has 146 eligible questions in both settings. Other wrong answers are not flips. Unparsed replies stay in the denominator.
 \input{medqa_flips.tex}
 
 P2 rates include cases that already flipped at P1; they are measured relative to P0, not just new changes between P1 and P2.
+\end{minipage}
+\par
 
 \FloatBarrier
 \subsection{MATH Results: T0 versus T1}
@@ -110,13 +116,16 @@ The outcome comparison uses the same 215 selected MATH questions per model and s
 \input{math_calls_figure.tex}
 
 
+\par\noindent\begin{minipage}{\linewidth}
 \subsection{MATH Flip Rates}
 A flip requires a correct P0 answer followed by the user's specific wrong answer. Other wrong and unparsed replies are not flips, but stay in the eligible denominator. Two selected questions are initially wrong for LLaMA in T1, so its strict flip denominator is 213. All other denominators are 215.
 \input{math_flips.tex}
 
 This explains why LLaMA's T1 P1 flip rate is 65.3\%, while its false-agreement rate in the outcome table is 64.7\%: the rates use 213 and 215 questions, respectively. P2 flip rates include cases that already flipped at P1.
+\end{minipage}
+\par
 
-\FloatBarrier
+\clearpage
 \section{Discussion}
 \paragraph{Qwen.}
 Qwen changes very little with the tool available. On MATH, it makes no P1 calls and only eight P2 calls. It makes no MedQA P1 calls and three P2 calls. We therefore cannot claim that Qwen is unaffected by retrieved evidence: it usually does not retrieve it. Its zero MATH P1 flip rate also does not mean every reply is correct, because 41.4\% are unparsed. In T1, false agreement rises from 4.1\% at P1 to 56.8\% at P2 on MedQA, and from 0\% to 97.7\% on MATH. The later turn is therefore a clear weakness on both datasets.
@@ -133,7 +142,7 @@ LLaMA and Phi-4 both call the tool on almost every turn, but their results diffe
 The medical-exam results do not establish clinical safety. MATH results exclude Levels 3--5, and the datasets differ in their evidence detail. The saved bootstrap analysis uses matched questions and 5,000 resamples (seed 20261014); it describes differences across selected questions, not repeated runs or cause and effect. Scores still need checks because some replies are unclear or conflicting. The 160-token limit can also cut replies short. P2 includes earlier conversation history, so it does not isolate the effect of claimed expertise alone.
 
 \subsection{Progress and Future Work}
-The no-tool and BM25 comparisons are complete for all three models, with saved replies and tool records. Next, we will complete the web-search experiments for all three models on both datasets. We will also compare one retrieved question--answer pair with two, keeping the questions and other settings unchanged. We will also compare answer-only and answer-plus-solution evidence on the same MATH questions to test whether explanations help.
+The no-tool and BM25 experiments are complete for all three models on both datasets. Our first priority is to check unclear and truncated replies and confirm the answer scoring by 22 October. Next, we plan to complete the web-search experiments by 29 October. By 5 November, we aim to compare one retrieved question--answer pair with two, and compare answer-only evidence with answer-plus-solution evidence on the same MATH questions. These comparisons will help us understand whether extra retrieved information and detailed explanations improve resistance to wrong suggestions.
 
 \label{lastmainpage}
 
@@ -142,9 +151,11 @@ The no-tool and BM25 comparisons are complete for all three models, with saved r
 Subhadeep Sing supplied the research question, experimental goals and the rough report used for this revision, and directed the project work. He is responsible for checking and understanding the final report.
 
 \section*{Declaration about AI Assistance}
-The author prepared and supplied the rough LaTeX report used for this revision. Codex helped correct English and syntax, organise the text and follow the professor's format. It also helped with content revisions and layout checks. The numerical results were retained.
+I first prepared a rough report manually, then used AI to improve the English, grammar, LaTeX syntax and organisation. AI also helped create LaTeX tables, format references in LaTeX, generate graphs from the experimental data and create the experiment diagram. I manually checked the tables and graphs against the data. AI also helped revise parts of the report's content. I also used AI to summarise UPHILL~\citep{kaur2024} and the study by \citet{sathyanathan2026} to support my reading and understanding of these papers.
 
-Earlier project work also used substantial AI help for implementation, debugging, tool setup, Kaggle runs and backups, analysis scripts, plots and earlier report drafting. The supplied rough text itself contains material developed with that help. This statement therefore does not claim that AI was used only for grammar throughout the project. The author must review the wording, sources and results, and follow the course policy before submission.
+AI helped write and debug code at each stage of the experiment, including data preparation, model inference, tool use, answer scoring and result analysis. When the small models failed to produce properly formatted JSON tool calls, AI suggested a separate tool-selection step: ``1'' means use the tool, and ``2'' means answer directly. AI also helped implement this method.
+
+When results looked unexpected, I used AI to inspect the saved outputs and investigate possible problems. I reviewed the code and reran experiments to check whether it worked as expected. The scoring of unclear and conflicting replies still needs further checking. I am responsible for understanding and verifying the final methods, results and report.
 
 \bibliography{references}
 \bibliographystyle{project_template}

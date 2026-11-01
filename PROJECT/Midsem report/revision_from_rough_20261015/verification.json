@@ -5,14 +5,14 @@
   "previous_drafts_opened_for_this_revision": false,
   "basis": "new author-supplied rough draft and original professor template",
   "main_pages": 6,
-  "total_pages": 7,
+  "total_pages": 8,
   "table_count": 4,
   "table_values_and_captions_preserved": "Four remaining tables unchanged; the two tool-call tables were replaced with bar graphs using their exact counts and rates.",
   "graph_count": 2,
   "original_template_style_unchanged": true,
   "citations_resolved": true,
-  "pdf_sha256": "4167f4037c9bc9903c6238a8009e33d39f10b584e1f6295c53c89b560819009e",
-  "latest_edit": "Shortened AI-assistance opening to identify author-supplied rough LaTeX and English/syntax/organisation help, with accurate content-revision disclosure",
+  "pdf_sha256": "c8e84284783823b1d01f05bdd49755efc2b9696199e78163096c206833175fee",
+  "latest_edit": "Removed all three /421 run-count lines from model boxes; confirmed no standalone 421 remains anywhere in report",
   "diagram_count": 1,
   "diagram_page": 2,
   "diagram_source": "Editable existing TikZ flowchart; starting pool corrected to 1,400 MedQA + 1,944 MATH = 3,344 initial candidates",
@@ -44,5 +44,23 @@
         214
       ]
     }
-  }
+  },
+  "flip_rate_section_pages": {
+    "MedQA": 4,
+    "MATH": 5
+  },
+  "exempt_pages": 2,
+  "citation_audit": {
+    "date": "2026-10-16",
+    "references_checked": 8,
+    "sources": [
+      "https://ojs.aaai.org/index.php/AIES/article/view/36598",
+      "https://aclanthology.org/2024.findings-acl.850/",
+      "https://aclanthology.org/2026.findings-acl.1267/",
+      "https://aclanthology.org/2026.findings-acl.1201/",
+      "https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/hash/be83ab3ecd0db773eb2dc1b0a17836a1-Abstract-round2.html",
+      "https://www.mdpi.com/2076-3417/11/14/6421"
+    ]
+  },
+  "standalone_421_count": 0
 }

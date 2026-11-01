@@ -1,0 +1,15 @@
+{
+  "id": "subhadeepsing/math-python-executor-smoke-10q",
+  "title": "Math Python Executor Smoke 10Q",
+  "code_file": "run_kaggle_math_smoke.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "dataset_sources": [],
+  "competition_sources": [],
+  "kernel_sources": [],
+  "model_sources": []
+}

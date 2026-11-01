@@ -19,11 +19,11 @@ Simplify\\
 $\begin{aligned}&[(1\cdot2)+(3\cdot4)\\&-(5\cdot6)+(7\cdot8)]\\&\qquad\cdot(9\cdot0).\end{aligned}$\\[4pt]
 \textbf{P0 format:}\\\texttt{Final Answer: [number]}};
 \node[model] (qwen) at (4.4,3.25)
-{\includegraphics[height=6mm]{\flowlogodir/qwen.png}\\\textbf{Qwen: P0}\\\texttt{Final Answer: 0}\\Correct at T0 P0: 404/421};
+{\includegraphics[height=6mm]{\flowlogodir/qwen.png}\\\textbf{Qwen: P0}\\\texttt{Final Answer: 0}};
 \node[model] (llama) at (4.4,0)
-{\includegraphics[height=6mm]{\flowlogodir/llama.png}\\\textbf{Meta LLaMA: P0}\\\texttt{Final Answer: 0}\\Correct at T0 P0: 383/421};
+{\includegraphics[height=6mm]{\flowlogodir/llama.png}\\\textbf{Meta LLaMA: P0}\\\texttt{Final Answer: 0}};
 \node[model] (phi) at (4.4,-3.25)
-{\includegraphics[height=6mm]{\flowlogodir/microsoft.png}\\\textbf{Phi-4: P0}\\\texttt{Final Answer: 0}\\Correct at T0 P0: 405/421};
+{\includegraphics[height=6mm]{\flowlogodir/microsoft.png}\\\textbf{Phi-4: P0}\\\texttt{Final Answer: 0}};
 \draw[arrow] (data.east)--++(0.5,0)|-(qwen.west);
 \draw[arrow] (data)--(llama);
 \draw[arrow] (data.east)--++(0.5,0)|-(phi.west);
