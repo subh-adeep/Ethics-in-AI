@@ -1,0 +1,18 @@
+{
+  "source_sha256": "a69890c7ca8b53bac0019c3e1255111a1a0392213c3c208f3276698c43b47a17",
+  "manifest_sha256": "375689fc3a46085ea0f4ed3ce0b3dd5c6c7dbe4b4894bd2d5dad0e5c70a6b38f",
+  "source_hashes": {
+    "codebase/src/analysis/exact_lookup_smoke.py": "5548d2f11ea257f8bc9d6ac1c558c70e0f2799ff7d24976d178ddf4745d50824",
+    "codebase/src/analysis/web_search_pilot.py": "027351081dbb65502aea07bcf4752fefbd15274b288aa674e0e95a2e663c5c02",
+    "codebase/src/analysis/local_gpu_followup.py": "c9edae7936da66774205e65c17d611c3a46b927066a26b0369817d91931cc569",
+    "codebase/src/analysis/medqa_web_dual_gpu.py": "dfbce951524449c2e8a6de5e1a97c2cb70e4a4c6cc238a4b37b08425df6290e2",
+    "codebase/src/analysis/audit_saved_reply_quality.py": "0bdb2731bf12fa147c3e570bc8edb7e30569186375a7bb86b51d67d384152bd2",
+    "codebase/src/benchmark/answer_parser.py": "b41c6cbe188c97890a63977033473f636896a80d0e9866ae343deb9eccc43ac5",
+    "kaggle/kernel_tools_v2/parallel_capture_20261014/parallel_assets/runner.py": "166ef6be2726487001f7e3e1260556e9fd0c02000731a4534cc4d108a4b32562"
+  },
+  "bootstrap_sha256": "22c6d22d7d10ae90c24f7c77cd4cd378fd93858cb6c41993051e03c8d439393e",
+  "shard_sizes": [
+    10,
+    10
+  ]
+}

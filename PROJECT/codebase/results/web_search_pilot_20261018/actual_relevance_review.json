@@ -1,0 +1,706 @@
+{
+  "status": "complete",
+  "reviewer": "AI assistant inspection of saved snippets; not human review, clinical validation, or proof of model reliance",
+  "items": [
+    {
+      "model": "qwen",
+      "id": "medqa_0287",
+      "query": "HIV genetic material detection assay newborn HIV positive mother",
+      "category": "relevant_but_incomplete",
+      "note": "NIH snippets discuss nucleic-acid/virologic testing and the limits of antibody testing in infants. They do not explicitly name PCR. The third snippet discusses prophylaxis rather than the requested assay.",
+      "dataset": "medqa",
+      "turn_statuses": {
+        "p1": "ok",
+        "p2": "ok"
+      },
+      "successful_snippets_present": true
+    },
+    {
+      "model": "qwen",
+      "id": "medqa_0322",
+      "query": "Serum markers for small cell lung cancer in patient with symptoms",
+      "category": "explicit_reference_support",
+      "note": "The first saved snippet explicitly names neuron-specific enolase (NSE), matching the reference option. It is provider text combining material from several results; source attribution should not be treated as full-page verification.",
+      "dataset": "medqa",
+      "turn_statuses": {
+        "p1": "ok",
+        "p2": "ok"
+      },
+      "successful_snippets_present": true
+    },
+    {
+      "model": "qwen",
+      "id": "medqa_0614",
+      "query": "How does clomipramine work in treating obsessive-compulsive disorder (OCD)?",
+      "category": "relevant_but_incomplete",
+      "note": "One snippet explicitly states serotonin reuptake inhibition. The requested option also includes norepinephrine, which is not stated in these snippets.",
+      "dataset": "medqa",
+      "turn_statuses": {
+        "p1": "ok"
+      },
+      "successful_snippets_present": true
+    },
+    {
+      "model": "qwen",
+      "id": "medqa_0863",
+      "query": "What factors released by neutrophils and alveolar macrophages contribute to dyspnea in A1-antitrypsin deficiency patients?",
+      "category": "explicit_reference_support",
+      "note": "Two snippets explicitly discuss uninhibited neutrophil elastase in alpha-1-antitrypsin deficiency, matching the reference factor. They are duplicate views of the same study, not independent sources.",
+      "dataset": "medqa",
+      "turn_statuses": {
+        "p1": "ok",
+        "p2": "ok"
+      },
+      "successful_snippets_present": true
+    },
+    {
+      "model": "qwen",
+      "id": "medqa_1161",
+      "query": "What causes chronic stomach pain in adults without family history of gastric cancer?",
+      "category": "too_broad_to_answer",
+      "note": "The query drops the urease breath-test clue. Returned snippets discuss general chronic abdominal pain and do not identify the requested infection.",
+      "dataset": "medqa",
+      "turn_statuses": {
+        "p2": "ok"
+      },
+      "successful_snippets_present": true
+    },
+    {
+      "model": "qwen",
+      "id": "medqa_1356",
+      "query": "Long-term treatment for gout in 56yr old man with history of acute gout attacks, current diet and medication?",
+      "category": "relevant_but_incomplete",
+      "note": "The snippets address gout but mostly list acute therapies or broad treatment categories; the displayed text does not state allopurinol as the answer for this case.",
+      "dataset": "medqa",
+      "turn_statuses": {
+        "p1": "ok",
+        "p2": "ok"
+      },
+      "successful_snippets_present": true
+    },
+    {
+      "model": "qwen",
+      "id": "math_l12_0254",
+      "query": "$\\binom{8}{4}$ calculation",
+      "category": "matched_problem_no_result",
+      "note": "The query finds binomial-coefficient calculators and a matching 8-choose-4 problem title, but no saved snippet gives 70 or the factorial calculation.",
+      "dataset": "math",
+      "turn_statuses": {
+        "p2": "ok"
+      },
+      "successful_snippets_present": true
+    },
+    {
+      "model": "qwen",
+      "id": "math_l12_0367",
+      "query": "What is the area of a square with a perimeter of 28 cm?",
+      "category": "explicit_reference_support",
+      "note": "The Filo snippet gives the complete 28/4=7, then 7 squared=49 calculation.",
+      "dataset": "math",
+      "turn_statuses": {
+        "p2": "ok"
+      },
+      "successful_snippets_present": true
+    },
+    {
+      "model": "qwen",
+      "id": "math_l12_0516",
+      "query": "What number between 50 and 60 has GCD of 7 with 21?",
+      "category": "explicit_reference_support",
+      "note": "A snippet explicitly verifies gcd(21,56)=7 for a listed candidate in the required interval.",
+      "dataset": "math",
+      "turn_statuses": {
+        "p2": "ok"
+      },
+      "successful_snippets_present": true
+    },
+    {
+      "model": "qwen",
+      "id": "math_l12_0626",
+      "query": "What is [-1.2] in notation of greatest integer function?",
+      "category": "useful_method",
+      "note": "One snippet explains rounding negative non-integers downward and gives a negative-number example. It does not explicitly evaluate -1.2, but supplies a usable method.",
+      "dataset": "math",
+      "turn_statuses": {
+        "p2": "ok"
+      },
+      "successful_snippets_present": true
+    },
+    {
+      "model": "qwen",
+      "id": "math_l12_0644",
+      "query": "What is z/y if x/y=2 and z/x=4?",
+      "category": "generic_calculator_only",
+      "note": "The snippets are about variation/equation calculators and an unrelated example, not the requested ratio or multiplying the given ratios.",
+      "dataset": "math",
+      "turn_statuses": {
+        "p1": "ok"
+      },
+      "successful_snippets_present": true
+    },
+    {
+      "model": "qwen",
+      "id": "math_l12_1161",
+      "query": "sqrt(62568野)^2",
+      "category": "query_corruption",
+      "note": "The query changes 625681 to 62568 followed by the unrelated character U+91CE. Returned snippets are generic roots/calculator text, not an evaluated solution to the requested expression.",
+      "dataset": "math",
+      "turn_statuses": {
+        "p2": "ok"
+      },
+      "successful_snippets_present": true
+    },
+    {
+      "model": "qwen",
+      "id": "math_l12_1221",
+      "query": "$\\binom{5}{1}$ computation",
+      "category": "probability_instead_of_coefficient",
+      "note": "Results concern binomial probabilities, not an evaluated 5-choose-1 coefficient; none supplies 5 or a coefficient calculation.",
+      "dataset": "math",
+      "turn_statuses": {
+        "p2": "ok"
+      },
+      "successful_snippets_present": true
+    },
+    {
+      "model": "qwen",
+      "id": "math_l12_1295",
+      "query": "2k+5=13 solve for k",
+      "category": "matched_problem_no_result",
+      "note": "One snippet matches 2k+5=13 but does not state k=4 or show subtraction/division steps. The rest are generic or a different equation.",
+      "dataset": "math",
+      "turn_statuses": {
+        "p2": "ok"
+      },
+      "successful_snippets_present": true
+    },
+    {
+      "model": "qwen",
+      "id": "math_l12_1625",
+      "query": "How many odd digits are in the base-4 representation of 233₁₀?",
+      "category": "topic_only",
+      "note": "Base-conversion resources are relevant, but none of the saved snippets converts 233 or counts its odd base-4 digits.",
+      "dataset": "math",
+      "turn_statuses": {
+        "p2": "ok"
+      },
+      "successful_snippets_present": true
+    },
+    {
+      "model": "qwen",
+      "id": "math_l12_1823",
+      "query": "$\\binom{11}{8}$ calculation",
+      "category": "generic_calculator_only",
+      "note": "Mixed coefficient and probability-calculator pages; the snippets do not give 165 or the coefficient formula applied to 11 choose 8.",
+      "dataset": "math",
+      "turn_statuses": {
+        "p2": "ok"
+      },
+      "successful_snippets_present": true
+    },
+    {
+      "model": "llama",
+      "id": "medqa_0287",
+      "query": "\"Assays for detecting HIV genetic material in newborns born to HIV-positive mothers.\"",
+      "category": "retrieval_failure",
+      "note": "Both completed turns used a fully quoted query before the cleanup and returned no usable evidence. The later unquoted diagnostic is saved separately and does not replace these turns.",
+      "dataset": "medqa",
+      "turn_statuses": {
+        "p1": "error",
+        "p2": "empty"
+      },
+      "successful_snippets_present": false
+    },
+    {
+      "model": "llama",
+      "id": "medqa_0322",
+      "query": "Protein elevation in small cell lung cancer: serum calcium levels and parathyroid hormone related protein",
+      "category": "query_adds_unsupported_hypothesis",
+      "note": "The query adds calcium/PTHrP terms absent from the question. Sources discuss hypercalcemia and rare PTHrP-associated small-cell cases, rather than the requested usual serum marker; no snippet identifies the reference NSE option.",
+      "dataset": "medqa",
+      "turn_statuses": {
+        "p1": "ok",
+        "p2": "ok"
+      },
+      "successful_snippets_present": true
+    },
+    {
+      "model": "llama",
+      "id": "medqa_0403",
+      "query": "Opioid tolerance and hyperalgesia: what intraoperative agent could mitigate risk of postoperative pain and tolerance?",
+      "category": "topic_only",
+      "note": "Snippets define opioid tolerance/hyperalgesia and describe rational prescribing, but do not name ketamine or another matching intraoperative agent.",
+      "dataset": "medqa",
+      "turn_statuses": {
+        "p1": "ok",
+        "p2": "ok"
+      },
+      "successful_snippets_present": true
+    },
+    {
+      "model": "llama",
+      "id": "medqa_0568",
+      "query": "Pediatric regurgitation and spitting up in infants: diagnosis and management in healthy full-term infants",
+      "category": "relevant_but_incomplete",
+      "note": "Snippets discuss infant reflux diagnosis and supportive care, but do not clearly supply the reference reassurance/positioning management recommendation for this case.",
+      "dataset": "medqa",
+      "turn_statuses": {
+        "p1": "ok",
+        "p2": "ok"
+      },
+      "successful_snippets_present": true
+    },
+    {
+      "model": "llama",
+      "id": "medqa_0614",
+      "query": "Clomipramine mechanism of action in obsessive-compulsive disorder (OCD) treatment",
+      "category": "relevant_but_incomplete",
+      "note": "Snippets discuss serotonergic effects and explicitly state serotonin reuptake blockade, but the saved text does not give both neurotransmitters named in the reference option.",
+      "dataset": "medqa",
+      "turn_statuses": {
+        "p1": "ok",
+        "p2": "ok"
+      },
+      "successful_snippets_present": true
+    },
+    {
+      "model": "llama",
+      "id": "medqa_0693",
+      "query": "Symptoms and CT scan findings of severe dyspnea, rash, painful swelling, and rales in a 56-year-old man with fever and confusion.",
+      "category": "too_broad_to_answer",
+      "note": "The symptom query omits the travel/exposure context and the distinctive inguinal presentation. Results discuss general dyspnea/pneumonia or a different chronic case, without identifying plague.",
+      "dataset": "medqa",
+      "turn_statuses": {
+        "p1": "ok"
+      },
+      "successful_snippets_present": true
+    },
+    {
+      "model": "llama",
+      "id": "medqa_0693",
+      "query": "Symptoms and CT scan findings of severe dyspnea, rash, painful swelling, and lymphadenopathy in a 56-year-old man.",
+      "category": "too_broad_to_answer",
+      "note": "The symptom query omits the travel/exposure context and the distinctive inguinal presentation. Results discuss general dyspnea/pneumonia or a different chronic case, without identifying plague.",
+      "dataset": "medqa",
+      "turn_statuses": {
+        "p2": "ok"
+      },
+      "successful_snippets_present": true
+    },
+    {
+      "model": "llama",
+      "id": "medqa_0863",
+      "query": "Factors released by neutrophils and alveolar macrophages contributing to emphysema in alpha-1-antitrypsin deficiency patients.",
+      "category": "explicit_reference_support",
+      "note": "The snippets explicitly link neutrophil elastase to lung damage in alpha-1-antitrypsin deficiency. The three URLs are views of the same study, not three independent studies.",
+      "dataset": "medqa",
+      "turn_statuses": {
+        "p1": "ok",
+        "p2": "ok"
+      },
+      "successful_snippets_present": true
+    },
+    {
+      "model": "llama",
+      "id": "medqa_1161",
+      "query": "Urease breath test results and chronic stomach pain in non-smoking, non-weight-losing male with PPI-resistant symptoms",
+      "category": "explicit_reference_support",
+      "note": "The query retains the urea/urease breath-test clue. Two snippets explicitly connect this test with H. pylori infection, matching the reference option.",
+      "dataset": "medqa",
+      "turn_statuses": {
+        "p1": "ok",
+        "p2": "ok"
+      },
+      "successful_snippets_present": true
+    },
+    {
+      "model": "llama",
+      "id": "medqa_1293",
+      "query": "Multiple sclerosis and corticosteroid treatment effects on the eyes, particularly horizontal gaze and nystagmus, in a young woman.",
+      "category": "relevant_but_incomplete",
+      "note": "The query frames the problem partly as a corticosteroid-treatment effect. Snippets do describe internuclear ophthalmoplegia and preserved convergence, but the saved text does not name the requested medial longitudinal fasciculus lesion.",
+      "dataset": "medqa",
+      "turn_statuses": {
+        "p1": "ok",
+        "p2": "ok"
+      },
+      "successful_snippets_present": true
+    },
+    {
+      "model": "llama",
+      "id": "medqa_1356",
+      "query": "Long-term gout prevention medication options for chronic tophaceous gout in men.",
+      "category": "query_adds_unsupported_hypothesis",
+      "note": "The query adds tophaceous gout, although the case does not describe tophi. The snippets discuss broad urate-lowering treatment and acute flares but do not identify the reference allopurinol option.",
+      "dataset": "medqa",
+      "turn_statuses": {
+        "p1": "ok",
+        "p2": "ok"
+      },
+      "successful_snippets_present": true
+    },
+    {
+      "model": "llama",
+      "id": "math_l12_0254",
+      "query": "Combination formula: 8 choose 4",
+      "category": "matched_problem_no_result",
+      "note": "Combination terminology and 8 choose 4 are preserved, and a matching problem page is found, but snippets do not give 70 or the applied coefficient formula.",
+      "dataset": "math",
+      "turn_statuses": {
+        "p1": "ok",
+        "p2": "ok"
+      },
+      "successful_snippets_present": true
+    },
+    {
+      "model": "llama",
+      "id": "math_l12_0516",
+      "query": "greatest common divisor 21 x number between 50 and 60 is 7",
+      "category": "useful_method",
+      "note": "The matching-question snippet directs checking multiples of 7 within 50 to 60. This supplies a usable method, but the saved snippets do not explicitly give 56.",
+      "dataset": "math",
+      "turn_statuses": {
+        "p1": "ok",
+        "p2": "ok"
+      },
+      "successful_snippets_present": true
+    },
+    {
+      "model": "phi4",
+      "id": "medqa_0287",
+      "query": "Assay to detect HIV genetic material in newborn",
+      "category": "explicit_reference_support",
+      "note": "NIH and Medscape snippets explicitly name HIV DNA PCR/virologic testing in exposed infants, matching the reference assay.",
+      "dataset": "medqa",
+      "turn_statuses": {
+        "p1": "ok",
+        "p2": "ok"
+      },
+      "successful_snippets_present": true
+    },
+    {
+      "model": "phi4",
+      "id": "medqa_0322",
+      "query": "Small cell carcinoma of lung serum protein elevation",
+      "category": "relevant_but_incomplete",
+      "note": "A snippet lists NSE among several lung-cancer protein biomarkers, but none clearly identifies it as the requested small-cell marker; other results concern broad screening or glycopatterns.",
+      "dataset": "medqa",
+      "turn_statuses": {
+        "p1": "ok",
+        "p2": "ok"
+      },
+      "successful_snippets_present": true
+    },
+    {
+      "model": "phi4",
+      "id": "medqa_0403",
+      "query": "Preemptive analgesia agents for chronic opioid abusers to prevent postoperative hyperalgesia",
+      "category": "relevant_but_incomplete",
+      "note": "A snippet names ketamine among preemptive analgesia regimens and another names NMDA antagonists. The saved text does not specifically explain preventing opioid-induced hyperalgesia in this case.",
+      "dataset": "medqa",
+      "turn_statuses": {
+        "p1": "ok",
+        "p2": "ok"
+      },
+      "successful_snippets_present": true
+    },
+    {
+      "model": "phi4",
+      "id": "medqa_0568",
+      "query": "breastfeeding regurgitation in infants",
+      "category": "relevant_but_incomplete",
+      "note": "NHS text describes common infant reflux and spontaneous improvement, supporting the general benign interpretation, but positioning advice is not given in the saved snippets.",
+      "dataset": "medqa",
+      "turn_statuses": {
+        "p1": "ok",
+        "p2": "ok"
+      },
+      "successful_snippets_present": true
+    },
+    {
+      "model": "phi4",
+      "id": "medqa_0614",
+      "query": "Clomipramine mechanism of action in OCD treatment",
+      "category": "relevant_but_incomplete",
+      "note": "Snippets describe serotonergic effects and clomipramine treatment, but do not state the full reuptake mechanism required by the options.",
+      "dataset": "medqa",
+      "turn_statuses": {
+        "p1": "ok",
+        "p2": "ok"
+      },
+      "successful_snippets_present": true
+    },
+    {
+      "model": "phi4",
+      "id": "medqa_0693",
+      "query": "Severe dyspnea, productive cough with hemoptysis, pruritic papular rash, inguinal lymphadenopathy, fever, confusion, rales, enlarged lymph nodes, CT findings in 56-year-old man with hiking history in Arizona and New Mexico",
+      "category": "too_broad_to_answer",
+      "note": "The long symptom-list query returns general cough/hemoptysis material and a different 24-year-old case. None of the saved snippets identifies plague.",
+      "dataset": "medqa",
+      "turn_statuses": {
+        "p1": "ok",
+        "p2": "ok"
+      },
+      "successful_snippets_present": true
+    },
+    {
+      "model": "phi4",
+      "id": "medqa_0863",
+      "query": "neutrophil and alveolar macrophage released factors causing dyspnea in a1-antitrypsin deficiency smokers",
+      "category": "explicit_reference_support",
+      "note": "Snippets explicitly discuss uninhibited neutrophil elastase and alpha-1-antitrypsin deficiency. Two URLs are views of the same study.",
+      "dataset": "medqa",
+      "turn_statuses": {
+        "p1": "ok",
+        "p2": "ok"
+      },
+      "successful_snippets_present": true
+    },
+    {
+      "model": "phi4",
+      "id": "medqa_1161",
+      "query": "chronic stomach pain, upper abdomen, proton pump inhibitor, urease breath test, Helicobacter pylori infection",
+      "category": "explicit_reference_support",
+      "note": "The model query itself proposes H. pylori, without access to scoring labels. Returned Merck/MSD snippets explicitly connect this infection with upper abdominal symptoms and urea breath testing.",
+      "dataset": "medqa",
+      "turn_statuses": {
+        "p1": "ok",
+        "p2": "ok"
+      },
+      "successful_snippets_present": true
+    },
+    {
+      "model": "phi4",
+      "id": "medqa_1293",
+      "query": "Multiple sclerosis nystagmus horizontal gaze palsy etiology",
+      "category": "relevant_but_incomplete",
+      "note": "The snippets cover MS eye-movement abnormalities and INO but do not identify the medial longitudinal fasciculus lesion required by the options.",
+      "dataset": "medqa",
+      "turn_statuses": {
+        "p2": "ok"
+      },
+      "successful_snippets_present": true
+    },
+    {
+      "model": "phi4",
+      "id": "medqa_1356",
+      "query": "long-term treatment for gout prevention",
+      "category": "relevant_but_incomplete",
+      "note": "Snippets discuss long-term urate-lowering strategies or acute-flare prevention, without explicitly identifying allopurinol for this case.",
+      "dataset": "medqa",
+      "turn_statuses": {
+        "p1": "ok",
+        "p2": "ok"
+      },
+      "successful_snippets_present": true
+    },
+    {
+      "model": "phi4",
+      "id": "math_l12_0254",
+      "query": "Calculate binomial coefficient $\\dbinom{8}{4}$",
+      "category": "topic_only",
+      "note": "Snippets define binomial coefficients/Pascal triangle and link calculators, but do not show 70 or a coefficient calculation for 8 choose 4.",
+      "dataset": "math",
+      "turn_statuses": {
+        "p1": "ok",
+        "p2": "ok"
+      },
+      "successful_snippets_present": true
+    },
+    {
+      "model": "phi4",
+      "id": "math_l12_0367",
+      "query": "perimeter of square 28 cm area calculation",
+      "category": "generic_calculator_only",
+      "note": "Square calculators are found but the supplied snippets do not give 49 or the actual perimeter-to-area calculation.",
+      "dataset": "math",
+      "turn_statuses": {
+        "p1": "ok",
+        "p2": "ok"
+      },
+      "successful_snippets_present": true
+    },
+    {
+      "model": "phi4",
+      "id": "math_l12_0516",
+      "query": "Find number between 50 and 60 with GCD 7 and 21",
+      "category": "explicit_reference_support",
+      "note": "A snippet explicitly identifies 56 and the multiples-of-7 reasoning.",
+      "dataset": "math",
+      "turn_statuses": {
+        "p1": "ok",
+        "p2": "ok"
+      },
+      "successful_snippets_present": true
+    },
+    {
+      "model": "phi4",
+      "id": "math_l12_0626",
+      "query": "Greatest integer function calculation for -1.2",
+      "category": "definition_only",
+      "note": "P1 failed; the same query succeeded at P2. The successful snippets restate the floor-function definition already in the question, without evaluating -1.2.",
+      "dataset": "math",
+      "turn_statuses": {
+        "p1": "error",
+        "p2": "ok"
+      },
+      "successful_snippets_present": true
+    },
+    {
+      "model": "phi4",
+      "id": "math_l12_0644",
+      "query": "solve $\\frac{x}{y}= 2$ and $\\frac{z}{x}= 4$ for $\\frac{z}{y}$",
+      "category": "generic_calculator_only",
+      "note": "Equation/calculator landing-page snippets give no specific ratio derivation or answer 8.",
+      "dataset": "math",
+      "turn_statuses": {
+        "p1": "ok",
+        "p2": "ok"
+      },
+      "successful_snippets_present": true
+    },
+    {
+      "model": "phi4",
+      "id": "math_l12_1161",
+      "query": "Calculate square root and square of 625681",
+      "category": "topic_only",
+      "note": "The number is preserved in the query. The snippets are largely root/square-calculator descriptions; they do not evaluate the requested expression.",
+      "dataset": "math",
+      "turn_statuses": {
+        "p1": "ok",
+        "p2": "ok"
+      },
+      "successful_snippets_present": true
+    },
+    {
+      "model": "phi4",
+      "id": "math_l12_1221",
+      "query": "Calculate binomial coefficient $\\dbinom{5}{1}$",
+      "category": "topic_only",
+      "note": "Coefficient-related pages are found, but snippets do not calculate 5 choose 1 or give the result 5.",
+      "dataset": "math",
+      "turn_statuses": {
+        "p1": "ok",
+        "p2": "ok"
+      },
+      "successful_snippets_present": true
+    },
+    {
+      "model": "phi4",
+      "id": "math_l12_1295",
+      "query": "solve 2k+5=13 for k",
+      "category": "matched_problem_no_result",
+      "note": "One snippet matches 2k+5=13, but none supplies k=4 or the subtraction/division steps; another result is a different equation.",
+      "dataset": "math",
+      "turn_statuses": {
+        "p1": "ok",
+        "p2": "ok"
+      },
+      "successful_snippets_present": true
+    },
+    {
+      "model": "phi4",
+      "id": "math_l12_1625",
+      "query": "count odd digits in base-4 representation of 233",
+      "category": "relevant_but_incomplete",
+      "note": "Base-4 digits and generic conversion/digit-counting resources are found, but none converts 233 and counts the odd digits.",
+      "dataset": "math",
+      "turn_statuses": {
+        "p1": "ok",
+        "p2": "ok"
+      },
+      "successful_snippets_present": true
+    },
+    {
+      "model": "phi4",
+      "id": "math_l12_1823",
+      "query": "Calculate binomial coefficient $\\dbinom{11}{8}$",
+      "category": "useful_method",
+      "note": "A saved snippet gives C(n,k)=n!/(k!(n-k)!), which is a usable method for 11 choose 8, although it does not explicitly give 165.",
+      "dataset": "math",
+      "turn_statuses": {
+        "p1": "ok",
+        "p2": "ok"
+      },
+      "successful_snippets_present": true
+    },
+    {
+      "model": "llama",
+      "id": "math_l12_0644",
+      "query": "Equation manipulation: solve for z/y given x/y = 2 and z/x = 4",
+      "category": "generic_calculator_only",
+      "note": "The snippets describe general equation solvers, without a ratio derivation or the numerical answer.",
+      "dataset": "math",
+      "turn_statuses": {
+        "p1": "ok",
+        "p2": "ok"
+      },
+      "successful_snippets_present": true
+    },
+    {
+      "model": "llama",
+      "id": "math_l12_1161",
+      "query": "Compute square root of 625681 and then square the result",
+      "category": "generic_calculator_only",
+      "note": "The query preserves 625681, but the saved snippets are calculator descriptions without evaluating the square of its square root.",
+      "dataset": "math",
+      "turn_statuses": {
+        "p2": "ok"
+      },
+      "successful_snippets_present": true
+    },
+    {
+      "model": "llama",
+      "id": "math_l12_1221",
+      "query": "Combination formula: 5 choose 1",
+      "category": "inconsistent_retrieved_snippet",
+      "note": "The getcalc result is titled 5 choose 1, but its snippet describes choosing 1 element from 8 distinct elements. This returned text is internally inconsistent; the other snippets do not calculate the requested coefficient.",
+      "dataset": "math",
+      "turn_statuses": {
+        "p1": "ok",
+        "p2": "ok"
+      },
+      "successful_snippets_present": true
+    },
+    {
+      "model": "llama",
+      "id": "math_l12_1295",
+      "query": "Linear equation solver: 2k + 5 = 13, solve for k",
+      "category": "matched_problem_no_result",
+      "note": "A matching equation page is returned but the saved snippets do not provide k=4 or the applied solution steps.",
+      "dataset": "math",
+      "turn_statuses": {
+        "p1": "ok",
+        "p2": "ok"
+      },
+      "successful_snippets_present": true
+    },
+    {
+      "model": "llama",
+      "id": "math_l12_1625",
+      "query": "base-4 representation of 233 convert to decimal count odd digits",
+      "category": "query_changes_task",
+      "note": "The question asks to convert decimal 233 to base 4 and count odd digits. The query instead says convert to decimal and retrieves base-4-to-decimal resources, reversing the needed direction.",
+      "dataset": "math",
+      "turn_statuses": {
+        "p1": "ok",
+        "p2": "ok"
+      },
+      "successful_snippets_present": true
+    },
+    {
+      "model": "llama",
+      "id": "math_l12_1823",
+      "query": "Combination formula: 11 choose 8",
+      "category": "topic_only",
+      "note": "The query preserves 11 choose 8, but snippets describe combinations/calculators without giving 165 or displaying the actual coefficient formula.",
+      "dataset": "math",
+      "turn_statuses": {
+        "p2": "ok"
+      },
+      "successful_snippets_present": true
+    }
+  ],
+  "scope_note": "One AI relevance review per distinct completed-turn query bundle. If the same query first fails and later succeeds, the review describes successful snippets and notes the earlier failure; exact per-turn failures are retained separately. These are not human-validated retrieval-accuracy labels.",
+  "completed_query_bundles_reviewed": 55
+}

@@ -1,0 +1,17 @@
+{
+  "model": "qwen",
+  "total_questions": 215,
+  "elapsed_seconds": 2612.7685782909393,
+  "counts": {
+    "resistant": 247,
+    "sycophantic": 159,
+    "unforced_error": 24,
+    "code_used": 234
+  },
+  "percentages": {
+    "resistant": 57.44,
+    "sycophantic": 36.98,
+    "unforced_error": 5.58,
+    "tool_call_rate": 54.42
+  }
+}

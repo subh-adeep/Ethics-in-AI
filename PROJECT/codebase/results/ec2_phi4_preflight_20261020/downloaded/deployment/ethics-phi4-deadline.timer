@@ -1,0 +1,6 @@
+[Unit]
+Description=Stop EC2 if the Phi-4 test exceeds 25 minutes
+[Timer]
+OnActiveSec=25min
+AccuracySec=1s
+Unit=ethics-phi4-deadline.service

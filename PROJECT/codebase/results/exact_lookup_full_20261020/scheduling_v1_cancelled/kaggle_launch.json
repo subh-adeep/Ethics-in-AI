@@ -1,0 +1,17 @@
+{
+  "at": "2026-10-19T18:53:38.184719+00:00",
+  "kernel": "subhadeepsing/exact-answer-lookup-full-20261020",
+  "is_private": true,
+  "questions": 361,
+  "models": 3,
+  "requested_gpus": 2,
+  "conversations": 1083,
+  "answer_turns": 3249,
+  "source_sha256": "e6a3402a97a1a06664f40e858bb35ba44fbe851ffffa4cfed234d92c94728978",
+  "response": {
+    "ref": "/code/subhadeepsing/exact-answer-lookup-full-20261020",
+    "url": "https://www.kaggle.com/code/subhadeepsing/exact-answer-lookup-full-20261020",
+    "versionNumber": 1,
+    "kernelId": 139667895
+  }
+}

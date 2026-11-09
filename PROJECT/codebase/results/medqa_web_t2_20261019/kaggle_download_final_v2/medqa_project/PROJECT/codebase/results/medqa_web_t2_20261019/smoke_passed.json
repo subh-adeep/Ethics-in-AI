@@ -1,0 +1,61 @@
+{
+  "at": "2026-10-18T19:26:50.246056+00:00",
+  "workers": [
+    {
+      "at": "2026-10-18T19:26:50.129924+00:00",
+      "physical_gpu": 0,
+      "rows": [
+        {
+          "model": "qwen",
+          "questions": 2,
+          "tool_calls": 3,
+          "delivered": 3,
+          "nonempty": 3
+        },
+        {
+          "model": "llama",
+          "questions": 2,
+          "tool_calls": 4,
+          "delivered": 4,
+          "nonempty": 4
+        },
+        {
+          "model": "phi4",
+          "questions": 2,
+          "tool_calls": 4,
+          "delivered": 4,
+          "nonempty": 4
+        }
+      ]
+    },
+    {
+      "at": "2026-10-18T19:26:17.483663+00:00",
+      "physical_gpu": 1,
+      "rows": [
+        {
+          "model": "qwen",
+          "questions": 2,
+          "tool_calls": 1,
+          "delivered": 1,
+          "nonempty": 1
+        },
+        {
+          "model": "llama",
+          "questions": 2,
+          "tool_calls": 4,
+          "delivered": 4,
+          "nonempty": 4
+        },
+        {
+          "model": "phi4",
+          "questions": 2,
+          "tool_calls": 4,
+          "delivered": 4,
+          "nonempty": 4
+        }
+      ]
+    }
+  ],
+  "operational_only": true,
+  "relevance_and_accuracy_not_established": true
+}

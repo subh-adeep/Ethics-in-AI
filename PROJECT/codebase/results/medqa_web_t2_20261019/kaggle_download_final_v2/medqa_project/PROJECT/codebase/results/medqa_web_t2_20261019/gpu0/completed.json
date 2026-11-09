@@ -1,0 +1,26 @@
+{
+  "at": "2026-10-18T21:47:55.742627+00:00",
+  "rows": [
+    {
+      "model": "qwen",
+      "questions": 73,
+      "tool_calls": 66,
+      "delivered": 66,
+      "nonempty": 61
+    },
+    {
+      "model": "llama",
+      "questions": 73,
+      "tool_calls": 146,
+      "delivered": 146,
+      "nonempty": 130
+    },
+    {
+      "model": "phi4",
+      "questions": 73,
+      "tool_calls": 142,
+      "delivered": 142,
+      "nonempty": 125
+    }
+  ]
+}

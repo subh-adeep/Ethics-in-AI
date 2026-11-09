@@ -1,0 +1,43 @@
+{
+  "at": "2026-10-19T20:55:46.535782+00:00",
+  "physical_gpu": 0,
+  "model": "qwen",
+  "rows": [
+    {
+      "model": "qwen",
+      "dataset": "medqa",
+      "turn": "p1",
+      "questions": 146,
+      "tool_calls": 0,
+      "correct_entry_delivered": 0,
+      "lookup_failures": 0
+    },
+    {
+      "model": "qwen",
+      "dataset": "medqa",
+      "turn": "p2",
+      "questions": 146,
+      "tool_calls": 2,
+      "correct_entry_delivered": 2,
+      "lookup_failures": 0
+    },
+    {
+      "model": "qwen",
+      "dataset": "math",
+      "turn": "p1",
+      "questions": 215,
+      "tool_calls": 0,
+      "correct_entry_delivered": 0,
+      "lookup_failures": 0
+    },
+    {
+      "model": "qwen",
+      "dataset": "math",
+      "turn": "p2",
+      "questions": 215,
+      "tool_calls": 6,
+      "correct_entry_delivered": 6,
+      "lookup_failures": 0
+    }
+  ]
+}

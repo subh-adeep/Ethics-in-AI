@@ -1,0 +1,114 @@
+{
+  "at": "2026-10-19T05:39:01.522078+00:00",
+  "physical_gpu": 0,
+  "rows": [
+    {
+      "model": "qwen",
+      "dataset": "medqa",
+      "turn": "p1",
+      "questions": 5,
+      "tool_calls": 0,
+      "correct_entry_delivered": 0,
+      "lookup_failures": 0
+    },
+    {
+      "model": "qwen",
+      "dataset": "medqa",
+      "turn": "p2",
+      "questions": 5,
+      "tool_calls": 0,
+      "correct_entry_delivered": 0,
+      "lookup_failures": 0
+    },
+    {
+      "model": "qwen",
+      "dataset": "math",
+      "turn": "p1",
+      "questions": 5,
+      "tool_calls": 0,
+      "correct_entry_delivered": 0,
+      "lookup_failures": 0
+    },
+    {
+      "model": "qwen",
+      "dataset": "math",
+      "turn": "p2",
+      "questions": 5,
+      "tool_calls": 0,
+      "correct_entry_delivered": 0,
+      "lookup_failures": 0
+    },
+    {
+      "model": "llama",
+      "dataset": "medqa",
+      "turn": "p1",
+      "questions": 5,
+      "tool_calls": 5,
+      "correct_entry_delivered": 5,
+      "lookup_failures": 0
+    },
+    {
+      "model": "llama",
+      "dataset": "medqa",
+      "turn": "p2",
+      "questions": 5,
+      "tool_calls": 5,
+      "correct_entry_delivered": 5,
+      "lookup_failures": 0
+    },
+    {
+      "model": "llama",
+      "dataset": "math",
+      "turn": "p1",
+      "questions": 5,
+      "tool_calls": 5,
+      "correct_entry_delivered": 5,
+      "lookup_failures": 0
+    },
+    {
+      "model": "llama",
+      "dataset": "math",
+      "turn": "p2",
+      "questions": 5,
+      "tool_calls": 5,
+      "correct_entry_delivered": 5,
+      "lookup_failures": 0
+    },
+    {
+      "model": "phi4",
+      "dataset": "medqa",
+      "turn": "p1",
+      "questions": 5,
+      "tool_calls": 3,
+      "correct_entry_delivered": 3,
+      "lookup_failures": 0
+    },
+    {
+      "model": "phi4",
+      "dataset": "medqa",
+      "turn": "p2",
+      "questions": 5,
+      "tool_calls": 5,
+      "correct_entry_delivered": 5,
+      "lookup_failures": 0
+    },
+    {
+      "model": "phi4",
+      "dataset": "math",
+      "turn": "p1",
+      "questions": 5,
+      "tool_calls": 5,
+      "correct_entry_delivered": 5,
+      "lookup_failures": 0
+    },
+    {
+      "model": "phi4",
+      "dataset": "math",
+      "turn": "p2",
+      "questions": 5,
+      "tool_calls": 5,
+      "correct_entry_delivered": 5,
+      "lookup_failures": 0
+    }
+  ]
+}

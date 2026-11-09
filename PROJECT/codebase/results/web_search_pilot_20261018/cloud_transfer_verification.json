@@ -1,0 +1,11 @@
+{
+  "at": "2026-10-18T18:50:34.140019+00:00",
+  "same_manifest": true,
+  "completed_questions": 20,
+  "same_pinned_model_revision": true,
+  "all_parameters_cuda": true,
+  "source_checkpoint_sha256": "70e1a376fff50d46bda89286dab1f8293f0e456d7b0ec720abdc906807d814cb",
+  "imported_checkpoint_sha256": "3b502c362e1bbc49ba70885df71a584afca00b64d9bf11ad7b0ac28f6bd20257",
+  "gpu": "Tesla T4",
+  "note": "Imported before the local runner reaches Phi-4; its resume guard skips this completed model."
+}

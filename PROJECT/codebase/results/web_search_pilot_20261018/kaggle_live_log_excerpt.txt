@@ -1,0 +1,79 @@
+[{"stream_name":"stdout","time":4.197990308,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.3/12.3 MB 99.1 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":4.226912017,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 394.3/394.3 kB 20.7 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":4.618432328,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 43.1/43.1 MB 48.1 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":4.641814582,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 47.6/47.6 kB 2.7 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":4.714538808,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.6/6.6 MB 105.0 MB/s eta 0:00:00\n"}
+,{"stream_name":"stderr","time":22.411616183,"data":"\rFetching 11 files:   0%|          | 0/11 [00:00\u003c?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":28.961624146,"data":"\rFetching 11 files:   9%|▉         | 1/11 [00:00\u003c00:01,  8.04it/s]\rFetching 11 files:  45%|████▌     | 5/11 [00:00\u003c00:00, 16.36it/s]\rFetching 11 files:  73%|███████▎  | 8/11 [00:00\u003c00:00, 20.10it/s]\rFetching 11 files: 100%|██████████| 11/11 [00:06\u003c00:00,  1.15it/s]\rFetching 11 files: 100%|██████████| 11/11 [00:06\u003c00:00,  1.65it/s]\n"}
+,{"stream_name":"stdout","time":61.97953277,"data":"Loading local phi4: cece1fd36f04ff79f55ec861f206ca4e16acea6e\n"}
+,{"stream_name":"stderr","time":61.98508701,"data":"[transformers] This model config has set a `rope_parameters['original_max_position_embeddings']` field, to be used together with `max_position_embeddings` to determine a scaling factor. Please set the `factor` field of `rope_parameters`with this ratio instead -- we recommend the use of this field over `original_max_position_embeddings`, as it is compatible with most model architectures.\n"}
+,{"stream_name":"stderr","time":64.742591974,"data":"/usr/local/lib/python3.13/dist-packages/transformers/quantizers/auto.py:279: UserWarning: You passed `quantization_config` or equivalent parameters to `from_pretrained` but the model you're loading already has a `quantization_config` attribute. The `quantization_config` from the model will be used.\n"}
+,{"stream_name":"stderr","time":64.742636798,"data":"  warnings.warn(warning_msg)\n"}
+,{"stream_name":"stdout","time":70.296763379,"data":"Loaded phi4; CUDA allocated 2758 MiB\n"}
+,{"stream_name":"stdout","time":78.394340444,"data":"TURN phi4 medqa_0287 p0 tokens 125 tool False search - completed 0\n"}
+,{"stream_name":"stdout","time":85.225201032,"data":"TURN phi4 medqa_0287 p1 tokens 74 tool True search ok completed 0\n"}
+,{"stream_name":"stdout","time":91.525014456,"data":"TURN phi4 medqa_0287 p2 tokens 74 tool True search ok completed 1\n"}
+,{"stream_name":"stdout","time":97.69756202,"data":"TURN phi4 medqa_0322 p0 tokens 103 tool False search - completed 1\n"}
+,{"stream_name":"stdout","time":108.335671698,"data":"TURN phi4 medqa_0322 p1 tokens 131 tool True search ok completed 1\n"}
+,{"stream_name":"stdout","time":118.800233942,"data":"TURN phi4 medqa_0322 p2 tokens 145 tool True search ok completed 2\n"}
+,{"stream_name":"stdout","time":125.156555012,"data":"TURN phi4 medqa_0403 p0 tokens 110 tool False search - completed 2\n"}
+,{"stream_name":"stdout","time":133.52672835,"data":"TURN phi4 medqa_0403 p1 tokens 94 tool True search ok completed 2\n"}
+,{"stream_name":"stdout","time":142.125868918,"data":"TURN phi4 medqa_0403 p2 tokens 104 tool True search ok completed 3\n"}
+,{"stream_name":"stdout","time":147.831247479,"data":"TURN phi4 medqa_0568 p0 tokens 97 tool False search - completed 3\n"}
+,{"stream_name":"stdout","time":158.678114403,"data":"TURN phi4 medqa_0568 p1 tokens 122 tool True search ok completed 3\n"}
+,{"stream_name":"stdout","time":168.069083982,"data":"TURN phi4 medqa_0568 p2 tokens 119 tool True search ok completed 4\n"}
+,{"stream_name":"stdout","time":173.766323611,"data":"TURN phi4 medqa_0614 p0 tokens 96 tool False search - completed 4\n"}
+,{"stream_name":"stdout","time":180.771716417,"data":"TURN phi4 medqa_0614 p1 tokens 78 tool True search ok completed 4\n"}
+,{"stream_name":"stdout","time":189.62585183,"data":"TURN phi4 medqa_0614 p2 tokens 114 tool True search ok completed 5\n"}
+,{"stream_name":"stdout","time":198.583995396,"data":"TURN phi4 medqa_0693 p0 tokens 155 tool False search - completed 5\n"}
+,{"stream_name":"stdout","time":214.101518296,"data":"TURN phi4 medqa_0693 p1 tokens 160 tool True search ok completed 5\n"}
+,{"stream_name":"stdout","time":228.532644843,"data":"TURN phi4 medqa_0693 p2 tokens 160 tool True search ok completed 6\n"}
+,{"stream_name":"stdout","time":235.69939116,"data":"TURN phi4 medqa_0863 p0 tokens 125 tool False search - completed 6\n"}
+,{"stream_name":"stdout","time":246.393980685,"data":"TURN phi4 medqa_0863 p1 tokens 124 tool True search ok completed 6\n"}
+,{"stream_name":"stdout","time":257.800168715,"data":"TURN phi4 medqa_0863 p2 tokens 144 tool True search ok completed 7\n"}
+,{"stream_name":"stdout","time":265.930537986,"data":"TURN phi4 medqa_1161 p0 tokens 140 tool False search - completed 7\n"}
+,{"stream_name":"stdout","time":277.304246239,"data":"TURN phi4 medqa_1161 p1 tokens 122 tool True search ok completed 7\n"}
+,{"stream_name":"stdout","time":287.574987406,"data":"TURN phi4 medqa_1161 p2 tokens 122 tool True search ok completed 8\n"}
+,{"stream_name":"stdout","time":293.218760112,"data":"TURN phi4 medqa_1293 p0 tokens 96 tool False search - completed 8\n"}
+,{"stream_name":"stdout","time":301.778995192,"data":"TURN phi4 medqa_1293 p1 tokens 142 tool False search - completed 8\n"}
+,{"stream_name":"stdout","time":312.773318339,"data":"TURN phi4 medqa_1293 p2 tokens 148 tool True search ok completed 9\n"}
+,{"stream_name":"stdout","time":321.017321163,"data":"TURN phi4 medqa_1356 p0 tokens 142 tool False search - completed 9\n"}
+,{"stream_name":"stdout","time":331.305581948,"data":"TURN phi4 medqa_1356 p1 tokens 133 tool True search ok completed 9\n"}
+,{"stream_name":"stdout","time":340.02171832,"data":"TURN phi4 medqa_1356 p2 tokens 111 tool True search ok completed 10\n"}
+,{"stream_name":"stdout","time":340.437987467,"data":"TURN phi4 math_l12_0254 p0 tokens 6 tool False search - completed 10\n"}
+,{"stream_name":"stdout","time":343.498651525,"data":"TURN phi4 math_l12_0254 p1 tokens 6 tool True search ok completed 10\n"}
+,{"stream_name":"stdout","time":345.53292056,"data":"TURN phi4 math_l12_0254 p2 tokens 6 tool True search ok completed 11\n"}
+,{"stream_name":"stdout","time":345.94066521,"data":"TURN phi4 math_l12_0367 p0 tokens 6 tool False search - completed 11\n"}
+,{"stream_name":"stdout","time":349.410519515,"data":"TURN phi4 math_l12_0367 p1 tokens 6 tool True search ok completed 11\n"}
+,{"stream_name":"stdout","time":351.267768304,"data":"TURN phi4 math_l12_0367 p2 tokens 6 tool True search ok completed 12\n"}
+,{"stream_name":"stdout","time":351.680198943,"data":"TURN phi4 math_l12_0516 p0 tokens 6 tool False search - completed 12\n"}
+,{"stream_name":"stdout","time":355.207901524,"data":"TURN phi4 math_l12_0516 p1 tokens 6 tool True search ok completed 12\n"}
+,{"stream_name":"stdout","time":359.707224546,"data":"TURN phi4 math_l12_0516 p2 tokens 6 tool True search ok completed 13\n"}
+,{"stream_name":"stdout","time":360.115749379,"data":"TURN phi4 math_l12_0626 p0 tokens 6 tool False search - completed 13\n"}
+,{"stream_name":"stdout","time":365.452182162,"data":"TURN phi4 math_l12_0626 p1 tokens 6 tool True search error completed 13\n"}
+,{"stream_name":"stdout","time":368.973004465,"data":"TURN phi4 math_l12_0626 p2 tokens 6 tool True search ok completed 14\n"}
+,{"stream_name":"stdout","time":369.380056799,"data":"TURN phi4 math_l12_0644 p0 tokens 6 tool False search - completed 14\n"}
+,{"stream_name":"stdout","time":373.239771529,"data":"TURN phi4 math_l12_0644 p1 tokens 6 tool True search ok completed 14\n"}
+,{"stream_name":"stdout","time":376.372204473,"data":"TURN phi4 math_l12_0644 p2 tokens 6 tool True search ok completed 15\n"}
+,{"stream_name":"stdout","time":376.874381117,"data":"TURN phi4 math_l12_1161 p0 tokens 7 tool False search - completed 15\n"}
+,{"stream_name":"stdout","time":379.712099544,"data":"TURN phi4 math_l12_1161 p1 tokens 7 tool True search ok completed 15\n"}
+,{"stream_name":"stdout","time":383.041499928,"data":"TURN phi4 math_l12_1161 p2 tokens 7 tool True search ok completed 16\n"}
+,{"stream_name":"stdout","time":383.483966742,"data":"TURN phi4 math_l12_1221 p0 tokens 6 tool False search - completed 16\n"}
+,{"stream_name":"stdout","time":387.121757211,"data":"TURN phi4 math_l12_1221 p1 tokens 6 tool True search ok completed 16\n"}
+,{"stream_name":"stdout","time":389.183244967,"data":"TURN phi4 math_l12_1221 p2 tokens 6 tool True search ok completed 17\n"}
+,{"stream_name":"stdout","time":389.600995637,"data":"TURN phi4 math_l12_1295 p0 tokens 6 tool False search - completed 17\n"}
+,{"stream_name":"stdout","time":394.310567395,"data":"TURN phi4 math_l12_1295 p1 tokens 6 tool True search ok completed 17\n"}
+,{"stream_name":"stdout","time":396.288698715,"data":"TURN phi4 math_l12_1295 p2 tokens 6 tool True search ok completed 18\n"}
+,{"stream_name":"stdout","time":396.690973738,"data":"TURN phi4 math_l12_1625 p0 tokens 6 tool False search - completed 18\n"}
+,{"stream_name":"stdout","time":401.203196929,"data":"TURN phi4 math_l12_1625 p1 tokens 35 tool True search ok completed 18\n"}
+,{"stream_name":"stdout","time":404.940250576,"data":"TURN phi4 math_l12_1625 p2 tokens 35 tool True search ok completed 19\n"}
+,{"stream_name":"stdout","time":405.630485138,"data":"TURN phi4 math_l12_1823 p0 tokens 11 tool False search - completed 19\n"}
+,{"stream_name":"stdout","time":412.61990312,"data":"TURN phi4 math_l12_1823 p1 tokens 11 tool True search ok completed 19\n"}
+,{"stream_name":"stdout","time":415.746396198,"data":"TURN phi4 math_l12_1823 p2 tokens 11 tool True search ok completed 20\n"}
+,{"stream_name":"stderr","time":421.439952826,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":421.439982834,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":421.67058576,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":421.670612174,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":422.483811352,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":423.46057401,"data":"[NbConvertApp] Writing 500143 bytes to __results__.html\n"}
+]

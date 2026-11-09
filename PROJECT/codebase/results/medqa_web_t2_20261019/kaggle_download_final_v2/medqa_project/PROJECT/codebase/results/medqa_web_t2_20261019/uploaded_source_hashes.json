@@ -1,0 +1,9 @@
+{
+  "codebase/src/analysis/launch_kaggle_medqa_dual_gpu.py": "2b6a0326c4e239ff6666cfcf3aa4dece718e2df72bb072dcfe404d2a8761df91",
+  "codebase/src/analysis/medqa_web_dual_gpu.py": "dfbce951524449c2e8a6de5e1a97c2cb70e4a4c6cc238a4b37b08425df6290e2",
+  "codebase/src/analysis/web_search_pilot.py": "027351081dbb65502aea07bcf4752fefbd15274b288aa674e0e95a2e663c5c02",
+  "codebase/src/analysis/local_gpu_followup.py": "c9edae7936da66774205e65c17d611c3a46b927066a26b0369817d91931cc569",
+  "codebase/src/analysis/audit_saved_reply_quality.py": "0bdb2731bf12fa147c3e570bc8edb7e30569186375a7bb86b51d67d384152bd2",
+  "codebase/src/benchmark/answer_parser.py": "b41c6cbe188c97890a63977033473f636896a80d0e9866ae343deb9eccc43ac5",
+  "kaggle/kernel_tools_v2/parallel_capture_20261014/parallel_assets/runner.py": "166ef6be2726487001f7e3e1260556e9fd0c02000731a4534cc4d108a4b32562"
+}

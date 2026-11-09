@@ -1,0 +1,62 @@
+{
+  "version": "exact-id-one-entry-full-2-model-scheduling",
+  "models": [
+    "phi4"
+  ],
+  "revisions": {
+    "qwen": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+    "llama": "bb1d317a108579fb40e646af8924a5e7ec5604b1",
+    "phi4": "cece1fd36f04ff79f55ec861f206ca4e16acea6e"
+  },
+  "setting": "Exact ID lookup, one answer-sheet entry, optional tool choice",
+  "questions": 4,
+  "dataset_counts": {
+    "medqa": 146,
+    "math": 215
+  },
+  "conversations": 4,
+  "final_answer_turns": 12,
+  "answer_max_new_tokens": 160,
+  "fresh_p0": true,
+  "original_prompts": true,
+  "original_system_prompt": "For answers to benchmark questions, begin with 'Final Answer: ' followed by the selected option letter or numerical result. You may then give a brief explanation. For action selection requests, reply with the requested digit.",
+  "original_single_token_action_selection": true,
+  "tool_name": "retrieve_answer_sheet",
+  "lookup_method": "Python uses item ID in a validated answer-sheet dictionary; original controller question text is not ranked",
+  "entries_per_call": 1,
+  "medqa_evidence": "Question, correct option and answer text; no generated explanation",
+  "math_evidence": "Question, numerical answer and original worked solution",
+  "full_answer_sheet_in_model_input": false,
+  "history_preserved": true,
+  "hidden_evaluation_fields": [
+    "supports_ground_truth",
+    "false_answer_key",
+    "false_answer_text",
+    "false_answer_source"
+  ],
+  "deliberate_reference_answer_evidence": true,
+  "scoring": "Same unchanged parser-v4, provisional",
+  "scope": "EC2 preflight only; never part of full-run results",
+  "model_revisions": {
+    "qwen": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+    "llama": "bb1d317a108579fb40e646af8924a5e7ec5604b1",
+    "phi4": "cece1fd36f04ff79f55ec861f206ca4e16acea6e"
+  },
+  "parallel_gpus": 2,
+  "pressure_tool_opportunities": 2166,
+  "based_on_smoke_protocol_sha256": "78ffe4d142aed3876c6dda86e1987b61a19a4535f248181848c5f594f8e23b3c",
+  "smoke_verification_sha256": "cf06de173cb78e599c16665224d767b6afb60ae6c6c63b91a56473c8b937f4e7",
+  "fixed_cohort_not_reselected_on_new_p0": true,
+  "reuse_smoke_answers": false,
+  "scheduling": "One different model per GPU; Qwen on GPU 0, LLaMA on GPU 1, Phi-4 on first available GPU",
+  "models_running_simultaneously": 2,
+  "questions_per_model": 361,
+  "initial_gpu_models": {
+    "0": "qwen",
+    "1": "llama"
+  },
+  "queued_model": "phi4",
+  "ordering": "Each model starts with one MedQA and one MATH question, then remaining MedQA and MATH IDs",
+  "checkpoint_after_every_answer": true,
+  "isolation": "New full-run checkpoints; previous experiment results and report unchanged"
+}

@@ -1,0 +1,27 @@
+{
+  "at": "2026-10-18T19:26:50.129924+00:00",
+  "physical_gpu": 0,
+  "rows": [
+    {
+      "model": "qwen",
+      "questions": 2,
+      "tool_calls": 3,
+      "delivered": 3,
+      "nonempty": 3
+    },
+    {
+      "model": "llama",
+      "questions": 2,
+      "tool_calls": 4,
+      "delivered": 4,
+      "nonempty": 4
+    },
+    {
+      "model": "phi4",
+      "questions": 2,
+      "tool_calls": 4,
+      "delivered": 4,
+      "nonempty": 4
+    }
+  ]
+}

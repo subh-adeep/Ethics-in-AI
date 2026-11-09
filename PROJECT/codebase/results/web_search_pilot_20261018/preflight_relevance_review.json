@@ -1,0 +1,147 @@
+{
+  "reviewer": "AI assistant inspection of saved snippets; not a human review or clinical validation",
+  "scope": "Controller preflight only, separate from actual model-generated queries",
+  "rule": "Explicit support means a saved snippet explicitly supplies the reference answer or its stated reasoning. Repeating the question is not answer support. No assessment of full pages or proof of model reliance.",
+  "items": [
+    {
+      "id": "medqa_0287",
+      "dataset": "medqa",
+      "status": "ok",
+      "category": "matched_question_no_answer",
+      "note": "Two snippets repeat the benchmark question; neither states the assay. Another result is about routine postpartum care."
+    },
+    {
+      "id": "medqa_0322",
+      "dataset": "medqa",
+      "status": "ok",
+      "category": "not_specific_enough",
+      "note": "Results discuss chronic cough or COPD, not the requested small-cell carcinoma serum marker."
+    },
+    {
+      "id": "medqa_0403",
+      "dataset": "medqa",
+      "status": "ok",
+      "category": "topic_only",
+      "note": "Perioperative opioid pain is relevant, but the displayed snippets do not identify the requested agent."
+    },
+    {
+      "id": "medqa_0568",
+      "dataset": "medqa",
+      "status": "ok",
+      "category": "matched_question_no_answer",
+      "note": "A matching case is found but its snippet does not supply management; other infant notes are not this case."
+    },
+    {
+      "id": "medqa_0614",
+      "dataset": "medqa",
+      "status": "ok",
+      "category": "topic_only",
+      "note": "OCD treatment is relevant, but none of the snippets states clomipramine’s mechanism."
+    },
+    {
+      "id": "medqa_0693",
+      "dataset": "medqa",
+      "status": "error",
+      "category": "retrieval_failure",
+      "note": "No usable results after both attempts."
+    },
+    {
+      "id": "medqa_0863",
+      "dataset": "medqa",
+      "status": "ok",
+      "category": "explicit_reference_support",
+      "note": "The first snippet names elastase and explains the mechanism; another snippet also discusses elastase burden."
+    },
+    {
+      "id": "medqa_1161",
+      "dataset": "medqa",
+      "status": "ok",
+      "category": "advertisement_only",
+      "note": "Only a sponsored Bing click-through result offering an online doctor; no evidence about the breath test."
+    },
+    {
+      "id": "medqa_1293",
+      "dataset": "medqa",
+      "status": "error",
+      "category": "retrieval_failure",
+      "note": "No usable results after both attempts."
+    },
+    {
+      "id": "medqa_1356",
+      "dataset": "medqa",
+      "status": "error",
+      "category": "retrieval_failure",
+      "note": "No usable results after both attempts."
+    },
+    {
+      "id": "math_l12_0254",
+      "dataset": "math",
+      "status": "ok",
+      "category": "notation_misinterpreted",
+      "note": "All snippets discuss R dbinom probability functions, not the requested binomial coefficient."
+    },
+    {
+      "id": "math_l12_0367",
+      "dataset": "math",
+      "status": "ok",
+      "category": "explicit_reference_support",
+      "note": "Two snippets explicitly give area 49; the first describes the necessary computation."
+    },
+    {
+      "id": "math_l12_0516",
+      "dataset": "math",
+      "status": "ok",
+      "category": "explicit_reference_support",
+      "note": "The first snippet explicitly identifies 56 and the multiples-of-7 reasoning."
+    },
+    {
+      "id": "math_l12_0626",
+      "dataset": "math",
+      "status": "ok",
+      "category": "useful_rule_without_result",
+      "note": "The floor-function definition is relevant, but the displayed snippets do not evaluate floor(-1.2)."
+    },
+    {
+      "id": "math_l12_0644",
+      "dataset": "math",
+      "status": "ok",
+      "category": "generic_calculator_only",
+      "note": "Calculator landing pages provide no derivation of the requested ratio."
+    },
+    {
+      "id": "math_l12_1161",
+      "dataset": "math",
+      "status": "ok",
+      "category": "generic_calculator_only",
+      "note": "Square-root calculator text is broadly related, but it does not evaluate this expression or explicitly state the cancellation rule."
+    },
+    {
+      "id": "math_l12_1221",
+      "dataset": "math",
+      "status": "ok",
+      "category": "notation_misinterpreted",
+      "note": "R dbinom function pages do not answer 5 choose 1."
+    },
+    {
+      "id": "math_l12_1295",
+      "dataset": "math",
+      "status": "ok",
+      "category": "matched_problem_no_result",
+      "note": "One snippet matches 2k+5=13, but does not state k or show the solution; the rest are generic calculators."
+    },
+    {
+      "id": "math_l12_1625",
+      "dataset": "math",
+      "status": "error",
+      "category": "retrieval_failure",
+      "note": "No usable results after both attempts."
+    },
+    {
+      "id": "math_l12_1823",
+      "dataset": "math",
+      "status": "ok",
+      "category": "notation_misinterpreted",
+      "note": "R dbinom and probability-distribution pages do not evaluate 11 choose 8."
+    }
+  ]
+}

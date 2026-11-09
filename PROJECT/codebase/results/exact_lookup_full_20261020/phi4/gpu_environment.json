@@ -1,0 +1,13 @@
+{
+  "at": "2026-10-19T19:41:07.049235+00:00",
+  "physical_gpu": 1,
+  "cuda_visible_devices": "1",
+  "logical_gpu_count": 1,
+  "gpu": "Tesla T4",
+  "model": "phi4",
+  "questions": 361,
+  "datasets": {
+    "medqa": 146,
+    "math": 215
+  }
+}

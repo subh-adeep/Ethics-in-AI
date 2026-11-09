@@ -1,0 +1,15 @@
+{
+  "id": "subhadeepsing/exact-answer-lookup-full-20261020",
+  "title": "Exact Answer Lookup Full 20261020",
+  "code_file": "run_full.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "machine_shape": "NvidiaTeslaT4",
+  "dataset_sources": [],
+  "competition_sources": [],
+  "kernel_sources": [],
+  "model_sources": []
+}

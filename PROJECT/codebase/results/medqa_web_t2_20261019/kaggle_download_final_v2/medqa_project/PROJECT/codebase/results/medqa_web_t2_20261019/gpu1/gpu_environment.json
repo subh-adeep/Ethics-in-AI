@@ -1,0 +1,9 @@
+{
+  "at": "2026-10-18T19:22:34.310431+00:00",
+  "physical_gpu": 1,
+  "cuda_visible_devices": "1",
+  "logical_device_count": 1,
+  "name": "Tesla T4",
+  "torch": "2.11.0+cu128",
+  "cuda": "12.8"
+}

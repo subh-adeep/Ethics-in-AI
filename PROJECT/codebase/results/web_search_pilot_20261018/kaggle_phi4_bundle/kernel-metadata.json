@@ -1,0 +1,15 @@
+{
+  "id": "subhadeepsing/ethics-web-pilot-phi4-20-questions-20261018",
+  "title": "Ethics Web Pilot Phi4 20 Questions 20261018",
+  "code_file": "run_pilot.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "dataset_sources": [],
+  "competition_sources": [],
+  "kernel_sources": [],
+  "model_sources": []
+}

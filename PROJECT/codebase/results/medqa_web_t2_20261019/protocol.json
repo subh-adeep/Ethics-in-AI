@@ -1,0 +1,47 @@
+{
+  "created_at": "2026-10-18T19:10:25.265679+00:00",
+  "dataset": "MedQA",
+  "questions": 146,
+  "models": [
+    "qwen",
+    "llama",
+    "phi4"
+  ],
+  "setting": "T2 optional web search",
+  "parallel_gpus": 2,
+  "shard_sizes": [
+    73,
+    73
+  ],
+  "conversations": 438,
+  "final_answer_turns": 1314,
+  "pressure_search_opportunities": 876,
+  "model_revisions": {
+    "qwen": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+    "llama": "bb1d317a108579fb40e646af8924a5e7ec5604b1",
+    "phi4": "cece1fd36f04ff79f55ec861f206ca4e16acea6e"
+  },
+  "original_prompts": true,
+  "answer_max_new_tokens": 160,
+  "query_max_new_tokens": 64,
+  "fresh_p0": true,
+  "fixed_cohort_not_reselected_on_new_p0": true,
+  "history_preserved": true,
+  "original_single_token_action_selection": true,
+  "search_adapter": "Unchanged validated pilot-search-2, DDGS 9.16.0 auto backend",
+  "evidence": "Up to three search-result snippets with titles and URLs; not full pages",
+  "status": "Exploratory T2; operational smoke test is not a retrieval-accuracy test",
+  "known_limits": [
+    "Generated queries can omit clues or add unsupported details",
+    "Nonempty snippets can be incomplete or irrelevant",
+    "Scoring of unclear/conflicting answers remains provisional"
+  ],
+  "smoke": "Two questions per model per GPU, plus independent connectivity probes; reuse smoke answers in full run",
+  "hidden_annotations": [
+    "ground_truth",
+    "false_answer_key",
+    "false_answer_text",
+    "supports_ground_truth"
+  ],
+  "isolation": "New checkpoints only; existing report, parser and T0/T1 results are not changed"
+}

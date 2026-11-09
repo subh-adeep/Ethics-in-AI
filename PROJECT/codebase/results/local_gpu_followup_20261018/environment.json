@@ -1,0 +1,15 @@
+{
+  "python_executable": "C:\\Users\\subha\\Miniconda3\\python.exe",
+  "python": "3.13.11",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "packages": {
+    "torch": "2.7.1+cu118",
+    "transformers": "5.17.0",
+    "bitsandbytes": "0.50.2",
+    "accelerate": "1.15.0",
+    "numpy": "2.4.3",
+    "huggingface_hub": "1.32.0"
+  },
+  "model_inference": "Local NVIDIA GTX 1650, all model parameters on CUDA; no CPU/disk offload",
+  "network_model_loading": "Offline; cached snapshots only"
+}

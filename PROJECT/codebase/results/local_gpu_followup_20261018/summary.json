@@ -1,0 +1,23 @@
+{
+  "generated_at_utc": "2026-10-17T21:29:00.614529+00:00",
+  "counts": {
+    "initial_unparsed": 246,
+    "processed_records": 246,
+    "not_yet_processed": 0,
+    "unique_gemma_gpu_jobs": 84,
+    "unique_gemma_followup_jobs": 12,
+    "gemma_nonnull_answer_extractions": 8,
+    "additional_original_answers_from_literal_quote_fields": 3,
+    "supported_extractions": 11,
+    "unresolved_after_extraction": 235,
+    "selected_cap_rerun_turns": 53,
+    "completed_rerun_turns": 53,
+    "unique_rerun_contexts": 39,
+    "rerun_parsed": 36,
+    "additional_rerun_answers_from_gemma": 2,
+    "remaining_after_original_reply_extraction": 235,
+    "rerun_failed_turns": 0,
+    "remaining_in_separate_followup": 197
+  },
+  "note": "Gemma suggestions with literal-quote checks are not independent human verification. Longer-budget reruns are new local-GPU observations and must not replace selected old rows in primary results."
+}

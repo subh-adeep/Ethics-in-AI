@@ -1,0 +1,33 @@
+{
+  "at": "2026-10-18T18:16:10.560960+00:00",
+  "id": "medqa_0287",
+  "raw_query": "\"Assays for detecting HIV genetic material in newborns born to HIV-positive mothers.\"",
+  "effective_query": "Assays for detecting HIV genetic material in newborns born to HIV-positive mothers.",
+  "evidence": {
+    "status": "ok",
+    "backend": "ddgs-auto",
+    "query": "Assays for detecting HIV genetic material in newborns born to HIV-positive mothers.",
+    "retrieved_at": "2026-10-18T18:16:10.556159+00:00",
+    "documents": [
+      {
+        "title": "Diagnosis of HIV Infection in Infants and Children | NIH",
+        "url": "https://clinicalinfo.hiv.gov/en/guidelines/perinatal/management-infants-diagnosis-hiv-infection-children",
+        "snippet": "HIV DNA assays, though generally less sensitive, may be more sensitive in detecting HIV infection when the infant is receiving ART because identification is based on detection of cell-associated intracellular DNA in whole blood or dried blood spots and does not rely on active viral replication. 3,4 A positive HIV test result should be confirmed ..."
+      },
+      {
+        "title": "What is the appropriate diagnosis for an infant born to a mother living ...",
+        "url": "https://www.droracle.ai/articles/828954/what-is-the-appropriate-diagnosis-for-an-infant-born",
+        "snippet": "Diagnosis of HIV in Infants Born to Mothers Living with HIV Infants born to HIV-positive mothers cannot be diagnosed using standard antibody tests until 18 months of age due to maternal antibody transfer; instead, HIV DNA PCR is the preferred virologic test performed at specific intervals starting before 48 hours of life. 1, 2"
+      },
+      {
+        "title": "Diagnosis of HIV Infection in Infants and Children | NIH",
+        "url": "https://clinicalinfo.hiv.gov/en/guidelines/pediatric-arv/diagnosis-hiv-infection-infants-and-children",
+        "snippet": "Infants with potential HIV exposure after birth (e.g., diagnosis of maternal HIV during breastfeeding, premasticated feeding, sexual abuse, contaminated blood products, percutaneous exposure) require additional testing using HIV antigen/antibody and/or HIV NAT assays, based on age at time of exposure and the maternal HIV status at delivery (AII)."
+      }
+    ],
+    "cache_hit": false,
+    "supports_ground_truth": null
+  },
+  "model_generation_performed": false,
+  "note": "Separate search-only diagnostic. Original failed model turns are retained, not overwritten."
+}

@@ -1,0 +1,552 @@
+[
+  {
+    "id": "medqa_0287",
+    "dataset": "medqa",
+    "query_source": "controller_question_text",
+    "query": "A 27-year-old HIV positive female gave birth to a 7lb 2oz (3.2 kg) baby girl. The obstetrician is worried that the child may have been infected due to the mother's haphazard use of her anti-retroviral medications. Which of the following assays would a hospital use detect the genetic material of HIV if the child had been infected?",
+    "evidence": {
+      "status": "ok",
+      "backend": "ddgs-auto",
+      "query": "A 27-year-old HIV positive female gave birth to a 7lb 2oz (3.2 kg) baby girl. The obstetrician is worried that the child may have been infected due to the mother's haphazard use of her anti-retroviral medications. Which of the following assays would a hospital use detect the genetic material of HIV if the child had been infected?",
+      "retrieved_at": "2026-10-18T17:44:47.844455+00:00",
+      "documents": [
+        {
+          "title": "WEEK 4: SHERPATH: NGN - POSTPARTUM Flashcards | Quizlet",
+          "url": "https://quizlet.com/999164768/week-4-sherpath-ngn-postpartum-flash-cards/",
+          "snippet": "Study with Quizlet and memorize flashcards containing terms like CASE STUDY Postpartum - Patient 1 HISTORY & PHYSICAL: Client is a 27-year-old Gravida 2 Para 2 who delivered a healthy baby boy at 0402. She had an SVD with no complications, an intact placenta, and a QBL of 260 mL. She had epidural anesthesia for the birth. No reported perineal lacerations. No episiotomy. The newborn was skin-to ..."
+        },
+        {
+          "title": "Question 106269 - Qbank - Medbullets Step 1",
+          "url": "https://step1.medbullets.com/testview?qid=106269",
+          "snippet": "A 27-year-old HIV positive female gave birth to a 7lb 2oz (3.2 kg) baby girl. The obstetrician is worried that the child may have been infected due to the mother's h..."
+        },
+        {
+          "title": "Biochemistry Final Flashcards | Quizlet",
+          "url": "https://quizlet.com/651262068/biochemistry-final-flash-cards/",
+          "snippet": "A 27-year-old HIV positive female gave birth to a 7lb 2oz (3.2 kg) baby girl. The obstetrician worried that the child may have been infected due to the mother's haphazard use of her anti-retroviral medications."
+        }
+      ],
+      "cache_hit": false,
+      "supports_ground_truth": null
+    }
+  },
+  {
+    "id": "medqa_0322",
+    "dataset": "medqa",
+    "query_source": "controller_question_text",
+    "query": "A 46-year-old man presents to the physician with a complaint of a cough for 6 months. He has been taking over-the-counter cough medications, but they have not helped much. He adds that he expectorated bloody sputum the p small cell carcinoma of the lung. If his blood were to be sent for laboratory evaluation, which of the following proteins is most likely to be elevated in his serum?",
+    "evidence": {
+      "status": "ok",
+      "backend": "ddgs-auto",
+      "query": "A 46-year-old man presents to the physician with a complaint of a cough for 6 months. He has been taking over-the-counter cough medications, but they have not helped much. He adds that he expectorated bloody sputum the p small cell carcinoma of the lung. If his blood were to be sent for laboratory evaluation, which of the following proteins is most likely to be elevated in his serum?",
+      "retrieved_at": "2026-10-18T17:44:50.288336+00:00",
+      "documents": [
+        {
+          "title": "A 46-year-old male, presents to the primary care office ...",
+          "url": "https://www.coursehero.com/tutors-problems/Nursing/74068704-A-46-year-old-male-presents-to-the-primary-care-office-reporting-a/",
+          "snippet": "The patient is a 46-year-old male with a chronic productive cough lasting several months, coupled with a significant smoking history of one pack per day for 15 to 20 years. Spirometry results indicate Stage 1 chronic obstructive pulmonary disease (COPD), with an FEV1/FVC ratio of 68%, reflecting airflow limitation, although his FVC is within the normal range. The patient's COPD Assessment Test ..."
+        },
+        {
+          "title": "Evaluation of chronic cough - Differential diagnosis of ...",
+          "url": "https://bestpractice.bmj.com/topics/en-us/69",
+          "snippet": "Sep 18, 2026 · Subacute cough is most often self-limited, but chronic cough may provide significant challenges for effective evaluation and management. The difficulty is in determining the cause of cough, because some \"etiologies\" are syndromes without accurate diagnostic tests."
+        },
+        {
+          "title": "Recommendations for the management of cough in adults - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2080754/",
+          "snippet": "1.2 Need and purpose of BTS recommendations on the management of cough The American College of Chest Physicians (ACCP) and the European Respiratory Society (ERS) 5, 6 have each endorsed their own set of guidelines on the management of cough; however, criticism 7 of their content and breadth suggest the need for further concise recommendations."
+        }
+      ],
+      "cache_hit": false,
+      "supports_ground_truth": null
+    }
+  },
+  {
+    "id": "medqa_0403",
+    "dataset": "medqa",
+    "query_source": "controller_question_text",
+    "query": "A chronic opioid abuser undergoes emergency surgery. Following the operation, the man is started on a patient controlled analgesia (PCA) thought to be dosed adequately to control his pain in the face of his opioid tolera hours after the conclusion of the surgery. Which agent could have been given intraoperatively to reduce this patient's risk of developing postoperative hyperalgesia?",
+    "evidence": {
+      "status": "ok",
+      "backend": "ddgs-auto",
+      "query": "A chronic opioid abuser undergoes emergency surgery. Following the operation, the man is started on a patient controlled analgesia (PCA) thought to be dosed adequately to control his pain in the face of his opioid tolera hours after the conclusion of the surgery. Which agent could have been given intraoperatively to reduce this patient's risk of developing postoperative hyperalgesia?",
+      "retrieved_at": "2026-10-18T17:44:53.590139+00:00",
+      "documents": [
+        {
+          "title": "Postoperative Analgesia for the Chronic Pain Patient",
+          "url": "https://link.springer.com/chapter/10.1007/978-3-030-56081-2_7",
+          "snippet": "Treating patients with chronic opioid use is challenging in the acute postoperative period, which often leads to inadequate pain control. Factors including altered patient physiology requiring higher analgesic dosages, possible bias and mistrust from healthcare providers, and lack of treatment consensus contribute to the challenges that healthcare providers and patients face in finding ..."
+        },
+        {
+          "title": "Patient-Controlled Analgesia (PCA) - Pain Management Education at UCSF",
+          "url": "https://pain.ucsf.edu/pain-management-strategies/patient-controlled-analgesia-pca",
+          "snippet": "No significant differences exist in incidences of nausea, vomiting, or pruritus among commonly used opioids. Such side effects mostly depend on total opioid dose and individual tolerance. 4 Patient comorbidities or history of individual sensitivities should guide the selection of the appropriate opioid. Morphine and hydromorphone metabolites can accumulate in renal impairment, resulting in ..."
+        },
+        {
+          "title": "Treating Perioperative and Acute Pain in Patients on Buprenorphine ...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7728902/",
+          "snippet": "In short, evidence suggests that sufficient analgesia can be achieved with maintenance of buprenorphine and use of both opioid and non-opioid analgesic options for breakthrough pain."
+        }
+      ],
+      "cache_hit": false,
+      "supports_ground_truth": null
+    }
+  },
+  {
+    "id": "medqa_0568",
+    "dataset": "medqa",
+    "query_source": "controller_question_text",
+    "query": "An 8-week-old male presents with his mother to the pediatrician for a well visit. The patient has been breastfed since birth, and usually feeds for 30 minutes every 2-3 hours. The patient’s mother is concerned that her m  in the supine position. His abdomen is soft, non-tender and non-distended. Bowel sounds are normoactive. Which of the following is the best next step in management?",
+    "evidence": {
+      "status": "ok",
+      "backend": "ddgs-auto",
+      "query": "An 8-week-old male presents with his mother to the pediatrician for a well visit. The patient has been breastfed since birth, and usually feeds for 30 minutes every 2-3 hours. The patient’s mother is concerned that her m in the supine position. His abdomen is soft, non-tender and non-distended. Bowel sounds are normoactive. Which of the following is the best next step in management?",
+      "retrieved_at": "2026-10-18T17:44:55.934880+00:00",
+      "documents": [
+        {
+          "title": "You are answering a USMLE-style medical question. Question: An 8-week ...",
+          "url": "https://orris.care/shared/chat/20ea73dd-0991-433f-9f54-e20cb1859a9c",
+          "snippet": "On physical exam, the patient is cooing in his mother's lap and smiles reciprocally with her. He lifts his head and shoulders off the examination table when placed in the supine position. His abdomen is soft, non-tender and non-distended. Bowel sounds are normoactive. Which of the following is the best next step in management?"
+        },
+        {
+          "title": "Can you please help me with this soap note Demographic 8 weeks male ...",
+          "url": "https://www.cliffsnotes.com/cliffs-questions/2616039",
+          "snippet": "The infant in this note is exclusively breastfeeding, feeding every 2-3 hours, and the mother reports that the child is consuming approximately 8-10 feeds per day."
+        },
+        {
+          "title": "An 8-week old boy presents to his pediatrician for his 2 month well ...",
+          "url": "https://www.cliffsnotes.com/cliffs-questions/6232397",
+          "snippet": "An 8-week old boy presents to his pediatrician for his 2 month well baby examination. He was the product of a full-term vaginal delivery to a G2P2 34-year old mother following an uneventful pregnancy."
+        }
+      ],
+      "cache_hit": false,
+      "supports_ground_truth": null
+    }
+  },
+  {
+    "id": "medqa_0614",
+    "dataset": "medqa",
+    "query_source": "controller_question_text",
+    "query": "A 27-year-old male presents to the psychiatrist requesting help with his compulsions as they are interfering with his life. He explains that he has this fear that something terrible will happen to his house if he does no plained that cognitive-behavioral therapy may be of assistance and also prescribed clomipramine. Which of the following is the mechanism of reaction of clomipramine?",
+    "evidence": {
+      "status": "ok",
+      "backend": "ddgs-auto",
+      "query": "A 27-year-old male presents to the psychiatrist requesting help with his compulsions as they are interfering with his life. He explains that he has this fear that something terrible will happen to his house if he does no plained that cognitive-behavioral therapy may be of assistance and also prescribed clomipramine. Which of the following is the mechanism of reaction of clomipramine?",
+      "retrieved_at": "2026-10-18T17:45:00.556444+00:00",
+      "documents": [
+        {
+          "title": "17.3 Obsessive-Compulsive and Related Disorders - OpenStax",
+          "url": "https://openstax.org/books/psychiatric-mental-health/pages/17-3-obsessive-compulsive-and-related-disorders",
+          "snippet": "Recognizing that his fear of contamination was the central issue, she worked with the treatment team to design a care plan that included exposure therapy. The therapy involved gradually exposing Mark to objects he considered contaminated while supporting him in resisting the urge to perform his compulsive cleaning rituals."
+        },
+        {
+          "title": "Schizophrenia Case Study: Insights and Treatment Approaches",
+          "url": "https://www.studocu.com/en-us/document/park-university/abnormal-psychology/schizophrenia-case-study/7148534",
+          "snippet": "Junhan An February 3, 2019 Case study Case The client is a 27-year-old male diagnosed with schizophrenia disorder since the age of 17."
+        },
+        {
+          "title": "[Solved] 1. A 27-year-old male client has been given the diagnosis of ...",
+          "url": "https://www.coursehero.com/tutors-problems/Nursing/45301134-1-A-27-year-old-male-client-has-been-given-the-diagnosis-of/",
+          "snippet": "A 27-year-old male client has been given the diagnosis of paranoid schizophrenia with psychosis. He exhibits extensive violent behaviors and is put on haloperidol."
+        }
+      ],
+      "cache_hit": false,
+      "supports_ground_truth": null
+    }
+  },
+  {
+    "id": "medqa_0693",
+    "dataset": "medqa",
+    "query_source": "controller_question_text",
+    "query": "A 56-year-old man is brought to the emergency department with severe dyspnea and a productive cough containing streaks of blood since the day before. He had a sudden pruritic papular rash on his right thigh when he was i edematous without overlying erythema or cellulitis. A computerized tomography (CT) scan is shown in the picture. Which of the following best explains these findings?",
+    "evidence": {
+      "status": "error",
+      "backend": "ddgs-auto",
+      "query": "A 56-year-old man is brought to the emergency department with severe dyspnea and a productive cough containing streaks of blood since the day before. He had a sudden pruritic papular rash on his right thigh when he was i edematous without overlying erythema or cellulitis. A computerized tomography (CT) scan is shown in the picture. Which of the following best explains these findings?",
+      "retrieved_at": "2026-10-18T17:45:14.595445+00:00",
+      "documents": [],
+      "error": "DDGSException: No results found.",
+      "cache_hit": false,
+      "supports_ground_truth": null
+    }
+  },
+  {
+    "id": "medqa_0863",
+    "dataset": "medqa",
+    "query_source": "controller_question_text",
+    "query": "A patient with a1-antitrypsin deficiency is warned by his physician that his increasing dyspnea may be worsened by his continued cigarette smoking. Which of the following factors, released by both neutrophils and alveolar macrophages, is responsible for the patient's condition?",
+    "evidence": {
+      "status": "ok",
+      "backend": "ddgs-auto",
+      "query": "A patient with a1-antitrypsin deficiency is warned by his physician that his increasing dyspnea may be worsened by his continued cigarette smoking. Which of the following factors, released by both neutrophils and alveolar macrophages, is responsible for the patient's condition?",
+      "retrieved_at": "2026-10-18T17:45:16.476088+00:00",
+      "documents": [
+        {
+          "title": "A patient with alpha 1antitrypsin deficiency is wa - Nurselytic",
+          "url": "https://nurselytic.com/questions/a-patient-with-alpha-1-antitrypsin-deficiency-is-w-6338018",
+          "snippet": "Elastase, unchecked due to alpha-1-antitrypsin deficiency, destroys alveolar walls, worsened by smoking, causing emphysema and dyspnea."
+        },
+        {
+          "title": "Clinical manifestations, diagnosis, and natural history of ...",
+          "url": "https://www.uptodate.com/contents/1464",
+          "snippet": "Feb 2, 2026 · This mechanism is called a \"toxic loss of function.\" Specifically, cigarette smoking and infection increase the elastase burden in the lung, thus increasing lung degradation [1]. In addition, the polymers of \"Z\" antitrypsin are chemotactic for neutrophils, which may contribute to local inflammation and tissue destruction in the lung [7]."
+        },
+        {
+          "title": "Pulmonary manifestations of alpha 1 antitrypsin deficiency",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0002962924011571",
+          "snippet": "Jul 1, 2024 · Alpha 1 antitrypsin deficiency is a widely under recognized autosomal codominant condition caused by genetic mutations in the SERPINA 1 gene, which encodes for alpha 1 antitrypsin (AAT), a serine protease inhibitor."
+        }
+      ],
+      "cache_hit": false,
+      "supports_ground_truth": null
+    }
+  },
+  {
+    "id": "medqa_1161",
+    "dataset": "medqa",
+    "query_source": "controller_question_text",
+    "query": "A 35-year-old man returns to the clinic to follow up for his chronic stomach pain. At the last visit a few months ago, he explained that he had been experiencing discomfort in his upper abdomen for awhile. He had never v  still experiencing discomfort. Hearing this, the doctor decides to order a urease breath test. What is the most likely cause of this patient's chronic stomach pain?",
+    "evidence": {
+      "status": "ok",
+      "backend": "ddgs-auto",
+      "query": "A 35-year-old man returns to the clinic to follow up for his chronic stomach pain. At the last visit a few months ago, he explained that he had been experiencing discomfort in his upper abdomen for awhile. He had never v still experiencing discomfort. Hearing this, the doctor decides to order a urease breath test. What is the most likely cause of this patient's chronic stomach pain?",
+      "retrieved_at": "2026-10-18T17:45:20.574095+00:00",
+      "documents": [
+        {
+          "title": "Ask Medical Questions Online - Chat for Medical Questions - --",
+          "url": "https://www.bing.com/aclick?ld=e8X7p33SJ69tG_Y9VezY5C4TVUCUz3AA-cuVzfXuJsr5EH-UmdmhNutjRYjUra2GlQy29GeWs5iE1jYSw5m838DVj8pZkFIV8TgiNAS8izqhDicI5f-ReoWK86uMr4EoiGVMzQ7qjE4AtV34HzoCwKrY1AG5Wo6pLWOaJxUIkIRXzAzrnFYTvkJAXq5aAxol58nsu5V2813fgI8LigqWkVVZgqwnI&u=aHR0cHMlM2ElMmYlMmZ3d3cuYXNrYWRvY3Rvci5oZWxwJTJmbHAlMmZoZWFsdGglM2ZyJTNkcHBjJTdjbXNscGElN2MyMCU3Y0hlYWx0aC1NUy1KYXZhdGFyLUNvbXBldGl0b3IlN2NXZWJNRC1Ob24tREtJJTdjJTI2SlBLVyUzZGlzJTI1MjBhc2slMjUyMGElMjUyMGRvY3RvciUyNTIwYSUyNTIwbGVnaXQlMjUyMHdlYnNpdGUlMjZKUERDJTNkUyUyNkpQU1QlM2QlMjZKUEFEJTNkJTI2SlBNVCUzZGIlMjZKUE5XJTNkbyUyNkpQQUYlM2R0eHQlMjZKUFJDJTNkMSUyNkpQQ0QlM2QlMjZKUE9QJTNkJTI2cG10JTNkYmIlMjZjbXBpZCUzZDUzMTI0MzMzOSUyNmFnaWQlM2QxMzU3ODk5Mzg2NjQ1NDMzJTI2cGNyaWQlM2Q4NDg2OTExMzM4OTAyNyUyNmZpaWQlM2QlMjZ0Z3RpZCUzZGt3ZC04NDg2OTg3OTUyODE1MSUzYWxvYy05MCUyNmR2YyUzZGMlMjZtc2Nsa2lkJTNkMWJhNzllYjBmZmNkMTFjYzg0NWVmNDY1ZmE2MDU3NDQ&rlid=1ba79eb0ffcd11cc845ef465fa605744",
+          "snippet": "Get an Expert Answer to Your Medical Question. An Online Doctor Answers You Here. Verified Doctors Are Available to Chat Here. Ask Your Question and Get Help Online."
+        }
+      ],
+      "cache_hit": false,
+      "supports_ground_truth": null
+    }
+  },
+  {
+    "id": "medqa_1293",
+    "dataset": "medqa",
+    "query_source": "controller_question_text",
+    "query": "A previously well 25-year-old woman was brought to the emergency department by her boyfriend because of progressive blurred vision. Examination of the eyes reveals loss of horizontal gaze, intact convergence, and nystagm diagnosis of multiple sclerosis is made and the patient is started on a course of corticosteroids. What is the most likely etiology for her eye examination findings?",
+    "evidence": {
+      "status": "error",
+      "backend": "ddgs-auto",
+      "query": "A previously well 25-year-old woman was brought to the emergency department by her boyfriend because of progressive blurred vision. Examination of the eyes reveals loss of horizontal gaze, intact convergence, and nystagm diagnosis of multiple sclerosis is made and the patient is started on a course of corticosteroids. What is the most likely etiology for her eye examination findings?",
+      "retrieved_at": "2026-10-18T17:45:30.456900+00:00",
+      "documents": [],
+      "error": "DDGSException: No results found.",
+      "cache_hit": false,
+      "supports_ground_truth": null
+    }
+  },
+  {
+    "id": "medqa_1356",
+    "dataset": "medqa",
+    "query_source": "controller_question_text",
+    "query": "A 56-year-old man comes to the physician for a follow-up examination. Two weeks ago, he was treated for an acute gout attack of the metatarsophalangeal joints of his right big toe. His symptoms improved with naproxen. He rmalities. His serum creatinine concentration is 0.9 mg/dL. Long-term treatment with which of the following drugs is most appropriate to prevent future gout attacks?",
+    "evidence": {
+      "status": "error",
+      "backend": "ddgs-auto",
+      "query": "A 56-year-old man comes to the physician for a follow-up examination. Two weeks ago, he was treated for an acute gout attack of the metatarsophalangeal joints of his right big toe. His symptoms improved with naproxen. He rmalities. His serum creatinine concentration is 0.9 mg/dL. Long-term treatment with which of the following drugs is most appropriate to prevent future gout attacks?",
+      "retrieved_at": "2026-10-18T17:45:39.855153+00:00",
+      "documents": [],
+      "error": "DDGSException: No results found.",
+      "cache_hit": false,
+      "supports_ground_truth": null
+    }
+  },
+  {
+    "id": "math_l12_0254",
+    "dataset": "math",
+    "query_source": "controller_question_text",
+    "query": "Compute $\\dbinom{8}{4}$.",
+    "evidence": {
+      "status": "ok",
+      "backend": "ddgs-auto",
+      "query": "Compute $\\dbinom{8}{4}$.",
+      "retrieved_at": "2026-10-18T17:45:42.291401+00:00",
+      "documents": [
+        {
+          "title": "BINOMIAL distribution in R [dbinom, pbinom, qbinom and rbinom ...",
+          "url": "https://r-coder.com/binomial-distribution-r/",
+          "snippet": "In this tutorial we will explain how to work with the binomial distribution in R with the dbinom, pbinom, qbinom, and rbinom functions and how to create the plots of the probability mass, distribution and quantile functions."
+        },
+        {
+          "title": "A Guide to dbinom, pbinom, qbinom, and rbinom in R - Statology",
+          "url": "https://www.statology.org/dbinom-pbinom-qbinom-rbinom-in-r/",
+          "snippet": "Dec 1, 2023 · Put simply, dbinom finds the probability of getting a certain number of successes (x) in a certain number of trials (size) where the probability of success on each trial is fixed (prob). The following examples illustrates how to solve some probability questions using dbinom. Example 1: Bob makes 60% of his free-throw attempts."
+        },
+        {
+          "title": "A Guide to dbinom, pbinom, qbinom, and rbinom in R",
+          "url": "https://www.geeksforgeeks.org/r-language/a-guide-to-dbinom-pbinom-qbinom-and-rbinom-in-r/",
+          "snippet": "Jul 23, 2025 · In this article, we will be looking at a guide to the dbinom, pbinom, qbinom, and rbinom methods of the binomial distribution in the R programming language."
+        }
+      ],
+      "cache_hit": false,
+      "supports_ground_truth": null
+    }
+  },
+  {
+    "id": "math_l12_0367",
+    "dataset": "math",
+    "query_source": "controller_question_text",
+    "query": "A square has a perimeter of $28 \\text{ cm}.$ What is the area of the square, in $\\mbox{cm}^2?$",
+    "evidence": {
+      "status": "ok",
+      "backend": "ddgs-auto",
+      "query": "A square has a perimeter of $28 \\text{ cm}.$ What is the area of the square, in $\\mbox{cm}^2?$",
+      "retrieved_at": "2026-10-18T17:45:43.642702+00:00",
+      "documents": [
+        {
+          "title": "The perimeter of a square is 28cm. What is the area of the ...",
+          "url": "https://www.gauthmath.com/solution/1801312151263237/7-The-perimeter-of-a-square-is-28cm-What-is-the-area-of-the-square-",
+          "snippet": "Given the perimeter is 28cm, you can find the length of one side by dividing the perimeter by 4. Once you know the side length, you can calculate the area. The area of a square is found by multiplying the side length by itself (side * side, or side squared)."
+        },
+        {
+          "title": "The perimeter of a square is 28cm .What is the area? - Filo",
+          "url": "https://askfilo.com/user-question-answers-geometry/the-perimeter-of-a-square-is-what-is-the-area-35373037383036",
+          "snippet": "The perimeter of the square: P = 28 cm So, 28⇒s =4s=428 =7 cm Thus, the side of the square is 7cm. As area of the square is A = s^2, we get A =s2=72=49 So, the area of the square is 49 square cm. Step 5. Answer Therefore, the area of the square is 49cm2. Ask your next question Add an Image Add a Document Get solution"
+        },
+        {
+          "title": "What is the area of a square with a perimeter of 28? - Answers",
+          "url": "https://math.answers.com/other-math/What_is_the_area_of_a_square_with_a_perimeter_of_28",
+          "snippet": "Apr 28, 2022 · In a square this means side * side or side2. area = x2 Solving for the area in the case given we find that the area of a square with a perimeter of 28 is equal to 49 units2"
+        }
+      ],
+      "cache_hit": false,
+      "supports_ground_truth": null
+    }
+  },
+  {
+    "id": "math_l12_0516",
+    "dataset": "math",
+    "query_source": "controller_question_text",
+    "query": "The greatest common divisor of 21 and some number between 50 and 60 is 7. What is the number?",
+    "evidence": {
+      "status": "ok",
+      "backend": "ddgs-auto",
+      "query": "The greatest common divisor of 21 and some number between 50 and 60 is 7. What is the number?",
+      "retrieved_at": "2026-10-18T17:45:55.721030+00:00",
+      "documents": [
+        {
+          "title": "[FREE] The greatest common divisor of 21 and some number ...",
+          "url": "https://brainly.com/question/36831030",
+          "snippet": "Sep 4, 2023 · To find the number between 50 and 60 that has a GCD of 7 with 21, we look for multiples of 7 within that range. The number that fulfills these criteria is 56."
+        },
+        {
+          "title": "Greatest Common Divisor (GCD) Calculator[FREE] The greatest common divisor of 21 and some number ...The greatest common divisor of 21 and some number between 50 ...GCD Calculator — Greatest Common Divisor and LCM With StepsGreatest Common Factor CalculatorGCD and LCM Calculator (HCF, GCF) with Steps · I Do Maths",
+          "url": "https://www.gigacalculator.com/calculators/gcd-calculator.php",
+          "snippet": "The greatest common divisor (gcd), also known as greatest common factor (gcf), highest common factor (hcf), highest common divisor (hcd) and greatest common measure (gcm), is applicable to sets of 2 or more integers different from zero and is the largest positive integers that divides each of them without remainder. The GCD of 1 and any number is 1... See full list on gigacalculator.com There are different methods: prime factorization, Euclid's algorithm, binary method, a method using the least common multiple, Thomae's function, and others. The computation complexity is high in all cases for large numbers. For example, prime factorization is only feasible for small integers. Using our greatest common divisor calculator is free an... See full list on gigacalculator.com Euclid's algorithm is gcd(a, b) = gcd(a - b, b) if a > b and gcd(a, b) = gcd(a, b - a) if b > a. It uses the observation that the greatest common divisor calculated for two numbers also divides their difference. For example, to compute gcd(60,24), divide 60 by 24 to get a quotient of 2 and a remainder of 12. Then divide 24 by 12 to get a quotent of... See full list on gigacalculator.com To find the number between 50 and 60 that has a greatest common divisor (GCD) of 7 with 21, we need to check which of the given options (56, 52, 58, 54) satisfies this condition. Mar 1, 2021 · Click here 👆 to get an answer to your question ️ The greatest common divisor of 21 and some number between 50 and 60 is 7. What is the number? What Is the Greatest Common Divisor (GCD)? The greatest common divisor (GCD) is the largest whole number that divides every number in a set exactly. Dividing 48, 180 and 210 by 6 leaves a remainder of 0 in all 3 cases, and no number above 6 manages the same, so 6 is their greatest common divisor. Aug 1, 2025 · There are several ways to find the greatest common factor of numbers. The most efficient method you use depends on how many numbers you have, how large they are and what you will do with the result. Find the greatest common divisor (GCD, also called HCF) and least common multiple (LCM) of two or three numbers, with the working: listing, prime factors and a Venn diagram, the division ladder and Euclid's algorithm. What is the greatest common divisor of a set of numbers? Easily find the greatest common divisor of a set of numbers. It is a free and easy-to-use GCD calculator. The greatest common divisor (gcd) is also known as greatest common factor (gcf), highest common factor (hcf), highest common divisor (hcd) and greatest common measure (gcm). How do I find the greatest common divisor? Easy-to-use greatest common divisor calculator online. ➤ Find the GCD of a set of numbers. Greatest common factor (gcf), highest common factor (hcf), highest common divisor (hcd) and greatest common measure (gcm) calculator. Find the largest positive integer that divides each of a set of integers. What is the greatest common divisor (GCD)? The greatest common divisor (gcd) is also known as greatest common factor (gcf), highest common factor (hcf), highest common divisor (hcd) and greatest common measure (gcm). It is applicable to sets of 2 or more integers different from zero and is the largest positive integers that divides each of them without remainder. What is the greatest common divisor of 60 and 24? To illustrate the concept, let us say we want to find gcd (60,24) (greatest common divisor of 60 and 24). We can list all divisors of 60 and 24: Divisors of 60: 1, 2, 3, 4, 5, 6, 10, 12, 15, 20, 30 Divisors of 24: 1, 2, 3, 4, 6, 8, 12, 24"
+        },
+        {
+          "title": "[FREE] The greatest common divisor of 21 and some number ...",
+          "url": "https://brainly.com/question/42427198",
+          "snippet": "To find the number between 50 and 60 that has a greatest common divisor (GCD) of 7 with 21, we need to check which of the given options (56, 52, 58, 54) satisfies this condition."
+        }
+      ],
+      "cache_hit": false,
+      "supports_ground_truth": null
+    }
+  },
+  {
+    "id": "math_l12_0626",
+    "dataset": "math",
+    "query_source": "controller_question_text",
+    "query": "The notation $[x]$ stands for the greatest integer that is less than or equal to $x$. Calculate $[-1.2]$.",
+    "evidence": {
+      "status": "ok",
+      "backend": "ddgs-auto",
+      "query": "The notation $[x]$ stands for the greatest integer that is less than or equal to $x$. Calculate $[-1.2]$.",
+      "retrieved_at": "2026-10-18T17:45:59.776269+00:00",
+      "documents": [
+        {
+          "title": "Floor and ceiling functions - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Floor_and_ceiling_functions",
+          "snippet": "In mathematics, the floor function is the function that takes a real number x as input and returns the greatest integer less than or equal to x, written ⌊x⌋ or floor (x). Similarly, the ceiling function returns the least integer greater than or equal to x, written ⌈x⌉ or ceil (x). [1]"
+        },
+        {
+          "title": "Greatest Integer Function - GeeksforGeeks",
+          "url": "https://www.geeksforgeeks.org/dsa/greatest-integer-function/",
+          "snippet": "Jul 11, 2025 · The greatest Integer Function [X] indicates an integral part of the real number $x\\text{ }$ which is the nearest and smaller integer to $x\\text{ }$ . It is also known as the floor of X."
+        },
+        {
+          "title": "4: The Floor and Ceiling of a Real Number - Mathematics ...",
+          "url": "https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Elementary_Number_Theory_(Clark)/01:_Chapters/04:_The_Floor_and_Ceiling_of_a_Real_Number",
+          "snippet": "Sep 1, 2026 · Kenneth Iverson introduced this notation and the terms floor and ceiling in the early 1960s — according to Donald Knuth who has done a lot to popularize the notation. Now this notation is standard in most areas of mathematics."
+        }
+      ],
+      "cache_hit": false,
+      "supports_ground_truth": null
+    }
+  },
+  {
+    "id": "math_l12_0644",
+    "dataset": "math",
+    "query_source": "controller_question_text",
+    "query": "If $\\frac{x}{y}= 2$ and $\\frac{z}{x}= 4$, what is the value of $\\frac{z}{y}$?",
+    "evidence": {
+      "status": "ok",
+      "backend": "ddgs-auto",
+      "query": "If $\\frac{x}{y}= 2$ and $\\frac{z}{x}= 4$, what is the value of $\\frac{z}{y}$?",
+      "retrieved_at": "2026-10-18T17:46:03.025389+00:00",
+      "documents": [
+        {
+          "title": "Step-by-Step Calculator - Symbolab",
+          "url": "https://www.symbolab.com/solver?''}}",
+          "snippet": "Free Pre-Algebra, Algebra, Trigonometry, Calculus, Geometry, Statistics and Chemistry calculators step-by-step"
+        },
+        {
+          "title": "Algebra Calculator - Symbolab",
+          "url": "https://www.symbolab.com/solver/algebra-calculator",
+          "snippet": "Mostly letters x, y, and z, these symbols—which stand for quantities without set values—are called variables. Algebra provides general formulas and lets us solve problems for many distinct values."
+        },
+        {
+          "title": "Math Solver — Exact Answers with Verified Steps",
+          "url": "https://maths-solver.org/",
+          "snippet": "Solve supported arithmetic and algebra problems online with Math Solver. Confirm the input, get exact answers, and review independently verified step-by-step work."
+        }
+      ],
+      "cache_hit": false,
+      "supports_ground_truth": null
+    }
+  },
+  {
+    "id": "math_l12_1161",
+    "dataset": "math",
+    "query_source": "controller_question_text",
+    "query": "Compute $\\left(\\sqrt{625681}\\right)^2$.",
+    "evidence": {
+      "status": "ok",
+      "backend": "ddgs-auto",
+      "query": "Compute $\\left(\\sqrt{625681}\\right)^2$.",
+      "retrieved_at": "2026-10-18T17:46:06.555128+00:00",
+      "documents": [
+        {
+          "title": "Square Root Calculator - Free Online Calculator With Steps ...",
+          "url": "https://www.symbolab.com/solver/square-root-calculator",
+          "snippet": "We only write the positive root when we use the radical symbol, so $\\sqrt{36}=6$. But if solving an equation like ${x}^{2}=36$, the solutions are $x=6$ and $x=-6$. Can We Take the Square Root of Any Number?"
+        },
+        {
+          "title": "Radical Calculator - MathCracker.com",
+          "url": "https://mathcracker.com/radical-calculator",
+          "snippet": "Instructions: Use radical calculator to compute and simplify any expression involving radicals that you provide, showing all the steps. Please type in the radical expression you want to work out in the form box below. Enter the radical expression you want to compute (Ex: sqrt (2/3 + 4/5), etc.)"
+        },
+        {
+          "title": "Math Solver - Trusted Online AI Math Calculator | Symbolab",
+          "url": "https://en.symbolab.com/",
+          "snippet": "Symbolab’s AI Math Solver is built not to just compute, but to explain. It breaks problems into step-by-step solutions, showing how each part contributes to the answer."
+        }
+      ],
+      "cache_hit": false,
+      "supports_ground_truth": null
+    }
+  },
+  {
+    "id": "math_l12_1221",
+    "dataset": "math",
+    "query_source": "controller_question_text",
+    "query": "Compute $\\dbinom{5}{1}$.",
+    "evidence": {
+      "status": "ok",
+      "backend": "ddgs-auto",
+      "query": "Compute $\\dbinom{5}{1}$.",
+      "retrieved_at": "2026-10-18T17:46:11.716179+00:00",
+      "documents": [
+        {
+          "title": "A Guide to dbinom, pbinom, qbinom, and rbinom in R - Statology",
+          "url": "https://www.statology.org/dbinom-pbinom-qbinom-rbinom-in-r/",
+          "snippet": "This tutorial explains how to work with the binomial distribution in R using the functions dbinom, pbinom, qbinom, and rbinom. dbinom The function dbinom returns the value of the probability density function (pdf) of the binomial distribution given a certain random variable x, number of trials (size) and probability of success on each trial (prob). The syntax for using dbinom is as follows ..."
+        },
+        {
+          "title": "A Guide to dbinom, pbinom, qbinom, and rbinom in R",
+          "url": "https://www.geeksforgeeks.org/r-language/a-guide-to-dbinom-pbinom-qbinom-and-rbinom-in-r/",
+          "snippet": "In this article, we will be looking at a guide to the dbinom, pbinom, qbinom, and rbinom methods of the binomial distribution in the R programming language. dbinom function This function returns the value of the probability density function (pdf) of the binomial distribution given a certain random variable x, number of trials (size), and probability of success on each trial (prob). Syntax ..."
+        },
+        {
+          "title": "BINOMIAL distribution in R [dbinom, pbinom, qbinom and rbinom functions]",
+          "url": "https://r-coder.com/binomial-distribution-r/",
+          "snippet": "Binomial Distribution in R Learn how to plot a binomial probability or distribution and use the dbinom, pbinom, qbinom and rbinom functions"
+        }
+      ],
+      "cache_hit": false,
+      "supports_ground_truth": null
+    }
+  },
+  {
+    "id": "math_l12_1295",
+    "dataset": "math",
+    "query_source": "controller_question_text",
+    "query": "Solve for $k$ in the equation $2k+5 = 13$.",
+    "evidence": {
+      "status": "ok",
+      "backend": "ddgs-auto",
+      "query": "Solve for $k$ in the equation $2k+5 = 13$.",
+      "retrieved_at": "2026-10-18T17:46:13.812442+00:00",
+      "documents": [
+        {
+          "title": "Solve linear equation 2k+5=13 | Tiger Algebra",
+          "url": "https://www.tiger-algebra.com/en/solution/linear-equation-one-unknown/2k+5=13/",
+          "snippet": "Solve the linear equation 2k+5=13 step by step. Isolate the unknown, simplify both sides, and check the solution 2k+5=13."
+        },
+        {
+          "title": "Equation Solver - Mathway",
+          "url": "https://www.mathway.com/Calculator/equation-solver",
+          "snippet": "The equation solver allows you to enter your problem and solve the equation to see the result. Solve in one variable or many."
+        },
+        {
+          "title": "Equation Calculator - Symbolab",
+          "url": "https://www.symbolab.com/solver/equation-calculator",
+          "snippet": "Free equations calculator - solve linear, quadratic, polynomial, radical, exponential and logarithmic equations with all the steps. Type in any equation to get the solution, steps and graph"
+        }
+      ],
+      "cache_hit": false,
+      "supports_ground_truth": null
+    }
+  },
+  {
+    "id": "math_l12_1625",
+    "dataset": "math",
+    "query_source": "controller_question_text",
+    "query": "Find the number of odd digits in the base-4 representation of $233_{10}$.",
+    "evidence": {
+      "status": "error",
+      "backend": "ddgs-auto",
+      "query": "Find the number of odd digits in the base-4 representation of $233_{10}$.",
+      "retrieved_at": "2026-10-18T17:46:25.310726+00:00",
+      "documents": [],
+      "error": "DDGSException: No results found.",
+      "cache_hit": false,
+      "supports_ground_truth": null
+    }
+  },
+  {
+    "id": "math_l12_1823",
+    "dataset": "math",
+    "query_source": "controller_question_text",
+    "query": "Compute $\\dbinom{11}{8}$.",
+    "evidence": {
+      "status": "ok",
+      "backend": "ddgs-auto",
+      "query": "Compute $\\dbinom{11}{8}$.",
+      "retrieved_at": "2026-10-18T17:46:30.190899+00:00",
+      "documents": [
+        {
+          "title": "A Guide to dbinom, pbinom, qbinom, and rbinom in R",
+          "url": "https://www.geeksforgeeks.org/r-language/a-guide-to-dbinom-pbinom-qbinom-and-rbinom-in-r/",
+          "snippet": "Jul 23, 2025 · In this article, we will be looking at a guide to the dbinom, pbinom, qbinom, and rbinom methods of the binomial distribution in the R programming language."
+        },
+        {
+          "title": "Binomial Distribution Calculator & Binomial Probability ...A Guide to dbinom, pbinom, qbinom, and rbinom in R - StatologyBINOMIAL distribution in R [dbinom, pbinom, qbinom and rbinom ...Binomial Distribution CalculatorBinomial Distribution Calculator — Probability, Graph & ExamplesBinomial Distribution Probability Calculator",
+          "url": "https://www.gigacalculator.com/calculators/binomial-probability-calculator.php",
+          "snippet": "You can use this tool to solve either for the exact probability of observing exactly x events in n trials, or the cumulative probability of observing X ≤ x, or the cumulative probabilities of observing X x. Simply enter the probability of observing an event (outcome of interest, success) on a single trial (e.g. as 0.5 or 1/2, 1/... See full list on gigacalculator.com The binomial distribution X~Bin(n,p) is a probability distribution which results from the number of events in a sequence of n independent experiments with a binary / Boolean outcome: true or false, yes or no, event or no event, success or failure. These are also known as Bernoulli trials and thus a Binomial distribution is the result of a sequence ... See full list on gigacalculator.com A probability for a certain outcome from a binomial distribution is what is usually referred to as a \"binomial probability\". It can be calculated using the formula for the binomial probability distribution function (PDF), a.k.a. probability mass function (PMF): f(x), as follows: where X is a random variable, x is a particular outcome, n and p are t... See full list on gigacalculator.com The cumulative distribution function (CDF) of the Binomial distribution is what is needed when you need to compute the probability of observing less than or more than a certain number of events/outcomes/successes from a number of trials. The Binomial CDF formula is simple: Therefore, the cumulative binomial probabilityis simply the sum of the proba... See full list on gigacalculator.com Example 1: Coin flipping.If a fair coin (p = 1/2 = 0.5) is tossed 100 times, what is the probability of observing exactly 50 heads? What is the probability of observing more than 50 heads? Entering 0.5 or 1/2 in the calculator and 100 for the number of trials and 50 for \"Number of events\" we get that the chance of seeing exactly 50 heads is just un... See full list on gigacalculator.com Dec 1, 2023 · Put simply, dbinom finds the probability of getting a certain number of successes (x) in a certain number of trials (size) where the probability of success on each trial is fixed (prob). The following examples illustrates how to solve some probability questions using dbinom. Example 1: Bob makes 60% of his free-throw attempts. In this tutorial we will explain how to work with the binomial distribution in R with the dbinom, pbinom, qbinom, and rbinom functions and how to create the plots of the probability mass, distribution and quantile functions. Use the binomial distribution calculator to quickly compute cumulative and individual binomial probabilities, along with the mean, variance, and standard deviation of a binomial experiment. Aug 11, 2024 · This calculator helps you compute the probabilities of a binomial distribution. Simply enter the number of trials (n), the probability of success (p), and the desired comparison type and value. Use the Binomial Calculator to compute individual and cumulative binomial probabilities. For help in using the calculator, read the Frequently-Asked Questions or review the Sample Problems."
+        },
+        {
+          "title": "A Guide to dbinom, pbinom, qbinom, and rbinom in R - Statology",
+          "url": "https://www.statology.org/dbinom-pbinom-qbinom-rbinom-in-r/",
+          "snippet": "Dec 1, 2023 · Put simply, dbinom finds the probability of getting a certain number of successes (x) in a certain number of trials (size) where the probability of success on each trial is fixed (prob). The following examples illustrates how to solve some probability questions using dbinom. Example 1: Bob makes 60% of his free-throw attempts."
+        }
+      ],
+      "cache_hit": false,
+      "supports_ground_truth": null
+    }
+  }
+]

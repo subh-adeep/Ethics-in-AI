@@ -1,0 +1,16 @@
+{
+  "automatic_shutdown_observed_state": "stopped",
+  "automatic_shutdown_verified_at": "2026-10-19T20:26:17.684970+00:00",
+  "manual_aws_stop_used_during_automatic_test": false,
+  "notes": "OS-triggered automatic stop took several minutes to transition through Stopping; no force-stop API used during preflight.",
+  "restart_test_state": "running",
+  "restart_test_ip": "3.238.90.181",
+  "restart_test_verified_at": "2026-10-19T20:27:32.544521+00:00",
+  "job_inactive_after_restart": true,
+  "backup_timer_inactive_after_restart": true,
+  "driver_after_restart": "580.178.04",
+  "filesystem_errors_in_boot_log": false,
+  "final_state": "stopped",
+  "final_state_verified_at": "2026-10-19T20:34:59.363366+00:00",
+  "cleanup_stop_method": "AWS StopInstances after restart verification and local backup"
+}

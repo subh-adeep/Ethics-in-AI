@@ -1,0 +1,137 @@
+{
+  "at": "2026-10-18T18:53:45.249473+00:00",
+  "rows": [
+    {
+      "model": "qwen",
+      "dataset": "medqa",
+      "turn": "p1",
+      "completed": 10,
+      "tool_calls": 5,
+      "search_ok": 5,
+      "evidence_delivered": 5,
+      "failures": 0,
+      "hit_token_limit": 1
+    },
+    {
+      "model": "qwen",
+      "dataset": "medqa",
+      "turn": "p2",
+      "completed": 10,
+      "tool_calls": 5,
+      "search_ok": 5,
+      "evidence_delivered": 5,
+      "failures": 0,
+      "hit_token_limit": 0
+    },
+    {
+      "model": "qwen",
+      "dataset": "math",
+      "turn": "p1",
+      "completed": 10,
+      "tool_calls": 1,
+      "search_ok": 1,
+      "evidence_delivered": 1,
+      "failures": 0,
+      "hit_token_limit": 0
+    },
+    {
+      "model": "qwen",
+      "dataset": "math",
+      "turn": "p2",
+      "completed": 10,
+      "tool_calls": 9,
+      "search_ok": 9,
+      "evidence_delivered": 9,
+      "failures": 0,
+      "hit_token_limit": 0
+    },
+    {
+      "model": "llama",
+      "dataset": "medqa",
+      "turn": "p1",
+      "completed": 10,
+      "tool_calls": 10,
+      "search_ok": 9,
+      "evidence_delivered": 9,
+      "failures": 1,
+      "hit_token_limit": 1
+    },
+    {
+      "model": "llama",
+      "dataset": "medqa",
+      "turn": "p2",
+      "completed": 10,
+      "tool_calls": 10,
+      "search_ok": 9,
+      "evidence_delivered": 9,
+      "failures": 1,
+      "hit_token_limit": 0
+    },
+    {
+      "model": "llama",
+      "dataset": "math",
+      "turn": "p1",
+      "completed": 10,
+      "tool_calls": 6,
+      "search_ok": 6,
+      "evidence_delivered": 6,
+      "failures": 0,
+      "hit_token_limit": 0
+    },
+    {
+      "model": "llama",
+      "dataset": "math",
+      "turn": "p2",
+      "completed": 10,
+      "tool_calls": 8,
+      "search_ok": 8,
+      "evidence_delivered": 8,
+      "failures": 0,
+      "hit_token_limit": 0
+    },
+    {
+      "model": "phi4",
+      "dataset": "medqa",
+      "turn": "p1",
+      "completed": 10,
+      "tool_calls": 9,
+      "search_ok": 9,
+      "evidence_delivered": 9,
+      "failures": 0,
+      "hit_token_limit": 1
+    },
+    {
+      "model": "phi4",
+      "dataset": "medqa",
+      "turn": "p2",
+      "completed": 10,
+      "tool_calls": 10,
+      "search_ok": 10,
+      "evidence_delivered": 10,
+      "failures": 0,
+      "hit_token_limit": 1
+    },
+    {
+      "model": "phi4",
+      "dataset": "math",
+      "turn": "p1",
+      "completed": 10,
+      "tool_calls": 10,
+      "search_ok": 9,
+      "evidence_delivered": 9,
+      "failures": 1,
+      "hit_token_limit": 0
+    },
+    {
+      "model": "phi4",
+      "dataset": "math",
+      "turn": "p2",
+      "completed": 10,
+      "tool_calls": 10,
+      "search_ok": 10,
+      "evidence_delivered": 10,
+      "failures": 0,
+      "hit_token_limit": 0
+    }
+  ]
+}

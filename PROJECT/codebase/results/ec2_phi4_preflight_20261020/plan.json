@@ -1,0 +1,17 @@
+{
+  "instance_id": "i-03f96c0b0edb6326a",
+  "region": "us-east-1",
+  "scope": "EC2 setup and lifecycle validation only; full run not launched",
+  "model": "phi4",
+  "conversations": 4,
+  "medqa": 2,
+  "math": 2,
+  "answer_turns": 12,
+  "answer_tokens": 160,
+  "optional_tool_selection": true,
+  "exact_id_one_entry": true,
+  "runtime_limit_seconds": 1200,
+  "independent_backup_deadline_seconds": 1500,
+  "auto_start_on_boot": false,
+  "shutdown_behavior_verified": "stop"
+}

@@ -1,0 +1,62 @@
+{
+  "at": "2026-10-19T05:23:04.102295+00:00",
+  "parser": "answer-parser-4.0",
+  "n": 146,
+  "evaluated_replies": 3942,
+  "every_setting_p0_correct": 146,
+  "original_data_only": true,
+  "no_model_inference": true,
+  "outcomes_sum_to_146": true,
+  "sources": {
+    "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\codebase\\results\\medqa_web_t2_20261019\\manifest.json": "0826151e95020fb89a77744bac2bc38332b8b3bbc39be93b258de11960ccfc18",
+    "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\codebase\\results\\parser_v4_20261018\\rescored_replies.jsonl": "2b32ed14a40ac9cbd252e1c9e6c0db744f0fc50fe7f50e50d0141ee7f7a34bb2",
+    "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\codebase\\src\\benchmark\\answer_parser.py": "b41c6cbe188c97890a63977033473f636896a80d0e9866ae343deb9eccc43ac5",
+    "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\codebase\\results\\medqa_web_t2_20261019\\kaggle_download_final_v2\\medqa_project\\PROJECT\\codebase\\results\\medqa_web_t2_20261019\\qwen_checkpoint.json": "976f9333fde457939a7c9f7200d5b4c4f6f5a09820fa7d3f823234f3ff98bbe2",
+    "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\codebase\\results\\medqa_web_t2_20261019\\kaggle_download_final_v2\\medqa_project\\PROJECT\\codebase\\results\\medqa_web_t2_20261019\\llama_checkpoint.json": "e7349b3f521af80dc665e4b46e906cd3f36ce49add0819780cced6567770b25f",
+    "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\codebase\\results\\medqa_web_t2_20261019\\kaggle_download_final_v2\\medqa_project\\PROJECT\\codebase\\results\\medqa_web_t2_20261019\\phi4_checkpoint.json": "a116d5ff13a3f1157f798c64977284018ed5ecd7d33fdcd61056285030d605a8"
+  },
+  "tool_call_summaries": [
+    {
+      "model": "qwen",
+      "p1_calls": 48,
+      "p1_call_rate_pct": 32.8767,
+      "p1_nonempty": 42,
+      "p1_failed_or_empty": 6,
+      "p2_calls": 82,
+      "p2_call_rate_pct": 56.1644,
+      "p2_nonempty": 78,
+      "p2_failed_or_empty": 4,
+      "total_calls": 130,
+      "nonempty": 120,
+      "failed_or_empty": 10
+    },
+    {
+      "model": "llama",
+      "p1_calls": 146,
+      "p1_call_rate_pct": 100.0,
+      "p1_nonempty": 122,
+      "p1_failed_or_empty": 24,
+      "p2_calls": 146,
+      "p2_call_rate_pct": 100.0,
+      "p2_nonempty": 141,
+      "p2_failed_or_empty": 5,
+      "total_calls": 292,
+      "nonempty": 263,
+      "failed_or_empty": 29
+    },
+    {
+      "model": "phi4",
+      "p1_calls": 140,
+      "p1_call_rate_pct": 95.8904,
+      "p1_nonempty": 108,
+      "p1_failed_or_empty": 32,
+      "p2_calls": 144,
+      "p2_call_rate_pct": 98.6301,
+      "p2_nonempty": 138,
+      "p2_failed_or_empty": 6,
+      "total_calls": 284,
+      "nonempty": 246,
+      "failed_or_empty": 38
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+[Unit]
+Description=Isolated EC2 experiment preflight
+Wants=network-online.target
+After=network-online.target
+[Service]
+Type=exec
+User=ubuntu
+Group=ubuntu
+WorkingDirectory=/home/ubuntu/ethics-ec2
+Environment=PYTHONUNBUFFERED=1
+Environment=CUDA_VISIBLE_DEVICES=0
+Environment=TOKENIZERS_PARALLELISM=false
+ExecStart=/home/ubuntu/ethics-venv/bin/python /home/ubuntu/ethics-ec2/PROJECT/codebase/src/analysis/ec2_phi4_preflight.py
+ExecStopPost=+/usr/bin/python3 /usr/local/lib/ethics-ec2/lifecycle.py finalize --output /home/ubuntu/ethics-ec2/runs/phi4-smoke --poweroff
+RuntimeMaxSec=1200
+TimeoutStopSec=45
+KillMode=control-group
+Restart=no
+StandardOutput=append:/home/ubuntu/ethics-ec2/runs/phi4-smoke/console.log
+StandardError=append:/home/ubuntu/ethics-ec2/runs/phi4-smoke/console.log

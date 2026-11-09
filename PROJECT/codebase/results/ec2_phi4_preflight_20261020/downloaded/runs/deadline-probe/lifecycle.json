@@ -1,0 +1,9 @@
+{
+  "at": "2026-10-19T20:17:31.658630+00:00",
+  "service_result": "backup-deadline",
+  "exit_code": null,
+  "exit_status": null,
+  "poweroff_requested": false,
+  "full_run_started": false,
+  "saved_files": {}
+}

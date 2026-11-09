@@ -1,0 +1,15 @@
+{
+  "at": "2026-10-18T18:22:28.167836+00:00",
+  "kernel": "subhadeepsing/ethics-web-pilot-phi4-20-questions-20261018",
+  "is_private": true,
+  "questions": 20,
+  "reason": "Run Phi-4 concurrently while laptop completes LLaMA",
+  "source_sha256": "d50053437a5f67e9a3d5ba299c1bd6083f588c8e4aae84e86480fd547bbf954a",
+  "response": {
+    "ref": "/code/subhadeepsing/ethics-web-pilot-phi4-20-questions-20261018",
+    "url": "https://www.kaggle.com/code/subhadeepsing/ethics-web-pilot-phi4-20-questions-20261018",
+    "versionNumber": 1,
+    "kernelId": 139465008
+  },
+  "requested_kernel": "subhadeepsing/ethics-web-pilot-phi4-20261018"
+}

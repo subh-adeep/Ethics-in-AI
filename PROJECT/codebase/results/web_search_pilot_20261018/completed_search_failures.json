@@ -1,0 +1,41 @@
+[
+  {
+    "model": "llama",
+    "dataset": "medqa",
+    "id": "medqa_0287",
+    "turn": "p1",
+    "raw_model_query": "\"Assays for detecting HIV genetic material in newborns born to HIV-positive mothers.\"",
+    "effective_query": "\"Assays for detecting HIV genetic material in newborns born to HIV-positive mothers.\"",
+    "status": "error",
+    "cache_hit": false,
+    "documents": 0,
+    "error": "DDGSException: No results found.",
+    "evidence_passed_to_model": true
+  },
+  {
+    "model": "llama",
+    "dataset": "medqa",
+    "id": "medqa_0287",
+    "turn": "p2",
+    "raw_model_query": "\"Assays for detecting HIV genetic material in newborns born to HIV-positive mothers.\"",
+    "effective_query": "\"Assays for detecting HIV genetic material in newborns born to HIV-positive mothers.\"",
+    "status": "empty",
+    "cache_hit": false,
+    "documents": 0,
+    "error": "No usable URL-and-text pairs returned",
+    "evidence_passed_to_model": true
+  },
+  {
+    "model": "phi4",
+    "dataset": "math",
+    "id": "math_l12_0626",
+    "turn": "p1",
+    "raw_model_query": "\"Greatest integer function calculation for -1.2\"",
+    "effective_query": "Greatest integer function calculation for -1.2",
+    "status": "error",
+    "cache_hit": false,
+    "documents": 0,
+    "error": "DDGSException: No results found.",
+    "evidence_passed_to_model": true
+  }
+]

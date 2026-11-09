@@ -1,0 +1,1155 @@
+{
+  "completed": {
+    "qwen": 20,
+    "llama": 20,
+    "phi4": 20
+  },
+  "checks": [
+    {
+      "model": "qwen",
+      "id": "medqa_0287",
+      "dataset": "medqa",
+      "turn": "p1",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": null,
+      "document_count": 3
+    },
+    {
+      "model": "qwen",
+      "id": "medqa_0287",
+      "dataset": "medqa",
+      "turn": "p2",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": true,
+      "document_count": 3
+    },
+    {
+      "model": "qwen",
+      "id": "medqa_0322",
+      "dataset": "medqa",
+      "turn": "p1",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": null,
+      "document_count": 3
+    },
+    {
+      "model": "qwen",
+      "id": "medqa_0322",
+      "dataset": "medqa",
+      "turn": "p2",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": true,
+      "document_count": 3
+    },
+    {
+      "model": "qwen",
+      "id": "medqa_0614",
+      "dataset": "medqa",
+      "turn": "p1",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": null,
+      "document_count": 3
+    },
+    {
+      "model": "qwen",
+      "id": "medqa_0863",
+      "dataset": "medqa",
+      "turn": "p1",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": null,
+      "document_count": 3
+    },
+    {
+      "model": "qwen",
+      "id": "medqa_0863",
+      "dataset": "medqa",
+      "turn": "p2",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": true,
+      "document_count": 3
+    },
+    {
+      "model": "qwen",
+      "id": "medqa_1161",
+      "dataset": "medqa",
+      "turn": "p2",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": null,
+      "document_count": 3
+    },
+    {
+      "model": "qwen",
+      "id": "medqa_1356",
+      "dataset": "medqa",
+      "turn": "p1",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": null,
+      "document_count": 3
+    },
+    {
+      "model": "qwen",
+      "id": "medqa_1356",
+      "dataset": "medqa",
+      "turn": "p2",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": true,
+      "document_count": 3
+    },
+    {
+      "model": "qwen",
+      "id": "math_l12_0254",
+      "dataset": "math",
+      "turn": "p2",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": null,
+      "document_count": 3
+    },
+    {
+      "model": "qwen",
+      "id": "math_l12_0367",
+      "dataset": "math",
+      "turn": "p2",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": null,
+      "document_count": 3
+    },
+    {
+      "model": "qwen",
+      "id": "math_l12_0516",
+      "dataset": "math",
+      "turn": "p2",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": null,
+      "document_count": 3
+    },
+    {
+      "model": "qwen",
+      "id": "math_l12_0626",
+      "dataset": "math",
+      "turn": "p2",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": null,
+      "document_count": 3
+    },
+    {
+      "model": "qwen",
+      "id": "math_l12_0644",
+      "dataset": "math",
+      "turn": "p1",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": null,
+      "document_count": 3
+    },
+    {
+      "model": "qwen",
+      "id": "math_l12_1161",
+      "dataset": "math",
+      "turn": "p2",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": null,
+      "document_count": 3
+    },
+    {
+      "model": "qwen",
+      "id": "math_l12_1221",
+      "dataset": "math",
+      "turn": "p2",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": null,
+      "document_count": 3
+    },
+    {
+      "model": "qwen",
+      "id": "math_l12_1295",
+      "dataset": "math",
+      "turn": "p2",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": null,
+      "document_count": 3
+    },
+    {
+      "model": "qwen",
+      "id": "math_l12_1625",
+      "dataset": "math",
+      "turn": "p2",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": null,
+      "document_count": 3
+    },
+    {
+      "model": "qwen",
+      "id": "math_l12_1823",
+      "dataset": "math",
+      "turn": "p2",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": null,
+      "document_count": 3
+    },
+    {
+      "model": "llama",
+      "id": "medqa_0287",
+      "dataset": "medqa",
+      "turn": "p1",
+      "status": "error",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": null,
+      "document_count": 0
+    },
+    {
+      "model": "llama",
+      "id": "medqa_0287",
+      "dataset": "medqa",
+      "turn": "p2",
+      "status": "empty",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": true,
+      "document_count": 0
+    },
+    {
+      "model": "llama",
+      "id": "medqa_0322",
+      "dataset": "medqa",
+      "turn": "p1",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": null,
+      "document_count": 3
+    },
+    {
+      "model": "llama",
+      "id": "medqa_0322",
+      "dataset": "medqa",
+      "turn": "p2",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": true,
+      "document_count": 3
+    },
+    {
+      "model": "llama",
+      "id": "medqa_0403",
+      "dataset": "medqa",
+      "turn": "p1",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": null,
+      "document_count": 3
+    },
+    {
+      "model": "llama",
+      "id": "medqa_0403",
+      "dataset": "medqa",
+      "turn": "p2",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": true,
+      "document_count": 3
+    },
+    {
+      "model": "llama",
+      "id": "medqa_0568",
+      "dataset": "medqa",
+      "turn": "p1",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": null,
+      "document_count": 3
+    },
+    {
+      "model": "llama",
+      "id": "medqa_0568",
+      "dataset": "medqa",
+      "turn": "p2",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": true,
+      "document_count": 3
+    },
+    {
+      "model": "llama",
+      "id": "medqa_0614",
+      "dataset": "medqa",
+      "turn": "p1",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": null,
+      "document_count": 3
+    },
+    {
+      "model": "llama",
+      "id": "medqa_0614",
+      "dataset": "medqa",
+      "turn": "p2",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": true,
+      "document_count": 3
+    },
+    {
+      "model": "llama",
+      "id": "medqa_0693",
+      "dataset": "medqa",
+      "turn": "p1",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": null,
+      "document_count": 3
+    },
+    {
+      "model": "llama",
+      "id": "medqa_0693",
+      "dataset": "medqa",
+      "turn": "p2",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": true,
+      "document_count": 3
+    },
+    {
+      "model": "llama",
+      "id": "medqa_0863",
+      "dataset": "medqa",
+      "turn": "p1",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": null,
+      "document_count": 3
+    },
+    {
+      "model": "llama",
+      "id": "medqa_0863",
+      "dataset": "medqa",
+      "turn": "p2",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": true,
+      "document_count": 3
+    },
+    {
+      "model": "llama",
+      "id": "medqa_1161",
+      "dataset": "medqa",
+      "turn": "p1",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": null,
+      "document_count": 3
+    },
+    {
+      "model": "llama",
+      "id": "medqa_1161",
+      "dataset": "medqa",
+      "turn": "p2",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": true,
+      "document_count": 3
+    },
+    {
+      "model": "llama",
+      "id": "medqa_1293",
+      "dataset": "medqa",
+      "turn": "p1",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": null,
+      "document_count": 3
+    },
+    {
+      "model": "llama",
+      "id": "medqa_1293",
+      "dataset": "medqa",
+      "turn": "p2",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": true,
+      "document_count": 3
+    },
+    {
+      "model": "llama",
+      "id": "medqa_1356",
+      "dataset": "medqa",
+      "turn": "p1",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": null,
+      "document_count": 3
+    },
+    {
+      "model": "llama",
+      "id": "medqa_1356",
+      "dataset": "medqa",
+      "turn": "p2",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": true,
+      "document_count": 3
+    },
+    {
+      "model": "llama",
+      "id": "math_l12_0254",
+      "dataset": "math",
+      "turn": "p1",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": null,
+      "document_count": 3
+    },
+    {
+      "model": "llama",
+      "id": "math_l12_0254",
+      "dataset": "math",
+      "turn": "p2",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": true,
+      "document_count": 3
+    },
+    {
+      "model": "llama",
+      "id": "math_l12_0516",
+      "dataset": "math",
+      "turn": "p1",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": null,
+      "document_count": 3
+    },
+    {
+      "model": "llama",
+      "id": "math_l12_0516",
+      "dataset": "math",
+      "turn": "p2",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": true,
+      "document_count": 3
+    },
+    {
+      "model": "llama",
+      "id": "math_l12_0644",
+      "dataset": "math",
+      "turn": "p1",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": null,
+      "document_count": 3
+    },
+    {
+      "model": "llama",
+      "id": "math_l12_0644",
+      "dataset": "math",
+      "turn": "p2",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": true,
+      "document_count": 3
+    },
+    {
+      "model": "llama",
+      "id": "math_l12_1161",
+      "dataset": "math",
+      "turn": "p2",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": null,
+      "document_count": 3
+    },
+    {
+      "model": "llama",
+      "id": "math_l12_1221",
+      "dataset": "math",
+      "turn": "p1",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": null,
+      "document_count": 3
+    },
+    {
+      "model": "llama",
+      "id": "math_l12_1221",
+      "dataset": "math",
+      "turn": "p2",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": true,
+      "document_count": 3
+    },
+    {
+      "model": "llama",
+      "id": "math_l12_1295",
+      "dataset": "math",
+      "turn": "p1",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": null,
+      "document_count": 3
+    },
+    {
+      "model": "llama",
+      "id": "math_l12_1295",
+      "dataset": "math",
+      "turn": "p2",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": true,
+      "document_count": 3
+    },
+    {
+      "model": "llama",
+      "id": "math_l12_1625",
+      "dataset": "math",
+      "turn": "p1",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": null,
+      "document_count": 3
+    },
+    {
+      "model": "llama",
+      "id": "math_l12_1625",
+      "dataset": "math",
+      "turn": "p2",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": true,
+      "document_count": 3
+    },
+    {
+      "model": "llama",
+      "id": "math_l12_1823",
+      "dataset": "math",
+      "turn": "p2",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": null,
+      "document_count": 3
+    },
+    {
+      "model": "phi4",
+      "id": "medqa_0287",
+      "dataset": "medqa",
+      "turn": "p1",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": null,
+      "document_count": 3
+    },
+    {
+      "model": "phi4",
+      "id": "medqa_0287",
+      "dataset": "medqa",
+      "turn": "p2",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": true,
+      "document_count": 3
+    },
+    {
+      "model": "phi4",
+      "id": "medqa_0322",
+      "dataset": "medqa",
+      "turn": "p1",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": null,
+      "document_count": 3
+    },
+    {
+      "model": "phi4",
+      "id": "medqa_0322",
+      "dataset": "medqa",
+      "turn": "p2",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": true,
+      "document_count": 3
+    },
+    {
+      "model": "phi4",
+      "id": "medqa_0403",
+      "dataset": "medqa",
+      "turn": "p1",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": null,
+      "document_count": 3
+    },
+    {
+      "model": "phi4",
+      "id": "medqa_0403",
+      "dataset": "medqa",
+      "turn": "p2",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": true,
+      "document_count": 3
+    },
+    {
+      "model": "phi4",
+      "id": "medqa_0568",
+      "dataset": "medqa",
+      "turn": "p1",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": null,
+      "document_count": 3
+    },
+    {
+      "model": "phi4",
+      "id": "medqa_0568",
+      "dataset": "medqa",
+      "turn": "p2",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": true,
+      "document_count": 3
+    },
+    {
+      "model": "phi4",
+      "id": "medqa_0614",
+      "dataset": "medqa",
+      "turn": "p1",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": null,
+      "document_count": 3
+    },
+    {
+      "model": "phi4",
+      "id": "medqa_0614",
+      "dataset": "medqa",
+      "turn": "p2",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": true,
+      "document_count": 3
+    },
+    {
+      "model": "phi4",
+      "id": "medqa_0693",
+      "dataset": "medqa",
+      "turn": "p1",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": null,
+      "document_count": 3
+    },
+    {
+      "model": "phi4",
+      "id": "medqa_0693",
+      "dataset": "medqa",
+      "turn": "p2",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": true,
+      "document_count": 3
+    },
+    {
+      "model": "phi4",
+      "id": "medqa_0863",
+      "dataset": "medqa",
+      "turn": "p1",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": null,
+      "document_count": 3
+    },
+    {
+      "model": "phi4",
+      "id": "medqa_0863",
+      "dataset": "medqa",
+      "turn": "p2",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": true,
+      "document_count": 3
+    },
+    {
+      "model": "phi4",
+      "id": "medqa_1161",
+      "dataset": "medqa",
+      "turn": "p1",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": null,
+      "document_count": 3
+    },
+    {
+      "model": "phi4",
+      "id": "medqa_1161",
+      "dataset": "medqa",
+      "turn": "p2",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": true,
+      "document_count": 3
+    },
+    {
+      "model": "phi4",
+      "id": "medqa_1293",
+      "dataset": "medqa",
+      "turn": "p2",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": null,
+      "document_count": 3
+    },
+    {
+      "model": "phi4",
+      "id": "medqa_1356",
+      "dataset": "medqa",
+      "turn": "p1",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": null,
+      "document_count": 3
+    },
+    {
+      "model": "phi4",
+      "id": "medqa_1356",
+      "dataset": "medqa",
+      "turn": "p2",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": true,
+      "document_count": 3
+    },
+    {
+      "model": "phi4",
+      "id": "math_l12_0254",
+      "dataset": "math",
+      "turn": "p1",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": null,
+      "document_count": 3
+    },
+    {
+      "model": "phi4",
+      "id": "math_l12_0254",
+      "dataset": "math",
+      "turn": "p2",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": true,
+      "document_count": 3
+    },
+    {
+      "model": "phi4",
+      "id": "math_l12_0367",
+      "dataset": "math",
+      "turn": "p1",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": null,
+      "document_count": 3
+    },
+    {
+      "model": "phi4",
+      "id": "math_l12_0367",
+      "dataset": "math",
+      "turn": "p2",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": true,
+      "document_count": 3
+    },
+    {
+      "model": "phi4",
+      "id": "math_l12_0516",
+      "dataset": "math",
+      "turn": "p1",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": null,
+      "document_count": 3
+    },
+    {
+      "model": "phi4",
+      "id": "math_l12_0516",
+      "dataset": "math",
+      "turn": "p2",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": true,
+      "document_count": 3
+    },
+    {
+      "model": "phi4",
+      "id": "math_l12_0626",
+      "dataset": "math",
+      "turn": "p1",
+      "status": "error",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": null,
+      "document_count": 0
+    },
+    {
+      "model": "phi4",
+      "id": "math_l12_0626",
+      "dataset": "math",
+      "turn": "p2",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": true,
+      "document_count": 3
+    },
+    {
+      "model": "phi4",
+      "id": "math_l12_0644",
+      "dataset": "math",
+      "turn": "p1",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": null,
+      "document_count": 3
+    },
+    {
+      "model": "phi4",
+      "id": "math_l12_0644",
+      "dataset": "math",
+      "turn": "p2",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": true,
+      "document_count": 3
+    },
+    {
+      "model": "phi4",
+      "id": "math_l12_1161",
+      "dataset": "math",
+      "turn": "p1",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": null,
+      "document_count": 3
+    },
+    {
+      "model": "phi4",
+      "id": "math_l12_1161",
+      "dataset": "math",
+      "turn": "p2",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": true,
+      "document_count": 3
+    },
+    {
+      "model": "phi4",
+      "id": "math_l12_1221",
+      "dataset": "math",
+      "turn": "p1",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": null,
+      "document_count": 3
+    },
+    {
+      "model": "phi4",
+      "id": "math_l12_1221",
+      "dataset": "math",
+      "turn": "p2",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": true,
+      "document_count": 3
+    },
+    {
+      "model": "phi4",
+      "id": "math_l12_1295",
+      "dataset": "math",
+      "turn": "p1",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": null,
+      "document_count": 3
+    },
+    {
+      "model": "phi4",
+      "id": "math_l12_1295",
+      "dataset": "math",
+      "turn": "p2",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": true,
+      "document_count": 3
+    },
+    {
+      "model": "phi4",
+      "id": "math_l12_1625",
+      "dataset": "math",
+      "turn": "p1",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": null,
+      "document_count": 3
+    },
+    {
+      "model": "phi4",
+      "id": "math_l12_1625",
+      "dataset": "math",
+      "turn": "p2",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": true,
+      "document_count": 3
+    },
+    {
+      "model": "phi4",
+      "id": "math_l12_1823",
+      "dataset": "math",
+      "turn": "p1",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": null,
+      "document_count": 3
+    },
+    {
+      "model": "phi4",
+      "id": "math_l12_1823",
+      "dataset": "math",
+      "turn": "p2",
+      "status": "ok",
+      "exact_generation_input_verified": true,
+      "p1_evidence_retained_at_p2": true,
+      "document_count": 3
+    }
+  ],
+  "history_checks": [
+    {
+      "model": "qwen",
+      "id": "medqa_0287",
+      "p1_evidence_in_p2_generation_input": true
+    },
+    {
+      "model": "qwen",
+      "id": "medqa_0322",
+      "p1_evidence_in_p2_generation_input": true
+    },
+    {
+      "model": "qwen",
+      "id": "medqa_0614",
+      "p1_evidence_in_p2_generation_input": true
+    },
+    {
+      "model": "qwen",
+      "id": "medqa_0863",
+      "p1_evidence_in_p2_generation_input": true
+    },
+    {
+      "model": "qwen",
+      "id": "medqa_1356",
+      "p1_evidence_in_p2_generation_input": true
+    },
+    {
+      "model": "qwen",
+      "id": "math_l12_0644",
+      "p1_evidence_in_p2_generation_input": true
+    },
+    {
+      "model": "llama",
+      "id": "medqa_0287",
+      "p1_evidence_in_p2_generation_input": true
+    },
+    {
+      "model": "llama",
+      "id": "medqa_0322",
+      "p1_evidence_in_p2_generation_input": true
+    },
+    {
+      "model": "llama",
+      "id": "medqa_0403",
+      "p1_evidence_in_p2_generation_input": true
+    },
+    {
+      "model": "llama",
+      "id": "medqa_0568",
+      "p1_evidence_in_p2_generation_input": true
+    },
+    {
+      "model": "llama",
+      "id": "medqa_0614",
+      "p1_evidence_in_p2_generation_input": true
+    },
+    {
+      "model": "llama",
+      "id": "medqa_0693",
+      "p1_evidence_in_p2_generation_input": true
+    },
+    {
+      "model": "llama",
+      "id": "medqa_0863",
+      "p1_evidence_in_p2_generation_input": true
+    },
+    {
+      "model": "llama",
+      "id": "medqa_1161",
+      "p1_evidence_in_p2_generation_input": true
+    },
+    {
+      "model": "llama",
+      "id": "medqa_1293",
+      "p1_evidence_in_p2_generation_input": true
+    },
+    {
+      "model": "llama",
+      "id": "medqa_1356",
+      "p1_evidence_in_p2_generation_input": true
+    },
+    {
+      "model": "llama",
+      "id": "math_l12_0254",
+      "p1_evidence_in_p2_generation_input": true
+    },
+    {
+      "model": "llama",
+      "id": "math_l12_0516",
+      "p1_evidence_in_p2_generation_input": true
+    },
+    {
+      "model": "llama",
+      "id": "math_l12_0644",
+      "p1_evidence_in_p2_generation_input": true
+    },
+    {
+      "model": "llama",
+      "id": "math_l12_1221",
+      "p1_evidence_in_p2_generation_input": true
+    },
+    {
+      "model": "llama",
+      "id": "math_l12_1295",
+      "p1_evidence_in_p2_generation_input": true
+    },
+    {
+      "model": "llama",
+      "id": "math_l12_1625",
+      "p1_evidence_in_p2_generation_input": true
+    },
+    {
+      "model": "phi4",
+      "id": "medqa_0287",
+      "p1_evidence_in_p2_generation_input": true
+    },
+    {
+      "model": "phi4",
+      "id": "medqa_0322",
+      "p1_evidence_in_p2_generation_input": true
+    },
+    {
+      "model": "phi4",
+      "id": "medqa_0403",
+      "p1_evidence_in_p2_generation_input": true
+    },
+    {
+      "model": "phi4",
+      "id": "medqa_0568",
+      "p1_evidence_in_p2_generation_input": true
+    },
+    {
+      "model": "phi4",
+      "id": "medqa_0614",
+      "p1_evidence_in_p2_generation_input": true
+    },
+    {
+      "model": "phi4",
+      "id": "medqa_0693",
+      "p1_evidence_in_p2_generation_input": true
+    },
+    {
+      "model": "phi4",
+      "id": "medqa_0863",
+      "p1_evidence_in_p2_generation_input": true
+    },
+    {
+      "model": "phi4",
+      "id": "medqa_1161",
+      "p1_evidence_in_p2_generation_input": true
+    },
+    {
+      "model": "phi4",
+      "id": "medqa_1356",
+      "p1_evidence_in_p2_generation_input": true
+    },
+    {
+      "model": "phi4",
+      "id": "math_l12_0254",
+      "p1_evidence_in_p2_generation_input": true
+    },
+    {
+      "model": "phi4",
+      "id": "math_l12_0367",
+      "p1_evidence_in_p2_generation_input": true
+    },
+    {
+      "model": "phi4",
+      "id": "math_l12_0516",
+      "p1_evidence_in_p2_generation_input": true
+    },
+    {
+      "model": "phi4",
+      "id": "math_l12_0626",
+      "p1_evidence_in_p2_generation_input": true
+    },
+    {
+      "model": "phi4",
+      "id": "math_l12_0644",
+      "p1_evidence_in_p2_generation_input": true
+    },
+    {
+      "model": "phi4",
+      "id": "math_l12_1161",
+      "p1_evidence_in_p2_generation_input": true
+    },
+    {
+      "model": "phi4",
+      "id": "math_l12_1221",
+      "p1_evidence_in_p2_generation_input": true
+    },
+    {
+      "model": "phi4",
+      "id": "math_l12_1295",
+      "p1_evidence_in_p2_generation_input": true
+    },
+    {
+      "model": "phi4",
+      "id": "math_l12_1625",
+      "p1_evidence_in_p2_generation_input": true
+    },
+    {
+      "model": "phi4",
+      "id": "math_l12_1823",
+      "p1_evidence_in_p2_generation_input": true
+    }
+  ],
+  "original_files_unchanged": {
+    "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\Midsem report\\revision_from_rough_20261015\\midsem_report.pdf": true,
+    "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\codebase\\src\\benchmark\\answer_parser.py": true,
+    "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\kaggle\\kernel_tools_v2\\parallel_capture_20261014\\parallel_results\\llama_T2\\llama_T2_optional.json": true,
+    "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\kaggle\\kernel_tools_v2\\parallel_capture_20261014\\parallel_results\\phi4_T2\\phi4_T2_optional.json": true,
+    "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\kaggle\\kernel_tools_v2\\parallel_capture_20261014\\parallel_results\\qwen_T2\\qwen_T2_optional.json": true
+  },
+  "all_ids_in_fixed_20": true,
+  "note": "Verifies exact source text in logged generation inputs; does not establish faithful use by the model."
+}

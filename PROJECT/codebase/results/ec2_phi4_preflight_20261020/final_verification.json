@@ -1,0 +1,61 @@
+{
+  "passed": true,
+  "scope": "EC2 preflight only; no full EC2 run started",
+  "lifecycle_probe_results": {
+    "success": "success",
+    "failure": "exit-code",
+    "timeout": "timeout"
+  },
+  "independent_deadline_probe_passed": true,
+  "actual_phi4_conversations": 4,
+  "actual_answer_turns": 12,
+  "replies_with_final_answer_line": 12,
+  "token_capped_replies": 1,
+  "tool_calls": 8,
+  "rows": [
+    {
+      "model": "phi4",
+      "dataset": "medqa",
+      "turn": "p1",
+      "questions": 2,
+      "tool_calls": 2,
+      "correct_entry_delivered": 2,
+      "lookup_failures": 0
+    },
+    {
+      "model": "phi4",
+      "dataset": "medqa",
+      "turn": "p2",
+      "questions": 2,
+      "tool_calls": 2,
+      "correct_entry_delivered": 2,
+      "lookup_failures": 0
+    },
+    {
+      "model": "phi4",
+      "dataset": "math",
+      "turn": "p1",
+      "questions": 2,
+      "tool_calls": 2,
+      "correct_entry_delivered": 2,
+      "lookup_failures": 0
+    },
+    {
+      "model": "phi4",
+      "dataset": "math",
+      "turn": "p2",
+      "questions": 2,
+      "tool_calls": 2,
+      "correct_entry_delivered": 2,
+      "lookup_failures": 0
+    }
+  ],
+  "automatic_shutdown_verified": true,
+  "start_after_shutdown_verified": true,
+  "persisted_results_verified": true,
+  "no_automatic_rerun_at_boot": true,
+  "protected_files_unchanged": true,
+  "full_run_started": false,
+  "final_instance_state": "stopped",
+  "scoring_provisional": true
+}

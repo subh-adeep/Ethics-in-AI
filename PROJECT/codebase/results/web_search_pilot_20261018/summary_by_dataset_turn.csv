@@ -1,0 +1,13 @@
+﻿model,dataset,turn,completed,tool_calls,search_ok,evidence_delivered,failures,hit_token_limit
+qwen,medqa,p1,10,5,5,5,0,1
+qwen,medqa,p2,10,5,5,5,0,0
+qwen,math,p1,10,1,1,1,0,0
+qwen,math,p2,10,9,9,9,0,0
+llama,medqa,p1,10,10,9,9,1,1
+llama,medqa,p2,10,10,9,9,1,0
+llama,math,p1,10,6,6,6,0,0
+llama,math,p2,10,8,8,8,0,0
+phi4,medqa,p1,10,9,9,9,0,1
+phi4,medqa,p2,10,10,10,10,0,1
+phi4,math,p1,10,10,9,9,1,0
+phi4,math,p2,10,10,10,10,0,0

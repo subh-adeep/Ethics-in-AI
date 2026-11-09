@@ -1,0 +1,16 @@
+{
+  "at": "2026-10-18T19:22:32.217364+00:00",
+  "pid": 7,
+  "devices": [
+    {
+      "index": 0,
+      "name": "Tesla T4",
+      "memory_bytes": 15636037632
+    },
+    {
+      "index": 1,
+      "name": "Tesla T4",
+      "memory_bytes": 15636037632
+    }
+  ]
+}

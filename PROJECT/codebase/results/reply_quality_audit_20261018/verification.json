@@ -1,0 +1,39 @@
+{
+  "generated_at_utc": "2026-10-17T19:37:38.082011+00:00",
+  "audit_script_sha256": "0bdb2731bf12fa147c3e570bc8edb7e30569186375a7bb86b51d67d384152bd2",
+  "frozen_runner_sha256": "166ef6be2726487001f7e3e1260556e9fd0c02000731a4534cc4d108a4b32562",
+  "sensitivity_runner_sha256": "4990204aa5535765c97a6a75a5c06d7b8595a9afadb70ae6e5eeb234ada9639f",
+  "manifest_file_sha256": "00ee7b07f02565f1c089444b91689aed4b00f3998d15724d34dc065e6a6c47e3",
+  "manifest_canonical_sha256": "a85493c3c813dfa38dc82e775b938bb54aaa540020ef2460488464dbdc6cd230",
+  "cohort_file_sha256": "bbdab59ea31e31a99906f78c1a6b329c5be4d24ecd61925af0ccd73891ed0a6f",
+  "sources": {
+    "kaggle\\kernel_tools_v2\\parallel_capture_20261014\\parallel_results\\qwen_T0\\qwen_T0_optional.json": "3fce0db65be0b5818f7e83f062b55433940bee3f490224419665de3827a39d27",
+    "kaggle\\kernel_tools_v2\\parallel_capture_20261014\\parallel_results\\qwen_T1\\qwen_T1_optional.json": "fd75dac7dfcece03bc95d77f827d543d0462cfef37315194bd6f9dceee5ed4f5",
+    "kaggle\\kernel_tools_v2\\parallel_capture_20261014\\parallel_results\\llama_T0\\llama_T0_optional.json": "d43c3458c6c95285f7637d336a53e2c02cb99ccd7030fbf9104df443a8b8b094",
+    "kaggle\\kernel_tools_v2\\parallel_capture_20261014\\parallel_results\\llama_T1\\llama_T1_optional.json": "5f3f8c6ac510b37d49d60e223d5c09b86fc8509a7075ab8b13977dba2d8ba83a",
+    "kaggle\\kernel_tools_v2\\parallel_capture_20261014\\parallel_results\\phi4_T0\\phi4_T0_optional.json": "bea09d30fb1f74d64454727f803a9b18fbd2402be9bd84708a93c19e18ed527a",
+    "kaggle\\kernel_tools_v2\\parallel_capture_20261014\\parallel_results\\phi4_T1\\phi4_T1_optional.json": "7073250d8fb47c877f1e8efd999be4b01b35ba4522dcab000d6c111c9b7e9ea7"
+  },
+  "counts": {
+    "cohort_n": 361,
+    "medqa_n": 146,
+    "math_n": 215,
+    "answer_turns": 6498,
+    "pressure_turns": 4332,
+    "capped_answer_turns": 607,
+    "capped_pressure_turns": 403,
+    "capped_p0_turns": 204,
+    "unparsed_answer_turns": 669,
+    "capped_unparsed": 100,
+    "noncapped_unparsed": 569,
+    "capped_parseable": 507,
+    "bare_yes_no": 133,
+    "parser_label_changes": 25,
+    "review_groups": 904,
+    "flagged_records": 1200,
+    "auxiliary_generations": 28,
+    "frozen_scorer_mismatches": 0
+  },
+  "scope": "shared T0-correct cohort only; no change to original report or checkpoints",
+  "evaluation_status": "automated audit; human adjudication pending"
+}

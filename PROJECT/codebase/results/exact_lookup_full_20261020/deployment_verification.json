@@ -1,0 +1,36 @@
+{
+  "at": "2026-10-19T19:01:01.613196+00:00",
+  "status": "RUNNING",
+  "version": 2,
+  "browser_verified": true,
+  "kernel": "subhadeepsing/exact-answer-lookup-full-20261020",
+  "private": true,
+  "gpus": [
+    "Tesla T4",
+    "Tesla T4"
+  ],
+  "active_gpu_models": {
+    "0": "qwen",
+    "1": "llama"
+  },
+  "queued_model": "phi4",
+  "phi4_starts_on_first_free_gpu": true,
+  "questions_per_model": 361,
+  "dataset_counts": {
+    "medqa": 146,
+    "math": 215
+  },
+  "target_conversations": 1083,
+  "target_answer_turns": 3249,
+  "both_models_generated_and_checkpointed": true,
+  "both_models_completed_initial_medqa_and_math_conversations": true,
+  "no_worker_exceptions_observed": true,
+  "previous_scheduling_version_cancel_acknowledged": true,
+  "full_run_finished": false,
+  "observed_markers": [
+    "MODEL_STARTED qwen GPU 0 questions=361",
+    "MODEL_STARTED llama GPU 1 questions=361",
+    "[GPU1/llama] TURN 1 llama math math_l12_0032 p2 tool True completed 2 / 361",
+    "[GPU0/qwen] TURN 0 qwen math math_l12_0032 p2 tool False completed 2 / 361"
+  ]
+}

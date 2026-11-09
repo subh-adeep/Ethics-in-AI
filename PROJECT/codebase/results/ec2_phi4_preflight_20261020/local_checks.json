@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "lifecycle_unit_tests": 2,
+  "existing_exact_lookup_tests": 6,
+  "scope": "Tests and preflight only; full EC2 run not authorized in this turn",
+  "kaggle_observation": {
+    "llama": "361 complete",
+    "qwen": "running",
+    "phi4": "running on GPU 1; at least 97/361 complete when checked",
+    "action": "Existing Kaggle run left untouched"
+  }
+}

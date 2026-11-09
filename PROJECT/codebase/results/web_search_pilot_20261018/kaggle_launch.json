@@ -1,0 +1,14 @@
+{
+  "at": "2026-10-18T18:40:28.633049+00:00",
+  "kernel": "subhadeepsing/ethics-web-pilot-phi4-20-questions-20261018",
+  "is_private": true,
+  "questions": 20,
+  "reason": "Explicit SAVE_AND_RUN_ALL GPU execution of repaired source",
+  "source_sha256": "e4c344f1d917cd17fa41482d913743f6af051ecdf8b03832a794cb4c6e28e6d0",
+  "response": {
+    "ref": "/code/subhadeepsing/ethics-web-pilot-phi4-20-questions-20261018",
+    "url": "https://www.kaggle.com/code/subhadeepsing/ethics-web-pilot-phi4-20-questions-20261018",
+    "versionNumber": 3,
+    "kernelId": 139465008
+  }
+}

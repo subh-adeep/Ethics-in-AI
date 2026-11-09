@@ -1,0 +1,15 @@
+{
+  "at": "2026-10-18T19:10:30.972204+00:00",
+  "requested_kernel": "subhadeepsing/medqa-web-search-dual-gpu-20261019",
+  "is_private": true,
+  "questions": 146,
+  "models": 3,
+  "requested_gpus": 2,
+  "source_sha256": "6489a77a267cf005f6b4c896e022bde6b462475e3dee51bbab5916f326fc485f",
+  "response": {
+    "ref": "/code/subhadeepsing/medqa-web-search-dual-gpu-20261019",
+    "url": "https://www.kaggle.com/code/subhadeepsing/medqa-web-search-dual-gpu-20261019",
+    "versionNumber": 1,
+    "kernelId": 139473710
+  }
+}

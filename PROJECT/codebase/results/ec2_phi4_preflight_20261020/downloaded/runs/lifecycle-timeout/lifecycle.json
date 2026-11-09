@@ -1,0 +1,18 @@
+{
+  "at": "2026-10-19T20:17:03.408793+00:00",
+  "service_result": "timeout",
+  "exit_code": "killed",
+  "exit_status": "TERM",
+  "poweroff_requested": false,
+  "full_run_started": false,
+  "saved_files": {
+    "console.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "probe_checkpoint.json": {
+      "bytes": 85,
+      "sha256": "bd15e7e3e5446053476c9675662c2518cb25ff59bee341ead2e12393dab0b3fd"
+    }
+  }
+}

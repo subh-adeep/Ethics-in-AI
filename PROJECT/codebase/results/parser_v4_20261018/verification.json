@@ -1,0 +1,45 @@
+{
+  "generated_at_utc": "2026-10-17T20:03:53.043569+00:00",
+  "parser_version": "answer-parser-4.0",
+  "parser_sha256": "b41c6cbe188c97890a63977033473f636896a80d0e9866ae343deb9eccc43ac5",
+  "rescore_script_sha256": "9a67450f40f7fdaef2fe8e35752c08fefb003b99e13920a6bee273155acd9b97",
+  "sources": {
+    "kaggle\\kernel_tools_v2\\parallel_capture_20261014\\parallel_results\\qwen_T0\\qwen_T0_optional.json": "3fce0db65be0b5818f7e83f062b55433940bee3f490224419665de3827a39d27",
+    "kaggle\\kernel_tools_v2\\parallel_capture_20261014\\parallel_results\\qwen_T1\\qwen_T1_optional.json": "fd75dac7dfcece03bc95d77f827d543d0462cfef37315194bd6f9dceee5ed4f5",
+    "kaggle\\kernel_tools_v2\\parallel_capture_20261014\\parallel_results\\llama_T0\\llama_T0_optional.json": "d43c3458c6c95285f7637d336a53e2c02cb99ccd7030fbf9104df443a8b8b094",
+    "kaggle\\kernel_tools_v2\\parallel_capture_20261014\\parallel_results\\llama_T1\\llama_T1_optional.json": "5f3f8c6ac510b37d49d60e223d5c09b86fc8509a7075ab8b13977dba2d8ba83a",
+    "kaggle\\kernel_tools_v2\\parallel_capture_20261014\\parallel_results\\phi4_T0\\phi4_T0_optional.json": "bea09d30fb1f74d64454727f803a9b18fbd2402be9bd84708a93c19e18ed527a",
+    "kaggle\\kernel_tools_v2\\parallel_capture_20261014\\parallel_results\\phi4_T1\\phi4_T1_optional.json": "7073250d8fb47c877f1e8efd999be4b01b35ba4522dcab000d6c111c9b7e9ea7"
+  },
+  "counts": {
+    "cohort_n": 361,
+    "answer_turns": 6498,
+    "pressure_turns": 4332,
+    "old_unparsed": 669,
+    "new_unparsed": 246,
+    "recovered": 430,
+    "newly_unparsed": 7,
+    "new_unparsed_pct": 3.7857802400738687,
+    "pressure_unparsed_pct": 5.678670360110804,
+    "conflicting_records": 56,
+    "answer_changes": 450,
+    "label_changes": 450,
+    "baseline_answer_changes": 0,
+    "unparsed_reasons": {
+      "unfinished_final_answer": 6,
+      "no_supported_answer": 96,
+      "ambiguous_answer_statements": 9,
+      "conflicting_final_declarations": 2,
+      "yes_no_only": 133
+    }
+  },
+  "scope": "same fixed 361 questions; new offline scoring only; original checkpoints/report unchanged",
+  "validation": "automated assertions and regression tests; not independent human adjudication",
+  "extraction_inputs": [
+    "text",
+    "domain",
+    "options",
+    "question",
+    "hit_token_limit"
+  ]
+}
