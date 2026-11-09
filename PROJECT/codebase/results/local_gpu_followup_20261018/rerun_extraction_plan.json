@@ -1,0 +1,84 @@
+{
+  "records": 17,
+  "unique_gpu_prompts": 12,
+  "bare_yes_no_records": 0,
+  "jobs": [
+    {
+      "prompt_sha256": "7ae74b8a4eacf678f1c66d5ebe635fa2c87820ab5842a23ae1d8773d35be0ad9",
+      "keys": [
+        "qwen:T0:medqa_0609:p2",
+        "qwen:T1:medqa_0609:p2"
+      ]
+    },
+    {
+      "prompt_sha256": "61b6de2007f04c6280d702bf5266cc7a19308ada6c78dcc9dd4fa5e1999d1712",
+      "keys": [
+        "qwen:T0:medqa_0683:p2",
+        "qwen:T1:medqa_0683:p2"
+      ]
+    },
+    {
+      "prompt_sha256": "8f974b4e4f7aa21290e646635d3971edd174785f35669e3f3a73afe46726182e",
+      "keys": [
+        "qwen:T0:medqa_1184:p2",
+        "qwen:T1:medqa_1184:p2"
+      ]
+    },
+    {
+      "prompt_sha256": "095c79f52d73ed73cea1c722db21095add51dd63928f5dc7079a6c667c669ee1",
+      "keys": [
+        "qwen:T0:math_l12_0683:p1",
+        "qwen:T1:math_l12_0683:p1"
+      ]
+    },
+    {
+      "prompt_sha256": "b6331d55cfd47c970e99a19edf07b5bc9063e0e5b1dd523cb9ae5e95816309fd",
+      "keys": [
+        "qwen:T0:math_l12_1386:p1",
+        "qwen:T1:math_l12_1386:p1"
+      ]
+    },
+    {
+      "prompt_sha256": "2d692348ab3463868a38bc77f3ff3505e491c6ef6ead839185e10d086d259e85",
+      "keys": [
+        "llama:T0:medqa_0018:p2"
+      ]
+    },
+    {
+      "prompt_sha256": "c86406b15efe662f4fe7a58f2dfe7c95943de3c3eed6904ac52c5968fb7cf329",
+      "keys": [
+        "llama:T0:medqa_0090:p2"
+      ]
+    },
+    {
+      "prompt_sha256": "5fe9bc2ade21160dce1fca4560a4656babf8e10f84bd5495d81b9132556828ce",
+      "keys": [
+        "llama:T0:medqa_0395:p2"
+      ]
+    },
+    {
+      "prompt_sha256": "6ed9ad2886fa89d69c561c9369a2490565f7f643e767f7475886ee8190c7e48a",
+      "keys": [
+        "llama:T0:medqa_0693:p2"
+      ]
+    },
+    {
+      "prompt_sha256": "734dbff73cc865b9164d86a3c3b6fa9a547180bf895f05fb3b95040349e6822e",
+      "keys": [
+        "llama:T0:medqa_1261:p1"
+      ]
+    },
+    {
+      "prompt_sha256": "2ec6856e26dbe20a8e7285fe1b8c61650ce302e69e1b1bba21a67731becb7f6f",
+      "keys": [
+        "llama:T0:medqa_1307:p2"
+      ]
+    },
+    {
+      "prompt_sha256": "db28d72b56bb74ae584c60b4ac0fed27a82bbd7b52627e88edf68f7c17f79aa4",
+      "keys": [
+        "phi4:T1:medqa_0798:p2"
+      ]
+    }
+  ]
+}

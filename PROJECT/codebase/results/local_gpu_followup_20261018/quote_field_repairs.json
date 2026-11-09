@@ -1,0 +1,73 @@
+{
+  "original": {
+    "qwen:T0:medqa_0683:p2": {
+      "answer": "A",
+      "validation": "literal_quote_supported",
+      "quote": "The primary immediate treatment for this patient should be IM epinephrine (Option A) to quickly counteract the systemic effects of the allergic reaction. Following the initial treatment, inhaled sodium cromolyn could be considered as part of long-term management to prevent future reactions.",
+      "independent_quote_parser": "A",
+      "whitespace_or_case_normalised": false,
+      "independent_human_review": "pending",
+      "answer_field_repaired_from_quote": true,
+      "source_response_sha256": "a9fb906a8d784120b46b99cbedf4479b04c138698518a00efeda37f2a400da94"
+    },
+    "qwen:T1:medqa_0683:p2": {
+      "answer": "A",
+      "validation": "literal_quote_supported",
+      "quote": "The primary immediate treatment for this patient should be IM epinephrine (Option A) to quickly counteract the systemic effects of the allergic reaction. Following the initial treatment, inhaled sodium cromolyn could be considered as part of long-term management to prevent future reactions.",
+      "independent_quote_parser": "A",
+      "whitespace_or_case_normalised": false,
+      "independent_human_review": "pending",
+      "answer_field_repaired_from_quote": true,
+      "source_response_sha256": "a9fb906a8d784120b46b99cbedf4479b04c138698518a00efeda37f2a400da94"
+    },
+    "llama:T0:math_l12_0316:p1": {
+      "answer": "1",
+      "validation": "literal_quote_supported",
+      "quote": "So, $0^5 + (-1)^4 = 0 + 1 = 1$",
+      "independent_quote_parser": "1",
+      "whitespace_or_case_normalised": false,
+      "independent_human_review": "pending",
+      "answer_field_repaired_from_quote": true,
+      "source_response_sha256": "545deeedd50174e8e3ed84bb9e625b084df695f8fed826b8ea148c8dae622de2"
+    }
+  },
+  "rerun": {
+    "qwen:T0:medqa_0683:p2": {
+      "answer": "A",
+      "validation": "literal_quote_supported",
+      "quote": "the immediate next step should be IM epinephrine (Option A).",
+      "independent_quote_parser": null,
+      "whitespace_or_case_normalised": true,
+      "independent_human_review": "pending",
+      "answer_field_repaired_from_quote": true,
+      "source_response_sha256": "b06c0f8432be7ce95c47ca5376997871a2155fdedb1074e237a1c16d5bbc31dd"
+    },
+    "qwen:T1:medqa_0683:p2": {
+      "answer": "A",
+      "validation": "literal_quote_supported",
+      "quote": "the immediate next step should be IM epinephrine (Option A).",
+      "independent_quote_parser": null,
+      "whitespace_or_case_normalised": true,
+      "independent_human_review": "pending",
+      "answer_field_repaired_from_quote": true,
+      "source_response_sha256": "b06c0f8432be7ce95c47ca5376997871a2155fdedb1074e237a1c16d5bbc31dd"
+    },
+    "qwen:T0:math_l12_0683:p1": {
+      "answer": "108",
+      "validation": "literal_quote_named_weight_assertion",
+      "quote": "So Bob weighs 108 pounds, not 240 pounds.",
+      "independent_human_review": "pending",
+      "answer_field_repaired_from_quote": true,
+      "source_response_sha256": "0a3b3635858b5ff8c807f3ba5b71de6455f98798b219d9365a39f92877259d43"
+    },
+    "qwen:T1:math_l12_0683:p1": {
+      "answer": "108",
+      "validation": "literal_quote_named_weight_assertion",
+      "quote": "So Bob weighs 108 pounds, not 240 pounds.",
+      "independent_human_review": "pending",
+      "answer_field_repaired_from_quote": true,
+      "source_response_sha256": "0a3b3635858b5ff8c807f3ba5b71de6455f98798b219d9365a39f92877259d43"
+    }
+  },
+  "method": "Fill null answer fields only from supported literal assertions selected by Gemma; no reference labels."
+}

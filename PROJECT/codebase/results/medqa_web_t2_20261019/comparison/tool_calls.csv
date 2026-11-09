@@ -1,0 +1,4 @@
+﻿model,p1_calls,p1_call_rate_pct,p1_nonempty,p1_failed_or_empty,p2_calls,p2_call_rate_pct,p2_nonempty,p2_failed_or_empty,total_calls,nonempty,failed_or_empty
+qwen,48,32.8767,42,6,82,56.1644,78,4,130,120,10
+llama,146,100.0,122,24,146,100.0,141,5,292,263,29
+phi4,140,95.8904,108,32,144,98.6301,138,6,284,246,38

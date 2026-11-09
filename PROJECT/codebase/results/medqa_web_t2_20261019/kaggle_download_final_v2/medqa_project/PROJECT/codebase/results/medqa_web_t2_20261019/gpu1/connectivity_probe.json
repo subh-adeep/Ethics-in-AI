@@ -1,0 +1,30 @@
+[
+  {
+    "query": "site:nih.gov HIV diagnosis infants",
+    "evidence": {
+      "status": "ok",
+      "backend": "ddgs-auto",
+      "query": "site:nih.gov HIV diagnosis infants",
+      "retrieved_at": "2026-10-18T19:22:45.921453+00:00",
+      "documents": [
+        {
+          "title": "Updated recommendations on HIV prevention, infant diagnosis ...",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK569318/",
+          "snippet": "These guidelines provide new and updated recommendations on the use of point-of-care testing in children under 18 months of age and point-of-care tests to monitor treatment in people living with HIV; the treatment monitoring algorithm; and timing of antiretroviral therapy (ART) among people living with HIV who are being treated for tuberculosis."
+        },
+        {
+          "title": "HIV and Children | NIH - HIVinfo",
+          "url": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/hiv-and-children",
+          "snippet": "Key Points HIV can be passed on to children during pregnancy, at childbirth, or while breastfeeding. This is called perinatal transmission. In the United States, perinatal transmission is very rare, but it is the most common way children aged under 13 years get HIV. Early HIV diagnosis during pregnancy and the effective use of modern HIV medicines have reduced the likelihood of perinatal ..."
+        },
+        {
+          "title": "Updated recommendations on HIV prevention, infant diagnosis ... - PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33822559/",
+          "snippet": "These guidelines provide new and updated recommendations on the use of point-of-care testing in children under 18 months of age and point-of-care tests to monitor treatment in people living with HIV; the treatment monitoring algorithm; and timing of antiretroviral therapy (ART) among people living w …"
+        }
+      ],
+      "cache_hit": false,
+      "supports_ground_truth": null
+    }
+  }
+]

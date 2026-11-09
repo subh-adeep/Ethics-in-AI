@@ -1,0 +1,482 @@
+{
+  "1b82ec709d3742c0a5668687dc9ab90c2fc94d0d64f0a4e95bc4f8b279bd1f2d": {
+    "status": "ok",
+    "backend": "ddgs-auto",
+    "query": "Assay to detect HIV genetic material in newborn",
+    "retrieved_at": "2026-10-18T18:41:53.510011+00:00",
+    "documents": [
+      {
+        "title": "Diagnosis of HIV Infection in Infants and Children | NIH",
+        "url": "https://clinicalinfo.hiv.gov/en/guidelines/perinatal/management-infants-diagnosis-hiv-infection-children",
+        "snippet": "Jun 25, 2026 · Studies report that HIV DNA PCR assays identify 20% to 55% of infants with HIV infection from birth through the first week of life, with the same caveat as for RNA testing—testing at birth will not detect infection in those infants who acquire HIV during the intrapartum period."
+      },
+      {
+        "title": "Pediatric HIV Infection Workup: Approach Considerations ...",
+        "url": "https://emedicine.medscape.com/article/965086-workup",
+        "snippet": "Feb 24, 2025 · HIV RNA assays are used to detect extracellular viral RNA in the plasma and are as sensitive as HIV DNA PCR for early diagnosis of HIV infection in exposed infants."
+      },
+      {
+        "title": "Early Infant Diagnosis of HIV - childrenandaids.org",
+        "url": "https://www.childrenandaids.org/media/1221/file/Training_Modules_1-3.pdf.pdf",
+        "snippet": "Addition of nucleic acid testing (NAT) at birth to existing early infant diagnosis (EID) testing approaches can be considered to identify HIV infection in HIV-exposed infants (conditional recommendation, low-quality evidence)"
+      }
+    ],
+    "cache_hit": false
+  },
+  "358722c129223282d2423d8be76c2782f9117b1420f297da23cabffb15f6e530": {
+    "status": "ok",
+    "backend": "ddgs-auto",
+    "query": "Small cell carcinoma of lung serum protein elevation",
+    "retrieved_at": "2026-10-18T18:42:13.250471+00:00",
+    "documents": [
+      {
+        "title": "Alterations in serum protein glycopatterns related to small ...",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9049724/",
+        "snippet": "A serum microarray was produced to evaluate and verify the terminal carbohydrate moieties of the glycoproteins in individual serum samples from 30 cases simultaneously."
+      },
+      {
+        "title": "Detection and significance of serum protein markers of small ...",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6649243/",
+        "snippet": "Currently, no satisfactory biomarkers are available to screen for small‐cell lung cancer (SCLC)."
+      },
+      {
+        "title": "Full article: Diagnostic potential of protein serum ...",
+        "url": "https://www.tandfonline.com/doi/full/10.1080/1354750X.2024.2360038",
+        "snippet": "May 28, 2024 · The study aimed to examine the serum levels of five protein biomarkers (Pro-GRP, NSE, CEA, SCC-Ag, and CYFRA 21-1) in patients with either lung cancer or nonmalignant lung disease NMLD."
+      }
+    ],
+    "cache_hit": false
+  },
+  "448e3a3861df5f7e351e14dfe8f2c69b4d81d72723ae07dc52a83e8f38e7f66b": {
+    "status": "ok",
+    "backend": "ddgs-auto",
+    "query": "Preemptive analgesia agents for chronic opioid abusers to prevent postoperative hyperalgesia",
+    "retrieved_at": "2026-10-18T18:42:40.662987+00:00",
+    "documents": [
+      {
+        "title": "Efficacy of preemptive analgesia treatments for the ...",
+        "url": "https://www.bjanaesthesia.org/article/S0007-0912(22)00515-3/fulltext",
+        "snippet": "Apr 27, 2022 · Using network meta-analysis, the authors found that epidural anaesthesia, gabapentinoids, NSAIDs, NMDA receptor antagonists, and opioids showed variable effectiveness in providing preemptive analgesia."
+      },
+      {
+        "title": "Efficacy of preemptive analgesia treatments for the ...",
+        "url": "https://www.bjanaesthesia.org/article/S0007-0912(22)00515-3/pdf",
+        "snippet": "Overall, 11 preemptive analgesia regimens reported different positive analgesia effects compared with placebo for postoperative analgesia, including lornoxicam, ibuprofen, pregabalin, flurbiprofen, acetaminophen, epidural analgesia, gabapentin, parecoxib, oxycodone, ketamine, and tramadol."
+      },
+      {
+        "title": "(PDF) Opioid-sparing Strategies in Perioperative Pain ...",
+        "url": "https://www.researchgate.net/publication/388948385_Opioid-sparing_Strategies_in_Perioperative_Pain_Management_Current_Evidence_Challenges_and_Future_Directions",
+        "snippet": "Feb 12, 2025 · Opioid-sparing techniques, encompassing multimodal analgesia, regional anesthesia, and non-pharmacological interventions, provide effective pain control while minimizing the risks of addiction,..."
+      }
+    ],
+    "cache_hit": false
+  },
+  "f715b75c5db7975fd8b59133f073af1de679b98fec3a75a02fa1bcea0e4017b2": {
+    "status": "ok",
+    "backend": "ddgs-auto",
+    "query": "breastfeeding regurgitation in infants",
+    "retrieved_at": "2026-10-18T18:43:04.080571+00:00",
+    "documents": [
+      {
+        "title": "Breastfeeding FAQs: Spitting Up, Gagging, and Biting",
+        "url": "https://kidshealth.org/en/parents/breastfeed-spitting-up.html",
+        "snippet": "Here are answers to some common questions about handling spitting up, gagging, and other concerns during breastfeeding."
+      },
+      {
+        "title": "Reflux - Breastfeeding - Best Start in Life - NHS",
+        "url": "https://www.nhs.uk/best-start-in-life/baby/feeding-your-baby/breastfeeding/breastfeeding-challenges/reflux/",
+        "snippet": "Reflux and breastfeeding When your baby brings up milk, or is sick during or after feeding, this is known as reflux. Reflux is quite common and babies usually grow out of it by the age of 1."
+      },
+      {
+        "title": "PDF Managing Infant Reflux and Regurgitation",
+        "url": "https://www.nutricia.ie/content/dam/sn/local/irl/nutricia-ie/parent-advise-reflux-and-regurgitation.pdf",
+        "snippet": "WHAT IS REFLUX AND REGURGITATION? Seeing your infant bring up milk during or shortly after feeding can be upsetting when not expected. Reflux refers to the bringing up of stomach contents into the food pipe. Regurgitation is when the stomach contents are expelled from the mouth and is also known as 'spitting up' or 'posseting'."
+      }
+    ],
+    "cache_hit": false
+  },
+  "29e6aa60e03ec8fe1a63ca891ebf6de8379645bd980704f97826ae3eb958a22c": {
+    "status": "ok",
+    "backend": "ddgs-auto",
+    "query": "Clomipramine mechanism of action in OCD treatment",
+    "retrieved_at": "2026-10-18T18:43:28.801395+00:00",
+    "documents": [
+      {
+        "title": "Clomipramine in Obsessive-Compulsive Disorder - JAMA Network",
+        "url": "https://jamanetwork.com/journals/jamapsychiatry/fullarticle/494455",
+        "snippet": "• Data from several previous studies link clomipramine's potent serotonergic effects to its clinical efficacy in reducing the symptoms of obsessive-compulsive disorder (OCD)."
+      },
+      {
+        "title": "Clomipramine - StatPearls - NCBI Bookshelf",
+        "url": "https://accurateclinic.com/wp-content/uploads/2022/06/Clomipramine-StatPearls-NCBI-Bookshelf-2022.pdf",
+        "snippet": "May 10, 2022 · This activity reviews indications, mechanism of action, administration, contraindications, monitoring, and toxicity associated with clomipramine and the interprofessional team's role in caring for patients with conditions that indicate therapy with clomipramine."
+      },
+      {
+        "title": "Clomipramine | Treatment & Management | Point of Care",
+        "url": "https://www.statpearls.uk/point-of-care/42905",
+        "snippet": "A meta-analysis determined clomipramine improved Children's Yale-Brown Obsessive-Compulsive Scale (CY-BOCS) by 37% in children and adolescents, making it a more effective treatment for OCD than sertraline, fluoxetine, and fluvoxamine."
+      }
+    ],
+    "cache_hit": false
+  },
+  "41ae9931b3c01f29553b7476729795313f33ba3a4c2620f585335b6d772d5460": {
+    "status": "ok",
+    "backend": "ddgs-auto",
+    "query": "Severe dyspnea, productive cough with hemoptysis, pruritic papular rash, inguinal lymphadenopathy, fever, confusion, rales, enlarged lymph nodes, CT findings in 56-year-old man with hiking history in Arizona and New Mexico",
+    "retrieved_at": "2026-10-18T18:43:57.123235+00:00",
+    "documents": [
+      {
+        "title": "Cough - Differential Diagnosis - Med Ed STAT",
+        "url": "https://mededstat.com/cough-differential-diagnosis/",
+        "snippet": "Cough is a reflex response that helps clear the airway. It can range from a benign symptom of a viral infection to an indicator of serious underlying disease. Using the SPIT mnemonic (Serious, Probable, Interesting, Treatable) ensures a systematic evaluation for both adults and children."
+      },
+      {
+        "title": "Hemoptysis - Differential Diagnosis - Med Ed STAT",
+        "url": "https://mededstat.com/hemoptysis-differential-diagnosis/",
+        "snippet": "History: Sudden onset of choking, coughing, and wheezing, which may resolve, followed by later development of hemoptysis, fever, or signs of pneumonia. More common in children but can occur in adults, especially with impaired consciousness."
+      },
+      {
+        "title": "Case 12-2020: A 24-Year-Old Man with Fever, Cough, and Dyspnea",
+        "url": "https://www.nejm.org/doi/full/10.1056/NEJMcpc1916256",
+        "snippet": "A 24-year-old man presented to the hospital because of fever and rapidly progressive hypoxemic respiratory failure. Laboratory evaluation was notable for leukocytosis with bandemia and thrombocytop..."
+      }
+    ],
+    "cache_hit": false
+  },
+  "fecbbd7a6fa1f623053af3366a8f4098ae3701bafd0d9fdadfe85b82c533138d": {
+    "status": "ok",
+    "backend": "ddgs-auto",
+    "query": "neutrophil and alveolar macrophage released factors causing dyspnea in a1-antitrypsin deficiency smokers",
+    "retrieved_at": "2026-10-18T18:44:31.782626+00:00",
+    "documents": [
+      {
+        "title": "Neutrophil accumulation in the lung in alpha 1-antitrypsin deficiency ...",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC295476/",
+        "snippet": "With the knowledge that alveolar macrophages have surface receptors for neutrophil elastase, we hypothesized that the neutrophil accumulation in the lower respiratory tract in alpha 1AT deficiency may result, in part, from release of neutrophil chemotactic activity by alveolar macrophages as they bind uninhibited neutrophil elastase."
+      },
+      {
+        "title": "Oxidants spontaneously released by alveolar macrophages of cigarette ...",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC442382/",
+        "snippet": "The possible role of alveolar macrophages in contributing to this imbalance was investigated by evaluating the ability of cigarette smokers' alveolar macrophages to inactivate alpha 1-antitrypsin (alpha 1AT), the major anti-neutrophil elastase of the human lower respiratory tract."
+      },
+      {
+        "title": "Neutrophil accumulation in the lung in alpha 1-antitrypsin ... - JCI",
+        "url": "https://www.jci.org/articles/view/115391",
+        "snippet": "With the knowledge that alveolar macrophages have surface receptors for neutrophil elastase, we hypothesized that the neutrophil accumulation in the lower respiratory tract in alpha 1AT deficiency may result, in part, from release of neutrophil chemotactic activity by alveolar macrophages as they bind uninhibited neutrophil elastase."
+      }
+    ],
+    "cache_hit": false
+  },
+  "dd43d9b331467418b84fd1e2698f28331021d6bf0454e85993470ac8dde80123": {
+    "status": "ok",
+    "backend": "ddgs-auto",
+    "query": "chronic stomach pain, upper abdomen, proton pump inhibitor, urease breath test, Helicobacter pylori infection",
+    "retrieved_at": "2026-10-18T18:45:02.617325+00:00",
+    "documents": [
+      {
+        "title": "Helicobacter pylori Infection - Digestive Disorders - MSD Manual ...",
+        "url": "https://www.msdmanuals.com/home/digestive-disorders/gastritis-and-peptic-ulcer-disease/helicobacter-pylori-infection",
+        "snippet": "When symptoms of H. pylori infection do occur, they include indigestion and pain or discomfort in the upper abdomen. Doctors often base the diagnosis on the results of a breath or stool test or on an examination of the stomach using a flexible viewing tube (upper endoscopy). Treatment is with antibiotics and a proton pump inhibitor."
+      },
+      {
+        "title": "Helicobacter pylori Infection - Gastroenterology - Merck Manual ...",
+        "url": "https://www.merckmanuals.com/professional/gastrointestinal-disorders/gastritis-and-peptic-ulcer-disease/helicobacter-pylori-infection",
+        "snippet": "Helicobacter pylori is a common gastric pathogen that causes gastritis, peptic ulcer disease, gastric adenocarcinoma, and low-grade gastric lymphoma. Infection may be asymptomatic or result in varying degrees of dyspepsia. Diagnosis is by urea breath test, stool antigen test, and testing of endoscopic biopsy samples. Treatment is typically with a proton pump inhibitor plus 2 antibiotics and ..."
+      },
+      {
+        "title": "Helicobacter pylori (H. pylori) infection - Diagnosis and treatment",
+        "url": "https://www.mayoclinic.org/diseases-conditions/h-pylori/diagnosis-treatment/drc-20356177",
+        "snippet": "Learn more about the diagnosis and treatment of Helicobacter pylori (H. pylori) infection. Find tips to get ready for any appointments you need."
+      }
+    ],
+    "cache_hit": false
+  },
+  "4bae9e86382580ccf61a50cfd37cdc92109aa11cc2450b28671bc533328a158c": {
+    "status": "ok",
+    "backend": "ddgs-auto",
+    "query": "Multiple sclerosis nystagmus horizontal gaze palsy etiology",
+    "retrieved_at": "2026-10-18T18:45:36.835018+00:00",
+    "documents": [
+      {
+        "title": "Eye Movement Abnormalities in Multiple Sclerosis ... - Frontiers",
+        "url": "https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2018.00031/full",
+        "snippet": "Multiple sclerosis (MS) commonly causes eye movement abnormalities that may have a significant impact on patients' disability. Inflammatory demyelinating lesions, especially occurring in the posterior fossa, result in a wide range of disorders, spanning from acquired pendular nystagmus (APN) to ..."
+      },
+      {
+        "title": "Ocular Motor Manifestations of Multiple Sclerosis - LiveWiseMS",
+        "url": "https://livewisems.org/resources/journal-articles/ocular-motor-manifestations-of-multiple-sclerosis",
+        "snippet": "The most frequent chronic manifestations include INO and cerebellar ocular motor disorders such as gaze-evoked nystagmus, saccadic hypermetria, and lack of vestibulo-ocular reflex inhibition. The most disabling syndrome is pendular nystagmus."
+      },
+      {
+        "title": "Multiple Sclerosis Foundation - Eye Movement Abnormalities in MS",
+        "url": "https://msfocusmagazine.org/Magazine/Magazine-Items/Eye-Movement-Abnormalities-in-MS",
+        "snippet": "What is Nystagmus? Nystagmus is the most common abnormality, seen on examination in 35 percent of individuals with MS (excluding the nystagmus described above seen with INO). The most common form of this involuntary rhythmic back and forth motion of the eyeball is seen with either horizontal or vertical gaze."
+      }
+    ],
+    "cache_hit": false
+  },
+  "82a5f174bd6814d5e2719c7a2b40c4af675eecb04b3590f9165f4b578a3171e6": {
+    "status": "ok",
+    "backend": "ddgs-auto",
+    "query": "long-term treatment for gout prevention",
+    "retrieved_at": "2026-10-18T18:45:56.131204+00:00",
+    "documents": [
+      {
+        "title": "Gout Treatment Options: Medications, Diet & Prevention (2026)",
+        "url": "https://jointpainauthority.com/blog/gout-treatment-options-2026/",
+        "snippet": "Complete guide to gout treatment in 2026: acute attack medications, long-term uric acid-lowering therapy, lifestyle changes, and newer treatments like pegloticase."
+      },
+      {
+        "title": "Advances in the management of gout: From current strategies to emerging ...",
+        "url": "https://journals.sagepub.com/doi/10.1177/03000605261426698",
+        "snippet": "With changes in lifestyle and dietary habits, the incidence of gout has been rising globally, making it a critical public health concern. Current research primarily focuses on short- and long-term management strategies, including pharmacological therapies, lifestyle interventions, and patient education."
+      },
+      {
+        "title": "How should I prevent future gout attacks long-term, including urate ...",
+        "url": "https://www.droracle.ai/articles/846446/how-should-i-prevent-future-gout-attacks-long-term-including",
+        "snippet": "Long-Term Gout Prevention Strategy To prevent future gout attacks, you must initiate urate-lowering therapy (ULT) if you have ≥2 attacks per year, any tophi, chronic kidney disease stage 2 or worse, or past kidney stones, with the goal of maintaining serum uric acid <6 mg/dL indefinitely while providing anti-inflammatory prophylaxis for at ..."
+      }
+    ],
+    "cache_hit": false
+  },
+  "28bd5e319aaf140f0e7fe0278ae925276eb962c682c87466a84973788a80f86c": {
+    "status": "ok",
+    "backend": "ddgs-auto",
+    "query": "Calculate binomial coefficient $\\dbinom{8}{4}$",
+    "retrieved_at": "2026-10-18T18:46:15.815731+00:00",
+    "documents": [
+      {
+        "title": "Binomial coefficient - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Binomial_coefficient",
+        "snippet": "Binomial coefficient The binomial coefficients can be arranged to form Pascal's triangle, in which each entry is the sum of the two immediately above. Visualisation of binomial expansion up to the 4th power In mathematics, the binomial coefficients are the positive integers that occur as coefficients in the binomial theorem."
+      },
+      {
+        "title": "Binomial Coefficient Calculator",
+        "url": "https://www.omnicalculator.com/math/binomial-coefficient",
+        "snippet": "The binomial coefficient calculator, commonly referred to as \"n choose k\", computes the number of combinations for your everyday needs."
+      },
+      {
+        "title": "Binomial Coefficient Calculator - Wolfram|Alpha",
+        "url": "https://www.wolframalpha.com/calculators/mathematics-algebra-combinatorics-binomial-coefficient-calculator",
+        "snippet": "Compute the binomial coefficient."
+      }
+    ],
+    "cache_hit": false
+  },
+  "3ff031fa75ec71ce8eb6487343f60a27f851912a883e9fa1b9dfc02f0345c196": {
+    "status": "ok",
+    "backend": "ddgs-auto",
+    "query": "perimeter of square 28 cm area calculation",
+    "retrieved_at": "2026-10-18T18:46:21.706130+00:00",
+    "documents": [
+      {
+        "title": "Square Calculator",
+        "url": "https://www.calculatorsoup.com/calculators/geometry-plane/squares.php",
+        "snippet": "Oct 1, 2026 · Use this square calculator to find the side length, diagonal length, perimeter or area of a geometric square. Given any 1 variable you can calculate the other 3 unknowns."
+      },
+      {
+        "title": "Square Area & Perimeter Calculator - Symbolab",
+        "url": "https://www.symbolab.com/solver/square-calculator",
+        "snippet": "Free Square Area & Perimeter Calculator - calculate area & perimeter of a square step by step"
+      },
+      {
+        "title": "Square Calculator – Area, Perimeter, Diagonal & Side",
+        "url": "https://www.megacalconline.com/geometry/square-calculator.html",
+        "snippet": "Aug 1, 2026 · Free square calculator: find area, perimeter, diagonal or side length from any one known value. Formulas, step-by-step working, diagrams and unit conversion."
+      }
+    ],
+    "cache_hit": false
+  },
+  "2536593f132bb8eb4c5ac33be685616fff98e814a17d5eb982cb8e5f9eb529de": {
+    "status": "ok",
+    "backend": "ddgs-auto",
+    "query": "Find number between 50 and 60 with GCD 7 and 21",
+    "retrieved_at": "2026-10-18T18:46:27.008208+00:00",
+    "documents": [
+      {
+        "title": "[FREE] The greatest common divisor of 21 and some number ...",
+        "url": "https://brainly.com/question/36831030",
+        "snippet": "Sep 4, 2023 · To find the number between 50 and 60 that has a GCD of 7 with 21, we look for multiples of 7 within that range. The number that fulfills these criteria is 56."
+      },
+      {
+        "title": "[FREE] The greatest common divisor of 21 and some number ...",
+        "url": "https://brainly.com/question/42427198",
+        "snippet": "To find the number between 50 and 60 that has a greatest common divisor (GCD) of 7 with 21, we need to check which of the given options (56, 52, 58, 54) satisfies this condition."
+      },
+      {
+        "title": "Greatest Common Divisor (GCD) CalculatorGCD Calculator — Greatest Common Divisor and LCM With StepsGCD CalculatorGreatest Common Factor (GCF, HCF, GCD) CalculatorGCD Calculator",
+        "url": "https://www.gigacalculator.com/calculators/gcd-calculator.php",
+        "snippet": "The greatest common divisor (gcd), also known as greatest common factor (gcf), highest common factor (hcf), highest common divisor (hcd) and greatest common measure (gcm), is applicable to sets of 2 or more integers different from zero and is the largest positive integers that divides each of them without remainder. The GCD of 1 and any number is 1... See full list on gigacalculator.com There are different methods: prime factorization, Euclid's algorithm, binary method, a method using the least common multiple, Thomae's function, and others. The computation complexity is high in all cases for large numbers. For example, prime factorization is only feasible for small integers. Using our greatest common divisor calculator is free an... See full list on gigacalculator.com Euclid's algorithm is gcd(a, b) = gcd(a - b, b) if a > b and gcd(a, b) = gcd(a, b - a) if b > a. It uses the observation that the greatest common divisor calculated for two numbers also divides their difference. For example, to compute gcd(60,24), divide 60 by 24 to get a quotient of 2 and a remainder of 12. Then divide 24 by 12 to get a quotent of... See full list on gigacalculator.com Free GCD calculator for any list of numbers. Get the greatest common divisor and the LCM with the working shown: Euclidean chain, prime factors and ladder. Use this page to calculate the gcd of a set of two or more numbers. Aug 1, 2025 · Calculate the GCF, GCD or HCF and see work with steps. Learn how to find the greatest common factor using factoring, prime factorization and the Euclidean Algorithm. To use our GCD calculator simply start inserting the desired numbers in the field at the top of our tool. If you need more numbers, don't worry: the fields will appear! What is the greatest common divisor (GCD)? The greatest common divisor (gcd) is also known as greatest common factor (gcf), highest common factor (hcf), highest common divisor (hcd) and greatest common measure (gcm). It is applicable to sets of 2 or more integers different from zero and is the largest positive integers that divides each of them without remainder. What is the greatest common divisor of a set of numbers? Easily find the greatest common divisor of a set of numbers. It is a free and easy-to-use GCD calculator. The greatest common divisor (gcd) is also known as greatest common factor (gcf), highest common factor (hcf), highest common divisor (hcd) and greatest common measure (gcm). How do I find the greatest common divisor? Easy-to-use greatest common divisor calculator online. ➤ Find the GCD of a set of numbers. Greatest common factor (gcf), highest common factor (hcf), highest common divisor (hcd) and greatest common measure (gcm) calculator. Find the largest positive integer that divides each of a set of integers. How do I find the GCD of a set of numbers? Calculate the GCD of a set of numbers. The GCD calculator allows you to quickly find the greatest common divisor of a set of numbers. You may enter between two and ten non-zero integers between -2147483648 and 2147483647. The numbers must be separated by commas, spaces or tabs or may be entered on separate lines."
+      }
+    ],
+    "cache_hit": false
+  },
+  "6f5c9181afa1a521739f986c6a2d4454aacb7942abdb29ab22f425a5795ec087": {
+    "status": "ok",
+    "backend": "ddgs-auto",
+    "query": "Greatest integer function calculation for -1.2",
+    "retrieved_at": "2026-10-18T18:46:41.133209+00:00",
+    "documents": [
+      {
+        "title": "Floor and ceiling functions - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Floor_and_ceiling_functions",
+        "snippet": "In mathematics, the floor function is the function that takes a real number x as input and returns the greatest integer less than or equal to x, written ⌊x⌋ or floor (x). Similarly, the ceiling function returns the least integer greater than or equal to x, written ⌈x⌉ or ceil (x). [1]"
+      },
+      {
+        "title": "Greatest Integer Function Calculator | Find [x] Easily",
+        "url": "https://www.toolsoverflow.com/calculator/greatest-integer-calculator",
+        "snippet": "With our Greatest Integer Calculator, you can easily calculate the greatest integer of any real number. Just enter the number, and it will immediately return the greatest integer that is less than or equal to the input value."
+      },
+      {
+        "title": "Greatest Integer Calculator | Floor Function Step Calculator",
+        "url": "https://codingace.net/maths/greatest_integer.html",
+        "snippet": "Compute greatest integer values for various real numbers. Process singles, lists, and sequences in flexible tables. Export numerical results comfortably into CSV files and PDFs."
+      }
+    ],
+    "cache_hit": false
+  },
+  "5f5aff0d0d1bb7fe23706d6e462d5a320925439e68ba0d19ad810c445688d883": {
+    "status": "ok",
+    "backend": "ddgs-auto",
+    "query": "solve $\\frac{x}{y}= 2$ and $\\frac{z}{x}= 4$ for $\\frac{z}{y}$",
+    "retrieved_at": "2026-10-18T18:46:45.561590+00:00",
+    "documents": [
+      {
+        "title": "Equation Solver - Mathway",
+        "url": "https://www.mathway.com/Calculator/equation-solver",
+        "snippet": "Enter the Equation you want to solve into the editor. The equation calculator allows you to take a simple or complex equation and solve using the best available method."
+      },
+      {
+        "title": "Math Solver - Trusted Online AI Math Calculator | Symbolab",
+        "url": "https://en.symbolab.com/",
+        "snippet": "Instead of just giving a final answer, Symbolab’s AI Math Solver breaks problems down step-by-step. It shows what to do first, how each step builds on the last, and how each move brings you closer to the solution. It supports topics such as algebra, calculus, trigonometry, and more."
+      },
+      {
+        "title": "Equation Solver: Step-by-Step Calculator - Wolfram|Alpha",
+        "url": "https://www.wolframalpha.com/calculators/equation-solver-calculator/",
+        "snippet": "Free Equation Solver helps you to calculate linear, quadratic and polynomial systems of equations. Answers, graphs, roots, alternate forms."
+      }
+    ],
+    "cache_hit": false
+  },
+  "d2751603af7635d23923cdc370845b5355df45cc02cf2bbd3b50ecc3235f014d": {
+    "status": "ok",
+    "backend": "ddgs-auto",
+    "query": "Calculate square root and square of 625681",
+    "retrieved_at": "2026-10-18T18:46:51.643341+00:00",
+    "documents": [
+      {
+        "title": "Square Root Calculator",
+        "url": "https://www.calculatorsoup.com/calculators/algebra/squareroots.php",
+        "snippet": "Oct 1, 2026 · Square root calculator and perfect square calculator. Find the square root, or the two roots, including the principal root, of positive and negative real numbers. Calculate the positive principal root and negative root of positive real numbers. Also tells you if the entered number is a perfect square."
+      },
+      {
+        "title": "Square Root Calculator - Free Online Calculator With Steps ...",
+        "url": "https://www.symbolab.com/solver/square-root-calculator",
+        "snippet": "The Symbolab Square Root Calculator helps make sense of them, offering instant answers and step-by-step explanations that build real understanding. Whether you're simplifying by hand or checking your work, the calculator is a powerful tool for learning."
+      },
+      {
+        "title": "Square Root CalculatorRoot Calculator - Square, Cube, Nth Root, Precision & StepsSquare Calculator - Square a Number, Find Its RootSquare Root Calculator - Simplest Radical Form & Nth Roots ...Square Root Calculator — √ Cube Root & Squared",
+        "url": "https://www.omnicalculator.com/math/square-root",
+        "snippet": "Square root calculator helps you find the square root of any positive number. Sep 28, 2026 · This free root calculator lets you find the square root, cube root, or any nth root of a number. Just type in a number, and the tool gives you an answer right away. Jun 16, 2026 · Free square calculator — square any real number, take the principal square root, and check perfect-square status with adjustable precision in real time. Square roots and nth roots to 50 decimal places, simplified radicals like 6√2, perfect-power checks and Heron's method, with the working shown. Sep 20, 2026 · This calculator instantly returns the square root, cube root, and square of any number you enter, showing exact whole-number results for perfect squares and decimals for everything else. How do you use a square root calculator? Input any positive number. The calculator computes the principal square root (the positive root). For negative inputs, it returns the imaginary result in i notation. Toggle between square root (√), cube root (∛), and nth root (ⁿ√) using the mode selector. Enter any integer n for a custom root. What is Symbolab square root calculator? The Symbolab Square Root Calculator helps make sense of them, offering instant answers and step-by-step explanations that build real understanding. Whether you're simplifying by hand or checking your work, the calculator is a powerful tool for learning. Use it to explore, practice, and grow more confident with every problem. What is the square root of a number n? Quick answer: The square root of a number n is the value that, multiplied by itself, equals n — for example, √144 = 12, since 12 × 12 = 144. This calculator instantly returns the square root, cube root, and square of any number you enter, showing exact whole-number results for perfect squares and decimals for everything else. Can we take the square root of a number? But if solving an equation like ${x}^{2}=36$, the solutions are $x=6$ and $x=-6$. Can We Take the Square Root of Any Number? Well, almost. If the number is positive, you can take the square root and get a real number. If the number is not a perfect square, the answer will be a decimal or an irrational number (more on that later)."
+      }
+    ],
+    "cache_hit": false
+  },
+  "f25eeb12c3084d655bd328f04188177b4e8d83754b5aea073a6eaef14f388ce3": {
+    "status": "ok",
+    "backend": "ddgs-auto",
+    "query": "Calculate binomial coefficient $\\dbinom{5}{1}$",
+    "retrieved_at": "2026-10-18T18:46:59.434691+00:00",
+    "documents": [
+      {
+        "title": "Binomial coefficient - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Binomial_coefficient",
+        "snippet": "Several methods exist to compute the value of without actually expanding a binomial power or counting k -combinations. 1 ≤ k < n {\\displaystyle 1\\leq k<n} for all integers n ≥ 0."
+      },
+      {
+        "title": "Binomial Distribution Calculator & Binomial Probability ...",
+        "url": "https://www.gigacalculator.com/calculators/binomial-probability-calculator.php",
+        "snippet": "Oct 18, 2019 · Use this binomial probability calculator to calculate binomial cumulative distribution function and probability mass given the probability on a single trial, the number of trials, and events."
+      },
+      {
+        "title": "Binomial Coefficient Calculator",
+        "url": "https://www.omnicalculator.com/math/binomial-coefficient",
+        "snippet": "The binomial coefficient calculator, commonly referred to as \"n choose k\", computes the number of combinations for your everyday needs."
+      }
+    ],
+    "cache_hit": false
+  },
+  "a3537357db6a75424e91a13b352719920aca25d1a268710b4b529fac8f52c654": {
+    "status": "ok",
+    "backend": "ddgs-auto",
+    "query": "solve 2k+5=13 for k",
+    "retrieved_at": "2026-10-18T18:47:06.580735+00:00",
+    "documents": [
+      {
+        "title": "Solve linear equation 2k+5=13 | Tiger Algebra",
+        "url": "https://www.tiger-algebra.com/en/solution/linear-equation-one-unknown/2k+5=13/",
+        "snippet": "Solve the linear equation 2k+5=13 step by step. Isolate the unknown, simplify both sides, and check the solution 2k+5=13."
+      },
+      {
+        "title": "Equation Solver - Mathway",
+        "url": "https://www.mathway.com/Calculator/equation-solver",
+        "snippet": "Enter the Equation you want to solve into the editor. The equation calculator allows you to take a simple or complex equation and solve using the best available method."
+      },
+      {
+        "title": "2k-k=13 - Solve linear equation with one unknown | Tiger Algebra",
+        "url": "https://www.tiger-algebra.com/en/solution/linear-equation-one-unknown/2k-k=13/",
+        "snippet": "Solve linear equation with one unknown 2k-k=13: Tiger Algebra not only solves linear equations with one unknown 2k-k=13, but its clear, step-by-step exp..."
+      }
+    ],
+    "cache_hit": false
+  },
+  "f8b652d2407ef0e7c8f528006491b9ec4fb1cc8443a85489a2e4cf9c82a91cc8": {
+    "status": "ok",
+    "backend": "ddgs-auto",
+    "query": "count odd digits in base-4 representation of 233",
+    "retrieved_at": "2026-10-18T18:47:11.829156+00:00",
+    "documents": [
+      {
+        "title": "Quaternary numeral system - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Quaternary_numeral_system",
+        "snippet": "Quaternary / kwəˈtɜːrnəri / is a numeral system with four as its base. It uses the digits 0, 1, 2, and 3 to represent any real number. Conversion from binary is straightforward."
+      },
+      {
+        "title": "Count digits - GeeksforGeeks",
+        "url": "https://www.geeksforgeeks.org/dsa/program-count-digits-integer-3-different-methods/",
+        "snippet": "Apr 23, 2026 · We can convert the number into a string and then find the length of the string to get the number of digits in the original number. If the number is negative, the string will contain a '-' sign, so subtract 1 from the length."
+      },
+      {
+        "title": "Number Bases: Base 4 and Base 7 - Purplemath",
+        "url": "https://www.purplemath.com/modules/numbbase2.htm",
+        "snippet": "Uses base 4 and base 7 numbers to illustrate how to convert between different number bases."
+      }
+    ],
+    "cache_hit": false
+  },
+  "61c46c01b9605224fc3621f23e6e5e892e12b182b5cc79dda030b6b480a9b113": {
+    "status": "ok",
+    "backend": "ddgs-auto",
+    "query": "Calculate binomial coefficient $\\dbinom{11}{8}$",
+    "retrieved_at": "2026-10-18T18:47:24.373472+00:00",
+    "documents": [
+      {
+        "title": "Binomial Coefficient Calculator",
+        "url": "https://www.omnicalculator.com/math/binomial-coefficient",
+        "snippet": "The binomial coefficient calculator, commonly referred to as \"n choose k\", computes the number of combinations for your everyday needs."
+      },
+      {
+        "title": "Binomial Coefficient Calculator - Wolfram|Alpha",
+        "url": "https://www.wolframalpha.com/calculators/mathematics-algebra-combinatorics-binomial-coefficient-calculator",
+        "snippet": "Compute the binomial coefficient."
+      },
+      {
+        "title": "Binomial Coefficient Calculator - Calculator AcademyBinomial Coefficient Calculator - codingace.netBinomial Distribution Calculator – Probability, CDF & PMF ...Free Binomial Coefficient Calculator - C (n,k) Step by StepBinomial Coefficient Calculator - codingace.net",
+        "url": "https://calculator.academy/binomial-coefficient-calculator/",
+        "snippet": "The following formula is used to calculate a binomial coefficient of numbers. C(n,k)=n!/(k!(n−k)!) 1. Where C(n,k) is the binomial coefficient 2. n is an integer 3. k is another integer. To calculate the binomial coefficient, divide n factorial, by the product of k factorial times n minus k factorial. n (Integer): This is one of the input variables... See full list on calculator.academy A binomial coefficient is the total number of combinations that can be made from any set of integers. See full list on calculator.academy In the binomial coefficient formula, 'n' represents the total number of items or options available, while 'k' represents the number of items to be chosen from 'n'. The formula calculates the total number of ways to choose 'k' items from a set of 'n' items without regard to the order of selection. To calculate n factorial (n!), you multiply all posi... See full list on calculator.academy Calculate binomial coefficients and combinations with precision. Review formulas, examples, validations, and export options. Improve counting skills through clear steps and helpful guidance. About this calculator A binomial distribution describes the number of successes X in a fixed number of trials n, when every trial has the same success probability p and the trials do not affect each other. Jan 13, 2026 · This calculator provides step-by-step solutions, Pascal's triangle visualization, and real-world application examples to help you understand binomial coefficients. Find binomial coefficients quickly and clearly. Enter values for n and r with confidence. Review formulas, exports, and examples for accurate expansion work."
+      }
+    ],
+    "cache_hit": false
+  }
+}

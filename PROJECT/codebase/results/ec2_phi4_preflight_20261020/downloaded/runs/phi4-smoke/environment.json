@@ -1,0 +1,15 @@
+{
+  "at": "2026-10-19T20:18:03.650480+00:00",
+  "host": "AWS EC2 i-03f96c0b0edb6326a",
+  "gpu": "Tesla T4",
+  "gpu_count": 1,
+  "gpu_memory_bytes": 15636037632,
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "torch_cuda": "12.8",
+  "packages": {
+    "torch": "2.11.0+cu128",
+    "transformers": "5.17.0",
+    "accelerate": "1.15.0",
+    "bitsandbytes": "0.50.2"
+  }
+}

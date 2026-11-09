@@ -1,0 +1,18 @@
+{
+  "at": "2026-10-19T20:17:00.388371+00:00",
+  "service_result": "exit-code",
+  "exit_code": "exited",
+  "exit_status": "1",
+  "poweroff_requested": false,
+  "full_run_started": false,
+  "saved_files": {
+    "console.log": {
+      "bytes": 356,
+      "sha256": "a8d5fd643001b4a2eacae971a57866c1dab308d0cb84dd8a3878139fd2cbbcbd"
+    },
+    "probe_checkpoint.json": {
+      "bytes": 85,
+      "sha256": "b97f610b369bebc2a0ee95b1fd55135638d41b98288650adc3b1e0d410a3a2f2"
+    }
+  }
+}

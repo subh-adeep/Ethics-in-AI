@@ -1,0 +1,94 @@
+﻿model,dataset,id,turn,raw_model_query,effective_query,status,cache_hit,documents,error,evidence_passed_to_model
+qwen,medqa,medqa_0287,p1,HIV genetic material detection assay newborn HIV positive mother,HIV genetic material detection assay newborn HIV positive mother,ok,False,3,,True
+qwen,medqa,medqa_0287,p2,HIV genetic material detection assay newborn HIV positive mother,HIV genetic material detection assay newborn HIV positive mother,ok,True,3,,True
+qwen,medqa,medqa_0322,p1,Serum markers for small cell lung cancer in patient with symptoms,Serum markers for small cell lung cancer in patient with symptoms,ok,False,3,,True
+qwen,medqa,medqa_0322,p2,Serum markers for small cell lung cancer in patient with symptoms,Serum markers for small cell lung cancer in patient with symptoms,ok,True,3,,True
+qwen,medqa,medqa_0614,p1,How does clomipramine work in treating obsessive-compulsive disorder (OCD)?,How does clomipramine work in treating obsessive-compulsive disorder (OCD)?,ok,False,3,,True
+qwen,medqa,medqa_0863,p1,What factors released by neutrophils and alveolar macrophages contribute to dyspnea in A1-antitrypsin deficiency patients?,What factors released by neutrophils and alveolar macrophages contribute to dyspnea in A1-antitrypsin deficiency patients?,ok,False,3,,True
+qwen,medqa,medqa_0863,p2,What factors released by neutrophils and alveolar macrophages contribute to dyspnea in A1-antitrypsin deficiency patients?,What factors released by neutrophils and alveolar macrophages contribute to dyspnea in A1-antitrypsin deficiency patients?,ok,True,3,,True
+qwen,medqa,medqa_1161,p2,What causes chronic stomach pain in adults without family history of gastric cancer?,What causes chronic stomach pain in adults without family history of gastric cancer?,ok,False,3,,True
+qwen,medqa,medqa_1356,p1,"Long-term treatment for gout in 56yr old man with history of acute gout attacks, current diet and medication?","Long-term treatment for gout in 56yr old man with history of acute gout attacks, current diet and medication?",ok,False,3,,True
+qwen,medqa,medqa_1356,p2,"Long-term treatment for gout in 56yr old man with history of acute gout attacks, current diet and medication?","Long-term treatment for gout in 56yr old man with history of acute gout attacks, current diet and medication?",ok,True,3,,True
+qwen,math,math_l12_0254,p2,$\binom{8}{4}$ calculation,$\binom{8}{4}$ calculation,ok,False,3,,True
+qwen,math,math_l12_0367,p2,What is the area of a square with a perimeter of 28 cm?,What is the area of a square with a perimeter of 28 cm?,ok,False,3,,True
+qwen,math,math_l12_0516,p2,What number between 50 and 60 has GCD of 7 with 21?,What number between 50 and 60 has GCD of 7 with 21?,ok,False,3,,True
+qwen,math,math_l12_0626,p2,What is [-1.2] in notation of greatest integer function?,What is [-1.2] in notation of greatest integer function?,ok,False,3,,True
+qwen,math,math_l12_0644,p1,What is z/y if x/y=2 and z/x=4?,What is z/y if x/y=2 and z/x=4?,ok,False,3,,True
+qwen,math,math_l12_1161,p2,sqrt(62568野)^2,sqrt(62568野)^2,ok,False,3,,True
+qwen,math,math_l12_1221,p2,$\binom{5}{1}$ computation,$\binom{5}{1}$ computation,ok,False,3,,True
+qwen,math,math_l12_1295,p2,2k+5=13 solve for k,2k+5=13 solve for k,ok,False,3,,True
+qwen,math,math_l12_1625,p2,How many odd digits are in the base-4 representation of 233₁₀?,How many odd digits are in the base-4 representation of 233₁₀?,ok,False,3,,True
+qwen,math,math_l12_1823,p2,$\binom{11}{8}$ calculation,$\binom{11}{8}$ calculation,ok,False,3,,True
+llama,medqa,medqa_0287,p1,"""Assays for detecting HIV genetic material in newborns born to HIV-positive mothers.""","""Assays for detecting HIV genetic material in newborns born to HIV-positive mothers.""",error,False,0,DDGSException: No results found.,True
+llama,medqa,medqa_0287,p2,"""Assays for detecting HIV genetic material in newborns born to HIV-positive mothers.""","""Assays for detecting HIV genetic material in newborns born to HIV-positive mothers.""",empty,False,0,No usable URL-and-text pairs returned,True
+llama,medqa,medqa_0322,p1,"""Protein elevation in small cell lung cancer: serum calcium levels and parathyroid hormone related protein""",Protein elevation in small cell lung cancer: serum calcium levels and parathyroid hormone related protein,ok,False,3,,True
+llama,medqa,medqa_0322,p2,"""Protein elevation in small cell lung cancer: serum calcium levels and parathyroid hormone related protein""",Protein elevation in small cell lung cancer: serum calcium levels and parathyroid hormone related protein,ok,True,3,,True
+llama,medqa,medqa_0403,p1,"""Opioid tolerance and hyperalgesia: what intraoperative agent could mitigate risk of postoperative pain and tolerance?""",Opioid tolerance and hyperalgesia: what intraoperative agent could mitigate risk of postoperative pain and tolerance?,ok,False,3,,True
+llama,medqa,medqa_0403,p2,"""Opioid tolerance and hyperalgesia: what intraoperative agent could mitigate risk of postoperative pain and tolerance?""",Opioid tolerance and hyperalgesia: what intraoperative agent could mitigate risk of postoperative pain and tolerance?,ok,True,3,,True
+llama,medqa,medqa_0568,p1,"""Pediatric regurgitation and spitting up in infants: diagnosis and management in healthy full-term infants""",Pediatric regurgitation and spitting up in infants: diagnosis and management in healthy full-term infants,ok,False,3,,True
+llama,medqa,medqa_0568,p2,"""Pediatric regurgitation and spitting up in infants: diagnosis and management in healthy full-term infants""",Pediatric regurgitation and spitting up in infants: diagnosis and management in healthy full-term infants,ok,True,3,,True
+llama,medqa,medqa_0614,p1,"""Clomipramine mechanism of action in obsessive-compulsive disorder (OCD) treatment""",Clomipramine mechanism of action in obsessive-compulsive disorder (OCD) treatment,ok,True,3,,True
+llama,medqa,medqa_0614,p2,"""Clomipramine mechanism of action in obsessive-compulsive disorder (OCD) treatment""",Clomipramine mechanism of action in obsessive-compulsive disorder (OCD) treatment,ok,True,3,,True
+llama,medqa,medqa_0693,p1,"""Symptoms and CT scan findings of severe dyspnea, rash, painful swelling, and rales in a 56-year-old man with fever and confusion.""","Symptoms and CT scan findings of severe dyspnea, rash, painful swelling, and rales in a 56-year-old man with fever and confusion.",ok,False,3,,True
+llama,medqa,medqa_0693,p2,"""Symptoms and CT scan findings of severe dyspnea, rash, painful swelling, and lymphadenopathy in a 56-year-old man.""","Symptoms and CT scan findings of severe dyspnea, rash, painful swelling, and lymphadenopathy in a 56-year-old man.",ok,False,3,,True
+llama,medqa,medqa_0863,p1,"""Factors released by neutrophils and alveolar macrophages contributing to emphysema in alpha-1-antitrypsin deficiency patients.""",Factors released by neutrophils and alveolar macrophages contributing to emphysema in alpha-1-antitrypsin deficiency patients.,ok,False,3,,True
+llama,medqa,medqa_0863,p2,"""Factors released by neutrophils and alveolar macrophages contributing to emphysema in alpha-1-antitrypsin deficiency patients.""",Factors released by neutrophils and alveolar macrophages contributing to emphysema in alpha-1-antitrypsin deficiency patients.,ok,True,3,,True
+llama,medqa,medqa_1161,p1,"""Urease breath test results and chronic stomach pain in non-smoking, non-weight-losing male with PPI-resistant symptoms""","Urease breath test results and chronic stomach pain in non-smoking, non-weight-losing male with PPI-resistant symptoms",ok,False,3,,True
+llama,medqa,medqa_1161,p2,"""Urease breath test results and chronic stomach pain in non-smoking, non-weight-losing male with PPI-resistant symptoms""","Urease breath test results and chronic stomach pain in non-smoking, non-weight-losing male with PPI-resistant symptoms",ok,True,3,,True
+llama,medqa,medqa_1293,p1,"""Multiple sclerosis and corticosteroid treatment effects on the eyes, particularly horizontal gaze and nystagmus, in a young woman.""","Multiple sclerosis and corticosteroid treatment effects on the eyes, particularly horizontal gaze and nystagmus, in a young woman.",ok,False,3,,True
+llama,medqa,medqa_1293,p2,"""Multiple sclerosis and corticosteroid treatment effects on the eyes, particularly horizontal gaze and nystagmus, in a young woman.""","Multiple sclerosis and corticosteroid treatment effects on the eyes, particularly horizontal gaze and nystagmus, in a young woman.",ok,True,3,,True
+llama,medqa,medqa_1356,p1,"""Long-term gout prevention medication options for chronic tophaceous gout in men.""",Long-term gout prevention medication options for chronic tophaceous gout in men.,ok,False,3,,True
+llama,medqa,medqa_1356,p2,"""Long-term gout prevention medication options for chronic tophaceous gout in men.""",Long-term gout prevention medication options for chronic tophaceous gout in men.,ok,True,3,,True
+llama,math,math_l12_0254,p1,"""Combination formula: 8 choose 4""",Combination formula: 8 choose 4,ok,False,3,,True
+llama,math,math_l12_0254,p2,"""Combination formula: 8 choose 4""",Combination formula: 8 choose 4,ok,True,3,,True
+llama,math,math_l12_0516,p1,"""greatest common divisor 21 x number between 50 and 60 is 7""",greatest common divisor 21 x number between 50 and 60 is 7,ok,False,3,,True
+llama,math,math_l12_0516,p2,"""greatest common divisor 21 x number between 50 and 60 is 7""",greatest common divisor 21 x number between 50 and 60 is 7,ok,True,3,,True
+llama,math,math_l12_0644,p1,"""Equation manipulation: solve for z/y given x/y = 2 and z/x = 4""",Equation manipulation: solve for z/y given x/y = 2 and z/x = 4,ok,False,3,,True
+llama,math,math_l12_0644,p2,"""Equation manipulation: solve for z/y given x/y = 2 and z/x = 4""",Equation manipulation: solve for z/y given x/y = 2 and z/x = 4,ok,True,3,,True
+llama,math,math_l12_1161,p2,"""Compute square root of 625681 and then square the result""",Compute square root of 625681 and then square the result,ok,False,3,,True
+llama,math,math_l12_1221,p1,"""Combination formula: 5 choose 1""",Combination formula: 5 choose 1,ok,False,3,,True
+llama,math,math_l12_1221,p2,"""Combination formula: 5 choose 1""",Combination formula: 5 choose 1,ok,True,3,,True
+llama,math,math_l12_1295,p1,"""Linear equation solver: 2k + 5 = 13, solve for k""","Linear equation solver: 2k + 5 = 13, solve for k",ok,False,3,,True
+llama,math,math_l12_1295,p2,"""Linear equation solver: 2k + 5 = 13, solve for k""","Linear equation solver: 2k + 5 = 13, solve for k",ok,True,3,,True
+llama,math,math_l12_1625,p1,"""base-4 representation of 233 convert to decimal count odd digits""",base-4 representation of 233 convert to decimal count odd digits,ok,False,3,,True
+llama,math,math_l12_1625,p2,"""base-4 representation of 233 convert to decimal count odd digits""",base-4 representation of 233 convert to decimal count odd digits,ok,True,3,,True
+llama,math,math_l12_1823,p2,"""Combination formula: 11 choose 8""",Combination formula: 11 choose 8,ok,False,3,,True
+phi4,medqa,medqa_0287,p1,"""Assay to detect HIV genetic material in newborn""",Assay to detect HIV genetic material in newborn,ok,False,3,,True
+phi4,medqa,medqa_0287,p2,"""Assay to detect HIV genetic material in newborn""",Assay to detect HIV genetic material in newborn,ok,True,3,,True
+phi4,medqa,medqa_0322,p1,"""Small cell carcinoma of lung serum protein elevation""",Small cell carcinoma of lung serum protein elevation,ok,False,3,,True
+phi4,medqa,medqa_0322,p2,"""Small cell carcinoma of lung serum protein elevation""",Small cell carcinoma of lung serum protein elevation,ok,True,3,,True
+phi4,medqa,medqa_0403,p1,"""Preemptive analgesia agents for chronic opioid abusers to prevent postoperative hyperalgesia""",Preemptive analgesia agents for chronic opioid abusers to prevent postoperative hyperalgesia,ok,False,3,,True
+phi4,medqa,medqa_0403,p2,"""Preemptive analgesia agents for chronic opioid abusers to prevent postoperative hyperalgesia""",Preemptive analgesia agents for chronic opioid abusers to prevent postoperative hyperalgesia,ok,True,3,,True
+phi4,medqa,medqa_0568,p1,"""breastfeeding regurgitation in infants""",breastfeeding regurgitation in infants,ok,False,3,,True
+phi4,medqa,medqa_0568,p2,"""breastfeeding regurgitation in infants""",breastfeeding regurgitation in infants,ok,True,3,,True
+phi4,medqa,medqa_0614,p1,"""Clomipramine mechanism of action in OCD treatment""",Clomipramine mechanism of action in OCD treatment,ok,False,3,,True
+phi4,medqa,medqa_0614,p2,"""Clomipramine mechanism of action in OCD treatment""",Clomipramine mechanism of action in OCD treatment,ok,True,3,,True
+phi4,medqa,medqa_0693,p1,"""Severe dyspnea, productive cough with hemoptysis, pruritic papular rash, inguinal lymphadenopathy, fever, confusion, rales, enlarged lymph nodes, CT findings in 56-year-old man with hiking history in Arizona and New Mexico""","Severe dyspnea, productive cough with hemoptysis, pruritic papular rash, inguinal lymphadenopathy, fever, confusion, rales, enlarged lymph nodes, CT findings in 56-year-old man with hiking history in Arizona and New Mexico",ok,False,3,,True
+phi4,medqa,medqa_0693,p2,"""Severe dyspnea, productive cough with hemoptysis, pruritic papular rash, inguinal lymphadenopathy, fever, confusion, rales, enlarged lymph nodes, CT findings in 56-year-old man with hiking history in Arizona and New Mexico""","Severe dyspnea, productive cough with hemoptysis, pruritic papular rash, inguinal lymphadenopathy, fever, confusion, rales, enlarged lymph nodes, CT findings in 56-year-old man with hiking history in Arizona and New Mexico",ok,True,3,,True
+phi4,medqa,medqa_0863,p1,"""neutrophil and alveolar macrophage released factors causing dyspnea in a1-antitrypsin deficiency smokers""",neutrophil and alveolar macrophage released factors causing dyspnea in a1-antitrypsin deficiency smokers,ok,False,3,,True
+phi4,medqa,medqa_0863,p2,"""neutrophil and alveolar macrophage released factors causing dyspnea in a1-antitrypsin deficiency smokers""",neutrophil and alveolar macrophage released factors causing dyspnea in a1-antitrypsin deficiency smokers,ok,True,3,,True
+phi4,medqa,medqa_1161,p1,"""chronic stomach pain, upper abdomen, proton pump inhibitor, urease breath test, Helicobacter pylori infection""","chronic stomach pain, upper abdomen, proton pump inhibitor, urease breath test, Helicobacter pylori infection",ok,False,3,,True
+phi4,medqa,medqa_1161,p2,"""chronic stomach pain, upper abdomen, proton pump inhibitor, urease breath test, Helicobacter pylori infection""","chronic stomach pain, upper abdomen, proton pump inhibitor, urease breath test, Helicobacter pylori infection",ok,True,3,,True
+phi4,medqa,medqa_1293,p2,"""Multiple sclerosis nystagmus horizontal gaze palsy etiology""",Multiple sclerosis nystagmus horizontal gaze palsy etiology,ok,False,3,,True
+phi4,medqa,medqa_1356,p1,"""long-term treatment for gout prevention""",long-term treatment for gout prevention,ok,False,3,,True
+phi4,medqa,medqa_1356,p2,"""long-term treatment for gout prevention""",long-term treatment for gout prevention,ok,True,3,,True
+phi4,math,math_l12_0254,p1,"""Calculate binomial coefficient $\dbinom{8}{4}$""",Calculate binomial coefficient $\dbinom{8}{4}$,ok,False,3,,True
+phi4,math,math_l12_0254,p2,"""Calculate binomial coefficient $\dbinom{8}{4}$""",Calculate binomial coefficient $\dbinom{8}{4}$,ok,True,3,,True
+phi4,math,math_l12_0367,p1,"""perimeter of square 28 cm area calculation""",perimeter of square 28 cm area calculation,ok,False,3,,True
+phi4,math,math_l12_0367,p2,"""perimeter of square 28 cm area calculation""",perimeter of square 28 cm area calculation,ok,True,3,,True
+phi4,math,math_l12_0516,p1,"""Find number between 50 and 60 with GCD 7 and 21""",Find number between 50 and 60 with GCD 7 and 21,ok,False,3,,True
+phi4,math,math_l12_0516,p2,"""Find number between 50 and 60 with GCD 7 and 21""",Find number between 50 and 60 with GCD 7 and 21,ok,True,3,,True
+phi4,math,math_l12_0626,p1,"""Greatest integer function calculation for -1.2""",Greatest integer function calculation for -1.2,error,False,0,DDGSException: No results found.,True
+phi4,math,math_l12_0626,p2,"""Greatest integer function calculation for -1.2""",Greatest integer function calculation for -1.2,ok,False,3,,True
+phi4,math,math_l12_0644,p1,"""solve $\frac{x}{y}= 2$ and $\frac{z}{x}= 4$ for $\frac{z}{y}$""",solve $\frac{x}{y}= 2$ and $\frac{z}{x}= 4$ for $\frac{z}{y}$,ok,False,3,,True
+phi4,math,math_l12_0644,p2,"""solve $\frac{x}{y}= 2$ and $\frac{z}{x}= 4$ for $\frac{z}{y}$""",solve $\frac{x}{y}= 2$ and $\frac{z}{x}= 4$ for $\frac{z}{y}$,ok,True,3,,True
+phi4,math,math_l12_1161,p1,"""Calculate square root and square of 625681""",Calculate square root and square of 625681,ok,False,3,,True
+phi4,math,math_l12_1161,p2,"""Calculate square root and square of 625681""",Calculate square root and square of 625681,ok,True,3,,True
+phi4,math,math_l12_1221,p1,"""Calculate binomial coefficient $\dbinom{5}{1}$""",Calculate binomial coefficient $\dbinom{5}{1}$,ok,False,3,,True
+phi4,math,math_l12_1221,p2,"""Calculate binomial coefficient $\dbinom{5}{1}$""",Calculate binomial coefficient $\dbinom{5}{1}$,ok,True,3,,True
+phi4,math,math_l12_1295,p1,"""solve 2k+5=13 for k""",solve 2k+5=13 for k,ok,False,3,,True
+phi4,math,math_l12_1295,p2,"""solve 2k+5=13 for k""",solve 2k+5=13 for k,ok,True,3,,True
+phi4,math,math_l12_1625,p1,"""count odd digits in base-4 representation of 233""",count odd digits in base-4 representation of 233,ok,False,3,,True
+phi4,math,math_l12_1625,p2,"""count odd digits in base-4 representation of 233""",count odd digits in base-4 representation of 233,ok,True,3,,True
+phi4,math,math_l12_1823,p1,"""Calculate binomial coefficient $\dbinom{11}{8}$""",Calculate binomial coefficient $\dbinom{11}{8}$,ok,False,3,,True
+phi4,math,math_l12_1823,p2,"""Calculate binomial coefficient $\dbinom{11}{8}$""",Calculate binomial coefficient $\dbinom{11}{8}$,ok,True,3,,True

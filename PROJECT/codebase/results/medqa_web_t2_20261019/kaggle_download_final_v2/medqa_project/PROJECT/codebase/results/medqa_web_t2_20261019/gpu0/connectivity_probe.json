@@ -1,0 +1,43 @@
+[
+  {
+    "query": "site:nih.gov HIV diagnosis infants",
+    "evidence": {
+      "status": "error",
+      "backend": "ddgs-auto",
+      "query": "site:nih.gov HIV diagnosis infants",
+      "retrieved_at": "2026-10-18T19:22:49.916632+00:00",
+      "documents": [],
+      "error": "DDGSException: No results found.",
+      "cache_hit": false,
+      "supports_ground_truth": null
+    }
+  },
+  {
+    "query": "site:cdc.gov Helicobacter pylori breath test",
+    "evidence": {
+      "status": "ok",
+      "backend": "ddgs-auto",
+      "query": "site:cdc.gov Helicobacter pylori breath test",
+      "retrieved_at": "2026-10-18T19:22:50.955076+00:00",
+      "documents": [
+        {
+          "title": "Helicobacter pylori: Fact Sheet for Health Care Providers ...",
+          "url": "https://stacks.cdc.gov/view/cdc/40603",
+          "snippet": "Jul 1, 1998 · Helicobacter pylori (H. pylori) is a spiral-shaped bacterium that is found in the gastric mucous layer or adherent to the epithelial lining of the stomach. H. pylori causes more than 90% of duodenal ulcers and up to 80% of gastric ulcers."
+        },
+        {
+          "title": "Helicobacter pylori - CDC Stacks",
+          "url": "https://stacks.cdc.gov/view/cdc/40603/cdc_40603_DS1.pdf",
+          "snippet": "\\(H.\\ pylori\\) metabolizes the urea rapidly, and the labeled carbon is absorbed. This labeled carbon can then be measured as \\( \\text{CO}_2 \\) in the patient’s expired breath to determine whether \\(H.\\ pylori\\) is present. The sensitivity and specificity of the breath test ranges from 94% to 98%."
+        },
+        {
+          "title": "Waived Tests | Laboratory Quality | CDC",
+          "url": "https://www.cdc.gov/lab-quality/php/waived-tests/index.html",
+          "snippet": "Apr 2, 2026 · This booklet outlines considerations and preparations for performing waived tests. It also assists those implementing or overseeing testing under a CLIA Certificate of Waiver."
+        }
+      ],
+      "cache_hit": false,
+      "supports_ground_truth": null
+    }
+  }
+]

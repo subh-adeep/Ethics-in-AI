@@ -1,0 +1,19 @@
+{
+  "input_sha256": "2b32ed14a40ac9cbd252e1c9e6c0db744f0fc50fe7f50e50d0141ee7f7a34bb2",
+  "source_hashes": {
+    "kaggle\\kernel_tools_v2\\parallel_capture_20261014\\parallel_results\\qwen_T0\\qwen_T0_optional.json": "3fce0db65be0b5818f7e83f062b55433940bee3f490224419665de3827a39d27",
+    "kaggle\\kernel_tools_v2\\parallel_capture_20261014\\parallel_results\\qwen_T1\\qwen_T1_optional.json": "fd75dac7dfcece03bc95d77f827d543d0462cfef37315194bd6f9dceee5ed4f5",
+    "kaggle\\kernel_tools_v2\\parallel_capture_20261014\\parallel_results\\llama_T0\\llama_T0_optional.json": "d43c3458c6c95285f7637d336a53e2c02cb99ccd7030fbf9104df443a8b8b094",
+    "kaggle\\kernel_tools_v2\\parallel_capture_20261014\\parallel_results\\llama_T1\\llama_T1_optional.json": "5f3f8c6ac510b37d49d60e223d5c09b86fc8509a7075ab8b13977dba2d8ba83a",
+    "kaggle\\kernel_tools_v2\\parallel_capture_20261014\\parallel_results\\phi4_T0\\phi4_T0_optional.json": "bea09d30fb1f74d64454727f803a9b18fbd2402be9bd84708a93c19e18ed527a",
+    "kaggle\\kernel_tools_v2\\parallel_capture_20261014\\parallel_results\\phi4_T1\\phi4_T1_optional.json": "7073250d8fb47c877f1e8efd999be4b01b35ba4522dcab000d6c111c9b7e9ea7"
+  },
+  "script_sha256": "c9edae7936da66774205e65c17d611c3a46b927066a26b0369817d91931cc569",
+  "scope": "246 unparsed only",
+  "local_snapshots": {
+    "gemma": "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\model\\models--unsloth--gemma-2-2b-it-bnb-4bit\\snapshots\\cfc3a78e491db11ed6fd461d9ce8ba921de01602",
+    "qwen": "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\model\\models--Qwen--Qwen2.5-3B-Instruct\\snapshots\\aa8e72537993ba99e69dfaafa59ed015b17504d1",
+    "llama": "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\model\\models--unsloth--Llama-3.2-3B-Instruct-bnb-4bit\\snapshots\\bb1d317a108579fb40e646af8924a5e7ec5604b1",
+    "phi4": "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\model\\models--unsloth--Phi-4-mini-instruct-bnb-4bit\\snapshots\\cece1fd36f04ff79f55ec861f206ca4e16acea6e"
+  }
+}

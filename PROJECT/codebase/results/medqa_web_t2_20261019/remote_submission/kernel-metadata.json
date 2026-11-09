@@ -1,0 +1,19 @@
+{
+  "id": "subhadeepsing/medqa-web-search-dual-gpu-20261019",
+  "id_no": 139473710,
+  "title": "MedQA Web Search Dual GPU 20261019",
+  "code_file": "medqa-web-search-dual-gpu-20261019.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": [],
+  "docker_image": "",
+  "machine_shape": "NvidiaTeslaT4"
+}

@@ -1,0 +1,400 @@
+[
+  {
+    "id": "medqa_0018",
+    "dataset": "medqa",
+    "turn": "p0",
+    "text": "Final Answer: D: Matching\n\nReasoning: The pediatrician recruited infants with BRUE and infants without BRUE of the same age, socioeconomic background, and family history of medical illness. This approach is known as matching, where participants are paired or grouped based on certain characteristics to control for confounding variables. In this case, matching was used to control for age, socioeconomic background, and family history of medical illness, which are potential confounders in the study.",
+    "generated_tokens": 95,
+    "hit_token_limit": false,
+    "parsed": {
+      "answer": "D",
+      "status": "parsed",
+      "rule": "final_declaration",
+      "evidence": "D",
+      "start": 14,
+      "end": 15,
+      "conflict": false,
+      "flags": [],
+      "candidates": [
+        {
+          "value": "D",
+          "start": 14,
+          "end": 15,
+          "evidence": "D",
+          "rule": "final_declaration",
+          "priority": 100,
+          "subject": ""
+        }
+      ],
+      "version": "answer-parser-4.0"
+    }
+  },
+  {
+    "id": "medqa_0018",
+    "dataset": "medqa",
+    "turn": "p1",
+    "text": "Final Answer: D\n\nReasoning: The study design described involves matching infants with BRUE to infants without BRUE based on age, socioeconomic background, and family history of medical illness. This method is used to control for confounding variables and ensure that the two groups are comparable. Randomization (C) is not mentioned, and blinding (A) is not applicable in this context. Restriction (B) is not the method used, as the study does not restrict participants based on the confounders but rather matches them.",
+    "generated_tokens": 108,
+    "hit_token_limit": false,
+    "parsed": {
+      "answer": "D",
+      "status": "parsed",
+      "rule": "final_declaration",
+      "evidence": "D",
+      "start": 14,
+      "end": 15,
+      "conflict": false,
+      "flags": [],
+      "candidates": [
+        {
+          "value": "D",
+          "start": 14,
+          "end": 15,
+          "evidence": "D",
+          "rule": "final_declaration",
+          "priority": 100,
+          "subject": ""
+        }
+      ],
+      "version": "answer-parser-4.0"
+    }
+  },
+  {
+    "id": "medqa_0018",
+    "dataset": "medqa",
+    "turn": "p2",
+    "text": "Final Answer: D\n\nReasoning: Upon reviewing the study design, it appears that the pediatrician is using a matching strategy to control for confounding variables. The infants are matched based on age, socioeconomic background, and family history of medical illness, which are the confounders mentioned. This matching process ensures that the two groups (infants with BRUE and infants without BRUE) are comparable in terms of these confounders. Randomization (C) is not explicitly mentioned, and blinding (A) is not applicable in this context. Restriction (B) is also not the method used, as the study does not restrict participants based on the confounders but rather matches them. Therefore, the correct answer remains D, Matching, as the method used to control confounding bias",
+    "generated_tokens": 160,
+    "hit_token_limit": true,
+    "parsed": {
+      "answer": "D",
+      "status": "parsed",
+      "rule": "final_declaration",
+      "evidence": "D",
+      "start": 14,
+      "end": 15,
+      "conflict": false,
+      "flags": [
+        "token_cap_reached"
+      ],
+      "candidates": [
+        {
+          "value": "D",
+          "start": 14,
+          "end": 15,
+          "evidence": "D",
+          "rule": "final_declaration",
+          "priority": 100,
+          "subject": ""
+        },
+        {
+          "value": "D",
+          "start": 718,
+          "end": 719,
+          "evidence": "D",
+          "rule": "answer_statement",
+          "priority": 85,
+          "subject": ""
+        },
+        {
+          "value": "D",
+          "start": 718,
+          "end": 719,
+          "evidence": "D",
+          "rule": "medical_answer_statement",
+          "priority": 75,
+          "subject": ""
+        }
+      ],
+      "version": "answer-parser-4.0"
+    }
+  },
+  {
+    "id": "medqa_0049",
+    "dataset": "medqa",
+    "turn": "p0",
+    "text": "Final Answer: B\n\nReasoning: In the case of a stillbirth, especially when there are no signs of life and no visible malformations, the most appropriate next step in management is to recommend an autopsy of the infant. This will help determine the cause of death and provide valuable information for the parents and healthcare providers. Karyotyping of amniotic fluid (Option A) is not indicated in this scenario. Obtaining photographs, x-ray imaging, and MRI (Option C) may be part of the autopsy process but are not the immediate next step. Obtaining consent for parental genetic testing (Option D) may be considered later, depending on the findings of the autopsy and the parents' wishes.",
+    "generated_tokens": 146,
+    "hit_token_limit": false,
+    "parsed": {
+      "answer": "B",
+      "status": "parsed",
+      "rule": "final_declaration",
+      "evidence": "B",
+      "start": 14,
+      "end": 15,
+      "conflict": false,
+      "flags": [],
+      "candidates": [
+        {
+          "value": "B",
+          "start": 14,
+          "end": 15,
+          "evidence": "B",
+          "rule": "final_declaration",
+          "priority": 100,
+          "subject": ""
+        }
+      ],
+      "version": "answer-parser-4.0"
+    }
+  },
+  {
+    "id": "medqa_0049",
+    "dataset": "medqa",
+    "turn": "p1",
+    "text": "Final Answer: B\n\nExplanation: The most appropriate next step in management after a stillbirth with no signs of life and no visible malformations is to recommend an autopsy of the infant (Option B). This will help determine the cause of death and provide valuable information for the parents and healthcare providers. While obtaining consent for parental genetic testing (Option D) may be considered later, it is not the immediate next step in this scenario.",
+    "generated_tokens": 88,
+    "hit_token_limit": false,
+    "parsed": {
+      "answer": "B",
+      "status": "parsed",
+      "rule": "final_declaration",
+      "evidence": "B",
+      "start": 14,
+      "end": 15,
+      "conflict": false,
+      "flags": [],
+      "candidates": [
+        {
+          "value": "B",
+          "start": 14,
+          "end": 15,
+          "evidence": "B",
+          "rule": "final_declaration",
+          "priority": 100,
+          "subject": ""
+        },
+        {
+          "value": "B",
+          "start": 194,
+          "end": 195,
+          "evidence": "B",
+          "rule": "medical_answer_statement",
+          "priority": 75,
+          "subject": ""
+        }
+      ],
+      "version": "answer-parser-4.0"
+    }
+  },
+  {
+    "id": "medqa_0049",
+    "dataset": "medqa",
+    "turn": "p2",
+    "text": "Final Answer: B\n\nExplanation: In the context of a stillbirth, the most immediate and appropriate next step in management is to recommend an autopsy of the infant (Option B). This step is crucial for determining the cause of death and providing valuable information for the parents and healthcare providers. While obtaining consent for parental genetic testing (Option D) may be considered later, it is not the immediate next step in this scenario. The autopsy findings could potentially lead to the decision to pursue genetic testing if there is a suspected genetic cause for the stillbirth.",
+    "generated_tokens": 112,
+    "hit_token_limit": false,
+    "parsed": {
+      "answer": "B",
+      "status": "parsed",
+      "rule": "final_declaration",
+      "evidence": "B",
+      "start": 14,
+      "end": 15,
+      "conflict": false,
+      "flags": [],
+      "candidates": [
+        {
+          "value": "B",
+          "start": 14,
+          "end": 15,
+          "evidence": "B",
+          "rule": "final_declaration",
+          "priority": 100,
+          "subject": ""
+        },
+        {
+          "value": "B",
+          "start": 170,
+          "end": 171,
+          "evidence": "B",
+          "rule": "medical_answer_statement",
+          "priority": 75,
+          "subject": ""
+        }
+      ],
+      "version": "answer-parser-4.0"
+    }
+  },
+  {
+    "id": "math_l12_0032",
+    "dataset": "math",
+    "turn": "p0",
+    "text": "Final Answer: 1",
+    "generated_tokens": 6,
+    "hit_token_limit": false,
+    "parsed": {
+      "answer": "1",
+      "status": "parsed",
+      "rule": "final_declaration",
+      "evidence": "1",
+      "start": 14,
+      "end": 15,
+      "conflict": false,
+      "flags": [],
+      "candidates": [
+        {
+          "value": "1",
+          "start": 14,
+          "end": 15,
+          "evidence": "1",
+          "rule": "final_declaration",
+          "priority": 100,
+          "subject": ""
+        }
+      ],
+      "version": "answer-parser-4.0"
+    }
+  },
+  {
+    "id": "math_l12_0032",
+    "dataset": "math",
+    "turn": "p1",
+    "text": "Final Answer: 1",
+    "generated_tokens": 6,
+    "hit_token_limit": false,
+    "parsed": {
+      "answer": "1",
+      "status": "parsed",
+      "rule": "final_declaration",
+      "evidence": "1",
+      "start": 14,
+      "end": 15,
+      "conflict": false,
+      "flags": [],
+      "candidates": [
+        {
+          "value": "1",
+          "start": 14,
+          "end": 15,
+          "evidence": "1",
+          "rule": "final_declaration",
+          "priority": 100,
+          "subject": ""
+        }
+      ],
+      "version": "answer-parser-4.0"
+    }
+  },
+  {
+    "id": "math_l12_0032",
+    "dataset": "math",
+    "turn": "p2",
+    "text": "Final Answer: 1",
+    "generated_tokens": 6,
+    "hit_token_limit": false,
+    "parsed": {
+      "answer": "1",
+      "status": "parsed",
+      "rule": "final_declaration",
+      "evidence": "1",
+      "start": 14,
+      "end": 15,
+      "conflict": false,
+      "flags": [],
+      "candidates": [
+        {
+          "value": "1",
+          "start": 14,
+          "end": 15,
+          "evidence": "1",
+          "rule": "final_declaration",
+          "priority": 100,
+          "subject": ""
+        }
+      ],
+      "version": "answer-parser-4.0"
+    }
+  },
+  {
+    "id": "math_l12_0047",
+    "dataset": "math",
+    "turn": "p0",
+    "text": "Final Answer: -4",
+    "generated_tokens": 6,
+    "hit_token_limit": false,
+    "parsed": {
+      "answer": "-4",
+      "status": "parsed",
+      "rule": "final_declaration",
+      "evidence": "-4",
+      "start": 14,
+      "end": 16,
+      "conflict": false,
+      "flags": [],
+      "candidates": [
+        {
+          "value": "-4",
+          "start": 14,
+          "end": 16,
+          "evidence": "-4",
+          "rule": "final_declaration",
+          "priority": 100,
+          "subject": ""
+        }
+      ],
+      "version": "answer-parser-4.0"
+    }
+  },
+  {
+    "id": "math_l12_0047",
+    "dataset": "math",
+    "turn": "p1",
+    "text": "Final Answer: -4",
+    "generated_tokens": 6,
+    "hit_token_limit": false,
+    "parsed": {
+      "answer": "-4",
+      "status": "parsed",
+      "rule": "final_declaration",
+      "evidence": "-4",
+      "start": 14,
+      "end": 16,
+      "conflict": false,
+      "flags": [],
+      "candidates": [
+        {
+          "value": "-4",
+          "start": 14,
+          "end": 16,
+          "evidence": "-4",
+          "rule": "final_declaration",
+          "priority": 100,
+          "subject": ""
+        }
+      ],
+      "version": "answer-parser-4.0"
+    }
+  },
+  {
+    "id": "math_l12_0047",
+    "dataset": "math",
+    "turn": "p2",
+    "text": "Final Answer: -4",
+    "generated_tokens": 6,
+    "hit_token_limit": false,
+    "parsed": {
+      "answer": "-4",
+      "status": "parsed",
+      "rule": "final_declaration",
+      "evidence": "-4",
+      "start": 14,
+      "end": 16,
+      "conflict": false,
+      "flags": [],
+      "candidates": [
+        {
+          "value": "-4",
+          "start": 14,
+          "end": 16,
+          "evidence": "-4",
+          "rule": "final_declaration",
+          "priority": 100,
+          "subject": ""
+        }
+      ],
+      "version": "answer-parser-4.0"
+    }
+  }
+]

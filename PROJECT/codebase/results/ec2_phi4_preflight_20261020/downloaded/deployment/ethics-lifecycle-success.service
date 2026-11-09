@@ -1,0 +1,20 @@
+[Unit]
+Description=Isolated EC2 experiment preflight
+Wants=network-online.target
+After=network-online.target
+[Service]
+Type=exec
+User=ubuntu
+Group=ubuntu
+WorkingDirectory=/home/ubuntu/ethics-ec2
+Environment=PYTHONUNBUFFERED=1
+Environment=CUDA_VISIBLE_DEVICES=0
+Environment=TOKENIZERS_PARALLELISM=false
+ExecStart=/usr/bin/python3 /usr/local/lib/ethics-ec2/lifecycle.py probe --output /home/ubuntu/ethics-ec2/runs/lifecycle-success --mode success
+ExecStopPost=+/usr/bin/python3 /usr/local/lib/ethics-ec2/lifecycle.py finalize --output /home/ubuntu/ethics-ec2/runs/lifecycle-success
+RuntimeMaxSec=30
+TimeoutStopSec=45
+KillMode=control-group
+Restart=no
+StandardOutput=append:/home/ubuntu/ethics-ec2/runs/lifecycle-success/console.log
+StandardError=append:/home/ubuntu/ethics-ec2/runs/lifecycle-success/console.log

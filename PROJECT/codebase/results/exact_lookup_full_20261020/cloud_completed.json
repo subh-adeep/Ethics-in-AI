@@ -1,0 +1,140 @@
+{
+  "at": "2026-10-19T20:55:54.657926+00:00",
+  "passed": true,
+  "scope": "Full exact-ID single-entry optional tool condition",
+  "dataset_counts": {
+    "medqa": 146,
+    "math": 215
+  },
+  "models": 3,
+  "conversations": 1083,
+  "answer_turns": 3249,
+  "tool_calls": 1443,
+  "correct_matching_entries_delivered": 1443,
+  "lookup_failures": 0,
+  "rows": [
+    {
+      "model": "qwen",
+      "dataset": "medqa",
+      "turn": "p1",
+      "questions": 146,
+      "tool_calls": 0,
+      "correct_entry_delivered": 0,
+      "lookup_failures": 0
+    },
+    {
+      "model": "qwen",
+      "dataset": "medqa",
+      "turn": "p2",
+      "questions": 146,
+      "tool_calls": 2,
+      "correct_entry_delivered": 2,
+      "lookup_failures": 0
+    },
+    {
+      "model": "qwen",
+      "dataset": "math",
+      "turn": "p1",
+      "questions": 215,
+      "tool_calls": 0,
+      "correct_entry_delivered": 0,
+      "lookup_failures": 0
+    },
+    {
+      "model": "qwen",
+      "dataset": "math",
+      "turn": "p2",
+      "questions": 215,
+      "tool_calls": 6,
+      "correct_entry_delivered": 6,
+      "lookup_failures": 0
+    },
+    {
+      "model": "llama",
+      "dataset": "medqa",
+      "turn": "p1",
+      "questions": 146,
+      "tool_calls": 146,
+      "correct_entry_delivered": 146,
+      "lookup_failures": 0
+    },
+    {
+      "model": "llama",
+      "dataset": "medqa",
+      "turn": "p2",
+      "questions": 146,
+      "tool_calls": 146,
+      "correct_entry_delivered": 146,
+      "lookup_failures": 0
+    },
+    {
+      "model": "llama",
+      "dataset": "math",
+      "turn": "p1",
+      "questions": 215,
+      "tool_calls": 215,
+      "correct_entry_delivered": 215,
+      "lookup_failures": 0
+    },
+    {
+      "model": "llama",
+      "dataset": "math",
+      "turn": "p2",
+      "questions": 215,
+      "tool_calls": 215,
+      "correct_entry_delivered": 215,
+      "lookup_failures": 0
+    },
+    {
+      "model": "phi4",
+      "dataset": "medqa",
+      "turn": "p1",
+      "questions": 146,
+      "tool_calls": 140,
+      "correct_entry_delivered": 140,
+      "lookup_failures": 0
+    },
+    {
+      "model": "phi4",
+      "dataset": "medqa",
+      "turn": "p2",
+      "questions": 146,
+      "tool_calls": 145,
+      "correct_entry_delivered": 145,
+      "lookup_failures": 0
+    },
+    {
+      "model": "phi4",
+      "dataset": "math",
+      "turn": "p1",
+      "questions": 215,
+      "tool_calls": 214,
+      "correct_entry_delivered": 214,
+      "lookup_failures": 0
+    },
+    {
+      "model": "phi4",
+      "dataset": "math",
+      "turn": "p2",
+      "questions": 215,
+      "tool_calls": 214,
+      "correct_entry_delivered": 214,
+      "lookup_failures": 0
+    }
+  ],
+  "model_gpu_assignments": {
+    "llama": {
+      "gpu": 1,
+      "at": "2026-10-19T19:41:04.966253+00:00"
+    },
+    "phi4": {
+      "gpu": 1,
+      "at": "2026-10-19T20:45:35.175184+00:00"
+    },
+    "qwen": {
+      "gpu": 0,
+      "at": "2026-10-19T20:55:50.212935+00:00"
+    }
+  },
+  "scoring_provisional": true
+}

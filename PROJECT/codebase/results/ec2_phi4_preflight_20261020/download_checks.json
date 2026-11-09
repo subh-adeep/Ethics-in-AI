@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "rows": [
+    {
+      "model": "phi4",
+      "dataset": "medqa",
+      "turn": "p1",
+      "questions": 2,
+      "tool_calls": 2,
+      "correct_entry_delivered": 2,
+      "lookup_failures": 0
+    },
+    {
+      "model": "phi4",
+      "dataset": "medqa",
+      "turn": "p2",
+      "questions": 2,
+      "tool_calls": 2,
+      "correct_entry_delivered": 2,
+      "lookup_failures": 0
+    },
+    {
+      "model": "phi4",
+      "dataset": "math",
+      "turn": "p1",
+      "questions": 2,
+      "tool_calls": 2,
+      "correct_entry_delivered": 2,
+      "lookup_failures": 0
+    },
+    {
+      "model": "phi4",
+      "dataset": "math",
+      "turn": "p2",
+      "questions": 2,
+      "tool_calls": 2,
+      "correct_entry_delivered": 2,
+      "lookup_failures": 0
+    }
+  ],
+  "saved_file_hashes_match": true,
+  "protected_files_unchanged": true
+}

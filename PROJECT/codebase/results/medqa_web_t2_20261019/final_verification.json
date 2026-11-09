@@ -1,0 +1,98 @@
+{
+  "checked_at": "2026-10-19T05:20:12.953007+00:00",
+  "status": "COMPLETE",
+  "browser_status": "Successfully ran in 9071.4s",
+  "completed_at_ist": "2026-10-19T03:22:20.965059+05:30",
+  "questions_per_model": 146,
+  "conversations": 438,
+  "answer_turns": 1314,
+  "all_fixed_ids_present_once": true,
+  "exact_generation_input_delivery_reverified": true,
+  "shard_results": [
+    [
+      {
+        "model": "qwen",
+        "questions": 73,
+        "tool_calls": 66,
+        "delivered": 66,
+        "nonempty": 61
+      },
+      {
+        "model": "llama",
+        "questions": 73,
+        "tool_calls": 146,
+        "delivered": 146,
+        "nonempty": 130
+      },
+      {
+        "model": "phi4",
+        "questions": 73,
+        "tool_calls": 142,
+        "delivered": 142,
+        "nonempty": 125
+      }
+    ],
+    [
+      {
+        "model": "qwen",
+        "questions": 73,
+        "tool_calls": 64,
+        "delivered": 64,
+        "nonempty": 59
+      },
+      {
+        "model": "llama",
+        "questions": 73,
+        "tool_calls": 146,
+        "delivered": 146,
+        "nonempty": 133
+      },
+      {
+        "model": "phi4",
+        "questions": 73,
+        "tool_calls": 142,
+        "delivered": 142,
+        "nonempty": 121
+      }
+    ]
+  ],
+  "models": [
+    {
+      "model": "qwen",
+      "completed": 146,
+      "answer_turns": 438,
+      "tool_calls": 130,
+      "nonempty": 120,
+      "failed_or_empty": 10,
+      "answer_turns_at_token_limit": 68
+    },
+    {
+      "model": "llama",
+      "completed": 146,
+      "answer_turns": 438,
+      "tool_calls": 292,
+      "nonempty": 263,
+      "failed_or_empty": 29,
+      "answer_turns_at_token_limit": 82
+    },
+    {
+      "model": "phi4",
+      "completed": 146,
+      "answer_turns": 438,
+      "tool_calls": 284,
+      "nonempty": 246,
+      "failed_or_empty": 38,
+      "answer_turns_at_token_limit": 89
+    }
+  ],
+  "total_tool_calls": 706,
+  "nonempty_search_results": 629,
+  "failed_or_empty_search_calls": 77,
+  "protected_files_unchanged": {
+    "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\Midsem report\\revision_from_rough_20261015\\midsem_report.pdf": true,
+    "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\codebase\\src\\benchmark\\answer_parser.py": true,
+    "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\codebase\\src\\analysis\\web_search_pilot.py": true
+  },
+  "retrieval_relevance_and_accuracy_not_yet_reviewed": true,
+  "local_results": "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\codebase\\results\\medqa_web_t2_20261019\\kaggle_download_final_v2\\medqa_project\\PROJECT\\codebase\\results\\medqa_web_t2_20261019"
+}

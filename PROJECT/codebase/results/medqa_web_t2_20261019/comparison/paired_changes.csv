@@ -1,0 +1,7 @@
+﻿model,turn,correct_in_both,correct_only_without_tool,correct_only_with_web,incorrect_or_unparsed_in_both
+qwen,p1,101,33,2,10
+qwen,p2,12,23,7,104
+llama,p1,3,70,0,73
+llama,p2,0,72,0,74
+phi4,p1,119,8,13,6
+phi4,p2,106,27,6,7

@@ -1,0 +1,42 @@
+{
+  "at": "2026-10-19T20:18:59.669693+00:00",
+  "service_result": "success",
+  "exit_code": "exited",
+  "exit_status": "0",
+  "poweroff_requested": true,
+  "full_run_started": false,
+  "saved_files": {
+    "completed.json": {
+      "bytes": 960,
+      "sha256": "99191397c990f32b7b0341239204deff79e290dfc2bf12156ae96b4916c07272"
+    },
+    "console.log": {
+      "bytes": 2122,
+      "sha256": "3721691f0475b31ca43800fda7c4e21856d58ca65ddfbc5c162d7cf09c14f778"
+    },
+    "environment.json": {
+      "bytes": 388,
+      "sha256": "731cc35c255d0f8bfabee92b12264650932e5bdcfbc8914bab91ad1d4972b3d0"
+    },
+    "lookup_events.jsonl": {
+      "bytes": 10880,
+      "sha256": "a90e57aa58f67d9dce58d5ec4aa523f7b1bbd4ddee5886364ef53304e4d73574"
+    },
+    "manifest.json": {
+      "bytes": 7203,
+      "sha256": "a2669103f62a6398940953e7c815d258ec327505dd98c1183938d720f3133378"
+    },
+    "phi4_checkpoint.json": {
+      "bytes": 86275,
+      "sha256": "0c9785a8437162ff9ffe85355e3bbafa1c12c98d022ac3de9c33285ec0420640"
+    },
+    "phi4_model_calls.jsonl": {
+      "bytes": 84376,
+      "sha256": "61aaf8c650abeb30e085acc31831be39e48796aba11d641ead19dd9f6abd54f1"
+    },
+    "protocol.json": {
+      "bytes": 2670,
+      "sha256": "02aa14a232396b07a6495b4f5e1628c2fa5e02ca64c9248e6a97a7fb4af4246e"
+    }
+  }
+}

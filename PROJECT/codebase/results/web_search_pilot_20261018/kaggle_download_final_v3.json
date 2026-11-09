@@ -1,0 +1,31 @@
+{
+  "at": "2026-10-18T18:50:01.645220+00:00",
+  "kernel": "subhadeepsing/ethics-web-pilot-phi4-20-questions-20261018",
+  "files": [
+    "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\codebase\\results\\web_search_pilot_20261018\\kaggle_download_final_v3\\pilot_project/PROJECT/codebase/results/web_search_pilot_20261018/cloud_completed.json",
+    "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\codebase\\results\\web_search_pilot_20261018\\kaggle_download_final_v3\\pilot_project/PROJECT/codebase/results/web_search_pilot_20261018/cloud_environment.json",
+    "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\codebase\\results\\web_search_pilot_20261018\\kaggle_download_final_v3\\pilot_project/PROJECT/codebase/results/web_search_pilot_20261018/manifest.json",
+    "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\codebase\\results\\web_search_pilot_20261018\\kaggle_download_final_v3\\pilot_project/PROJECT/codebase/results/web_search_pilot_20261018/phi4_checkpoint.json",
+    "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\codebase\\results\\web_search_pilot_20261018\\kaggle_download_final_v3\\pilot_project/PROJECT/codebase/results/web_search_pilot_20261018/phi4_model_calls.jsonl",
+    "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\codebase\\results\\web_search_pilot_20261018\\kaggle_download_final_v3\\pilot_project/PROJECT/codebase/results/web_search_pilot_20261018/protocol.json",
+    "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\codebase\\results\\web_search_pilot_20261018\\kaggle_download_final_v3\\pilot_project/PROJECT/codebase/results/web_search_pilot_20261018/search_events.jsonl",
+    "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\codebase\\results\\web_search_pilot_20261018\\kaggle_download_final_v3\\pilot_project/PROJECT/codebase/results/web_search_pilot_20261018/summary.json",
+    "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\codebase\\results\\web_search_pilot_20261018\\kaggle_download_final_v3\\pilot_project/PROJECT/codebase/results/web_search_pilot_20261018/uploaded_source_hashes.json",
+    "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\codebase\\results\\web_search_pilot_20261018\\kaggle_download_final_v3\\pilot_project/PROJECT/codebase/results/web_search_pilot_20261018/web_cache.json",
+    "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\codebase\\results\\web_search_pilot_20261018\\kaggle_download_final_v3\\pilot_project/PROJECT/codebase/src/analysis/__init__.py",
+    "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\codebase\\results\\web_search_pilot_20261018\\kaggle_download_final_v3\\pilot_project/PROJECT/codebase/src/analysis/__pycache__/__init__.cpython-313.pyc",
+    "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\codebase\\results\\web_search_pilot_20261018\\kaggle_download_final_v3\\pilot_project/PROJECT/codebase/src/analysis/__pycache__/audit_saved_reply_quality.cpython-313.pyc",
+    "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\codebase\\results\\web_search_pilot_20261018\\kaggle_download_final_v3\\pilot_project/PROJECT/codebase/src/analysis/__pycache__/local_gpu_followup.cpython-313.pyc",
+    "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\codebase\\results\\web_search_pilot_20261018\\kaggle_download_final_v3\\pilot_project/PROJECT/codebase/src/analysis/__pycache__/web_search_pilot.cpython-313.pyc",
+    "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\codebase\\results\\web_search_pilot_20261018\\kaggle_download_final_v3\\pilot_project/PROJECT/codebase/src/analysis/audit_saved_reply_quality.py",
+    "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\codebase\\results\\web_search_pilot_20261018\\kaggle_download_final_v3\\pilot_project/PROJECT/codebase/src/analysis/local_gpu_followup.py",
+    "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\codebase\\results\\web_search_pilot_20261018\\kaggle_download_final_v3\\pilot_project/PROJECT/codebase/src/analysis/web_search_pilot.py",
+    "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\codebase\\results\\web_search_pilot_20261018\\kaggle_download_final_v3\\pilot_project/PROJECT/codebase/src/benchmark/__init__.py",
+    "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\codebase\\results\\web_search_pilot_20261018\\kaggle_download_final_v3\\pilot_project/PROJECT/codebase/src/benchmark/__pycache__/__init__.cpython-313.pyc",
+    "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\codebase\\results\\web_search_pilot_20261018\\kaggle_download_final_v3\\pilot_project/PROJECT/codebase/src/benchmark/__pycache__/answer_parser.cpython-313.pyc",
+    "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\codebase\\results\\web_search_pilot_20261018\\kaggle_download_final_v3\\pilot_project/PROJECT/codebase/src/benchmark/answer_parser.py",
+    "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\codebase\\results\\web_search_pilot_20261018\\kaggle_download_final_v3\\pilot_project/PROJECT/kaggle/kernel_tools_v2/parallel_capture_20261014/parallel_assets/__pycache__/runner.cpython-313.pyc",
+    "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\codebase\\results\\web_search_pilot_20261018\\kaggle_download_final_v3\\pilot_project/PROJECT/kaggle/kernel_tools_v2/parallel_capture_20261014/parallel_assets/runner.py",
+    "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\codebase\\results\\web_search_pilot_20261018\\kaggle_download_final_v3\\ethics-web-pilot-phi4-20-questions-20261018.log"
+  ]
+}

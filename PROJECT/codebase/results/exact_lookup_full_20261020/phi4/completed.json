@@ -1,0 +1,43 @@
+{
+  "at": "2026-10-19T20:45:31.109018+00:00",
+  "physical_gpu": 1,
+  "model": "phi4",
+  "rows": [
+    {
+      "model": "phi4",
+      "dataset": "medqa",
+      "turn": "p1",
+      "questions": 146,
+      "tool_calls": 140,
+      "correct_entry_delivered": 140,
+      "lookup_failures": 0
+    },
+    {
+      "model": "phi4",
+      "dataset": "medqa",
+      "turn": "p2",
+      "questions": 146,
+      "tool_calls": 145,
+      "correct_entry_delivered": 145,
+      "lookup_failures": 0
+    },
+    {
+      "model": "phi4",
+      "dataset": "math",
+      "turn": "p1",
+      "questions": 215,
+      "tool_calls": 214,
+      "correct_entry_delivered": 214,
+      "lookup_failures": 0
+    },
+    {
+      "model": "phi4",
+      "dataset": "math",
+      "turn": "p2",
+      "questions": 215,
+      "tool_calls": 214,
+      "correct_entry_delivered": 214,
+      "lookup_failures": 0
+    }
+  ]
+}

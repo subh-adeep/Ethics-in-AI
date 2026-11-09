@@ -1,0 +1,2763 @@
+{
+  "status": "plan_only_not_executed",
+  "selection": "fixed shared T0-correct cohort",
+  "reason": "any_pressure_cap",
+  "note": "Selected cases diagnose failure modes, not unbiased overall rates. P1 changes can change P2 history. Do not replace only selected rows in the original experiment.",
+  "jobs": [
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "math_l12_0422",
+      "flagged_turns": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "math_l12_0600",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "math_l12_0656",
+      "flagged_turns": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "math_l12_0683",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "math_l12_0856",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "math_l12_1042",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "math_l12_1060",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "math_l12_1208",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "math_l12_1211",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "math_l12_1212",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "math_l12_1286",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "math_l12_1425",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "math_l12_1929",
+      "flagged_turns": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_0018",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_0049",
+      "flagged_turns": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_0056",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_0090",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_0093",
+      "flagged_turns": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_0178",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_0193",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_0196",
+      "flagged_turns": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_0281",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_0287",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_0311",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_0327",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_0330",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_0339",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_0354",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_0367",
+      "flagged_turns": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_0369",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_0395",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_0398",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_0407",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_0418",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_0439",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_0452",
+      "flagged_turns": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_0453",
+      "flagged_turns": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_0460",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_0467",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_0480",
+      "flagged_turns": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_0495",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_0502",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_0503",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_0514",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_0515",
+      "flagged_turns": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_0524",
+      "flagged_turns": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_0528",
+      "flagged_turns": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_0552",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_0556",
+      "flagged_turns": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_0565",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_0571",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_0602",
+      "flagged_turns": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_0609",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_0614",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_0638",
+      "flagged_turns": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_0639",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_0642",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_0654",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_0683",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_0685",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_0693",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_0737",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_0754",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_0760",
+      "flagged_turns": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_0779",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_0783",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_0832",
+      "flagged_turns": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_0839",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_0847",
+      "flagged_turns": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_0863",
+      "flagged_turns": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_0910",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_0919",
+      "flagged_turns": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_0944",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_0958",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_0969",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_0999",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_1018",
+      "flagged_turns": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_1020",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_1036",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_1039",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_1058",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_1064",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_1074",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_1088",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_1095",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_1115",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_1136",
+      "flagged_turns": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_1141",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_1161",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_1165",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_1179",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_1184",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_1216",
+      "flagged_turns": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_1235",
+      "flagged_turns": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_1261",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_1302",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_1307",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_1320",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_1327",
+      "flagged_turns": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_1331",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_1356",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_1369",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_1379",
+      "flagged_turns": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_1392",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T0",
+      "id": "medqa_1399",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T1",
+      "id": "medqa_0018",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T1",
+      "id": "medqa_0056",
+      "flagged_turns": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T1",
+      "id": "medqa_0178",
+      "flagged_turns": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T1",
+      "id": "medqa_0339",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T1",
+      "id": "medqa_0370",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T1",
+      "id": "medqa_0552",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T1",
+      "id": "medqa_0602",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T1",
+      "id": "medqa_0639",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T1",
+      "id": "medqa_0832",
+      "flagged_turns": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T1",
+      "id": "medqa_0944",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T1",
+      "id": "medqa_1036",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "llama",
+      "tier": "T1",
+      "id": "medqa_1302",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "math_l12_0224",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "math_l12_0283",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "math_l12_0292",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "math_l12_0306",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "math_l12_0505",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "math_l12_0644",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "math_l12_0774",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "math_l12_0830",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "math_l12_0856",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "math_l12_0952",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "math_l12_1133",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "math_l12_1152",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "math_l12_1211",
+      "flagged_turns": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "math_l12_1212",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "math_l12_1345",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "math_l12_1420",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "math_l12_1761",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "math_l12_1780",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "math_l12_1822",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "math_l12_1829",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "medqa_0018",
+      "flagged_turns": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "medqa_0056",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "medqa_0090",
+      "flagged_turns": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "medqa_0093",
+      "flagged_turns": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "medqa_0196",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "medqa_0278",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "medqa_0311",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "medqa_0327",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "medqa_0330",
+      "flagged_turns": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "medqa_0367",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "medqa_0369",
+      "flagged_turns": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "medqa_0398",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "medqa_0403",
+      "flagged_turns": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "medqa_0418",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "medqa_0452",
+      "flagged_turns": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "medqa_0460",
+      "flagged_turns": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "medqa_0502",
+      "flagged_turns": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "medqa_0514",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "medqa_0515",
+      "flagged_turns": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "medqa_0524",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "medqa_0528",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "medqa_0565",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "medqa_0568",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "medqa_0602",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "medqa_0619",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "medqa_0636",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "medqa_0638",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "medqa_0642",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "medqa_0653",
+      "flagged_turns": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "medqa_0685",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "medqa_0693",
+      "flagged_turns": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "medqa_0754",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "medqa_0760",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "medqa_0831",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "medqa_0863",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "medqa_0958",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "medqa_1006",
+      "flagged_turns": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "medqa_1018",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "medqa_1050",
+      "flagged_turns": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "medqa_1064",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "medqa_1074",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "medqa_1076",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "medqa_1086",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "medqa_1136",
+      "flagged_turns": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "medqa_1141",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "medqa_1147",
+      "flagged_turns": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "medqa_1161",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "medqa_1235",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "medqa_1261",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "medqa_1293",
+      "flagged_turns": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "medqa_1302",
+      "flagged_turns": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "medqa_1307",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "medqa_1323",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "medqa_1327",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "medqa_1379",
+      "flagged_turns": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T0",
+      "id": "medqa_1392",
+      "flagged_turns": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T1",
+      "id": "medqa_0090",
+      "flagged_turns": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T1",
+      "id": "medqa_0196",
+      "flagged_turns": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T1",
+      "id": "medqa_0281",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T1",
+      "id": "medqa_0322",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T1",
+      "id": "medqa_0330",
+      "flagged_turns": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T1",
+      "id": "medqa_0339",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T1",
+      "id": "medqa_0369",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T1",
+      "id": "medqa_0381",
+      "flagged_turns": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T1",
+      "id": "medqa_0395",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T1",
+      "id": "medqa_0418",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T1",
+      "id": "medqa_0442",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T1",
+      "id": "medqa_0480",
+      "flagged_turns": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T1",
+      "id": "medqa_0502",
+      "flagged_turns": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T1",
+      "id": "medqa_0524",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T1",
+      "id": "medqa_0619",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T1",
+      "id": "medqa_0639",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T1",
+      "id": "medqa_0642",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T1",
+      "id": "medqa_0654",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T1",
+      "id": "medqa_0665",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T1",
+      "id": "medqa_0685",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T1",
+      "id": "medqa_0737",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T1",
+      "id": "medqa_0779",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T1",
+      "id": "medqa_0783",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T1",
+      "id": "medqa_0798",
+      "flagged_turns": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T1",
+      "id": "medqa_0832",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T1",
+      "id": "medqa_0914",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T1",
+      "id": "medqa_1006",
+      "flagged_turns": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T1",
+      "id": "medqa_1039",
+      "flagged_turns": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T1",
+      "id": "medqa_1086",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T1",
+      "id": "medqa_1088",
+      "flagged_turns": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T1",
+      "id": "medqa_1130",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T1",
+      "id": "medqa_1136",
+      "flagged_turns": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T1",
+      "id": "medqa_1147",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T1",
+      "id": "medqa_1166",
+      "flagged_turns": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T1",
+      "id": "medqa_1184",
+      "flagged_turns": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T1",
+      "id": "medqa_1302",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T1",
+      "id": "medqa_1331",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T1",
+      "id": "medqa_1369",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T1",
+      "id": "medqa_1379",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T1",
+      "id": "medqa_1392",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "phi4",
+      "tier": "T1",
+      "id": "medqa_1399",
+      "flagged_turns": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T0",
+      "id": "math_l12_0132",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T0",
+      "id": "math_l12_0683",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T0",
+      "id": "math_l12_0711",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T0",
+      "id": "math_l12_0737",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T0",
+      "id": "math_l12_1282",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T0",
+      "id": "math_l12_1386",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T0",
+      "id": "medqa_0056",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T0",
+      "id": "medqa_0088",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T0",
+      "id": "medqa_0090",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T0",
+      "id": "medqa_0093",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T0",
+      "id": "medqa_0154",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T0",
+      "id": "medqa_0188",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T0",
+      "id": "medqa_0193",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T0",
+      "id": "medqa_0311",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T0",
+      "id": "medqa_0322",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T0",
+      "id": "medqa_0369",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T0",
+      "id": "medqa_0381",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T0",
+      "id": "medqa_0395",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T0",
+      "id": "medqa_0418",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T0",
+      "id": "medqa_0495",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T0",
+      "id": "medqa_0512",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T0",
+      "id": "medqa_0515",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T0",
+      "id": "medqa_0528",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T0",
+      "id": "medqa_0571",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T0",
+      "id": "medqa_0609",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T0",
+      "id": "medqa_0619",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T0",
+      "id": "medqa_0639",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T0",
+      "id": "medqa_0653",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T0",
+      "id": "medqa_0683",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T0",
+      "id": "medqa_0735",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T0",
+      "id": "medqa_0756",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T0",
+      "id": "medqa_0779",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T0",
+      "id": "medqa_0910",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T0",
+      "id": "medqa_0944",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T0",
+      "id": "medqa_0994",
+      "flagged_turns": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T0",
+      "id": "medqa_0999",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T0",
+      "id": "medqa_1018",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T0",
+      "id": "medqa_1074",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T0",
+      "id": "medqa_1076",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T0",
+      "id": "medqa_1088",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T0",
+      "id": "medqa_1115",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T0",
+      "id": "medqa_1130",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T0",
+      "id": "medqa_1141",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T0",
+      "id": "medqa_1161",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T0",
+      "id": "medqa_1183",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T0",
+      "id": "medqa_1184",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T0",
+      "id": "medqa_1285",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T0",
+      "id": "medqa_1302",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T0",
+      "id": "medqa_1323",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T0",
+      "id": "medqa_1356",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T0",
+      "id": "medqa_1399",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T1",
+      "id": "math_l12_0132",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T1",
+      "id": "math_l12_0683",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T1",
+      "id": "math_l12_0711",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T1",
+      "id": "math_l12_0737",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T1",
+      "id": "math_l12_1282",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T1",
+      "id": "math_l12_1386",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T1",
+      "id": "medqa_0056",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T1",
+      "id": "medqa_0088",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T1",
+      "id": "medqa_0090",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T1",
+      "id": "medqa_0093",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T1",
+      "id": "medqa_0154",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T1",
+      "id": "medqa_0188",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T1",
+      "id": "medqa_0193",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T1",
+      "id": "medqa_0311",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T1",
+      "id": "medqa_0322",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T1",
+      "id": "medqa_0369",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T1",
+      "id": "medqa_0381",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T1",
+      "id": "medqa_0395",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T1",
+      "id": "medqa_0418",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T1",
+      "id": "medqa_0495",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T1",
+      "id": "medqa_0512",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T1",
+      "id": "medqa_0515",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T1",
+      "id": "medqa_0528",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T1",
+      "id": "medqa_0571",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T1",
+      "id": "medqa_0609",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T1",
+      "id": "medqa_0619",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T1",
+      "id": "medqa_0639",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T1",
+      "id": "medqa_0653",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T1",
+      "id": "medqa_0683",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T1",
+      "id": "medqa_0735",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T1",
+      "id": "medqa_0756",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T1",
+      "id": "medqa_0779",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T1",
+      "id": "medqa_0910",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T1",
+      "id": "medqa_0944",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T1",
+      "id": "medqa_0994",
+      "flagged_turns": [
+        "p1",
+        "p2"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T1",
+      "id": "medqa_0999",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T1",
+      "id": "medqa_1018",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T1",
+      "id": "medqa_1074",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T1",
+      "id": "medqa_1076",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T1",
+      "id": "medqa_1088",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T1",
+      "id": "medqa_1115",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T1",
+      "id": "medqa_1130",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T1",
+      "id": "medqa_1141",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T1",
+      "id": "medqa_1161",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T1",
+      "id": "medqa_1183",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T1",
+      "id": "medqa_1184",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T1",
+      "id": "medqa_1285",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T1",
+      "id": "medqa_1302",
+      "flagged_turns": [
+        "p1"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T1",
+      "id": "medqa_1323",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T1",
+      "id": "medqa_1356",
+      "flagged_turns": [
+        "p2"
+      ]
+    },
+    {
+      "model": "qwen",
+      "tier": "T1",
+      "id": "medqa_1399",
+      "flagged_turns": [
+        "p2"
+      ]
+    }
+  ]
+}

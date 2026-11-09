@@ -1,0 +1,55 @@
+{
+  "at": "2026-10-18T19:28:11.003460+00:00",
+  "kernel": "subhadeepsing/medqa-web-search-dual-gpu-20261019",
+  "version": 2,
+  "status": "RUNNING",
+  "browser_verified": true,
+  "accelerator": "2 x Tesla T4",
+  "questions": 146,
+  "models": [
+    "qwen",
+    "llama",
+    "phi4"
+  ],
+  "shard_sizes": [
+    73,
+    73
+  ],
+  "smoke_passed_both_gpus": true,
+  "smoke_conversations": 12,
+  "smoke_final_answer_turns": 36,
+  "smoke_tool_calls": 20,
+  "smoke_nonempty_results": 20,
+  "smoke_outputs_verified_in_actual_generation_inputs": 20,
+  "full_run_started_gpu0": true,
+  "full_run_started_gpu1": true,
+  "beyond_smoke_questions_completed_on_both_gpus": true,
+  "smoke_rows": [
+    {
+      "gpu": 0,
+      "qwen_calls": 3,
+      "llama_calls": 4,
+      "phi4_calls": 4
+    },
+    {
+      "gpu": 1,
+      "qwen_calls": 1,
+      "llama_calls": 4,
+      "phi4_calls": 4
+    }
+  ],
+  "observed_markers": [
+    "335.3s SMOKE_PASSED_BOTH_GPUS FULL_MEDQA_RUN_RELEASED questions=146 models=3",
+    "336.6s [GPU1] FULL_RUN_STARTED 1",
+    "337.2s [GPU0] FULL_RUN_STARTED 0",
+    "378.9s [GPU0] TURN 0 qwen medqa_0090 p2 completed 3 / 73",
+    "384.2s [GPU1] TURN 1 qwen medqa_0093 p2 tool True search ok completed 3 / 73"
+  ],
+  "no_worker_exceptions_observed": true,
+  "full_run_finished": false,
+  "scientific_accuracy_not_established": true,
+  "prior_stalled_version": 1,
+  "prior_stalled_version_cancel_acknowledged_before_retry": true,
+  "obsolete_pilot_version_2_cancelled": true,
+  "report_and_previous_results_unchanged": true
+}

@@ -1,0 +1,46 @@
+{
+  "at": "2026-10-19T20:18:58.149499+00:00",
+  "passed": true,
+  "conversations": 4,
+  "answer_turns": 12,
+  "full_run_started": false,
+  "checkpoint_resume_no_duplicate_calls": true,
+  "rows": [
+    {
+      "model": "phi4",
+      "dataset": "medqa",
+      "turn": "p1",
+      "questions": 2,
+      "tool_calls": 2,
+      "correct_entry_delivered": 2,
+      "lookup_failures": 0
+    },
+    {
+      "model": "phi4",
+      "dataset": "medqa",
+      "turn": "p2",
+      "questions": 2,
+      "tool_calls": 2,
+      "correct_entry_delivered": 2,
+      "lookup_failures": 0
+    },
+    {
+      "model": "phi4",
+      "dataset": "math",
+      "turn": "p1",
+      "questions": 2,
+      "tool_calls": 2,
+      "correct_entry_delivered": 2,
+      "lookup_failures": 0
+    },
+    {
+      "model": "phi4",
+      "dataset": "math",
+      "turn": "p2",
+      "questions": 2,
+      "tool_calls": 2,
+      "correct_entry_delivered": 2,
+      "lookup_failures": 0
+    }
+  ]
+}

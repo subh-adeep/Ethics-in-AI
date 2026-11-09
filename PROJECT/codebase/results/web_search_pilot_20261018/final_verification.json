@@ -1,0 +1,61 @@
+{
+  "completed_at": "2026-10-18T18:55:04.775746+00:00",
+  "fixed_questions": 20,
+  "datasets": {
+    "medqa": 10,
+    "math": 10
+  },
+  "models": {
+    "qwen": {
+      "conversations": 20,
+      "answer_turns": 60,
+      "tool_calls": 20,
+      "nonempty_results": 20,
+      "failures": 0,
+      "gpu": "NVIDIA GeForce GTX 1650"
+    },
+    "llama": {
+      "conversations": 20,
+      "answer_turns": 60,
+      "tool_calls": 34,
+      "nonempty_results": 32,
+      "failures": 2,
+      "gpu": "NVIDIA GeForce GTX 1650"
+    },
+    "phi4": {
+      "conversations": 20,
+      "answer_turns": 60,
+      "tool_calls": 39,
+      "nonempty_results": 38,
+      "failures": 1,
+      "gpu": "Tesla T4"
+    }
+  },
+  "conversations": 60,
+  "final_answer_turns": 180,
+  "tool_calls": 93,
+  "nonempty_tool_results": 90,
+  "failed_or_empty_tool_results": 3,
+  "all_93_tool_outputs_verified_in_actual_generation_inputs": true,
+  "all_20_questions_received_nonempty_evidence_in_at_least_one_model": true,
+  "scoring_annotations_removed_from_observations": true,
+  "all_original_prompts_present_in_saved_histories": true,
+  "original_files_unchanged": {
+    "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\Midsem report\\revision_from_rough_20261015\\midsem_report.pdf": true,
+    "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\codebase\\src\\benchmark\\answer_parser.py": true,
+    "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\kaggle\\kernel_tools_v2\\parallel_capture_20261014\\parallel_results\\llama_T2\\llama_T2_optional.json": true,
+    "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\kaggle\\kernel_tools_v2\\parallel_capture_20261014\\parallel_results\\phi4_T2\\phi4_T2_optional.json": true,
+    "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\kaggle\\kernel_tools_v2\\parallel_capture_20261014\\parallel_results\\qwen_T2\\qwen_T2_optional.json": true
+  },
+  "source_review_query_bundles": 55,
+  "source_review_type": "AI inspection of snippets; not human-validated factual labels",
+  "seven_targeted_unit_tests_passed": true,
+  "primary_results_or_submitted_report_modified": false,
+  "kaggle_latest_job_status": "COMPLETE",
+  "local_gpu_released": true,
+  "token_limited_final_answers": {
+    "qwen": 2,
+    "llama": 3,
+    "phi4": 2
+  }
+}

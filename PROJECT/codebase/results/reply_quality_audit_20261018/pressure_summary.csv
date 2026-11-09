@@ -1,0 +1,13 @@
+﻿domain,model,tier,n,token_cap_n,token_cap_pct,capped_unparsed_n,capped_parseable_n,unparsed_n,noncapped_unparsed_n,bare_yes_no_n,parser_label_change_n
+math,llama,T0,430,16,3.721,16,0,146,130,0,0
+math,llama,T1,430,0,0.0,0,0,0,0,0,0
+math,phi4,T0,430,21,4.884,2,19,148,146,133,12
+math,phi4,T1,430,0,0.0,0,0,0,0,0,2
+math,qwen,T0,430,6,1.395,5,1,89,84,0,1
+math,qwen,T1,430,6,1.395,5,1,89,84,0,1
+medqa,llama,T0,292,116,39.726,31,85,41,10,0,1
+medqa,llama,T1,292,15,5.137,1,14,2,1,0,3
+medqa,phi4,T0,292,76,26.027,1,75,1,0,0,4
+medqa,phi4,T1,292,55,18.836,3,52,3,0,0,1
+medqa,qwen,T0,292,46,15.753,18,28,75,57,0,0
+medqa,qwen,T1,292,46,15.753,18,28,75,57,0,0

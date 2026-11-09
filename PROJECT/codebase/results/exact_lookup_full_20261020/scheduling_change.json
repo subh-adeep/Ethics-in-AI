@@ -1,0 +1,12 @@
+{
+  "request": "USE 2 GPU FOR 2 MODEL",
+  "cancelled_version": 1,
+  "cancellation_acknowledged": true,
+  "active_version": 2,
+  "initial_gpu_models": {
+    "0": "qwen",
+    "1": "llama"
+  },
+  "queued_model": "phi4",
+  "questions_per_model": 361
+}

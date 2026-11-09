@@ -1,0 +1,8 @@
+{
+  "at": "2026-10-18T18:05:36.094961+00:00",
+  "reason": "Windows sharing violation during atomic rename; recovered complete valid temporary JSON",
+  "recovered_question": "math_l12_0367",
+  "recovered_turn": "p0",
+  "earlier_answers_identical": true,
+  "no_regeneration": true
+}

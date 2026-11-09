@@ -1,0 +1,15 @@
+{
+  "at": "2026-10-19T05:30:57.795973+00:00",
+  "kernel": "subhadeepsing/exact-answer-lookup-smoke-20261019",
+  "is_private": true,
+  "questions": 20,
+  "models": 3,
+  "scope": "Smoke only",
+  "source_sha256": "a69890c7ca8b53bac0019c3e1255111a1a0392213c3c208f3276698c43b47a17",
+  "response": {
+    "ref": "/code/subhadeepsing/exact-answer-lookup-smoke-20261019",
+    "url": "https://www.kaggle.com/code/subhadeepsing/exact-answer-lookup-smoke-20261019",
+    "versionNumber": 1,
+    "kernelId": 139548242
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-18T18:47:29.116804+00:00",
+  "rows": [
+    {
+      "model": "phi4",
+      "dataset": "medqa",
+      "turn": "p1",
+      "completed": 10,
+      "tool_calls": 9,
+      "search_ok": 9,
+      "evidence_delivered": 9,
+      "failures": 0,
+      "hit_token_limit": 1
+    },
+    {
+      "model": "phi4",
+      "dataset": "medqa",
+      "turn": "p2",
+      "completed": 10,
+      "tool_calls": 10,
+      "search_ok": 10,
+      "evidence_delivered": 10,
+      "failures": 0,
+      "hit_token_limit": 1
+    },
+    {
+      "model": "phi4",
+      "dataset": "math",
+      "turn": "p1",
+      "completed": 10,
+      "tool_calls": 10,
+      "search_ok": 9,
+      "evidence_delivered": 9,
+      "failures": 1,
+      "hit_token_limit": 0
+    },
+    {
+      "model": "phi4",
+      "dataset": "math",
+      "turn": "p2",
+      "completed": 10,
+      "tool_calls": 10,
+      "search_ok": 10,
+      "evidence_delivered": 10,
+      "failures": 0,
+      "hit_token_limit": 0
+    }
+  ]
+}

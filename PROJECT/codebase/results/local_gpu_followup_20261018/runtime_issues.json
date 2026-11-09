@@ -1,0 +1,11 @@
+[
+  {
+    "phase": "rerun",
+    "model": "qwen",
+    "error": "Uninitialised 4-bit quantization state before first answer generation",
+    "cause": "Full-precision source was incorrectly marked prequantized in an in-memory config",
+    "fix": "Only set config.quantization_config for source snapshots that already contain it; pass quantization_config separately for on-the-fly Qwen NF4 conversion; validate every Linear4bit quant_state",
+    "original_files_changed": false,
+    "answers_generated_before_error": 0
+  }
+]

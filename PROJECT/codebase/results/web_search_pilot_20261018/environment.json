@@ -1,0 +1,12 @@
+{
+  "python": "3.13.11 | packaged by Anaconda, Inc. | (main, Dec 10 2025, 21:21:58) [MSC v.1929 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "packages": {
+    "torch": "2.7.1+cu118",
+    "transformers": "5.17.0",
+    "bitsandbytes": "0.50.2",
+    "accelerate": "1.15.0",
+    "ddgs": "9.16.0",
+    "primp": "2.0.1"
+  }
+}

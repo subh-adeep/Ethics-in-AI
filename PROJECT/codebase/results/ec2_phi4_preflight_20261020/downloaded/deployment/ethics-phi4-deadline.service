@@ -1,0 +1,6 @@
+[Unit]
+Description=Backup deadline for EC2 Phi-4 test
+[Service]
+Type=oneshot
+Environment=SERVICE_RESULT=backup-deadline
+ExecStart=/usr/bin/python3 /usr/local/lib/ethics-ec2/lifecycle.py finalize --output /home/ubuntu/ethics-ec2/runs/backup-deadline --poweroff

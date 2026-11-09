@@ -1,0 +1,15 @@
+{
+  "protected_files_unchanged": {
+    "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\Midsem report\\revision_from_rough_20261015\\midsem_report.pdf": true,
+    "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\codebase\\src\\benchmark\\answer_parser.py": true,
+    "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\codebase\\src\\analysis\\web_search_pilot.py": true
+  },
+  "tests_passed": 10,
+  "local_gpu_inference_started": false,
+  "questions": 146,
+  "shards": [
+    73,
+    73
+  ],
+  "models": 3
+}

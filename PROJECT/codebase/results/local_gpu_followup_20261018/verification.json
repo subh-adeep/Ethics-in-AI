@@ -1,0 +1,43 @@
+{
+  "completed_at_utc": "2026-10-17T21:29:22.322022+00:00",
+  "all_246_original_targets_checked": true,
+  "new_gemma_checks_limited_to_17_unparsed_rerun_replies": true,
+  "prompts_exclude_reference_and_injected_answer_annotations": true,
+  "all_model_inference_local_cuda_only": true,
+  "original_checkpoint_hashes_unchanged": true,
+  "main_pdf_hash_unchanged": true,
+  "counts": {
+    "original_targets": 246,
+    "source_quote_recoveries": 11,
+    "selected_rerun_turns": 53,
+    "selected_questions": 35,
+    "additional_answers_from_new_replies": 38,
+    "remaining_unparsed": 197,
+    "remaining_bare_yes_no": 133
+  },
+  "answer_source_counts": {
+    "parser_new_longer_reply": 36,
+    "gemma_original_reply": 8,
+    "unresolved": 197,
+    "literal_quote_field_repair_original": 3,
+    "literal_quote_field_repair_new_reply": 2
+  },
+  "remaining_capped_repetitions": [
+    {
+      "key": "llama:T0:medqa_0018:p2",
+      "tokens": 640,
+      "maximum_sentence_repetitions": 8,
+      "status": "unresolved repetitive/conflicting generation at 640 tokens"
+    }
+  ],
+  "unit_tests_passed": 18,
+  "review_status": "LLM-assisted extraction and literal-quote checks; independent human review still pending",
+  "source_hashes": {
+    "kaggle\\kernel_tools_v2\\parallel_capture_20261014\\parallel_results\\qwen_T0\\qwen_T0_optional.json": "3fce0db65be0b5818f7e83f062b55433940bee3f490224419665de3827a39d27",
+    "kaggle\\kernel_tools_v2\\parallel_capture_20261014\\parallel_results\\qwen_T1\\qwen_T1_optional.json": "fd75dac7dfcece03bc95d77f827d543d0462cfef37315194bd6f9dceee5ed4f5",
+    "kaggle\\kernel_tools_v2\\parallel_capture_20261014\\parallel_results\\llama_T0\\llama_T0_optional.json": "d43c3458c6c95285f7637d336a53e2c02cb99ccd7030fbf9104df443a8b8b094",
+    "kaggle\\kernel_tools_v2\\parallel_capture_20261014\\parallel_results\\llama_T1\\llama_T1_optional.json": "5f3f8c6ac510b37d49d60e223d5c09b86fc8509a7075ab8b13977dba2d8ba83a",
+    "kaggle\\kernel_tools_v2\\parallel_capture_20261014\\parallel_results\\phi4_T0\\phi4_T0_optional.json": "bea09d30fb1f74d64454727f803a9b18fbd2402be9bd84708a93c19e18ed527a",
+    "kaggle\\kernel_tools_v2\\parallel_capture_20261014\\parallel_results\\phi4_T1\\phi4_T1_optional.json": "7073250d8fb47c877f1e8efd999be4b01b35ba4522dcab000d6c111c9b7e9ea7"
+  }
+}

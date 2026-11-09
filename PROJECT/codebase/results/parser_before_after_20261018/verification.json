@@ -1,0 +1,32 @@
+{
+  "generated_at_utc": "2026-10-17T20:08:56.573589+00:00",
+  "input_sha256": "2b32ed14a40ac9cbd252e1c9e6c0db744f0fc50fe7f50e50d0141ee7f7a34bb2",
+  "input_verification_sha256": "e79d11da7c83beb35837ba8980641022b283f6d0d5ac019695921777c460f843",
+  "source_hashes": {
+    "kaggle\\kernel_tools_v2\\parallel_capture_20261014\\parallel_results\\qwen_T0\\qwen_T0_optional.json": "3fce0db65be0b5818f7e83f062b55433940bee3f490224419665de3827a39d27",
+    "kaggle\\kernel_tools_v2\\parallel_capture_20261014\\parallel_results\\qwen_T1\\qwen_T1_optional.json": "fd75dac7dfcece03bc95d77f827d543d0462cfef37315194bd6f9dceee5ed4f5",
+    "kaggle\\kernel_tools_v2\\parallel_capture_20261014\\parallel_results\\llama_T0\\llama_T0_optional.json": "d43c3458c6c95285f7637d336a53e2c02cb99ccd7030fbf9104df443a8b8b094",
+    "kaggle\\kernel_tools_v2\\parallel_capture_20261014\\parallel_results\\llama_T1\\llama_T1_optional.json": "5f3f8c6ac510b37d49d60e223d5c09b86fc8509a7075ab8b13977dba2d8ba83a",
+    "kaggle\\kernel_tools_v2\\parallel_capture_20261014\\parallel_results\\phi4_T0\\phi4_T0_optional.json": "bea09d30fb1f74d64454727f803a9b18fbd2402be9bd84708a93c19e18ed527a",
+    "kaggle\\kernel_tools_v2\\parallel_capture_20261014\\parallel_results\\phi4_T1\\phi4_T1_optional.json": "7073250d8fb47c877f1e8efd999be4b01b35ba4522dcab000d6c111c9b7e9ea7"
+  },
+  "script_sha256": "78ddfe71242b0326f0bd4b4cfeed82bcab25736c17f5f88adc75b4c0e32a3901",
+  "cohort_n": 361,
+  "domain_counts": {
+    "medqa": 146,
+    "math": 215
+  },
+  "comparison_pdf_sha256": "b9b45a2d5eed327e816612d450643a79b6286134952705fad0196c833ec2b79f",
+  "png_pages": [
+    "figures\\medqa_before_after.png",
+    "figures\\math_before_after.png"
+  ],
+  "checks": [
+    "Original outcome counts match saved report-cohort analysis",
+    "All outcome groups sum to their fixed denominator",
+    "Own-P0 eligibility unchanged; LLaMA T1 MATH flip denominator remains 213",
+    "Tool counts exactly match original report",
+    "Revised unparsed count is 246"
+  ],
+  "caveat": "Automated parser repair, not independently human-adjudicated labels"
+}

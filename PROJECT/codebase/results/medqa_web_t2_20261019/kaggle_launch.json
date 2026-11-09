@@ -1,0 +1,15 @@
+{
+  "at": "2026-10-18T19:20:43.271235+00:00",
+  "kernel": "subhadeepsing/medqa-web-search-dual-gpu-20261019",
+  "is_private": true,
+  "questions": 146,
+  "models": 3,
+  "requested_gpus": 2,
+  "reason": "Previous version never allocated a worker; cancellation acknowledged before identical-source retry",
+  "response": {
+    "ref": "/code/subhadeepsing/medqa-web-search-dual-gpu-20261019",
+    "url": "https://www.kaggle.com/code/subhadeepsing/medqa-web-search-dual-gpu-20261019",
+    "versionNumber": 2,
+    "kernelId": 139473710
+  }
+}

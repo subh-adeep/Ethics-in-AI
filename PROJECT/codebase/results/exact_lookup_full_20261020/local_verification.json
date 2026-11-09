@@ -1,0 +1,22 @@
+{
+  "remote_source_matches_local": true,
+  "source_sha256": "60171d786d52a2d2c0bfebca60352815b436974a21a0d673f98d3b7f6b055275",
+  "private": true,
+  "machine_shape": "NvidiaTeslaT4",
+  "protected_files_unchanged": {
+    "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\Midsem report\\revision_from_rough_20261015\\midsem_report.pdf": true,
+    "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\codebase\\src\\benchmark\\answer_parser.py": true,
+    "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\codebase\\results\\exact_lookup_smoke_20261019\\final_verification.json": true,
+    "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\codebase\\results\\medqa_web_t2_20261019\\final_verification.json": true,
+    "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\codebase\\results\\exact_lookup_smoke_20261019\\kaggle_download_final\\exact_lookup_project\\PROJECT\\codebase\\results\\exact_lookup_smoke_20261019\\qwen_checkpoint.json": true,
+    "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\codebase\\results\\exact_lookup_smoke_20261019\\kaggle_download_final\\exact_lookup_project\\PROJECT\\codebase\\results\\exact_lookup_smoke_20261019\\llama_checkpoint.json": true,
+    "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\codebase\\results\\exact_lookup_smoke_20261019\\kaggle_download_final\\exact_lookup_project\\PROJECT\\codebase\\results\\exact_lookup_smoke_20261019\\phi4_checkpoint.json": true
+  },
+  "local_tests_passed": 6,
+  "initial_gpu_models": {
+    "0": "qwen",
+    "1": "llama"
+  },
+  "queued_model": "phi4",
+  "questions_per_model": 361
+}

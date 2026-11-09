@@ -1,0 +1,13 @@
+{
+  "at": "2026-10-18T19:21:41.753930+00:00",
+  "kernel": "subhadeepsing/medqa-web-search-dual-gpu-20261019",
+  "status": "RUNNING",
+  "failure_message": "",
+  "log_content_type": "text/event-stream",
+  "bounded_stream_note": "AttributeError",
+  "key_log_lines": [
+    "DUAL_GPU_CONFIRMED [{\"index\": 0, \"name\": \"Tesla T4\", \"memory_bytes\": 15636037632}, {\"index\": 1, \"name\": \"Tesla T4\", \"memory_bytes\": 15636037632}]",
+    "DOWNLOAD_MODEL qwen aa8e72537993ba99e69dfaafa59ed015b17504d1"
+  ],
+  "log_characters": 1202
+}

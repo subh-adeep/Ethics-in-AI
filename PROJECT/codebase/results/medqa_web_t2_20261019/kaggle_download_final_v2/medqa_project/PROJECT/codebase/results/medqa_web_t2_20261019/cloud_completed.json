@@ -1,0 +1,23 @@
+{
+  "at": "2026-10-18T21:52:20.965059+00:00",
+  "models": [
+    {
+      "model": "qwen",
+      "questions": 146,
+      "final_answer_turns": 438
+    },
+    {
+      "model": "llama",
+      "questions": 146,
+      "final_answer_turns": 438
+    },
+    {
+      "model": "phi4",
+      "questions": 146,
+      "final_answer_turns": 438
+    }
+  ],
+  "conversations": 438,
+  "final_answer_turns": 1314,
+  "scoring_provisional": true
+}

@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-10-18T17:44:44.047947+00:00",
+  "models": [
+    "qwen",
+    "llama",
+    "phi4"
+  ],
+  "setting": "T2 optional web search",
+  "answer_max_new_tokens": 160,
+  "query_max_new_tokens": 64,
+  "original_prompts": true,
+  "fresh_local_p0": true,
+  "history_preserved_p0_p1_p2": true,
+  "original_single_token_action_selection": true,
+  "search_provider": "ddgs 9.16.0, auto backend",
+  "returned_material": "Up to three search-result snippets with titles and URLs; full pages are not fetched",
+  "success_definition": "At least one valid http(s) URL with nonempty non-placeholder snippet",
+  "search_attempts": 2,
+  "timeout_seconds_per_engine": 12,
+  "failed_results_cached": false,
+  "annotations_hidden": [
+    "ground_truth",
+    "false_answer_key",
+    "false_answer_text",
+    "supports_ground_truth"
+  ],
+  "fixed_cohort_not_reselected_on_new_p0": true,
+  "generation_hardware": "Local GTX 1650; original runs used Tesla T4",
+  "scoring": "Parser-v4 provisional only; pilot does not resolve outstanding scoring review",
+  "separate_preflight": "Controller question-text queries for all 20 questions; NOT counted as model tool calls",
+  "isolation": "Original checkpoints, report and main result tables are not modified",
+  "action_scoring_optimization": "Compute vocabulary logits only at the last input position (logits_to_keep=1); still compare the same two action-token probabilities.",
+  "search_backend_change": "Same frozen ddgs version 9.16.0; validate URL and snippet, support provider href/url and body/snippet aliases, keep rejected records in attempt logs, retry unsuccessful searches once.",
+  "content_scope": "Provider snippets only; no claim that linked full pages were fetched or independently verified.",
+  "pilot_search_iteration_2": {
+    "at": "2026-10-18T18:15:23.278454+00:00",
+    "repair": "Remove balanced outer presentation quotes from generated queries; retain original and effective query in search-event logs",
+    "prior_llama_failures_retained": true,
+    "all_existing_qwen_queries_unchanged": true,
+    "not_a_final_model_comparison": true
+  },
+  "execution_hosts": {
+    "qwen": "laptop GTX 1650",
+    "llama": "laptop GTX 1650",
+    "phi4": "Kaggle private GPU pilot; exact device saved in model metadata"
+  },
+  "cloud_launch_at": "2026-10-18T18:22:57.812012+00:00",
+  "same_fixed_20_questions_on_each_host": true,
+  "local_attention_continuation": {
+    "at": "2026-10-18T18:25:41.440031+00:00",
+    "reason": "Reduce slow eager-attention memory overhead on the 4GB laptop GPU",
+    "implementation": "sdpa",
+    "existing_eager_turns_retained": true,
+    "per_turn_execution_metadata": true,
+    "cloud_phi4_uploaded_version_uses_eager": true
+  }
+}
