@@ -33,9 +33,3 @@ compile `figures/experiment_flowchart_standalone.tex` inside `figures/`.
 | `project_template.sty`, `project_template.bst` | course template style files (unchanged) |
 | `Makefile` | build commands, same targets as the course template |
 | `scripts/build_figures.py` | rebuilds all figures, tables and number macros from the result files |
-
-## Before you submit
-
-1. Make sure the GitHub repository linked in Author Contributions is shared with the instructor and TA.
-2. Read the AI declaration once more and check that it describes your work correctly.
-3. Email the PDF to the instructor and TA, subject: "DS 307 Project Final Report by Subhadeep Sing".
