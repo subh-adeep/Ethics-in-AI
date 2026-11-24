@@ -1,4 +1,4 @@
-# Manual review of unparsed (U) replies (21 Nov 2026)
+# AI-agent review of unparsed (U) replies (21 Nov 2026)
 
 **Why:** parser v4 leaves a reply as U (unparsed) when it finds no clear final answer. In some of these
 replies the answer is actually written in the text (for example "the LCM ... is 120, not 60", or

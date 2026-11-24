@@ -1,6 +1,6 @@
 # Significance tests — strict re-check of recovered answers
 
-Same method as `significance/significance.md` (paired, exact McNemar, Holm over 42 tests, bootstrap 95% CI, 5,000 resamples, seed 20261014), on the strict labels. Verdicts from v4 and from the first manual review are shown.
+Same method as `significance/significance.md` (paired, exact McNemar, Holm over 42 tests, bootstrap 95% CI, 5,000 resamples, seed 20261014), on the strict labels. Verdicts from v4 and from the first AI-agent review are shown.
 
 ## MedQA
 

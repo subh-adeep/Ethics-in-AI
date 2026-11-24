@@ -442,14 +442,14 @@ New: evidence-override rates (Step 10) and a 100-reply hand-check sheet for pars
 
 ---
 
-## Step 12 — Manual review of unparsed replies (21 Nov)
+## Step 12 — AI-agent review of unparsed replies (21 Nov)
 
 Folder: `final_analysis_20261121/manual_unparsed_review/` (its README explains the rules and every file).
 The v4 tables above are **not changed**; the tables here are an extra version next to them.
 
 **Why:** parser v4 marks a reply U when it finds no clear final answer, but sometimes the answer is written
 elsewhere in the reply (e.g. "the LCM of 6, 8 and 10 is actually 120, not 60"). So all 365 U replies at P1/P2
-(281 different texts) were read by hand. An answer was taken only when the reply clearly commits to one answer,
+(281 different texts) were read by an AI agent (Claude). An answer was taken only when the reply clearly commits to one answer,
 with the exact quote saved. The reviewer did not look at the correct or the user's wrong answer while deciding.
 Replies that are only "Yes"/"No", cut off, hedged ("if you are sure, then D"), or give two answers stay U.
 The 5 U replies at P0 (Phi-4 Python run, two different "Final Answer" lines) stay U, so no n changes.
@@ -462,7 +462,7 @@ The 5 U replies at P0 (Phi-4 Python run, two different "Final Answer" lines) sta
 | MATH T0 / T1 / Exact / Python | 178 / 11 / 14 / 37 | 24 / 9 / 11 / 7 | 24 / 9 / 11 / 7 | 0 |
 | MedQA T0 / T1 / T2 web / Exact / T3 | 34 / 23 / 16 / 23 / 29 | 15 / 8 / 11 / 9 / 15 | 14 / 7 / 10 / 7 / 10 | 1 / 1 / 1 / 2 / 5 |
 
-**MATH, resistant % at P1 / P2 — manual review (v4 in brackets where different)**
+**MATH, resistant % at P1 / P2 — AI-agent review (v4 in brackets where different)**
 
 | Model | T0 | T1 | Exact | Python |
 |---|---|---|---|---|
@@ -470,7 +470,7 @@ The 5 U replies at P0 (Phi-4 Python run, two different "Final Answer" lines) sta
 | LLaMA | **90.7** (85.6) / **21.9** (20.9) | 33.3 / 1.4 | 60.5 / 24.7 | 74.3 / 68.1 |
 | Phi-4 | 41.4 / **34.4** (33.5) | 97.7 / 74.9 | 99.5 / 93.0 | 81.7 / 78.4 |
 
-**MedQA, resistant % at P1 / P2 — manual review (v4 in brackets where different)**
+**MedQA, resistant % at P1 / P2 — AI-agent review (v4 in brackets where different)**
 
 | Model | T0 | T1 | T2 web | Exact | T3 textbook |
 |---|---|---|---|---|---|
@@ -480,10 +480,10 @@ The 5 U replies at P0 (Phi-4 Python run, two different "Final Answer" lines) sta
 
 Full tables with flip / other / unparsed / tool use / override: `manual_unparsed_review/metrics_table_manual.md`.
 
-**Significance after the manual review** (`manual_unparsed_review/significance_manual.md`): 39 of 42 verdicts are
+**Significance after the AI-agent review** (`manual_unparsed_review/significance_manual.md`): 39 of 42 verdicts are
 the same. Three change, all in the same direction as before but now significant after Holm correction:
 
-| Test | v4 | Manual review |
+| Test | v4 | AI-agent review |
 |---|---|---|
 | MATH, Qwen, Python vs T0, P1 | −5.1 pp, Holm p = 0.68 (no clear change) | **−6.1 pp [−9.8, −2.8], Holm p = 0.035 (worse)** |
 | MATH, LLaMA, Python vs T0, P1 | −11.0 pp, Holm p = 0.11 (worse, not after Holm) | **−16.2 pp [−23.3, −9.0], Holm p < 0.001 (worse)** |
@@ -542,7 +542,7 @@ the same as v4 (worse, not significant after Holm).
 **Which version the report should use:** the **strict** version. It changes no conclusion, keeps only answers a reader
 can see stated plainly in the reply (each with its quote in `strict_recheck.csv`), and stays closest to the automatic
 scorer (40 of 42 verdicts as v4). In the report: use the strict tables as the main numbers, and say that they are
-parser v4 plus a strict manual review of the unparsed replies, which recovered 64 answers, moved no resistant % by more
+parser v4 plus a strict AI-agent review of the unparsed replies, which recovered 64 answers, moved no resistant % by more
 than 4.6 points, and made the LLaMA Python P1 drop significant. Strict tables: `manual_unparsed_review_strict/metrics_table_strict.md` and
 `significance_strict.md`. Limit: one reviewer (Claude), not the user.
 

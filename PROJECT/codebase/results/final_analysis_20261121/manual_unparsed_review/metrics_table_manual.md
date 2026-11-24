@@ -1,4 +1,4 @@
-# Metrics table after manual review of unparsed replies
+# Metrics table after AI-agent review of unparsed replies
 
 Same layout as `metrics/metrics_table.md`. Where a reviewer found a clear answer in an unparsed reply, the U label was replaced by R / S / O. A changed cell is **bold** with the parser v4 value in brackets. n is unchanged (no P0 reply changed).
 

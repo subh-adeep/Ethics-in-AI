@@ -1,7 +1,7 @@
-"""Strict re-check of the answers recovered in the manual review of unparsed replies.
+"""Strict re-check of the answers recovered in the AI-agent review of unparsed replies.
 
 Inputs (decisions made by an AI agent, Claude):
-  manual_unparsed_review/manual_decisions.csv          first manual review (not modified here)
+  manual_unparsed_review/manual_decisions.csv          first AI-agent review (not modified here)
   manual_unparsed_review_strict/strict_decisions.csv   keep / back_to_U for every recovered reply text
 Outputs (all new, in manual_unparsed_review_strict/):
   strict_recheck.csv              one row per recovered reply (109): quote, first decision, strict decision, reason
@@ -100,7 +100,7 @@ def main():
         return f'**{s}** ({mn} / {v})'
 
     lines = ['# Metrics table — strict re-check of recovered answers', '',
-             'Same layout as `metrics/metrics_table.md`. Labels: parser v4, plus answers from the manual review that '
+             'Same layout as `metrics/metrics_table.md`. Labels: parser v4, plus answers from the AI-agent review that '
              'pass the strict rule. A cell that differs from either older version is **bold**, with '
              '(manual / v4) in brackets. n is unchanged.', '']
     for ds in DATASETS:
@@ -134,7 +134,7 @@ def main():
     fp = final_significance.fmt_p
     lines = ['# Significance tests — strict re-check of recovered answers', '',
              'Same method as `significance/significance.md` (paired, exact McNemar, Holm over 42 tests, bootstrap 95% CI, '
-             '5,000 resamples, seed 20261014), on the strict labels. Verdicts from v4 and from the first manual review are shown.', '']
+             '5,000 resamples, seed 20261014), on the strict labels. Verdicts from v4 and from the first AI-agent review are shown.', '']
     for ds in DATASETS:
         lines += [f'## {DNAMES[ds]}', '']
         body = [[r['model'], r['condition'], r['turn'], r['n_paired'], r['T0_R_pct'], r['tool_R_pct'],

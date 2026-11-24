@@ -3,7 +3,7 @@
 Builds every figure and data table of the final report directly from the saved
 result files (no number is typed by hand).
 
-Main source (final labels = parser v4 + strict manual review of unparsed replies):
+Main source (final labels = parser v4 + strict AI-agent review of unparsed replies):
   codebase/results/final_analysis_20261121/manual_unparsed_review_strict/
       metrics_table_strict.csv    per dataset x model x condition x turn
       significance_strict.csv     42 paired tests, tool condition vs no tool

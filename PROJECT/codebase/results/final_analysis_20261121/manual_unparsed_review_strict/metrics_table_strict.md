@@ -1,6 +1,6 @@
 # Metrics table — strict re-check of recovered answers
 
-Same layout as `metrics/metrics_table.md`. Labels: parser v4, plus answers from the manual review that pass the strict rule. A cell that differs from either older version is **bold**, with (manual / v4) in brackets. n is unchanged.
+Same layout as `metrics/metrics_table.md`. Labels: parser v4, plus answers from the AI-agent review that pass the strict rule. A cell that differs from either older version is **bold**, with (manual / v4) in brackets. n is unchanged.
 
 ## MedQA
 

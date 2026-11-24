@@ -96,7 +96,7 @@ def main():
     def pair(newv, oldv):
         return f'{newv}' if newv == oldv else f'**{newv}** ({oldv})'
 
-    lines = ['# Metrics table after manual review of unparsed replies', '',
+    lines = ['# Metrics table after AI-agent review of unparsed replies', '',
              'Same layout as `metrics/metrics_table.md`. Where a reviewer found a clear answer in an unparsed reply, '
              'the U label was replaced by R / S / O. A changed cell is **bold** with the parser v4 value in brackets. '
              'n is unchanged (no P0 reply changed).', '']
@@ -128,7 +128,7 @@ def main():
         srows.append(row)
     write_csv(FOLDER / 'significance_manual.csv', srows)
     fp = final_significance.fmt_p
-    lines = ['# Significance tests after manual review of unparsed replies', '',
+    lines = ['# Significance tests after AI-agent review of unparsed replies', '',
              'Same method as `significance/significance.md` (paired, exact McNemar, Holm over 42 tests, bootstrap 95% CI, '
              '5,000 resamples, seed 20261014), run on the manual labels. The v4 result is shown for comparison. '
              '"Changed" marks a test whose verdict is different.', '']

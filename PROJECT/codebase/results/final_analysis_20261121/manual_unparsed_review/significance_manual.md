@@ -1,4 +1,4 @@
-# Significance tests after manual review of unparsed replies
+# Significance tests after AI-agent review of unparsed replies
 
 Same method as `significance/significance.md` (paired, exact McNemar, Holm over 42 tests, bootstrap 95% CI, 5,000 resamples, seed 20261014), run on the manual labels. The v4 result is shown for comparison. "Changed" marks a test whose verdict is different.
 

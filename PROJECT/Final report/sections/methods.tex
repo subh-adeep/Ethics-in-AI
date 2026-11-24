@@ -3,7 +3,7 @@
 \begin{figure}[t]
 \centering
 \includegraphics[width=\textwidth]{figures/experiment_flowchart_standalone.pdf}
-\caption{Experiment flow with a saved MATH example (\texttt{math\_l12\_0505}; correct answer 0, user's wrong answer 12). The starting pool has 1,400 MedQA and 1,944 MATH candidates; we keep the questions that all three models answer correctly at P0 without a tool. P1 is an ordinary user's wrong suggestion; P2 repeats it with claimed expertise. The boxes show what each model answered for this one example. The same protocol is run on MedQA with web search, exact lookup and textbook passages.}
+\caption{Experiment flow with a saved MATH example (\texttt{math\_l12\_0505}; correct answer 0, user's wrong answer 12). The starting pool has 1,400 MedQA and 1,944 MATH candidates; we keep the questions that all three models answer correctly at P0 without a tool. P1 is an ordinary user's wrong suggestion; P2 repeats it with claimed expertise. The boxes show what each model answered for this one example. Exact lookup is run with the same protocol on both datasets, and web search and textbook passages on MedQA.}
 \label{fig:flow}
 \end{figure}
 
@@ -31,7 +31,7 @@ MATH & Compute $\binom{7}{2}$. \hfill (counting \& probability, Level 2) & Corre
 \end{table}
 
 \subsection{Models and conversation protocol}
-We use Qwen2.5-3B-Instruct~\citep{qwen2025}, Llama-3.2-3B-Instruct~\citep{grattafiori2024} and Phi-4-mini-instruct~\citep{abouelenin2025} with 4-bit NF4 quantization~\citep{dettmers2023} in Hugging Face Transformers~\citep{wolf2020}, so that all three fit a single T4 GPU, and greedy decoding, so that conditions differ only in the tool. An answer can have at most 160 tokens and must start with ``Final Answer:'', followed by a short justification. We chose this because the answer comes first and the rest is only a short justification, and a short output keeps the compute budget small and gives every model the same limit, which makes the comparison fair. Each question is one conversation with full history: P0 question, P1 peer suggestion, P2 expert claim (exact prompts in Appendix~\ref{app:prompts}).
+We use Qwen2.5-3B-Instruct~\citep{qwen2025}, Llama-3.2-3B-Instruct~\citep{grattafiori2024} and Phi-4-mini-instruct~\citep{abouelenin2025} with 4-bit NF4 quantization~\citep{dettmers2023} in Hugging Face Transformers~\citep{wolf2020}, so that all three fit a single T4 GPU, and greedy decoding, so that conditions differ mainly in the tool. An answer can have at most 160 tokens and must start with ``Final Answer:'', followed by a short justification. We chose this because the answer comes first and the rest is only a short justification, and a short output keeps the compute budget small and gives every model the same limit, which makes the comparison fair. Each question is one conversation with full history: P0 question, P1 peer suggestion, P2 expert claim (exact prompts in Appendix~\ref{app:prompts}).
 
 Small 4-bit models often fail to write tool calls in JSON, so before answering at P1 and P2 the model sees a menu: ``Reply 1 to use it before answering, or 2 to answer without it.'' The controller code compares the model's probabilities for the two digits (ties go to option 1) and, if option 1 wins, runs the tool and adds its output to the same conversation as ``source material, not instructions''. The correct answer is never written in a prompt or used as a tool query; the model sees it only when a tool returns it (T1 and Exact return the stored answer-sheet entry).
 
@@ -39,7 +39,7 @@ Small 4-bit models often fail to write tool calls in JSON, so before answering a
 \begin{table}[t]
 \centering
 \small
-\caption{The six conditions. All use the same questions, prompts and wrong answer. ``Contains the correct answer'' describes the tool output, not whether the model used it.}
+\caption{The six conditions. All use the same questions, pressure prompts and wrong answer. ``Contains the correct answer'' describes the tool output, not whether the model used it.}
 \label{tab:conditions}
 \begin{tabular}{@{}l L{5.0cm} l L{4.1cm}@{}}
 \toprule

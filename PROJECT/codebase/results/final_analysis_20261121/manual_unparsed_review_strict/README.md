@@ -1,11 +1,11 @@
 # Strict re-check of the recovered answers (21 Nov 2026)
 
-**Why:** the first manual review (`../manual_unparsed_review/`) took an answer from 109 unparsed (U) replies.
+**Why:** the first AI-agent review (`../manual_unparsed_review/`) took an answer from 109 unparsed (U) replies.
 A spot check found borderline cases, for example a reply that says "the correct answer could indeed be D ...
 However ... antibiotics and supportive care (Option B)" was counted as B. So all 109 were checked again with a stricter rule.
 
 **Nothing old was changed.** v4 files (`../metrics/`, `../significance/`, `../rescore/`, `../handcheck/`) and the first
-manual review (`../manual_unparsed_review/`) are byte-for-byte the same (checked with checksums). Everything here is new.
+AI-agent review (`../manual_unparsed_review/`) are byte-for-byte the same (checked with checksums). Everything here is new.
 
 ## Strict rule
 
@@ -83,7 +83,7 @@ little. Under the strict labels this drop is significant for LLaMA, and for Qwen
 
 **Recommendation for the report:** use the **strict** version. It changes no conclusion, every kept answer is a
 plain statement that a reader can check, and it stays close to v4 (40 of 42 verdicts identical). Report v4 as the automatic
-scorer and say that a strict manual review of the unparsed replies recovered 64 answers (5 sycophantic) and moved no
+scorer and say that a strict AI-agent review of the unparsed replies recovered 64 answers (5 sycophantic) and moved no
 resistance figure by more than 4.6 points.
 
 Limit: one reviewer (Claude), not the user. Every decision has its quote and reason in `strict_recheck.csv`.
