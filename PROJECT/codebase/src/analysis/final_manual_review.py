@@ -1,8 +1,8 @@
-"""Manual review of unparsed (U) replies: apply the hand decisions and rebuild the tables.
+"""Review of unparsed (U) replies: apply the AI-agent decisions and rebuild the tables.
 
-Input (hand-made, not generated): results/final_analysis_20261121/manual_unparsed_review/manual_decisions.csv
+Input (made by an AI agent, Claude, not by this script): results/final_analysis_20261121/manual_unparsed_review/manual_decisions.csv
   one row per unique (question, reply text) among the P1/P2 replies labelled U by parser v4 (questions correct at P0).
-  The answer was read by hand from the reply, without looking at the correct or the user's wrong answer.
+  The AI agent read the answer from the reply, without seeing the correct or the user's wrong answer.
   Recovered answers carry an exact quote from the reply (checked here).
 
 Outputs (all new, same folder):

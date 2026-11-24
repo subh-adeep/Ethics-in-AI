@@ -1,6 +1,6 @@
 """Strict re-check of the answers recovered in the manual review of unparsed replies.
 
-Inputs (hand-made):
+Inputs (decisions made by an AI agent, Claude):
   manual_unparsed_review/manual_decisions.csv          first manual review (not modified here)
   manual_unparsed_review_strict/strict_decisions.csv   keep / back_to_U for every recovered reply text
 Outputs (all new, in manual_unparsed_review_strict/):

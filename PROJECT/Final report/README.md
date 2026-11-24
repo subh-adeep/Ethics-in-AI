@@ -1,46 +1,44 @@
 # Final report — DS 307 Ethics in AI
 
-Course template (`project_template.sty/.bst`, unchanged from github.com/FLAIR-IISc/project-template).
-Limit: **8 pages** of main text; references, appendix, Author Contributions and the AI declaration do not count.
+**When Tools Meet Pressure: Can Small Language Models Use Evidence to Resist Sycophancy?** — Subhadeep Sing
+
+The folder follows the course template (github.com/FLAIR-IISc/project-template): one main `.tex` file,
+one file per section in `sections/`, and separate `figures/` and `tables/` folders.
+Page limit: **8 pages** of main text. References, the appendix, Author Contributions and the AI declaration
+do not count. The current PDF has its main text on pages 1–8.
 
 ## Build
 
 ```bash
-python scripts/build_figures.py
+python scripts/build_figures.py      # only if the result files changed (needs matplotlib)
+make                                 # or: pdflatex, bibtex, pdflatex, pdflatex on final_report_submission
+make clean                           # remove LaTeX build files
 ```
 
-```bash
-pdflatex final_report && bibtex final_report && pdflatex final_report && pdflatex final_report
-```
-
-`build_figures.py` reads the final result files (parser v4 + strict manual review) from
-`../codebase/results/final_analysis_20261121/` and writes every figure, every data table and
-`tables/numbers.tex` (the numbers used in the text), so text and data cannot drift apart.
-Figure 1 is `figures/experiment_flowchart.tex` (your mid-term flowchart, extended); compile it with
-`pdflatex experiment_flowchart_standalone.tex` inside `figures/` after editing it.
-
-## Before you submit (checklist)
-
-1. **Write every section in your own words.** Each section has a red outline box listing the points and
-   numbers to cover. Course AI policy: the first draft must be yours; AI may only polish it.
-   Delete each box when its text is written (or set `\showoutlinefalse` in `final_report.tex` to hide them all).
-2. Fill the hand-check sheet `../codebase/results/final_analysis_20261121/handcheck/handcheck_sheet.csv`
-   (`human_answer` column), run `python src/analysis/final_handcheck_agreement.py` from `codebase/`,
-   and put the agreement into Method §3.4, Limitations and Appendix B.
-3. Table 2 (plan vs. done): replace *[add your reason]* for the Qwen model change.
-4. Write the Author Contributions and the detailed AI declaration (use `AI_USE_LOG.md`).
-5. Check the page count: main text must end by page 8.
-6. Read `CITATION_AUDIT.md`; only cite papers you have read.
-7. Email the PDF to the instructor and TA, subject: "DS 307 Project Final Report by Subhadeep Sing".
+`build_figures.py` reads the final result files in `../codebase/results/final_analysis_20261121/`
+(parser v4 + strict AI-agent review) and writes every data figure, every data table and
+`tables/numbers.tex`, the macros for the numbers quoted in the text, so text and data cannot drift apart.
+Figure 1 is `figures/experiment_flowchart.tex` (the mid-term flowchart, extended); after editing it,
+compile `figures/experiment_flowchart_standalone.tex` inside `figures/`.
 
 ## Files
 
-| Path | What |
+| Path | What it is |
 |---|---|
-| `final_report.tex` | main file |
-| `sections/*.tex` | one file per section (outlines to write from) |
-| `figures/` | Figure 1 flowchart (TikZ + logos) and the four data figures |
+| `final_report_submission.tex` / `.pdf` | main file and the submitted PDF |
+| `sections/` | `abstract`, `intro`, `related`, `methods`, `results`, `discussion`, `conclusion`, `appendix` |
+| `figures/` | Figure 1 flowchart (TikZ + logos) and the data figures |
 | `tables/` | generated tables and `numbers.tex` |
-| `references.bib`, `CITATION_AUDIT.md` | verified bibliography and audit |
-| `scripts/build_figures.py` | regenerates all figures and tables from the result files |
-| `AI_USE_LOG.md` | factual log of AI assistance in this phase |
+| `references.bib` | the 28 cited papers (checked against their sources) |
+| `project_template.sty`, `project_template.bst` | course template style files (unchanged) |
+| `Makefile` | build commands, same targets as the course template |
+| `scripts/build_figures.py` | rebuilds all figures, tables and number macros from the result files |
+| `CITATION_AUDIT.md` | how every reference and every cited claim was checked |
+| `AI_USE_LOG.md` | log of AI assistance in the final phase (source for the AI declaration) |
+| `TA_FEEDBACK_RESPONSE.md` | the 29 mid-term TA comments and where the report answers each |
+
+## Before you submit
+
+1. Make sure the GitHub repository linked in Author Contributions is shared with the instructor and TA.
+2. Read the AI declaration once more and check that it describes your work correctly.
+3. Email the PDF to the instructor and TA, subject: "DS 307 Project Final Report by Subhadeep Sing".

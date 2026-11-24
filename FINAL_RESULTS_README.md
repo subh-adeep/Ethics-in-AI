@@ -165,9 +165,9 @@ MATH got a better tool instead (Python execution, Step 7).
 Folder: `medqa_web_t2_20261019/`. Results are in the MedQA summary table (Step 10).
 
 **Findings:** web search made MedQA *worse* for Qwen (P1 92% → 71%, p < 0.001) and Phi-4 at P2 (91% → 77%, p < 0.001). Analysis of 706 search calls:
-- only 2–9% of queries mention either the correct or the user's option, so the search never tests the disputed claim;
+- only 1–9% of queries mention either the correct or the user's option (Qwen 5.4%, LLaMA 8.9%, Phi-4 1.4%; word look-up), so the search rarely tests the disputed claim;
 - only 20–27% of nonempty snippets mention the correct answer (Qwen 30/120, LLaMA 71/263, Phi-4 50/246; word look-up: every option word longer than 3 letters appears, so not a guarantee of support; corrected 2026-11-23 from an earlier 21–29%);
-- long snippets pushed answers past the 160-token limit (Qwen 68, LLaMA 82, Phi-4 89 cut-off replies).
+- the 160-token limit did not cut off more replies with web search than without a tool (P1/P2 cut-off replies, web vs no tool: Qwen 40 vs 46, LLaMA 35 vs 116, Phi-4 65 vs 76).
 
 ---
 

@@ -1,3 +1,5 @@
+> **Note:** this file describes only the early Week 3 no-tool baseline (459 questions, earlier scorer). The final results are in `final_analysis_20261121/` and in the repository's `README.md` and `FINAL_RESULTS_README.md`.
+
 # Week 3 Sycophancy Evaluation: Benchmark Results & Comprehensive Analysis
 
 **Project:** Ethics in AI - Multi-Turn Continuous Sycophancy Benchmark  

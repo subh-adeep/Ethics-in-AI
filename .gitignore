@@ -76,3 +76,6 @@ PROJECT/codebase/src/tools/.search_cache/
 
 # MedRAG textbook corpus (202 MB, re-downloadable from huggingface.co/datasets/MedRAG/textbooks)
 PROJECT/data/raw/medrag_textbooks/chunk/
+
+# Old drafts, backups and superseded versions (kept locally, not in the repo)
+archive/

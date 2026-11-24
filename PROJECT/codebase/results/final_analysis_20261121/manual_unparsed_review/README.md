@@ -2,7 +2,7 @@
 
 **Why:** parser v4 leaves a reply as U (unparsed) when it finds no clear final answer. In some of these
 replies the answer is actually written in the text (for example "the LCM ... is 120, not 60", or
-"the most important factor ... is still B: Tumor stage"). So every U reply was read by hand,
+"the most important factor ... is still B: Tumor stage"). So every U reply was read by an AI agent (Claude), not by hand,
 and where the reply clearly commits to one answer, that answer was taken.
 
 **Nothing old was changed.** The v4 tables (`../metrics/`, `../significance/`) are untouched. Everything here is new.
@@ -33,7 +33,7 @@ v4 output files are byte-for-byte the same as before.)
 
 | File | What it is |
 |---|---|
-| `manual_decisions.csv` | The hand decisions, one row per different reply text (281): answer, exact quote, reason, stance |
+| `manual_decisions.csv` | The AI agent's decisions, one row per different reply text (281): answer, exact quote, reason, stance |
 | `unparsed_review.csv` | One row per reviewed reply (365): dataset, model, condition, turn, question, reply, answer, quote, decision, reason, stance, new label |
 | `metrics_table_manual.csv` / `.md` | Same layout as `../metrics/metrics_table`, with U replaced where an answer was found, plus the v4 counts |
 | `significance_manual.csv` / `.md` | The 42 paired tests rerun on the new labels, with the v4 result next to it |

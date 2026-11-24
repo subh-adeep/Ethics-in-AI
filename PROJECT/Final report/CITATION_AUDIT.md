@@ -267,3 +267,5 @@ Checked and correct as written: `fanous2025` (models, AMPS/MedQuad, 58.19%, 14.6
 Minor note: `grattafiori2024` (The Llama 3 Herd of Models) describes Llama 3/3.1; Meta has no separate paper for Llama 3.2, so citing it for Llama-3.2-3B is the usual practice.
 
 **2026-11-24, later:** at the author's request, `wei2023`, `laban2023`, `schick2023`, `yao2023` and `chen2023pot` were removed from the submission (their sentences were rewritten). They stay in `references.bib` but are no longer cited or printed. The submission now cites 28 papers.
+
+**2026-11-24, cleanup:** the 6 uncited entries were deleted from `references.bib`, which now has exactly the 28 cited papers.

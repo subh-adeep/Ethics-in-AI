@@ -1,4 +1,4 @@
-\begin{thebibliography}{34}
+\begin{thebibliography}{28}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -13,13 +13,6 @@ Abdelrahman Abouelenin, Atabak Ashfaq, Adam Atkinson, Hany Awadalla, Nguyen
   language models via mixture-of-{LoRAs}.
 \newblock \emph{arXiv preprint arXiv:2503.01743}, 2025.
 \newblock URL \url{https://arxiv.org/abs/2503.01743}.
-
-\bibitem[Chen et~al.(2023)Chen, Ma, Wang, and Cohen]{chen2023pot}
-Wenhu Chen, Xueguang Ma, Xinyi Wang, and William~W. Cohen.
-\newblock Program of thoughts prompting: Disentangling computation from
-  reasoning for numerical reasoning tasks.
-\newblock \emph{Transactions on Machine Learning Research}, 2023.
-\newblock URL \url{https://openreview.net/forum?id=YfZ4ZPt8zd}.
 
 \bibitem[Chen et~al.(2024)Chen, Lin, Sch{\"a}rli, and Zhou]{chen2024selfdebug}
 Xinyun Chen, Maxwell Lin, Nathanael Sch{\"a}rli, and Denny Zhou.
@@ -138,13 +131,6 @@ Navreet Kaur, Monojit Choudhury, and Danish Pruthi.
   2024.
 \newblock \doi{10.18653/v1/2024.findings-acl.850}.
 
-\bibitem[Laban et~al.(2023)Laban, Murakhovs'ka, Xiong, and Wu]{laban2023}
-Philippe Laban, Lidiya Murakhovs'ka, Caiming Xiong, and Chien-Sheng Wu.
-\newblock Are you sure? {C}hallenging {LLMs} leads to performance drops in the
-  {FlipFlop} experiment.
-\newblock \emph{arXiv preprint arXiv:2311.08596}, 2023.
-\newblock URL \url{https://arxiv.org/abs/2311.08596}.
-
 \bibitem[Lewis et~al.(2020)Lewis, Perez, Piktus, Petroni, Karpukhin, Goyal,
   K{\"u}ttler, Lewis, Yih, Rockt{\"a}schel, Riedel, and Kiela]{lewis2020}
 Patrick Lewis, Ethan Perez, Aleksandra Piktus, Fabio Petroni, Vladimir
@@ -195,14 +181,6 @@ Ethan Perez, Sam Ringer, Kamil{\.e} Luko{\v{s}}i{\=u}t{\.e}, Karina Nguyen,
 \newblock \emph{arXiv preprint arXiv:2412.15115}, 2024.
 \newblock URL \url{https://arxiv.org/abs/2412.15115}.
 
-\bibitem[Ranaldi \& Pucci(2026)Ranaldi and Pucci]{ranaldi2026}
-Leonardo Ranaldi and Giulia Pucci.
-\newblock Learning multilingual agentic policy to control sycophancy.
-\newblock In \emph{Proceedings of the 19th Conference of the European Chapter
-  of the Association for Computational Linguistics (Volume 1: Long Papers)},
-  pp.\  3664--3681. Association for Computational Linguistics, 2026.
-\newblock \doi{10.18653/v1/2026.eacl-long.169}.
-
 \bibitem[Robertson \& Zaragoza(2009)Robertson and Zaragoza]{robertson2009}
 Stephen Robertson and Hugo Zaragoza.
 \newblock The probabilistic relevance framework: {BM25} and beyond.
@@ -219,15 +197,6 @@ Rose Sathyanathan, Kinshuk Vasisht, and Danish Pruthi.
   2026.
 \newblock \doi{10.18653/v1/2026.findings-acl.1201}.
 
-\bibitem[Schick et~al.(2023)Schick, Dwivedi-Yu, Dess{\`\i}, Raileanu, Lomeli,
-  Hambro, Zettlemoyer, Cancedda, and Scialom]{schick2023}
-Timo Schick, Jane Dwivedi-Yu, Roberto Dess{\`\i}, Roberta Raileanu, Maria
-  Lomeli, Eric Hambro, Luke Zettlemoyer, Nicola Cancedda, and Thomas Scialom.
-\newblock Toolformer: Language models can teach themselves to use tools.
-\newblock In \emph{Advances in Neural Information Processing Systems},
-  volume~36, pp.\  68539--68551. Curran Associates, Inc., 2023.
-\newblock \doi{10.52202/075280-2997}.
-
 \bibitem[Sharma et~al.(2024)Sharma, Tong, Korbak, Duvenaud, Askell, Bowman,
   Durmus, Hatfield-Dodds, Johnston, Kravec, Maxwell, McCandlish, Ndousse,
   Rausch, Schiefer, Yan, Zhang, and Perez]{sharma2024}
@@ -239,12 +208,6 @@ Mrinank Sharma, Meg Tong, Tomasz Korbak, David Duvenaud, Amanda Askell,
 \newblock In \emph{The Twelfth International Conference on Learning
   Representations}, 2024.
 \newblock URL \url{https://openreview.net/forum?id=tvhaxkMKAn}.
-
-\bibitem[Wei et~al.(2023)Wei, Huang, Lu, Zhou, and Le]{wei2023}
-Jerry Wei, Da~Huang, Yifeng Lu, Denny Zhou, and Quoc~V. Le.
-\newblock Simple synthetic data reduces sycophancy in large language models.
-\newblock \emph{arXiv preprint arXiv:2308.03958}, 2023.
-\newblock URL \url{https://arxiv.org/abs/2308.03958}.
 
 \bibitem[Wolf et~al.(2020)Wolf, Debut, Sanh, Chaumond, Delangue, Moi, Cistac,
   Rault, Louf, Funtowicz, Davison, Shleifer, von Platen, Ma, Jernite, Plu, Xu,
@@ -283,14 +246,5 @@ Guangzhi Xiong, Qiao Jin, Zhiyong Lu, and Aidong Zhang.
 \newblock In \emph{Findings of the Association for Computational Linguistics:
   ACL 2024}, pp.\  6233--6251. Association for Computational Linguistics, 2024.
 \newblock \doi{10.18653/v1/2024.findings-acl.372}.
-
-\bibitem[Yao et~al.(2023)Yao, Zhao, Yu, Du, Shafran, Narasimhan, and
-  Cao]{yao2023}
-Shunyu Yao, Jeffrey Zhao, Dian Yu, Nan Du, Izhak Shafran, Karthik Narasimhan,
-  and Yuan Cao.
-\newblock {ReAct}: Synergizing reasoning and acting in language models.
-\newblock In \emph{The Eleventh International Conference on Learning
-  Representations}, 2023.
-\newblock URL \url{https://openreview.net/forum?id=WE_vluYUL-X}.
 
 \end{thebibliography}
