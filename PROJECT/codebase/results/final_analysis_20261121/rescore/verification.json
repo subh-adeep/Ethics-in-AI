@@ -1,0 +1,15 @@
+{
+  "parser_version": "answer-parser-4.0",
+  "t0_t1_replies_reparsed_identical": 6498,
+  "exact_source": [
+    "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\codebase\\results\\exact_lookup_full_20261020\\qwen\\qwen_checkpoint.json",
+    "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\codebase\\results\\exact_lookup_full_20261020\\llama\\llama_checkpoint.json",
+    "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\codebase\\results\\exact_lookup_full_20261020\\phi4\\phi4_checkpoint.json"
+  ],
+  "python_source": [
+    "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\codebase\\results\\math_python_full_20261031\\qwen\\qwen_math_results.json",
+    "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\codebase\\results\\math_python_full_20261031\\llama\\llama_math_results.json",
+    "D:\\collage\\7th sem\\Ethics in ai\\PROJECT\\codebase\\results\\math_python_full_20261031\\phi4\\phi4_math_results.json"
+  ],
+  "note": "Python run did not save a token-limit flag; parse_reply was called with hit_token_limit=False."
+}

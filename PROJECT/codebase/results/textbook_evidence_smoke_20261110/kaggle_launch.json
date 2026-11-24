@@ -1,0 +1,13 @@
+{
+  "at": "2026-11-09T20:29:02.249226+00:00",
+  "kernel": "subhadeepsing/textbook-evidence-smoke-20261110",
+  "mode": "smoke",
+  "machine_shape": "NvidiaTeslaT4",
+  "requested_gpus": 2,
+  "response": {
+    "ref": "/code/subhadeepsing/textbook-evidence-smoke-20261110",
+    "url": "https://www.kaggle.com/code/subhadeepsing/textbook-evidence-smoke-20261110",
+    "versionNumber": 1,
+    "kernelId": 144070049
+  }
+}

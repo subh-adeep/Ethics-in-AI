@@ -1,0 +1,34 @@
+{
+  "at": "2026-11-10T05:33:02.892918+00:00",
+  "service_result": "success",
+  "exit_code": "exited",
+  "exit_status": "0",
+  "poweroff_requested": false,
+  "full_run_started": false,
+  "saved_files": {
+    "completed.json": {
+      "bytes": 314,
+      "sha256": "f2764c737758965b6064f53513e4bfc3df15e2fd6dcdde8cc7071d1dbed24add"
+    },
+    "console.log": {
+      "bytes": 3414,
+      "sha256": "cb7aba01d5b3b8f0dcef942e32be0efb4a45d4699f1233e29bb2b442ef4cf759"
+    },
+    "gpu_environment.json": {
+      "bytes": 286,
+      "sha256": "68aa14d90e36a7d92f4ec0f3e85348157fbf57b364c8b0e07cab2bce7f432b1f"
+    },
+    "lookup_events.jsonl": {
+      "bytes": 17871,
+      "sha256": "a0935197fe15d787b1761ae429c5e9556d949ccc8ec96fb5e5e3c04481df574d"
+    },
+    "phi4_checkpoint.json": {
+      "bytes": 349539,
+      "sha256": "8bb5fa9a3c9cfa0906cd45cf3fa89b7394f1cd4af84bd64461b2dc4e7b0fe1ee"
+    },
+    "phi4_model_calls.jsonl": {
+      "bytes": 360291,
+      "sha256": "62a72ea7bccc39bd53fb26504ae5c5f91fb03f4c2dac1137ce3b4605b4faf0cd"
+    }
+  }
+}

@@ -1,0 +1,296 @@
+\begin{thebibliography}{34}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Abouelenin et~al.(2025)Abouelenin, Ashfaq, Atkinson, Awadalla, Bach,
+  Bao, Benhaim, Cai, et~al.]{abouelenin2025}
+Abdelrahman Abouelenin, Atabak Ashfaq, Adam Atkinson, Hany Awadalla, Nguyen
+  Bach, Jianmin Bao, Alon Benhaim, Martin Cai, et~al.
+\newblock {Phi-4-Mini} technical report: Compact yet powerful multimodal
+  language models via mixture-of-{LoRAs}.
+\newblock \emph{arXiv preprint arXiv:2503.01743}, 2025.
+\newblock URL \url{https://arxiv.org/abs/2503.01743}.
+
+\bibitem[Chen et~al.(2023)Chen, Ma, Wang, and Cohen]{chen2023pot}
+Wenhu Chen, Xueguang Ma, Xinyi Wang, and William~W. Cohen.
+\newblock Program of thoughts prompting: Disentangling computation from
+  reasoning for numerical reasoning tasks.
+\newblock \emph{Transactions on Machine Learning Research}, 2023.
+\newblock URL \url{https://openreview.net/forum?id=YfZ4ZPt8zd}.
+
+\bibitem[Chen et~al.(2024)Chen, Lin, Sch{\"a}rli, and Zhou]{chen2024selfdebug}
+Xinyun Chen, Maxwell Lin, Nathanael Sch{\"a}rli, and Denny Zhou.
+\newblock Teaching large language models to self-debug.
+\newblock In \emph{The Twelfth International Conference on Learning
+  Representations}, 2024.
+\newblock URL \url{https://openreview.net/forum?id=KuPixIqPiq}.
+
+\bibitem[Dettmers et~al.(2023)Dettmers, Pagnoni, Holtzman, and
+  Zettlemoyer]{dettmers2023}
+Tim Dettmers, Artidoro Pagnoni, Ari Holtzman, and Luke Zettlemoyer.
+\newblock {QLoRA}: Efficient finetuning of quantized {LLMs}.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~36, pp.\  10088--10115. Curran Associates, Inc., 2023.
+\newblock \doi{10.52202/075280-0441}.
+
+\bibitem[Efron \& Tibshirani(1993)Efron and Tibshirani]{efron1993}
+Bradley Efron and Robert~J. Tibshirani.
+\newblock \emph{An Introduction to the Bootstrap}, volume~57 of
+  \emph{Monographs on Statistics and Applied Probability}.
+\newblock Chapman \& Hall, New York, 1993.
+\newblock \doi{10.1201/9780429246593}.
+
+\bibitem[Fanous et~al.(2025)Fanous, Goldberg, Agarwal, Lin, Zhou, Xu, Bikia,
+  Daneshjou, and Koyejo]{fanous2025}
+Aaron Fanous, Jacob Goldberg, Ank Agarwal, Joanna Lin, Anson Zhou, Sonnet Xu,
+  Vasiliki Bikia, Roxana Daneshjou, and Sanmi Koyejo.
+\newblock {SycEval}: Evaluating {LLM} sycophancy.
+\newblock In \emph{Proceedings of the AAAI/ACM Conference on AI, Ethics, and
+  Society}, volume~8, pp.\  893--900. Association for the Advancement of
+  Artificial Intelligence, 2025.
+\newblock \doi{10.1609/aies.v8i1.36598}.
+
+\bibitem[Gao et~al.(2023)Gao, Madaan, Zhou, Alon, Liu, Yang, Callan, and
+  Neubig]{gao2023pal}
+Luyu Gao, Aman Madaan, Shuyan Zhou, Uri Alon, Pengfei Liu, Yiming Yang, Jamie
+  Callan, and Graham Neubig.
+\newblock {PAL}: Program-aided language models.
+\newblock In \emph{Proceedings of the 40th International Conference on Machine
+  Learning}, volume 202 of \emph{Proceedings of Machine Learning Research},
+  pp.\  10764--10799. PMLR, 2023.
+\newblock URL \url{https://proceedings.mlr.press/v202/gao23f.html}.
+
+\bibitem[{Gemma Team}(2024)]{gemma2024}
+{Gemma Team}.
+\newblock {Gemma} 2: Improving open language models at a practical size.
+\newblock \emph{arXiv preprint arXiv:2408.00118}, 2024.
+\newblock URL \url{https://arxiv.org/abs/2408.00118}.
+
+\bibitem[Grattafiori et~al.(2024)Grattafiori, Dubey, Jauhri, Pandey, Kadian,
+  Al-Dahle, Letman, Mathur, et~al.]{grattafiori2024}
+Aaron Grattafiori, Abhimanyu Dubey, Abhinav Jauhri, Abhinav Pandey, Abhishek
+  Kadian, Ahmad Al-Dahle, Aiesha Letman, Akhil Mathur, et~al.
+\newblock The {Llama} 3 herd of models.
+\newblock \emph{arXiv preprint arXiv:2407.21783}, 2024.
+\newblock URL \url{https://arxiv.org/abs/2407.21783}.
+
+\bibitem[Hendrycks et~al.(2021)Hendrycks, Burns, Kadavath, Arora, Basart, Tang,
+  Song, and Steinhardt]{hendrycks2021}
+Dan Hendrycks, Collin Burns, Saurav Kadavath, Akul Arora, Steven Basart, Eric
+  Tang, Dawn Song, and Jacob Steinhardt.
+\newblock Measuring mathematical problem solving with the {MATH} dataset.
+\newblock In \emph{Proceedings of the Neural Information Processing Systems
+  Track on Datasets and Benchmarks}, volume~1, 2021.
+\newblock URL
+  \url{https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/hash/be83ab3ecd0db773eb2dc1b0a17836a1-Abstract-round2.html}.
+
+\bibitem[Holm(1979)]{holm1979}
+Sture Holm.
+\newblock A simple sequentially rejective multiple test procedure.
+\newblock \emph{Scandinavian Journal of Statistics}, 6\penalty0 (2):\penalty0
+  65--70, 1979.
+\newblock URL \url{https://www.jstor.org/stable/4615733}.
+
+\bibitem[Hong et~al.(2025)Hong, Byun, Kim, and Shu]{hong2025}
+Jiseung Hong, Grace Byun, Seungone Kim, and Kai Shu.
+\newblock Measuring sycophancy of language models in multi-turn dialogues.
+\newblock In \emph{Findings of the Association for Computational Linguistics:
+  EMNLP 2025}, pp.\  2239--2259. Association for Computational Linguistics,
+  2025.
+\newblock \doi{10.18653/v1/2025.findings-emnlp.121}.
+
+\bibitem[Huang et~al.(2024)Huang, Chen, Mishra, Zheng, Yu, Song, and
+  Zhou]{huang2024}
+Jie Huang, Xinyun Chen, Swaroop Mishra, Huaixiu~Steven Zheng, Adams~Wei Yu,
+  Xinying Song, and Denny Zhou.
+\newblock Large language models cannot self-correct reasoning yet.
+\newblock In \emph{The Twelfth International Conference on Learning
+  Representations}, 2024.
+\newblock URL \url{https://openreview.net/forum?id=IkmD3fKBPQ}.
+
+\bibitem[Jin et~al.(2021)Jin, Pan, Oufattole, Weng, Fang, and
+  Szolovits]{jin2021}
+Di~Jin, Eileen Pan, Nassim Oufattole, Wei-Hung Weng, Hanyi Fang, and Peter
+  Szolovits.
+\newblock What disease does this patient have? {A} large-scale open domain
+  question answering dataset from medical exams.
+\newblock \emph{Applied Sciences}, 11\penalty0 (14):\penalty0 6421, 2021.
+\newblock \doi{10.3390/app11146421}.
+
+\bibitem[Jin et~al.(2023)Jin, Kim, Chen, Comeau, Yeganova, Wilbur, and
+  Lu]{jin2023medcpt}
+Qiao Jin, Won Kim, Qingyu Chen, Donald~C. Comeau, Lana Yeganova, W.~John
+  Wilbur, and Zhiyong Lu.
+\newblock {MedCPT}: Contrastive pre-trained transformers with large-scale
+  {PubMed} search logs for zero-shot biomedical information retrieval.
+\newblock \emph{Bioinformatics}, 39\penalty0 (11):\penalty0 btad651, 2023.
+\newblock \doi{10.1093/bioinformatics/btad651}.
+
+\bibitem[Kaur et~al.(2024)Kaur, Choudhury, and Pruthi]{kaur2024}
+Navreet Kaur, Monojit Choudhury, and Danish Pruthi.
+\newblock Evaluating large language models for health-related queries with
+  presuppositions.
+\newblock In \emph{Findings of the Association for Computational Linguistics:
+  ACL 2024}, pp.\  14308--14331. Association for Computational Linguistics,
+  2024.
+\newblock \doi{10.18653/v1/2024.findings-acl.850}.
+
+\bibitem[Laban et~al.(2023)Laban, Murakhovs'ka, Xiong, and Wu]{laban2023}
+Philippe Laban, Lidiya Murakhovs'ka, Caiming Xiong, and Chien-Sheng Wu.
+\newblock Are you sure? {C}hallenging {LLMs} leads to performance drops in the
+  {FlipFlop} experiment.
+\newblock \emph{arXiv preprint arXiv:2311.08596}, 2023.
+\newblock URL \url{https://arxiv.org/abs/2311.08596}.
+
+\bibitem[Lewis et~al.(2020)Lewis, Perez, Piktus, Petroni, Karpukhin, Goyal,
+  K{\"u}ttler, Lewis, Yih, Rockt{\"a}schel, Riedel, and Kiela]{lewis2020}
+Patrick Lewis, Ethan Perez, Aleksandra Piktus, Fabio Petroni, Vladimir
+  Karpukhin, Naman Goyal, Heinrich K{\"u}ttler, Mike Lewis, Wen-tau Yih, Tim
+  Rockt{\"a}schel, Sebastian Riedel, and Douwe Kiela.
+\newblock Retrieval-augmented generation for knowledge-intensive {NLP} tasks.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~33, pp.\  9459--9474. Curran Associates, Inc., 2020.
+\newblock URL
+  \url{https://proceedings.neurips.cc/paper_files/paper/2020/hash/6b493230205f780e1bc26945df7481e5-Abstract.html}.
+
+\bibitem[Li et~al.(2026)Li, Li, Chu, and Fang]{li2026}
+Shuowei Li, Haoxin Li, Wenda Chu, and Yi~Fang.
+\newblock How large language models balance internal knowledge with user and
+  document assertions.
+\newblock In \emph{Findings of the Association for Computational Linguistics:
+  ACL 2026}, pp.\  25323--25346. Association for Computational Linguistics,
+  2026.
+\newblock \doi{10.18653/v1/2026.findings-acl.1267}.
+
+\bibitem[L{\`u}(2024)]{lu2024bm25s}
+Xing~Han L{\`u}.
+\newblock {BM25S}: Orders of magnitude faster lexical search via eager sparse
+  scoring.
+\newblock \emph{arXiv preprint arXiv:2407.03618}, 2024.
+\newblock URL \url{https://arxiv.org/abs/2407.03618}.
+
+\bibitem[McNemar(1947)]{mcnemar1947}
+Quinn McNemar.
+\newblock Note on the sampling error of the difference between correlated
+  proportions or percentages.
+\newblock \emph{Psychometrika}, 12\penalty0 (2):\penalty0 153--157, 1947.
+\newblock \doi{10.1007/BF02295996}.
+
+\bibitem[Perez et~al.(2023)Perez, Ringer, Luko{\v{s}}i{\=u}t{\.e}, Nguyen,
+  Chen, Heiner, Pettit, Olsson, et~al.]{perez2023}
+Ethan Perez, Sam Ringer, Kamil{\.e} Luko{\v{s}}i{\=u}t{\.e}, Karina Nguyen,
+  Edwin Chen, Scott Heiner, Craig Pettit, Catherine Olsson, et~al.
+\newblock Discovering language model behaviors with model-written evaluations.
+\newblock In \emph{Findings of the Association for Computational Linguistics:
+  ACL 2023}, pp.\  13387--13434. Association for Computational Linguistics,
+  2023.
+\newblock \doi{10.18653/v1/2023.findings-acl.847}.
+
+\bibitem[{Qwen Team}(2024)]{qwen2025}
+{Qwen Team}.
+\newblock {Qwen2.5} technical report.
+\newblock \emph{arXiv preprint arXiv:2412.15115}, 2024.
+\newblock URL \url{https://arxiv.org/abs/2412.15115}.
+
+\bibitem[Ranaldi \& Pucci(2026)Ranaldi and Pucci]{ranaldi2026}
+Leonardo Ranaldi and Giulia Pucci.
+\newblock Learning multilingual agentic policy to control sycophancy.
+\newblock In \emph{Proceedings of the 19th Conference of the European Chapter
+  of the Association for Computational Linguistics (Volume 1: Long Papers)},
+  pp.\  3664--3681. Association for Computational Linguistics, 2026.
+\newblock \doi{10.18653/v1/2026.eacl-long.169}.
+
+\bibitem[Robertson \& Zaragoza(2009)Robertson and Zaragoza]{robertson2009}
+Stephen Robertson and Hugo Zaragoza.
+\newblock The probabilistic relevance framework: {BM25} and beyond.
+\newblock \emph{Foundations and Trends in Information Retrieval}, 3\penalty0
+  (4):\penalty0 333--389, 2009.
+\newblock \doi{10.1561/1500000019}.
+
+\bibitem[Sathyanathan et~al.(2026)Sathyanathan, Vasisht, and
+  Pruthi]{sathyanathan2026}
+Rose Sathyanathan, Kinshuk Vasisht, and Danish Pruthi.
+\newblock Evaluating reasoning models for queries with presuppositions.
+\newblock In \emph{Findings of the Association for Computational Linguistics:
+  ACL 2026}, pp.\  23991--24006. Association for Computational Linguistics,
+  2026.
+\newblock \doi{10.18653/v1/2026.findings-acl.1201}.
+
+\bibitem[Schick et~al.(2023)Schick, Dwivedi-Yu, Dess{\`\i}, Raileanu, Lomeli,
+  Hambro, Zettlemoyer, Cancedda, and Scialom]{schick2023}
+Timo Schick, Jane Dwivedi-Yu, Roberto Dess{\`\i}, Roberta Raileanu, Maria
+  Lomeli, Eric Hambro, Luke Zettlemoyer, Nicola Cancedda, and Thomas Scialom.
+\newblock Toolformer: Language models can teach themselves to use tools.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~36, pp.\  68539--68551. Curran Associates, Inc., 2023.
+\newblock \doi{10.52202/075280-2997}.
+
+\bibitem[Sharma et~al.(2024)Sharma, Tong, Korbak, Duvenaud, Askell, Bowman,
+  Durmus, Hatfield-Dodds, Johnston, Kravec, Maxwell, McCandlish, Ndousse,
+  Rausch, Schiefer, Yan, Zhang, and Perez]{sharma2024}
+Mrinank Sharma, Meg Tong, Tomasz Korbak, David Duvenaud, Amanda Askell,
+  Samuel~R. Bowman, Esin Durmus, Zac Hatfield-Dodds, Scott~R. Johnston,
+  Shauna~M. Kravec, Timothy Maxwell, Sam McCandlish, Kamal Ndousse, Oliver
+  Rausch, Nicholas Schiefer, Da~Yan, Miranda Zhang, and Ethan Perez.
+\newblock Towards understanding sycophancy in language models.
+\newblock In \emph{The Twelfth International Conference on Learning
+  Representations}, 2024.
+\newblock URL \url{https://openreview.net/forum?id=tvhaxkMKAn}.
+
+\bibitem[Wei et~al.(2023)Wei, Huang, Lu, Zhou, and Le]{wei2023}
+Jerry Wei, Da~Huang, Yifeng Lu, Denny Zhou, and Quoc~V. Le.
+\newblock Simple synthetic data reduces sycophancy in large language models.
+\newblock \emph{arXiv preprint arXiv:2308.03958}, 2023.
+\newblock URL \url{https://arxiv.org/abs/2308.03958}.
+
+\bibitem[Wolf et~al.(2020)Wolf, Debut, Sanh, Chaumond, Delangue, Moi, Cistac,
+  Rault, Louf, Funtowicz, Davison, Shleifer, von Platen, Ma, Jernite, Plu, Xu,
+  Le~Scao, Gugger, Drame, Lhoest, and Rush]{wolf2020}
+Thomas Wolf, Lysandre Debut, Victor Sanh, Julien Chaumond, Cl{\'e}ment
+  Delangue, Anthony Moi, Pierric Cistac, Tim Rault, R{\'e}mi Louf, Morgan
+  Funtowicz, Joe Davison, Sam Shleifer, Patrick von Platen, Clara Ma, Yacine
+  Jernite, Julien Plu, Canwen Xu, Teven Le~Scao, Sylvain Gugger, Mariama Drame,
+  Quentin Lhoest, and Alexander~M. Rush.
+\newblock Transformers: State-of-the-art natural language processing.
+\newblock In \emph{Proceedings of the 2020 Conference on Empirical Methods in
+  Natural Language Processing: System Demonstrations}, pp.\  38--45.
+  Association for Computational Linguistics, 2020.
+\newblock \doi{10.18653/v1/2020.emnlp-demos.6}.
+
+\bibitem[Wu et~al.(2024)Wu, Wu, and Zou]{wu2024clasheval}
+Kevin Wu, Eric Wu, and James Zou.
+\newblock {ClashEval}: Quantifying the tug-of-war between an {LLM}'s internal
+  prior and external evidence.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~37, pp.\  33402--33422. Curran Associates, Inc., 2024.
+\newblock \doi{10.52202/079017-1053}.
+\newblock Datasets and Benchmarks Track.
+
+\bibitem[Xie et~al.(2024)Xie, Zhang, Chen, Lou, and Su]{xie2024}
+Jian Xie, Kai Zhang, Jiangjie Chen, Renze Lou, and Yu~Su.
+\newblock Adaptive chameleon or stubborn sloth: Revealing the behavior of large
+  language models in knowledge conflicts.
+\newblock In \emph{The Twelfth International Conference on Learning
+  Representations}, 2024.
+\newblock URL \url{https://openreview.net/forum?id=auKAUJZMO6}.
+
+\bibitem[Xiong et~al.(2024)Xiong, Jin, Lu, and Zhang]{xiong2024}
+Guangzhi Xiong, Qiao Jin, Zhiyong Lu, and Aidong Zhang.
+\newblock Benchmarking retrieval-augmented generation for medicine.
+\newblock In \emph{Findings of the Association for Computational Linguistics:
+  ACL 2024}, pp.\  6233--6251. Association for Computational Linguistics, 2024.
+\newblock \doi{10.18653/v1/2024.findings-acl.372}.
+
+\bibitem[Yao et~al.(2023)Yao, Zhao, Yu, Du, Shafran, Narasimhan, and
+  Cao]{yao2023}
+Shunyu Yao, Jeffrey Zhao, Dian Yu, Nan Du, Izhak Shafran, Karthik Narasimhan,
+  and Yuan Cao.
+\newblock {ReAct}: Synergizing reasoning and acting in language models.
+\newblock In \emph{The Eleventh International Conference on Learning
+  Representations}, 2023.
+\newblock URL \url{https://openreview.net/forum?id=WE_vluYUL-X}.
+
+\end{thebibliography}

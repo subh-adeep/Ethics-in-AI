@@ -1,0 +1,11 @@
+{
+  "at": "2026-11-10T16:42:21.006080+00:00",
+  "host": "AWS-EC2-g4dn.xlarge-T4",
+  "physical_gpu": 0,
+  "cuda_visible_devices": "0",
+  "gpu": "Tesla T4",
+  "model": "phi4",
+  "questions": 146,
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "torch": "2.11.0+cu128"
+}

@@ -1,0 +1,13 @@
+{
+  "at": "2026-11-09T20:45:27.403961+00:00",
+  "kernel": "subhadeepsing/textbook-evidence-full-20261110",
+  "mode": "full",
+  "machine_shape": "NvidiaTeslaT4",
+  "requested_gpus": 2,
+  "response": {
+    "ref": "/code/subhadeepsing/textbook-evidence-full-20261110",
+    "url": "https://www.kaggle.com/code/subhadeepsing/textbook-evidence-full-20261110",
+    "versionNumber": 1,
+    "kernelId": 144073102
+  }
+}

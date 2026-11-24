@@ -1,0 +1,17 @@
+{
+  "at": "2026-11-10T05:26:04.189029+00:00",
+  "kernel": "subhadeepsing/textbook-tool-smoke-20261110",
+  "mode": "smoke",
+  "models": [
+    "qwen",
+    "llama"
+  ],
+  "source_sha256": "57744519caf0dbbc779bef67f2d868e47d28c818d7f17c2cd1caab1123a40b7e",
+  "bytes": 236260,
+  "response": {
+    "ref": "/code/subhadeepsing/textbook-tool-smoke-20261110",
+    "url": "https://www.kaggle.com/code/subhadeepsing/textbook-tool-smoke-20261110",
+    "versionNumber": 1,
+    "kernelId": 144138101
+  }
+}

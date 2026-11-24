@@ -1,0 +1,4 @@
+﻿model,turns,used_python,used_python_pct,ran_clean,ran_clean_pct_of_used,R_pct,S_pct,O_pct,U_pct,clean_R_pct,clean_S_pct,crashed,crashed_R_pct,crashed_S_pct
+Qwen,428,233,54.4,213,91.4,61.0,35.5,1.6,1.9,76.1,22.1,20,30.0,70.0
+LLaMA,420,346,82.4,320,92.5,71.2,15.2,6.7,6.9,84.1,8.8,26,15.4,76.9
+Phi-4,416,416,100.0,380,91.3,80.0,13.5,6.5,0.0,81.1,11.8,36,69.4,30.6

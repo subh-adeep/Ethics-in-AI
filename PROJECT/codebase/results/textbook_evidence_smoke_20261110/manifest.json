@@ -1,0 +1,27 @@
+{
+  "at": "2026-11-09T20:28:58.213955+00:00",
+  "mode": "smoke",
+  "limit": 10,
+  "corpus_limit": 0,
+  "questions": 10,
+  "item_ids": [
+    "medqa_0287",
+    "medqa_0322",
+    "medqa_0403",
+    "medqa_0568",
+    "medqa_0614",
+    "medqa_0693",
+    "medqa_0863",
+    "medqa_1161",
+    "medqa_1293",
+    "medqa_1356"
+  ],
+  "module_sha256": "0518a16e747db8284bac145d81b42b5cbdadc6f74d80cf79e123035e8bb42411",
+  "items_sha256": "d4fc7c889c0a46341d4be84d9978459811f1954a3d300dafacfab7dab336e4a9",
+  "pins": [
+    "transformers==5.17.0",
+    "accelerate==1.15.0",
+    "bitsandbytes==0.50.2",
+    "bm25s==0.3.16"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "at": "2026-11-09T20:22:56.706634+00:00",
+  "mode": "setup",
+  "limit": 2,
+  "corpus_limit": 5000,
+  "questions": 2,
+  "item_ids": [
+    "medqa_0287",
+    "medqa_0322"
+  ],
+  "module_sha256": "10a0fa7b23db992db78a4d149a3eeca06de20f635c1401d55c13db902b974f15",
+  "items_sha256": "d4fc7c889c0a46341d4be84d9978459811f1954a3d300dafacfab7dab336e4a9",
+  "pins": [
+    "transformers==5.17.0",
+    "accelerate==1.15.0",
+    "bitsandbytes==0.50.2",
+    "bm25s==0.3.16"
+  ]
+}

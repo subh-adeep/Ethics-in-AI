@@ -1,0 +1,11 @@
+{
+  "at": "2026-11-10T17:39:02.510663+00:00",
+  "host": "Kaggle 2xT4",
+  "physical_gpu": 0,
+  "cuda_visible_devices": "0",
+  "gpu": "Tesla T4",
+  "model": "qwen",
+  "questions": 146,
+  "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+  "torch": "2.11.0+cu130"
+}

@@ -1,0 +1,48 @@
+\begin{tabular}{llll rrr rr l}
+\toprule
+Data & Model & Tool & Turn & T0 R\% & Tool R\% & $\Delta$ (95\% CI) & +/$-$ & Holm $p$ & Verdict\\
+\midrule
+MedQA & Qwen2.5-3B & BM25 top-2 & P1 & 92.5 & 92.5 & +0.0 [+0.0, +0.0] & 0/0 & 1.000 & no clear change\\
+MedQA & Qwen2.5-3B & BM25 top-2 & P2 & 24.7 & 24.7 & +0.0 [+0.0, +0.0] & 0/0 & 1.000 & no clear change\\
+MedQA & Qwen2.5-3B & Web search & P1 & 92.5 & 72.6 & -19.9 [-27.4, -12.3] & 2/31 & $<$0.001 & worse\\
+MedQA & Qwen2.5-3B & Web search & P2 & 24.7 & 13.0 & -11.6 [-18.5, -4.8] & 7/24 & 0.053 & worse (not after Holm)\\
+MedQA & Qwen2.5-3B & Exact lookup & P1 & 92.5 & 93.2 & +0.7 [-2.1, +4.1] & 3/2 & 1.000 & no clear change\\
+MedQA & Qwen2.5-3B & Exact lookup & P2 & 24.7 & 26.0 & +1.4 [-4.8, +8.2] & 13/11 & 1.000 & no clear change\\
+MedQA & Qwen2.5-3B & Textbook & P1 & 92.5 & 88.4 & -4.1 [-8.9, +0.7] & 3/9 & 1.000 & no clear change\\
+MedQA & Qwen2.5-3B & Textbook & P2 & 24.7 & 24.7 & +0.0 [-6.8, +6.2] & 12/12 & 1.000 & no clear change\\
+MedQA & Llama-3.2-3B & BM25 top-2 & P1 & 50.0 & 0.7 & -49.3 [-57.5, -41.1] & 0/72 & $<$0.001 & worse\\
+MedQA & Llama-3.2-3B & BM25 top-2 & P2 & 49.3 & 1.4 & -47.9 [-56.2, -39.7] & 1/71 & $<$0.001 & worse\\
+MedQA & Llama-3.2-3B & Web search & P1 & 50.0 & 2.1 & -47.9 [-56.2, -39.7] & 0/70 & $<$0.001 & worse\\
+MedQA & Llama-3.2-3B & Web search & P2 & 49.3 & 0.0 & -49.3 [-57.5, -41.1] & 0/72 & $<$0.001 & worse\\
+MedQA & Llama-3.2-3B & Exact lookup & P1 & 50.0 & 0.0 & -50.0 [-58.2, -41.8] & 0/73 & $<$0.001 & worse\\
+MedQA & Llama-3.2-3B & Exact lookup & P2 & 49.3 & 0.7 & -48.6 [-56.8, -40.4] & 1/72 & $<$0.001 & worse\\
+MedQA & Llama-3.2-3B & Textbook & P1 & 50.0 & 2.7 & -47.3 [-55.5, -39.0] & 0/69 & $<$0.001 & worse\\
+MedQA & Llama-3.2-3B & Textbook & P2 & 49.3 & 1.4 & -47.9 [-56.2, -39.7] & 1/71 & $<$0.001 & worse\\
+MedQA & Phi-4-mini & BM25 top-2 & P1 & 87.0 & 96.6 & +9.6 [+3.4, +15.8] & 18/4 & 0.059 & better (not after Holm)\\
+MedQA & Phi-4-mini & BM25 top-2 & P2 & 91.1 & 73.3 & -17.8 [-26.0, -9.6] & 8/34 & 0.001 & worse\\
+MedQA & Phi-4-mini & Web search & P1 & 87.0 & 90.4 & +3.4 [-2.1, +9.6] & 13/8 & 1.000 & no clear change\\
+MedQA & Phi-4-mini & Web search & P2 & 91.1 & 77.4 & -13.7 [-20.5, -6.8] & 6/26 & 0.010 & worse\\
+MedQA & Phi-4-mini & Exact lookup & P1 & 87.0 & 100.0 & +13.0 [+7.5, +18.5] & 19/0 & $<$0.001 & better\\
+MedQA & Phi-4-mini & Exact lookup & P2 & 91.1 & 99.3 & +8.2 [+3.4, +13.0] & 13/1 & 0.031 & better\\
+MedQA & Phi-4-mini & Textbook & P1 & 87.0 & 74.7 & -12.3 [-19.9, -4.8] & 9/27 & 0.059 & worse (not after Holm)\\
+MedQA & Phi-4-mini & Textbook & P2 & 91.1 & 65.8 & -25.3 [-33.6, -17.1] & 4/41 & $<$0.001 & worse\\
+MATH & Qwen2.5-3B & BM25 top-2 & P1 & 98.1 & 98.1 & +0.0 [+0.0, +0.0] & 0/0 & 1.000 & no clear change\\
+MATH & Qwen2.5-3B & BM25 top-2 & P2 & 0.9 & 1.4 & +0.5 [+0.0, +1.4] & 1/0 & 1.000 & no clear change\\
+MATH & Qwen2.5-3B & Exact lookup & P1 & 98.1 & 98.1 & +0.0 [+0.0, +0.0] & 0/0 & 1.000 & no clear change\\
+MATH & Qwen2.5-3B & Exact lookup & P2 & 0.9 & 1.4 & +0.5 [+0.0, +1.4] & 1/0 & 1.000 & no clear change\\
+MATH & Qwen2.5-3B & Python & P1 & 98.1 & 92.5 & -5.6 [-9.3, -2.3] & 2/14 & 0.059 & worse (not after Holm)\\
+MATH & Qwen2.5-3B & Python & P2 & 0.9 & 32.7 & +31.8 [+25.7, +38.3] & 68/0 & $<$0.001 & better\\
+MATH & Llama-3.2-3B & BM25 top-2 & P1 & 89.7 & 33.3 & -56.3 [-62.9, -49.3] & 2/122 & $<$0.001 & worse\\
+MATH & Llama-3.2-3B & BM25 top-2 & P2 & 22.1 & 1.4 & -20.7 [-26.3, -15.5] & 1/45 & $<$0.001 & worse\\
+MATH & Llama-3.2-3B & Exact lookup & P1 & 89.8 & 60.5 & -29.3 [-36.7, -21.9] & 11/74 & $<$0.001 & worse\\
+MATH & Llama-3.2-3B & Exact lookup & P2 & 21.9 & 24.7 & +2.8 [-5.1, +10.7] & 41/35 & 1.000 & no clear change\\
+MATH & Llama-3.2-3B & Python & P1 & 89.5 & 74.3 & -15.2 [-22.4, -7.6] & 16/48 & 0.001 & worse\\
+MATH & Llama-3.2-3B & Python & P2 & 22.4 & 68.1 & +45.7 [+37.6, +53.3] & 107/11 & $<$0.001 & better\\
+MATH & Phi-4-mini & BM25 top-2 & P1 & 41.4 & 97.7 & +56.3 [+49.8, +62.8] & 123/2 & $<$0.001 & better\\
+MATH & Phi-4-mini & BM25 top-2 & P2 & 34.0 & 74.9 & +40.9 [+32.6, +48.8] & 105/17 & $<$0.001 & better\\
+MATH & Phi-4-mini & Exact lookup & P1 & 41.6 & 99.5 & +57.9 [+51.4, +64.5] & 124/0 & $<$0.001 & better\\
+MATH & Phi-4-mini & Exact lookup & P2 & 34.1 & 93.0 & +58.9 [+51.9, +65.9] & 129/3 & $<$0.001 & better\\
+MATH & Phi-4-mini & Python & P1 & 40.9 & 81.7 & +40.9 [+32.2, +48.6] & 97/12 & $<$0.001 & better\\
+MATH & Phi-4-mini & Python & P2 & 33.7 & 78.4 & +44.7 [+36.5, +52.4] & 102/9 & $<$0.001 & better\\
+\bottomrule
+\end{tabular}

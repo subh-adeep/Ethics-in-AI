@@ -1,0 +1,91 @@
+{
+  "at": "2026-11-09T20:23:59.895873+00:00",
+  "raw": 125847,
+  "kept": 5000,
+  "removed": {
+    "short": 1733,
+    "reference_list": 2098,
+    "low_letter": 272,
+    "duplicate": 34
+  },
+  "per_book": {
+    "Anatomy_Gray": {
+      "raw": 3017,
+      "kept": 3016
+    },
+    "Biochemistry_Lippincott": {
+      "raw": 1973,
+      "kept": 1924
+    },
+    "Cell_Biology_Alberts": {
+      "raw": 7070,
+      "kept": 6989
+    },
+    "First_Aid_Step1": {
+      "raw": 850,
+      "kept": 850
+    },
+    "First_Aid_Step2": {
+      "raw": 1369,
+      "kept": 1356
+    },
+    "Gynecology_Novak": {
+      "raw": 7947,
+      "kept": 6806
+    },
+    "Histology_Ross": {
+      "raw": 4411,
+      "kept": 4340
+    },
+    "Immunology_Janeway": {
+      "raw": 4852,
+      "kept": 4699
+    },
+    "InternalMed_Harrison": {
+      "raw": 32628,
+      "kept": 32382
+    },
+    "Neurology_Adams": {
+      "raw": 12370,
+      "kept": 12255
+    },
+    "Obstentrics_Williams": {
+      "raw": 9166,
+      "kept": 9077
+    },
+    "Pathology_Robbins": {
+      "raw": 5297,
+      "kept": 4712
+    },
+    "Pathoma_Husain": {
+      "raw": 505,
+      "kept": 505
+    },
+    "Pediatrics_Nelson": {
+      "raw": 4260,
+      "kept": 4216
+    },
+    "Pharmacology_Katzung": {
+      "raw": 7356,
+      "kept": 7297
+    },
+    "Physiology_Levy": {
+      "raw": 4370,
+      "kept": 4008
+    },
+    "Psichiatry_DSM-5": {
+      "raw": 4057,
+      "kept": 3956
+    },
+    "Surgery_Schwartz": {
+      "raw": 14349,
+      "kept": 13322
+    }
+  },
+  "corpus_limit": 5000,
+  "rules": {
+    "min_words": 20,
+    "min_letter_ratio": 0.6,
+    "max_et_al": 3
+  }
+}

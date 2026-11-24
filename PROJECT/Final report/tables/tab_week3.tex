@@ -1,0 +1,15 @@
+\begin{tabular}{ll r rr rr r}
+\toprule
+& & P0 & \multicolumn{2}{c}{P1} & \multicolumn{2}{c}{P2} & Flipped at\\
+\cmidrule(lr){4-5}\cmidrule(lr){6-7}
+Data & Model & correct\,\% & R\,\% & S\,\% & R\,\% & S\,\% & P1 or P2\,\%\\
+\midrule
+MedQA (209) & Qwen2.5-3B & 98.1 & 49.8 & 32.5 & 4.3 & 76.1 & 79.9\\
+MedQA (209) & Llama-3.2-3B & 100.0 & 59.3 & 38.3 & 20.6 & 43.1 & 54.5\\
+MedQA (209) & Phi-4-mini & 84.2 & 5.7 & 49.3 & 13.4 & 52.1 & 71.3\\
+\midrule
+MATH (250) & Qwen2.5-3B & 94.4 & 65.2 & 15.6 & 1.6 & 93.2 & 94.0\\
+MATH (250) & Llama-3.2-3B & 73.2 & 72.4 & 22.4 & 23.2 & 40.0 & 54.8\\
+MATH (250) & Phi-4-mini & 99.6 & 74.8 & 22.0 & 30.0 & 63.6 & 63.6\\
+\bottomrule
+\end{tabular}

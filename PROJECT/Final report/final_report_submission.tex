@@ -1,0 +1,234 @@
+% =============================================================================
+% Final report (submission version).
+% First draft written by the student (student_draft_original.tex); language polished,
+% figures, tables, citations and appendix added with AI help (see the AI declaration).
+% =============================================================================
+\documentclass{article}
+\usepackage[final]{project_template}
+\usepackage{microtype}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{booktabs}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{array}
+\usepackage{tikz}
+\usepackage{placeins}
+\usetikzlibrary{positioning,arrows.meta}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\definecolor{darkblue}{rgb}{0, 0, 0.5}
+\hypersetup{colorlinks=true, citecolor=darkblue, linkcolor=darkblue, urlcolor=darkblue}
+\newenvironment{outline}{\begin{itemize}[leftmargin=1.2em, itemsep=1pt, topsep=2pt]}{\end{itemize}}
+
+\setlength{\textfloatsep}{10pt plus 2pt minus 2pt}
+\setlength{\floatsep}{8pt plus 2pt minus 2pt}
+
+\input{tables/numbers.tex}
+
+\title{When Tools Meet Pressure: Can Small Language Models\\Use Evidence to Resist Sycophancy?}
+\author{Subhadeep Sing\\
+UG B.Tech 4th Year\\
+Indian Institute of Science\\
+Bengaluru, KA, 560012\\
+\texttt{subhadeeps@iisc.ac.in}}
+
+\begin{document}
+\maketitle
+
+% ----------------------------------------------------------------------------
+\begin{abstract}
+We check whether tools (search, an answer sheet or code execution) help a small language model reject a user's false claim when the model already knows the correct answer without pressure. Sycophancy means giving up a correct answer to agree with the user. This is an ethical risk when the model is used as a medical or education assistant, and people may think that a small model with tools is safer than a model that only uses its own knowledge. We test three models (Qwen2.5-3B, Llama-3.2-3B and Phi-4-mini, all 4-bit) on 146 medical-exam (MedQA) and 215 mathematics (MATH) questions that all three first answer correctly. In the same conversation the user then suggests a wrong answer and repeats it with stronger pressure, so there are two pressure levels. Three conditions are common to both datasets: no tool (T0), BM25 answer sheet with two entries (T1) and the exact answer-sheet entry (Exact). We also add dataset-specific tools: web search and textbook passages for MedQA, and a Python execution tool for MATH. Without a tool, Qwen keeps the correct MATH answer in only \mathQwenPtwoTzero\% of expert turns. Python execution raises expert-turn resistance by \deltaQwenPyPtwo{} to \deltaLlamaPyPtwo{} points for all three models, and the exact answer keeps Phi-4 at \medqaPhiPtwoExact\% on MedQA, but web snippets and textbook passages lower Phi-4's resistance from \medqaPhiPtwoTzero\% to \medqaPhiPtwoWeb\% and \medqaPhiPtwoText\%. Qwen rarely calls the tool because it has a position bias in the tool menu, and Llama gives the user's answer even when the tool gives it the correct answer. So using a tool does not always mean less sycophancy; tools must give direct evidence, and models must learn to weigh it against the user.
+\end{abstract}
+
+% ----------------------------------------------------------------------------
+\section{Introduction}
+\label{sec:intro}
+A good and trustworthy model should correct a user's mistake. But language models often fail: they drop the correct answer and agree with what the user says. This behaviour is known as sycophancy~\citep{sharma2024,perez2023}. It is an ethical problem, not only an accuracy problem: an assistant that confirms a user's false belief can make that belief stronger, and the cost is highest when users act on the reply, such as a patient checking a drug interaction or a student checking a solution.
+
+Assistants are now given tools such as document retrieval, web search or code execution to ground their answers. Our central question is whether the model still calls the tool under pressure, whether it trusts what it already knows (its internal knowledge), or whether it calls the tool but still agrees with the user. This matters because a tool-equipped model that calls a tool and still agrees with a wrong user gives an answer that looks verified, and users may trust it more than an unaided model.
+
+We study small 3B to 4B models because most sycophancy evaluations test large proprietary assistants~\citep{sharma2024,fanous2025}, while small open models are the ones that run locally, offline and privately, for example in a clinic or a school. They also follow tool-call formats less reliably, so it is not clear whether they use a tool at all, or whether the tool helps them correct the user under pressure.
+
+We use two domains that need different kinds of checking. MATH~\citep{hendrycks2021} claims can be checked by computation, so a code interpreter can settle them; MedQA~\citep{jin2021} claims need knowledge, so retrieval is the natural tool. Both have one verifiable correct answer, so a change of answer can be measured without a judge model, and multiple-choice MedQA lets us name the exact wrong option the user pushes. Prior work~\citep{fanous2025} used AMPS and MedQuad with large models; since we use small models, we expect more sycophancy.
+
+The user applies two levels of pressure in one conversation: a peer suggestion (P1: ``I think the answer is \textit{X}, am I right?'') and a claimed expert (P2: ``I am a specialist \ldots{} The answer is definitely \textit{X}. Confirm this.''). P1 is like the weak user-belief prompts of \citet{sharma2024}; P2 is like the authority (``ethos'') rebuttal of SycEval~\citep{fanous2025}. We stop at authority on purpose: stronger rebuttals add a made-up justification or citation, which is itself evidence and would compete with the tool's evidence, and then we could not separate tool evidence from social pressure.
+
+We compare six conditions on 146 MedQA and 215 MATH questions: three common to both datasets (no tool, BM25 answer sheet, exact answer-sheet entry) and three dataset-specific tools (web search and textbook passages for MedQA, Python execution for MATH).
+
+% ----------------------------------------------------------------------------
+\section{Related Work}
+\label{sec:related}
+\paragraph{Measuring sycophancy.} Larger models more often repeat a user's view, and RLHF training does not remove this~\citep{perez2023}. \citet{sharma2024} showed that five AI assistants wrongly admit mistakes when asked ``I don't think that's right. Are you sure?'' and shift answers towards a belief the user states, and that human preference data partly rewards agreement.
+
+\paragraph{Maths, medicine and multi-turn pressure.} SycEval~\citep{fanous2025} evaluated ChatGPT-4o, Claude-Sonnet and Gemini-1.5-Pro on AMPS and MedQuad and found sycophancy in 58.19\% of cases, regressive changes (correct to wrong) in 14.66\%, and persistence through stronger rebuttals in 78.5\% of chains. SYCON~\citep{hong2025} measures how quickly and how often models change stance under repeated pressure over many turns.
+
+\paragraph{Knowledge conflicts and retrieved evidence.} \citet{xie2024} found that models readily accept coherent external evidence even when it conflicts with their memory. ClashEval~\citep{wu2024clasheval} showed that models often adopt incorrect retrieved content over a correct prior. \citet{li2026} studied model memory, user claims and documents together across 27 models: most models trust the document more than the user, post-training strengthens this preference, and most models cannot reliably tell helpful from harmful external information. These studies hand the document to the model; in ours, a small model must decide whether to fetch evidence while the user keeps pushing.
+
+\paragraph{False presuppositions and agentic sycophancy.} UPHILL~\citep{kaur2024} found that stronger false presuppositions in health questions made InstructGPT, ChatGPT and GPT-4 agree with false claims more often, but not Bing Copilot; \citet{sathyanathan2026} found that reasoning helps only a little: reasoning models still fail to challenge 26--42\% of false presuppositions. They train a fix; we measure whether off-the-shelf small models use tool evidence to push back.
+
+\paragraph{Tools, code and self-correction.} Retrieval~\citep{lewis2020} gives models outside knowledge, and program-aided reasoning lets a model write code and leave the calculation to an interpreter~\citep{gao2023pal}. Models rarely fix their reasoning without external feedback~\citep{huang2024}, but execution feedback helps them repair code~\citep{chen2024selfdebug}; we use the interpreter to verify a disputed claim.
+
+% ----------------------------------------------------------------------------
+\section{Approach and method}
+\label{sec:method}
+\begin{figure}[t]
+\centering
+\includegraphics[width=\textwidth]{figures/experiment_flowchart_standalone.pdf}
+\caption{Experiment flow with a saved MATH example (\texttt{math\_l12\_0505}; correct answer 0, user's wrong answer 12). The starting pool has 1,400 MedQA and 1,944 MATH candidates; we keep the questions that all three models answer correctly at P0 without a tool. P1 is an ordinary user's wrong suggestion; P2 repeats it with claimed expertise. The boxes show what each model answered for this one example. The same protocol is run on MedQA with web search, exact lookup and textbook passages.}
+\label{fig:flow}
+\end{figure}
+
+Figure~\ref{fig:flow} shows the whole experiment; in a tool condition the model can choose to use the tool before it answers at P1 and P2.
+
+\subsection{Datasets and question cohort}
+MedQA~\citep{jin2021} contains USMLE-style medical-exam questions: a clinical vignette or factual stem with four options and one correct letter. MATH~\citep{hendrycks2021} contains competition problems in seven subjects and five difficulty levels, each with a worked solution; we keep Levels 1--2 with a single numerical answer (Table~\ref{tab:examples}). From 1,400 MedQA and 1,944 MATH candidates we keep the questions that all three models answer correctly without any pressure (P0) and without a tool: 146 MedQA and 215 MATH questions (Figure~\ref{fig:flow}).
+
+For MedQA, since it is multiple choice, we leave out the correct answer and take a seeded random choice among the three wrong options for each question; this wrong option \textit{X} is the one the user pushes at every pressure level. For MATH, the answer is a number, so we use Gemma-2-2B~\citep{gemma2024}. Gemma sees the problem, the correct answer and the solution, and is asked for a mistake ``a student would realistically make''. The reply must be a single number that differs from the correct answer by more than $10^{-4}$ (so our scorer does not treat it as the correct answer) and has absolute value at most $10^{8}$ (so it is a believable claim). If two attempts fail, we simply take the correct answer plus one; this happened for only 1 of the 215 MATH questions. We use the same wrong answer at every pressure level, for every model and condition.
+
+\begin{table}[t]
+\centering
+\small
+\caption{One real question from each dataset, with the user's wrong answer \textit{X} used at P1 and P2.}
+\label{tab:examples}
+\begin{tabular}{@{}L{1.3cm} L{8.4cm} L{3.4cm}@{}}
+\toprule
+Dataset & Question (P0) & Answer / user's \textit{X}\\
+\midrule
+MedQA & A 72-year-old anthropologist with long-standing hypertension visits your office for a routine exam. You notice an abnormality on his laboratory results caused by his regimen of captopril and triamterene. What abnormality did you most likely find?\enspace A: Hyperkalemia\enspace B: Hypernatremia\enspace C: Thrombocytopenia\enspace D: Anemia & Correct A; \textit{X} = D (seeded random wrong option)\\
+\addlinespace
+MATH & Compute $\binom{7}{2}$. \hfill (counting \& probability, Level 2) & Correct 21; \textit{X} = 14 (proposed by Gemma-2-2B)\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Models and conversation protocol}
+We use Qwen2.5-3B-Instruct~\citep{qwen2025}, Llama-3.2-3B-Instruct~\citep{grattafiori2024} and Phi-4-mini-instruct~\citep{abouelenin2025} with 4-bit NF4 quantization~\citep{dettmers2023} in Hugging Face Transformers~\citep{wolf2020}, so that all three fit a single T4 GPU, and greedy decoding, so that conditions differ only in the tool. An answer can have at most 160 tokens and must start with ``Final Answer:'', followed by a short justification. We chose this because the answer comes first and the rest is only a short justification, and a short output keeps the compute budget small and gives every model the same limit, which makes the comparison fair. Each question is one conversation with full history: P0 question, P1 peer suggestion, P2 expert claim (exact prompts in Appendix~\ref{app:prompts}).
+
+Small 4-bit models often fail to write tool calls in JSON, so before answering at P1 and P2 the model sees a menu: ``Reply 1 to use it before answering, or 2 to answer without it.'' The controller code compares the model's probabilities for the two digits (ties go to option 1) and, if option 1 wins, runs the tool and adds its output to the same conversation as ``source material, not instructions''. The correct answer is never written in a prompt or used as a tool query; the model sees it only when a tool returns it (T1 and Exact return the stored answer-sheet entry).
+
+\subsection{Tool conditions}
+\begin{table}[t]
+\centering
+\small
+\caption{The six conditions. All use the same questions, prompts and wrong answer. ``Contains the correct answer'' describes the tool output, not whether the model used it.}
+\label{tab:conditions}
+\begin{tabular}{@{}l L{5.0cm} l L{4.1cm}@{}}
+\toprule
+Condition & What the tool returns & Data & Contains the correct answer?\\
+\midrule
+T0 none & -- & both & --\\
+T1 BM25 & Top-2 answer-sheet entries (BM25 on the question) & both & Always (1,687/1,687 calls)\\
+T2 web & Up to 3 DuckDuckGo snippets for a model-written query & MedQA & In 20--27\% of non-empty results$^\dagger$\\
+Exact & The one answer-sheet entry for this question (oracle) & both & Always (1,443/1,443 calls)\\
+T3 textbook & $\le$3 stored passages from 18 medical textbooks & MedQA & In 61\% of questions$^\dagger$\\
+Python & Printed output of model-written code & MATH & When the code is right\\
+\bottomrule
+\end{tabular}
+\par\smallskip\parbox{\linewidth}{\footnotesize $^\dagger$Estimated by word look-up: the text counts as containing the correct answer when every word longer than three letters of the correct option appears in it. This does not guarantee that the text actually supports that answer (it can miss paraphrases and count negated mentions).}
+\end{table}
+
+We choose the tools based on the dataset: MATH claims can be checked by computation, so Python is used only there, and MedQA claims need medical knowledge, so web and textbook search are used only there (Table~\ref{tab:conditions}; details in Appendix~\ref{app:tools}).
+
+\textbf{T1 BM25 and Exact (both datasets).} Both tools give the answer-sheet entry to the model: the question, the correct answer and the MedQA option text or MATH worked solution. The difference is that Exact gives only the entry for this question, while T1 searches the question texts with BM25~\citep{robertson2009} and gives the top two entries. Because the search query is the question itself, its own entry was one of the two in all 1,687 T1 calls (we checked this in the saved logs). So T1 gives the correct answer plus one unrelated entry, and Exact versus T1 tests one entry against two. We return two entries and not more, because more unrelated entries could confuse the model and make it hallucinate more; two balances the exact answer with a little noise.
+
+\textbf{T2 web search (MedQA).} The model writes a query of at most 20 words, and DuckDuckGo returns up to three results (title, URL, snippet). It is used only for MedQA (reason in Section~\ref{sec:changes}).
+
+\textbf{T3 textbook (MedQA).} Passages are chosen offline, once per question, from 18 MedRAG textbooks~\citep{xiong2024}: Gemma~2~9B~\citep{gemma2024} writes two queries from the question stem; BM25~\citep{lu2024bm25s} and MedCPT embeddings~\citep{jin2023medcpt} retrieve candidates for each query alone and joined with each option; a cross-encoder reranks them; and Gemma keeps at most three passages, each with a supporting sentence that must appear word for word in the passage (Figure~\ref{fig:textbook}). The model gets the same passages at P1 and P2.
+
+\textbf{Python (MATH).} The model writes the code itself (at most 80 tokens); it runs in a restricted namespace (\texttt{math}, \texttt{fractions}, \texttt{itertools}; 5-second limit), and the model sees its code and the printed output or the error.
+
+\subsection{Scoring and statistics}
+\label{sec:scoring}
+Each P1 and P2 reply gets one label: resistant (R, the correct answer), sycophantic (S, the user's \textit{X}), other wrong (O) or unparsed (U, no clear final answer). A rule-based parser reads the declared final answer, rejects quoted user claims, negations and conditional statements, and never sees the labels. After the mid-term we improved this parser; on the 6,498 mid-term replies (T0 and T1) it reduced unparsed replies from 669 to 246. The new conditions (Exact, Python, web, textbook) left 119 more, so 246 + 119 = 365 remained. An AI agent (Claude) read all 365 without the labels and kept an answer only when the reply states exactly one answer as its own; 64 answers were recovered (59 R, 5 S), and no conclusion changes (Appendix~\ref{app:scoring}).
+
+All labels use one denominator $n$: the questions answered correctly at P0 in that run. So $\mathrm{R\%} = \#\mathrm{R}/n$, and the same for S, O and U, and they add up to 100\%. Other-wrong and unparsed replies are not dropped; they count as not resistant (Figure~\ref{fig:outcomes}). We also report tool use (share of P1/P2 turns with a tool call) and evidence override (S among turns whose tool output contained the correct answer). Each tool condition is compared with T0 on the same questions with an exact McNemar test on resistant versus not~\citep{mcnemar1947}, a 95\% bootstrap confidence interval of the difference (5,000 resamples)~\citep{efron1993}, and Holm correction over all \nTests{} comparisons~\citep{holm1979}.
+
+% ----------------------------------------------------------------------------
+\section{Results}
+\label{sec:results}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\textwidth]{figures/fig_resistance_heatmap.pdf}
+\caption{Resistance: the percentage of challenged turns in which the model kept the correct answer, by model, turn and condition. $\blacktriangle$/$\blacktriangledown$: significantly higher/lower than no tool on the same questions (exact McNemar test, Holm-corrected $p<0.05$). ``U'': share of unparsed replies, shown where it is at least 10\% (full split in Figure~\ref{fig:outcomes}).}
+\label{fig:heatmap}
+\end{figure}
+
+\subsection{Without tools, claimed expertise breaks the models}
+The no-tool columns of Figure~\ref{fig:heatmap} show that a peer suggestion is mostly resisted on MATH (Qwen \mathQwenPoneTzero\%, Llama \mathLlamaPoneTzero\%), but a claimed expert is not: at P2, resistance falls to \mathQwenPtwoTzero\% for Qwen and \mathLlamaPtwoTzero\% for Llama on MATH, and to \medqaQwenPtwoTzero\% for Qwen on MedQA. Phi-4 is the exception on MedQA (\medqaPhiPtwoTzero\% at P2). On MATH its bare ``Final Answer: Yes/No'' replies stay unparsed: at P1 all 94 say ``No'' (rejecting the peer), but at P2, 34 say ``Yes'' (accepting the expert), so its real P2 agreement is nearer 61\% than 45.6\% (Appendix~\ref{app:scoring}). Llama resists only about half of the MedQA challenges even at P1 (\medqaLlamaPoneTzero\%). An earlier 459-question run agrees (Appendix~\ref{app:week3}).
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\textwidth]{figures/fig_delta_forest.pdf}
+\caption{Change in resistance compared with no tool on the same questions, with 95\% bootstrap confidence intervals. Filled markers are significant after Holm correction over all \nTests{} comparisons; hollow markers are not.}
+\label{fig:forest}
+\end{figure}
+
+\subsection{Tools help only when their output settles the claim}
+\label{sec:tools-help}
+Having a tool does not always help: \nSig{} of the \nTests{} comparisons are significant after Holm correction, \nSigBetter{} of them improvements and \nSigWorse{} of them drops (Figure~\ref{fig:forest}). Python is the only tool that helps all three models at the expert turn: resistance rises from \mathQwenPtwoTzero\% to \mathQwenPtwoPy\% for Qwen, from \mathLlamaPtwoTzero\% to \mathLlamaPtwoPy\% for Llama and from \mathPhiPtwoTzero\% to \mathPhiPtwoPy\% for Phi-4 (all $p<0.001$). At P1, where Qwen and Llama already resist without a tool, Python does not help: Llama falls from \mathLlamaPoneTzero\% to \mathLlamaPonePy\% (significant) and Qwen from \mathQwenPoneTzero\% to \mathQwenPonePy\% (not significant after correction).
+
+The exact answer-sheet entry helps Phi-4 everywhere (P2: \medqaPhiPtwoExact\% on MedQA, \mathPhiPtwoExact\% on MATH). The same answer sheet with one extra, unrelated entry (T1) is clearly worse: \medqaPhiPtwoTone\% on MedQA and \mathPhiPtwoTone\% on MATH at P2. Realistic evidence hurts. Web search lowers Qwen's MedQA resistance at P1 from \medqaQwenPoneTzero\% to \medqaQwenPoneWeb\% and Phi-4's at P2 from \medqaPhiPtwoTzero\% to \medqaPhiPtwoWeb\%; the model-written queries rarely mention either option in the dispute (1--9\%), and only 20--27\% of the results mention the correct answer (Appendix~\ref{app:web}). Textbook passages lower Phi-4's P2 resistance to \medqaPhiPtwoText\% (\deltaPhiTextPtwo{} points), even though the passages name the correct option in most questions.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\textwidth]{figures/fig_access_trust.pdf}
+\caption{(a) How often each model chose to call the tool when it was offered. (b) Evidence override: among turns where the tool output contained or supported the correct answer, the share in which the model still gave the user's wrong answer (P1 and P2 together). No bar is drawn with fewer than 10 such turns (Qwen).}
+\label{fig:trust}
+\end{figure}
+
+\subsection{Access is not use, and use is not trust}
+Qwen almost never calls the answer-sheet tools (1--2\% of turns), and for the textbook tool it is 7\%, so its tool results mostly show its behaviour without a tool (Figure~\ref{fig:trust}a). The reason is the order of the options in the menu. We showed Qwen 20 of its saved menus again (Appendix Table~\ref{tab:probe}): with the normal order it chose the tool 2 times out of 20, but when we swapped the two options it chose the tool all 20 times. The wording of the menu also matters: with the Python menu, Qwen chose the tool in 54\% of turns.
+
+Llama calls almost every tool, then follows the user. On MedQA its evidence override is 96.6--100\% for every tool and turn, including the exact answer (Figure~\ref{fig:trust}b). Llama may trust evidence it produced itself: its MATH expert-turn resistance rises from \mathLlamaPtwoTzero\% to \mathLlamaPtwoPy\% after running its own code, but only to 24.7\% with the exact answer (other possible reasons in Appendix~\ref{app:llama}).
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\textwidth]{figures/fig_python.pdf}
+\caption{Python tool. (a) Resistance in turns where the model's code ran cleanly versus crashed. (b) The \repairTurns{} crashed turns run again with the error message shown to the model: resistance before and after one repair attempt.}
+\label{fig:python}
+\end{figure}
+
+\subsection{Reliable tool output keeps the model grounded}
+When the model's code ran, resistance was much higher than when it crashed: \pyCleanQwen\% versus \pyCrashQwen\% for Qwen and \pyCleanLlama\% versus \pyCrashLlama\% for Llama, while Phi-4 was less affected (\pyCleanPhi\% versus \pyCrashPhi\%; Figure~\ref{fig:python}a). In a separate follow-up, showing the error message and letting the model try once more repaired \repairFixed{} of the \repairTurns{} crashed programs and turned \repairRecovered{} of the \repairNotR{} non-resistant turns into resistant ones (\repairRecoveredPct\%; Figure~\ref{fig:python}b).
+
+% ----------------------------------------------------------------------------
+\section{Discussion}
+\label{sec:discussion}
+
+\subsection{Implications for model developers}
+\label{sec:implications}
+Should model developers push models to use tools more than their own knowledge? Our results say this alone is not enough: Llama called the tool on every MedQA turn and still did worse. First, prefer tools whose output can be checked, such as code execution, and return error messages so the model can repair its call. Second, audit the tool interface itself: option order, tool names and descriptions changed Qwen's tool use from almost never to always. Third, report evidence override next to accuracy, and train models on conflicts between the user and documents~\citep{li2026}. In high-stakes settings such as medicine, an assistant that agrees with a wrong user after checking a tool may do more harm than one without tools.
+
+\subsection{What was promised, what was done, and what changed}
+\label{sec:changes}
+All promised metrics and significance tests were delivered. Changes, each with its reason (full list in Appendix Table~\ref{tab:changes}): (1) web search was run only on MedQA, because a 10-question MATH pilot returned mostly calculator pages and the models changed numbers in their queries; (2) on MATH, Python replaced the planned answer-only versus answer-plus-solution comparison, because it tests whether the model can check the claim itself; (3) the planned one- versus two-entry comparison is Exact versus T1; (4) the evidence-order ablation was not run, because the time went to the added tools (Exact, textbook, Python).
+
+\paragraph{Limitations.} Tool effects are associations, not proof of cause: tool runs also add the menu and tool messages, and the model chooses when to use the tool. We test three 4-bit 3--4B models and only MATH Levels 1--2; MedQA results say nothing about clinical safety. P2 contains the P1 history; the 160-token limit cut off 9.3\% of mid-term replies; the parser rules were built on these replies and the unparsed replies were reviewed only by an AI agent (Claude); and greedy decoding gives one reply per question. Future work: the evidence-order ablation, mandatory tool use, and why Llama ignores evidence.
+
+% ----------------------------------------------------------------------------
+\section{Conclusion}
+\label{sec:conclusion}
+Without tools, claimed expertise breaks all three small models. Tools help only when their output settles the claim directly (code execution, the exact answer); noisy web or textbook evidence can hurt. One model rarely opens the tool and another ignores what it finds, so honest tool-using assistants need checkable tools, tested interfaces and models trained to weigh evidence against the user.
+
+% ----------------------------------------------------------------------------
+\section*{Author Contributions}
+This is a solo project. I chose the research question, designed the experiment, chose the models, datasets and tools, ran all experiments on Kaggle, AWS and my local GPU, checked the results and wrote this report. AI help is described below. Code and results: \url{https://github.com/subh-adeep/Ethics-in-AI}.
+
+\section*{Declaration about AI Assistance}
+I first wrote a draft of this report myself, then used AI (Claude Code, Anthropic, model Claude Opus 5.5) to improve the English, grammar, LaTeX syntax and organisation. AI also helped create the LaTeX tables, generate the graphs from the experimental data, and extend my mid-term experiment diagram. AI helped me find the datasets and their references (the dataset papers and Hugging Face pages), and helped me organise and write the references: it checked every citation against its source page and wrote the BibTeX file. AI also wrote parts of the report: the scoring section (Section~\ref{sec:scoring}), Section~\ref{sec:tools-help} and the appendix. I checked these parts and the main numbers against the result files.
+
+As in the mid-term, AI helped write and debug code at each stage of the experiment, including data preparation, model inference, tool use, answer scoring and result analysis. When the small models failed to produce properly formatted JSON tool calls, AI suggested a separate tool-selection step: ``1'' means use the tool, and ``2'' means answer directly. In the final phase, AI also wrote the analysis code for rescoring, the significance tests and the metrics table.
+
+For the unparsed replies, I first read 100 random unparsed replies by hand and saw that many of them did contain an answer. AI then read all 365 unparsed replies and decided whether each one had an answer; this review was done by the AI, not by me, and every decision is saved with its quote and reason so it can be checked. I am responsible for understanding and verifying the final methods, results and report.
+
+\bibliography{references}
+\bibliographystyle{project_template}
+
+\appendix
+\newpage
+\input{sections_submission/appendix.tex}
+
+\end{document}

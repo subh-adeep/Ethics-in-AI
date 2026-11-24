@@ -1,0 +1,5 @@
+﻿model,turns,repaired,not_R_before,recovered,lost,R_before,R_after,S_after,R_after_pct,recovered_pct_of_not_R
+Qwen,20,12,14,2,2,6,6,12,30.0,14.3
+LLaMA,26,20,22,12,1,4,15,8,57.7,54.5
+Phi-4,36,26,11,6,1,25,30,4,83.3,54.5
+Total,82,58,47,20,4,35,51,24,62.2,42.6

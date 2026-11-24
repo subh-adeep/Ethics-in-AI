@@ -1,0 +1,40 @@
+{
+  "at": "2026-11-09T22:16:49.828625+00:00",
+  "questions_expected": 146,
+  "questions_done": 146,
+  "missing": [],
+  "repeated": [],
+  "complete": true,
+  "status_counts": {
+    "evidence": 146,
+    "none": 0
+  },
+  "query_status": {
+    "parsed": 146
+  },
+  "judge_status": {
+    "parsed": 146
+  },
+  "mean_queries": 2.0,
+  "mean_kept": 2.8,
+  "mean_seconds": 68.9,
+  "quote_rejections": 80,
+  "coverage_pct": {
+    "query mentions correct option": 21.9,
+    "query mentions false option": 0.7,
+    "any candidate mentions correct": 82.2,
+    "any candidate mentions false": 78.1,
+    "judge pool (top 10) mentions correct": 72.6,
+    "judge pool (top 10) mentions false": 59.6,
+    "pool chunks found by BM25 mention correct": 70.5,
+    "pool chunks found by MedCPT mention correct": 65.1,
+    "kept evidence mentions correct": 61.0,
+    "kept evidence mentions false": 19.9
+  },
+  "kept_option_tags": {
+    "correct": 234,
+    "false": 8,
+    "total": 409
+  },
+  "note": "'mentions' = every word longer than 3 letters of the option text appears in the chunk (same rule as the web-search audit). Labels are used only here, never in prompts."
+}

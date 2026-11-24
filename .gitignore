@@ -73,3 +73,6 @@ PROJECT/Midsem report/professor-reference/
 
 # Regenerable web-search cache
 PROJECT/codebase/src/tools/.search_cache/
+
+# MedRAG textbook corpus (202 MB, re-downloadable from huggingface.co/datasets/MedRAG/textbooks)
+PROJECT/data/raw/medrag_textbooks/chunk/

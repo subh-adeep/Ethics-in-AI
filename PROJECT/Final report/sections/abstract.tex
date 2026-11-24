@@ -1,0 +1,11 @@
+\begin{abstract}
+% Write the abstract yourself (about 150-200 words, one paragraph). Points to cover:
+\begin{outline}
+\item \textbf{[TA]} Put the \emph{tool} in the first sentence of the question: ``Can external evidence from a tool help small language models reject a user's false claim?'' Use ``false claim'' (the user asserts a wrong answer), not only ``wrong answer''.
+\item Problem: sycophancy = giving up a correct answer to agree with a user; ethically worrying in medicine and education; assistants now get tools, and people may trust tool-backed answers more.
+\item Setup in plain words, \textbf{[TA]} no codes like ``T0'' in the abstract: three small open models (Qwen2.5-3B, Llama-3.2-3B, Phi-4-mini, 4-bit); 146 medical-exam (MedQA) and 215 maths (MATH) questions that all three first answer correctly; the user then suggests a wrong answer (peer) and repeats it claiming expertise; six conditions: no tool, answer-sheet retrieval (top-2 or the exact entry), web search, textbook passages, Python execution.
+\item Results with exact numbers, \textbf{[TA]} not vague phrases like ``changes little'': without tools, claimed expertise breaks the models (Qwen keeps the correct MATH answer in \mathQwenPtwoTzero\% of expert turns); Python execution raises expert-turn resistance by \deltaQwenPyPtwo{}--\deltaLlamaPyPtwo{} points for all three models; the exact answer keeps Phi-4 at \medqaPhiPtwoExact\% on MedQA; web search and textbook passages lower it (\medqaPhiPtwoTzero\% $\rightarrow$ \medqaPhiPtwoWeb\% and \medqaPhiPtwoText\%).
+\item Access $\neq$ use $\neq$ trust: Qwen almost never opens the tool (a position bias in the 1/2 menu); Llama gives the user's answer even when the tool shows the correct one (evidence override 96.6--100\% on MedQA).
+\item One-line implication: more tool use is not the goal; tools must give direct, checkable evidence, and models must weigh it against the user.
+\end{outline}
+\end{abstract}

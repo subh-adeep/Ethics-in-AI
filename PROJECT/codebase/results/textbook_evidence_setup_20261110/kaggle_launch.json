@@ -1,0 +1,13 @@
+{
+  "at": "2026-11-09T20:23:02.691956+00:00",
+  "kernel": "subhadeepsing/textbook-evidence-setup-20261110",
+  "mode": "setup",
+  "machine_shape": "NvidiaTeslaT4",
+  "requested_gpus": 2,
+  "response": {
+    "ref": "/code/subhadeepsing/textbook-evidence-setup-20261110",
+    "url": "https://www.kaggle.com/code/subhadeepsing/textbook-evidence-setup-20261110",
+    "versionNumber": 2,
+    "kernelId": 144068942
+  }
+}

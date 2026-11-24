@@ -1,0 +1,60 @@
+{
+  "medqa_0287": {
+    "status": "evidence",
+    "queries": [
+      "HIV polymerase chain reaction (PCR) assay",
+      "neonatal HIV viral load testing"
+    ],
+    "evidence": [
+      {
+        "chunk_id": "InternalMed_Harrison_10758",
+        "book": "InternalMed_Harrison",
+        "option": "none",
+        "quote": "Confirmatory diagnostic tests (for persons with symptoms or signs) or screening tests (for those without symptoms or signs) may involve microscopic examination, culture, antigen detection tests, nucleic acid amplification tests (NAATs), or serology.",
+        "excerpt": "Risk assessment is followed by clinical assessment (elicitation of information on specific current symptoms and signs of STDs). Confirmatory diagnostic tests (for persons with symptoms or signs) or screening tests (for those without symptoms or signs) may involve microscopic examination, culture, antigen detection tests, nucleic acid amplification tests (NAATs), or serology. Initial syndrome-based treatment should cover the most likely causes.",
+        "content": "Risk assessment is followed by clinical assessment (elicitation of information on specific current symptoms and signs of STDs). Confirmatory diagnostic tests (for persons with symptoms or signs) or screening tests (for those without symptoms or signs) may involve microscopic examination, culture, antigen detection tests, nucleic acid amplification tests (NAATs), or serology. Initial syndrome-based treatment should cover the most likely causes. For certain syndromes, results of rapid tests can narrow the spectrum of this initial therapy (e.g., saline microscopy of vaginal fluid for women with vaginal discharge, Gram’s stain of urethral discharge for men with urethral discharge, rapid plasma reagin test for genital ulcer). After the institution of treatment, STD management proceeds to the “4 Cs” of prevention and control: contact tracing (see “Prevention and Control of STIs,” below), ensuring compliance with therapy, and counseling on risk reduction, including condom promotion and"
+      },
+      {
+        "chunk_id": "Biochemistry_Lippincott_1735",
+        "book": "Biochemistry_Lippinco",
+        "option": "C",
+        "quote": "Typically, 20–30 cycles are run during this process, amplifying the DNA by a million-fold (220) to a billion-fold (230).",
+        "excerpt": "However, Taq lacks proofreading activity. Typically, 20–30 cycles are run during this process, amplifying the DNA by a million-fold (220) to a billion-fold (230). [Note: Each extension product includes a sequence at its 5′-end that is complementary to the primer (see Fig.",
+        "content": "and, therefore, does not have to be added at each successive cycle. However, Taq lacks proofreading activity. Typically, 20–30 cycles are run during this process, amplifying the DNA by a million-fold (220) to a billion-fold (230). [Note: Each extension product includes a sequence at its 5′-end that is complementary to the primer (see Fig. 34.20). Thus, each newly synthesized strand can act as a template for the successive cycles (see Fig. 34.21). This leads to an exponential increase in the amount of target DNA with each cycle, hence, the name “polymerase chain reaction.”] Probes can be made during PCR by adding labeled nucleotides to the last few cycles."
+      },
+      {
+        "chunk_id": "Pathology_Robbins_1041",
+        "book": "Pathology_Robbins",
+        "option": "none",
+        "quote": "Once internalized, the RNA genome of the virus undergoes reverse transcription, leading to the synthesis of double-stranded complementary DNA (cDNA; proviral DNA)",
+        "excerpt": "Once internalized, the RNA genome of the virus undergoes reverse transcription, leading to the synthesis of double-stranded complementary DNA (cDNA; proviral DNA) (see Fig. 5.38 ).",
+        "content": "Once internalized, the RNA genome of the virus undergoes reverse transcription, leading to the synthesis of double-stranded complementary DNA (cDNA; proviral DNA) (see Fig. 5.38 ). In quiescent T cells, HIV cDNA may remain in the cytoplasm in a linear episomal form. In dividing T cells, the cDNA circularizes, enters the nucleus, and is then integrated into the host genome. After integration, the pro-virus may be silent for months or years, a form of latent infection. Alternatively, proviral DNA may be transcribed, leading to the expression of viral proteins that are required for the formation of complete viral particles. HIV infects memory cells and activated T cells but is inefficient at productively infecting naïve (resting) T cells."
+      }
+    ]
+  },
+  "medqa_0322": {
+    "status": "evidence",
+    "queries": [
+      "small cell lung carcinoma serum protein markers",
+      "elevated proteins in small cell lung carcinoma"
+    ],
+    "evidence": [
+      {
+        "chunk_id": "InternalMed_Harrison_7250",
+        "book": "InternalMed_Harrison",
+        "option": "D",
+        "quote": "Plasma neuron-specific enolase levels are also used as a marker of GI-NETs (carcinoids) but are less sensitive than chromogranin A, being increased in only 17–47% of patients.",
+        "excerpt": "Furthermore, a major problem is caused by potent acid antisecretory drugs such as proton pump inhibitors (omeprazole and related drugs) because they almost invariably cause elevation of plasma chromogranin A levels; the elevation occurs rapidly (3–5 days) with continued use, and the elevated levels overlap with the levels seen in many patients with NETs. Plasma neuron-specific enolase levels are also used as a marker of GI-NETs (carcinoids) but are less sensitive than chromogranin A, being increased in only 17–47% of patients. Newer markers have been proposed",
+        "content": "which make up 25% of all clinically detected carcinoids, should be suspected in patients with bowel obstruction, abdominal pain, flushing, or diarrhea. Serum chromogranin A levels are elevated in 56–100% of patients with GI-NETs (carcinoids), and the level correlates with tumor bulk. Serum chromogranin A levels are not specific for GI-NETs (carcinoids) because they are also elevated in patients with pNETs and other NETs. Furthermore, a major problem is caused by potent acid antisecretory drugs such as proton pump inhibitors (omeprazole and related drugs) because they almost invariably cause elevation of plasma chromogranin A levels; the elevation occurs rapidly (3–5 days) with continued use, and the elevated levels overlap with the levels seen in many patients with NETs. Plasma neuron-specific enolase levels are also used as a marker of GI-NETs (carcinoids) but are less sensitive than chromogranin A, being increased in only 17–47% of patients. Newer markers have been proposed"
+      },
+      {
+        "chunk_id": "Neurology_Adams_120",
+        "book": "Neurology_Adams",
+        "option": "D",
+        "quote": "neuron-specific enolase in traumatic and other severe brain injuries, and alpha fetoprotein in embryonal tumors of the brain, may be useful in specialized circumstances.",
+        "excerpt": "Certain enzymes that originate in the brain, especially the brain-derived fraction of creatine kinase (CK-BB) but also enolase and neopterin, are found in the CSF after stroke, global ischemic hypoxia, or trauma, and have been used as markers of brain damage in experimental work. Other special markers such as elevation of the 14-3-3 protein, which has some diagnostic significance in prion disease, β2-microglobulin in meningeal lymphomatosis, neuron-specific enolase in traumatic and other severe brain injuries, and alpha fetoprotein in embryonal tumors of the brain, may be useful in specialized circumstances.",
+        "content": "The albumin fraction of the CSF increases in a wide variety of central nervous system (CNS) and craniospinal nerve root diseases that increase the permeability of the blood–CSF barrier, but no specific clinical correlations can be drawn. Certain enzymes that originate in the brain, especially the brain-derived fraction of creatine kinase (CK-BB) but also enolase and neopterin, are found in the CSF after stroke, global ischemic hypoxia, or trauma, and have been used as markers of brain damage in experimental work. Other special markers such as elevation of the 14-3-3 protein, which has some diagnostic significance in prion disease, β2-microglobulin in meningeal lymphomatosis, neuron-specific enolase in traumatic and other severe brain injuries, and alpha fetoprotein in embryonal tumors of the brain, may be useful in specialized circumstances."
+      }
+    ]
+  }
+}

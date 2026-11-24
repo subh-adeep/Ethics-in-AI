@@ -1,0 +1,315 @@
+{
+  "medqa_0287": {
+    "status": "evidence",
+    "documents": [
+      {
+        "source": "InternalMed Harrison",
+        "text": "HIV RNA Determinations Facilitated by highly sensitive techniques for the precise quantitation of small amounts of nucleic acids, the measurement of serum or plasma levels of HIV RNA has become an essential component in the monitoring of patients with HIV infection. As discussed in “Diagnosis of HIV Infection,” above, the most commonly used technique is the RT-PCR assay. This assay generates data in the form of number of copies of HIV RNA per milliliter of serum or plasma and can reliably detect as few as 40 copies of HIV RNA per milliliter of plasma. Research-based assays can detect down to one copy per milliliter. While it is common practice to describe levels of HIV RNA below these cut-offs as “undetectable,” this is a term that should be avoided as it is imprecise and leaves the false impression that the level of virus is 0. By utilizing more sensitive, nested PCR techniques and by studying tissue levels of virus as well as plasma levels, HIV RNA can be detected in virtually every"
+      },
+      {
+        "source": "Pediatrics Nelson",
+        "text": "HIV DNA PCR is the preferred virologic method for diagnosing HIV infection during infancy and identifies 38% of infected infants at 48 hours and 96% at 28 days. Diagnostic viral testing should be performed by 48 hours of age, at 1 to 2 months of age, and at 3 to 6 months of age. An additional test at 14 days of age is often performed because the diagnostic sensitivity increases rapidly by 2 weeks of age. HIV RNA PCR has 25% to 40% sensitivity during the first weeks of life, increasing to 90% to 100% by 2 to 3 months of age. However a negative HIV RNA PCR cannot be used to exclude infection and, thus, is not recommended as first-line testing."
+      },
+      {
+        "source": "InternalMed Harrison",
+        "text": "In addition to being a diagnostic and prognostic tool, RT-PCR and DNA-PCR are also useful for amplifying defined areas of the HIV genome for sequence analysis and have become an important technique for studies of sequence diversity and microbial resistance to antiretroviral agents. In patients with a positive or indeterminate EIA test and an indeterminate Western blot, and in patients in whom serologic testing may be unreliable (such as patients with hypogammaglobulinemia or advanced HIV disease), these tests for quantitating HIV RNA in plasma or detecting proviral DNA in peripheral blood mononuclear cells are valuable tools for making a diagnosis of HIV infection; however, they should be used for diagnosis only when standard serologic testing has failed to provide a definitive result."
+      }
+    ],
+    "hidden": [
+      {
+        "chunk_id": "InternalMed_Harrison_15108",
+        "option_tag": "C",
+        "quote": "This assay generates data in the form of number of copies of HIV RNA per milliliter of serum or plasma and can reliably detect as few as 40 copies of HIV RNA per milliliter of plasma."
+      },
+      {
+        "chunk_id": "Pediatrics_Nelson_2634",
+        "option_tag": "C",
+        "quote": "HIV DNA PCR is the preferred virologic method for diagnosing HIV infection during infancy and identifies 38% of infected infants at 48 hours and 96% at 28 days."
+      },
+      {
+        "chunk_id": "InternalMed_Harrison_15099",
+        "option_tag": "C",
+        "quote": "In patients with a positive or indeterminate EIA test and an indeterminate Western blot, and in patients in whom serologic testing may be unreliable (such as patients with hypogammaglobulinemia or advanced HIV disease), these tests for quantitating HIV RNA in"
+      }
+    ]
+  },
+  "medqa_0322": {
+    "status": "evidence",
+    "documents": [
+      {
+        "source": "InternalMed Harrison",
+        "text": "ECOG Grade 3: Capable of only limited self-care, confined to bed or chair more than 50% of waking hours ECOG Grade 4: Completely disabled. Cannot carry on any self-care. Totally confined to bed or chair ECOG Grade 5: Dead Source: From MM Oken et al: Am J Clin Oncol 5:649, 1982. Human chorionic Gestational trophoblas-Pregnancy gonadotropin tic disease, gonadal Calcitonin Medullary cancer of the thyroid α Fetoprotein Hepatocellular carci-Cirrhosis, hepatitis noma, gonadal germ cell tumor Carcinoembryonic Adenocarcinomas of the Pancreatitis, hepatitis, antigen colon, pancreas, lung, inflammatory bowel breast, ovary disease, smoking Prostatic acid phos-Prostate cancer Prostatitis, prostatic phatase Neuron-specific enolase Small-cell cancer of the lung, neuroblastoma Lactate dehydrogenase Lymphoma, Ewing’s Hepatitis, hemolytic sarcoma anemia, many others Abbreviation: MGUS, monoclonal gammopathy of uncertain significance."
+      }
+    ],
+    "hidden": [
+      {
+        "chunk_id": "InternalMed_Harrison_5898",
+        "option_tag": "D",
+        "quote": "Neuron-specific enolase Small-cell cancer of the lung, neuroblastoma"
+      }
+    ]
+  },
+  "medqa_0403": {
+    "status": "evidence",
+    "documents": [
+      {
+        "source": "Pharmacology Katzung",
+        "text": "Small bolus doses of ketamine (0.2–0.8 mg/kg IV) may be useful during regional anesthesia when additional analgesia is needed (eg, cesarean delivery under neuraxial anesthesia with an insufficient regional block). Ketamine provides effective analgesia without compromise of the airway. An infusion of a subanalgesic dose of ketamine (3–5 mcg/kg/min) during general anesthesia and in the early postoperative period may be useful to produce analgesia or reduce opioid tolerance and opioid-induced hyperalgesia. The use of ketamine has always been limited by its unpleasant psychotomimetic side effects, but its unique features make it a very valuable alternative in certain settings, mostly because of the potent analgesia with minimal respiratory depression. Most recently, it has become popular as an adjunct administered at sub-analgesic doses to limit or reverse opioid tolerance."
+      },
+      {
+        "source": "Pharmacology Katzung",
+        "text": "(eg, morphine to hydromorphone; hydromorphone to methadone) and typically experiences significantly improved analgesia at a reduced overall equivalent dosage. Another approach is to recouple opioid receptor function as described previously through the use of adjunctive nonopioid agents. NMDA-receptor antagonists (eg, ketamine) have shown promise in preventing or reversing opioid-induced tolerance in animals and humans. Use of ketamine is increasing because well-controlled studies have shown clinical efficacy in reducing postoperative pain and opioid requirements in opioid-tolerant patients. Agents that independently enhance μ-receptor recycling may also hold promise for improving analgesia in the opioid-tolerant patient."
+      },
+      {
+        "source": "Gynecology Novak",
+        "text": "In addition to NSAIDs, other adjuvant analgesics are being explored to minimize opioid use and the accompanying side effects, which can delay recovery. Capsaicin is a nonnarcotic that promotes release of substance P, a neurotransmitter for pain and heat, which initially results in a burning sensation, but eventually leads to substance P depletion and a reduction in pain. It is available in both topical and injectable preparations. Ketamine blocks centrally located N-methyld-aspartate pain receptors, and at low subanesthetic doses can reduce central sensitization caused by surgery and prevent opioid-induced hyperalgesia. At higher doses, ketamine is associated with hallucinations, dizziness, nausea, and vomiting. Gabapentin and pregabalin are nonnarcotics that prevent the release of excitatory neurotransmitters that relay pain signals. They reduce opioid requirements and are effective antihyperalgesic agents (64)."
+      }
+    ],
+    "hidden": [
+      {
+        "chunk_id": "Pharmacology_Katzung_2747",
+        "option_tag": "A",
+        "quote": "Small bolus doses of ketamine (0.2–0.8 mg/kg IV) may be useful during regional anesthesia when additional analgesia is needed (eg, cesarean delivery under neuraxial anesthesia with an insufficient regional block)."
+      },
+      {
+        "chunk_id": "Pharmacology_Katzung_3448",
+        "option_tag": "A",
+        "quote": "NMDA-receptor antagonists (eg, ketamine) have shown promise in preventing or reversing opioid-induced tolerance in animals and humans."
+      },
+      {
+        "chunk_id": "Gynecology_Novak_3579",
+        "option_tag": "A",
+        "quote": "Ketamine blocks centrally located N-methyld-aspartate pain receptors, and at low subanesthetic doses can reduce central sensitization caused by surgery and prevent opioid-induced hyperalgesia."
+      }
+    ]
+  },
+  "medqa_0568": {
+    "status": "evidence",
+    "documents": [
+      {
+        "source": "Pediatrics Nelson",
+        "text": "Avoidance of tobacco smoke and alcohol Always a good idea. May help reflux symptoms Abstaining from caffeine Inexpensive, offers some benefit Positional therapy—upright in seat, elevate Prone positioning with head of crib or bed up is helpful, but not for young infants because of risk of SIDS Weight loss when indicated Increased weight (especially abdominal) increases intra-abdominal pressure, leading to reflux H2 receptor antagonist Reduces heartburn, less effective for healing esophagitis Metoclopramide Enhances stomach emptying and LES tone. Real benefit is often minimal Feeding jejunostomy Useful in child requiring tube feeds. Delivering feeds downstream eliminates GERD GERD, Gastroesophageal reflux disease; LES, lower esophageal sphincter; SIDS, sudden infant death syndrome. Figure 128-1 Histologic image of eosinophilic esophagitis. Note the large number of eosinophils within the lamina propria."
+      },
+      {
+        "source": "Pediatrics Nelson",
+        "text": "Gastroesophageal reflux (GER) is defined as the effortless retrograde movement of gastric contents upward into the esophagusor oropharynx. In infancy, GER is not always an abnormality.Physiologic GER (“spitting up”) is normal in infants youngerthan 8 to 12 months old. Nearly half of all infants are reportedto spit up at 2 months of age. Infants who regurgitate meet thecriteria for physiologic GER so long as they maintain adequate nutrition and have no signs of respiratory complications oresophagitis. Factors involved in causing infantile GER includeliquid diet; horizontal body position; short, narrow esophagus;small, noncompliant stomach; frequent, relatively large-volumefeedings; and an immature lower esophageal sphincter (LES).As infants grow, they spend more time upright, eat more solidfoods, develop a longer and larger diameter esophagus, have a larger and more compliant stomach, and experience lower caloric needs per unit of body weight. As a result, most infantsstop spitting up"
+      },
+      {
+        "source": "Pediatrics Nelson",
+        "text": "In otherwise healthy young infants, no treatment is necessary. For infants with complications of GER, an H2 blocker or pro-ton-pump inhibitor may be offered (Table 128-1), but these have shown little benefit in infants with uncomplicated GER and/or fussiness. Prokinetic drugs, such as metoclopramide, occasionally are helpful by enhancing gastric emptying and increasing LES tone, but they are seldom very effective and may lead to complications. When severe symptoms persist despite medication, or if life-threatening aspiration is present, surgical intervention may be required. Fundoplication procedures, such as the Nissen operation, are designed to enhance the antireflux anatomy of the LES. In children with a severe neurologic defect who cannot tolerate oral or gastric tube feedings, placement of a feeding jejunostomy may be considered as an alternative to fundoplication. In older children, lifestyle changes should be discussed, including cessation of smoking, weight loss, not eating"
+      }
+    ],
+    "hidden": [
+      {
+        "chunk_id": "Pediatrics_Nelson_2741",
+        "option_tag": "C",
+        "quote": "Positional therapy—upright in seat, elevate Prone positioning with head of crib or bed up is helpful"
+      },
+      {
+        "chunk_id": "Pediatrics_Nelson_2731",
+        "option_tag": "none",
+        "quote": "Physiologic GER (“spitting up”) is normal in infants youngerthan 8 to 12 months old. Nearly half of all infants are reportedto spit up at 2 months of age."
+      },
+      {
+        "chunk_id": "Pediatrics_Nelson_2737",
+        "option_tag": "none",
+        "quote": "In otherwise healthy young infants, no treatment is necessary. For infants with complications of GER, an H2 blocker or pro-ton-pump inhibitor may be offered"
+      }
+    ]
+  },
+  "medqa_0614": {
+    "status": "evidence",
+    "documents": [
+      {
+        "source": "Pharmacology Katzung",
+        "text": "2. Tricyclic antidepressants—The TCAs resemble the SNRIs in function, and their antidepressant activity is thought to relate primarily to their inhibition of 5-HT and norepinephrine reuptake. Within the TCAs, there is considerable variability in affinity for SERT versus NET. For example, clomipramine has relatively very little affinity for NET but potently binds SERT. This selectivity for the serotonin transporter contributes to clomipramine’s known benefits in the treatment of OCD. On the other hand, the secondary amine TCAs, desipramine and nortriptyline, are relatively more selective for NET. Although the tertiary amine TCA imipramine has more serotonin effect initially, its metabolite, desipramine, then balances this effect with more NET inhibition."
+      },
+      {
+        "source": "InternalMed Harrison",
+        "text": "Clomipramine, fluoxetine, fluvoxamine, and sertraline are approved for the treatment of OCD in adults (fluvoxamine is also approved for children). Clomipramine is a TCA that is often tolerated poorly owing to anticholinergic and sedative side effects at the doses required to treat the illness (25–250 mg/d); its efficacy in OCD is unrelated to its antidepressant activity. Fluoxetine (5–60 mg/d), fluvoxamine (25–300 mg/d), and sertraline (50–150 mg/d) are as effective as clomipramine and have a more benign side effect profile. Only 50–60% of patients with OCD show adequate improvement with pharmacotherapy alone. In treatment-resistant cases, augmentation with other serotonergic agents such as buspirone, or with a neuroleptic or benzodiazepine, may be beneficial, and in severe cases, deep brain stimulation has been found to be effective. When a therapeutic response is achieved, long-duration maintenance therapy is usually indicated."
+      },
+      {
+        "source": "Pharmacology Katzung",
+        "text": "The use of antidepressants outside the treatment of MDD tends to require specific agents. For example, the TCAs and SNRIs appear to be useful in the treatment of pain conditions, but other antidepressant classes appear to be far less effective. SSRIs and the highly serotonergic TCA, clomipramine, are effective in the treatment of OCD, but noradrenergic antidepressants have not proved to be as helpful for this condition. Bupropion and nortriptyline have usefulness in the treatment of smoking cessation, but SSRIs have not been proven useful. Thus, outside the treatment of depression, the choice of antidepressant is primarily dependent on the known benefit of a particular antidepressant or class for a particular indication."
+      }
+    ],
+    "hidden": [
+      {
+        "chunk_id": "Pharmacology_Katzung_3289",
+        "option_tag": "D",
+        "quote": "Within the TCAs, there is considerable variability in affinity for SERT versus NET. For example, clomipramine has relatively very little affinity for NET but potently binds SERT."
+      },
+      {
+        "chunk_id": "InternalMed_Harrison_31674",
+        "option_tag": "none",
+        "quote": "Clomipramine is a TCA that is often tolerated poorly owing to anticholinergic and sedative side effects at the doses required to treat the illness (25–250 mg/d); its efficacy in OCD is unrelated to its antidepressant activity."
+      },
+      {
+        "chunk_id": "Pharmacology_Katzung_3315",
+        "option_tag": "none",
+        "quote": "SSRIs and the highly serotonergic TCA, clomipramine, are effective in the treatment of OCD, but noradrenergic antidepressants have not proved to be as helpful for this condition."
+      }
+    ]
+  },
+  "medqa_0693": {
+    "status": "evidence",
+    "documents": [
+      {
+        "source": "InternalMed Harrison",
+        "text": "The incubation period for Legionnaires’ disease is usually 2–10 days, although slightly longer incubation periods have been documented. Fever is almost universal. In one observational study, 20% of patients had temperatures in excess of 40°C (104°F). The symptoms and signs may range from a mild cough and a slight fever to stupor with widespread pulmonary infiltrates and multisystem failure. The mild cough of Legionnaires’ disease is only slightly productive. Sometimes the sputum is streaked with blood. Chest pain—either pleuritic or nonpleuritic—can be a prominent feature and, when coupled with hemoptysis, can lead to an incorrect diagnosis of pulmonary embolism. Shortness of breath is reported by one-third to one-half of patients. Gastrointestinal difficulties are often pronounced; abdominal pain, nausea, and vomiting affect 10–20% of patients. Diarrhea (watery rather than bloody) is reported in 25–50% of cases. The most common neurologic abnormalities are confusion or changes in"
+      },
+      {
+        "source": "InternalMed Harrison",
+        "text": "The differential diagnosis includes acute focal lymphadenopathy of other etiologies, such as streptococcal or staphylococcal infection, tularemia, cat-scratch disease, tick typhus, infectious mononucleosis, or lymphatic filariasis. These infections do not progress as rapidly, are not as painful, and are associated with visible cellulitis or ascending lymphangitis—both of which are absent in plague. Without treatment, Y. pestis dissemination occurs and causes serious illness, including pneumonia (secondary pneumonic plague) and meningitis. Secondary pneumonic plague can be the source of person-to-person transmission of respiratory infection by productive cough (droplet infection), with the consequent development of primary plague pneumonia. Appropriate treatment of bubonic plague results in fever resolution within 2–5 days, but buboes may remain enlarged for >1 week after initial treatment and can become fluctuant. Primary Septicemic Plague A minority (10–25%) of infections with"
+      },
+      {
+        "source": "InternalMed Harrison",
+        "text": "The ADL associated with lymphatic filariasis must be distinguished from thrombophlebitis, infection, and trauma. Retrograde evolution is a characteristic feature that helps distinguish filarial lymphangitis from ascending bacterial lymphangitis. Chronic filarial lymphedema must also be distinguished from the lymphedema of malignancy, postoperative scarring, trauma, chronic edematous states, and congenital lymphatic system abnormalities. With newer definitions of clinical syndromes in lymphatic filariasis and new tools to assess clinical status (e.g., ultrasound, lymphoscintigraphy, circulating filarial antigen assays, PCR), approaches to treatment based on infection status can be considered."
+      }
+    ],
+    "hidden": [
+      {
+        "chunk_id": "InternalMed_Harrison_12345",
+        "option_tag": "D",
+        "quote": "The symptoms and signs may range from a mild cough and a slight fever to stupor with widespread pulmonary infiltrates and multisystem failure."
+      },
+      {
+        "chunk_id": "InternalMed_Harrison_12954",
+        "option_tag": "C",
+        "quote": "Without treatment, Y. pestis dissemination occurs and causes serious illness, including pneumonia (secondary pneumonic plague) and meningitis."
+      },
+      {
+        "chunk_id": "InternalMed_Harrison_16866",
+        "option_tag": "none",
+        "quote": "The ADL associated with lymphatic filariasis must be distinguished from thrombophlebitis, infection, and trauma."
+      }
+    ]
+  },
+  "medqa_0863": {
+    "status": "evidence",
+    "documents": [
+      {
+        "source": "InternalMed Harrison",
+        "text": "[MMP-12]). Matrix metalloproteinases and serine proteinases, most notably neutrophil elastase, work together by degrading the inhibitor of the other, leading to lung destruction. Proteolytic cleavage products of elastin also serve as a macrophage chemokine, fueling this destructive positive feedback loop."
+      },
+      {
+        "source": "InternalMed Harrison",
+        "text": "Cigarette smoking often results in mucus gland enlargement and goblet cell hyperplasia, leading to cough and mucus production that define chronic bronchitis, but these abnormalities are not related to airflow limitation. Goblet cells not only increase in number but in extent through the bronchial tree. Bronchi also undergo squamous metaplasia, predisposing to carcinogenesis and disrupting mucociliary clearance. Although not as prominent as in asthma, patients may have smooth-muscle hypertrophy and bronchial hyperreactivity leading to airflow limitation. Neutrophil influx has been associ-1701 ated with purulent sputum of upper respiratory tract infections. Independent of its proteolytic activity, neutrophil elastase is among the most potent secretagogues identified."
+      },
+      {
+        "source": "Immunology Janeway",
+        "text": "Inherited deficiencies of neutrophil production (neutropenias) are classified either as severe congenital neutropenia (SCN) or cyclic neutropenia. In severe congenital neutropenia, which can be inherited as a dominant or recessive trait, the neutrophil count is persistently less than 0.5 ×109 per liter of blood (normal numbers are 3 ×109 to 5.5 × 109 per liter). Cyclic neutropenia is characterized by fluctuation in neutrophil numbers from near normal to very low or undetectable with an approximate cycle time of 21 days, resulting in periodicity of infectious risk. The most common causes of SCN are sporadic or autosomal dominant mutations of the gene that encodes neutrophil elastase (ELA2), a component of the azurophilic, or primary, granules involved in the degradation of phagocytosed microbes. Altered targeting of defective elastase 2 to granules causes apoptosis of developing myelocytes and a developmental block at the promyelocyte–myelocyte stage. Some mutations of ELA2 cause"
+      }
+    ],
+    "hidden": [
+      {
+        "chunk_id": "InternalMed_Harrison_20376",
+        "option_tag": "D",
+        "quote": "Matrix metalloproteinases and serine proteinases, most notably neutrophil elastase, work together by degrading the inhibitor of the other, leading to lung destruction"
+      },
+      {
+        "chunk_id": "InternalMed_Harrison_20380",
+        "option_tag": "D",
+        "quote": "Independent of its proteolytic activity, neutrophil elastase is among the most potent secretagogues identified"
+      },
+      {
+        "chunk_id": "Immunology_Janeway_3162",
+        "option_tag": "D",
+        "quote": "Some mutations of ELA2 cause"
+      }
+    ]
+  },
+  "medqa_1161": {
+    "status": "evidence",
+    "documents": [
+      {
+        "source": "Surgery Schwartz",
+        "text": "and detection of stool antigen. The urea breath test has a sensitivity and specificity of greater than 90% and is useful for initial diagnosis of infection and for follow-up after eradication therapy since it is positive only in the presence of active infection. The stool antigen test is another noninvasive test to detect active H pylori infection, but it is recommended that only locally validated tests be used.86 Because H pylori induces a strong immunologic response, serological testing is useful but may not be as accurate as the urea breath test or the stool antigen test, and a positive serology persists after eradica-tion of H pylori infection, so serology is not useful to confirm successful treatment of Helicobacter infection. H pylori infec-tion can also be diagnosed by histologic evaluation of gastric biopsies and/or the rapid urease test on fresh biopsies. Culture of H pylori is not routine and is usually reserved for recurrent infection and for antibiotic sensitivity testing"
+      },
+      {
+        "source": "InternalMed Harrison",
+        "text": "Noninvasive Tests Noninvasive H. pylori testing is the norm if gastric cancer does not need to be excluded by endoscopy. The best-established test (and a very accurate one) is the urea breath test. In this simple test, the patient drinks a solution of urea labeled with the nonradioactive isotope 13C and then blows into a tube. If H. pylori urease is present, the urea is hydrolyzed, and labeled carbon dioxide is detected in breath samples. The stool antigen test, a simple and accurate test using monoclonal antibodies specific for H. pylori antigens, is more convenient and potentially less expensive than the urea breath test, but some patients dislike sampling stool. The simplest tests for ascertaining H. pylori status are serologic assays measuring specific IgG levels in serum by enzyme-linked immunosorbent assay or immunoblot. The best of these tests are as accurate as other diagnostic methods, but many commercial tests—especially rapid office tests—do not perform well."
+      },
+      {
+        "source": "Surgery Schwartz",
+        "text": "the gold standard test for helicobacter infection. Other sensitive tests include commercially available rapid urease tests, which assay for the presence of urease in mucosal biopsy speci-mens (strong presumptive evidence of infection). Urease is an omnipresent enzyme in H pylori strains that colonize the gas-tric mucosa. The carbon labeled urea breath test has become the standard test to confirm eradication of H pylori following appropriate treatment.74 In this test, the patient ingests urea labeled with nonradioactive 13C or 14C. The labeled urea is acted upon by the urease present in the H pylori and converted into ammonia and carbon dioxide. The radiolabeled carbon dioxide is excreted from the lungs and can be detected in the expired air (Fig. 26-22). It also can be detected in a blood sample. The fecal antigen test also is quite sensitive and specific for active H pylori infection and may also be used to confirm cure after treatment. Helicobacter culture may be useful to assess"
+      }
+    ],
+    "hidden": [
+      {
+        "chunk_id": "Surgery_Schwartz_7433",
+        "option_tag": "C",
+        "quote": "The urea breath test has a sensitivity and specificity of greater than 90% and is useful for initial diagnosis of infection and for follow-up after eradication therapy since it is positive only in the presence of active infection."
+      },
+      {
+        "chunk_id": "InternalMed_Harrison_12588",
+        "option_tag": "C",
+        "quote": "The best-established test (and a very accurate one) is the urea breath test."
+      },
+      {
+        "chunk_id": "Surgery_Schwartz_7420",
+        "option_tag": "C",
+        "quote": "The carbon labeled urea breath test has become the standard test to confirm eradication of H pylori following appropriate treatment."
+      }
+    ]
+  },
+  "medqa_1293": {
+    "status": "evidence",
+    "documents": [
+      {
+        "source": "InternalMed Harrison",
+        "text": "with bilateral injury to the medial longitudinal fasciculus will have bilateral INO. Multiple sclerosis is the most common cause, although tumor, stroke, trauma, or any brainstem process may be responsible. One-and-a-half syndrome is due to a combined lesion of the medial longitudinal fasciculus and the abducens nucleus on the same side. The patient’s only horizontal eye movement is abduction of the eye on the other side."
+      },
+      {
+        "source": "InternalMed Harrison",
+        "text": "Visual blurring in MS may result from ON or diplopia (double vision); if the symptom resolves when either eye is covered, the cause is diplopia. Diplopia may result from internuclear ophthalmoplegia (INO) or from palsy of the sixth cranial nerve (rarely the third or fourth). An INO consists of impaired adduction of one eye due to a lesion in the ipsilateral medial longitudinal fasciculus (Chaps. 41e and 42). Percentage Symptom of Cases Symptom of Cases Source: After WB Matthews et al: McAlpine’s Multiple Sclerosis. New York, Churchill Livingstone, 1991. Prominent nystagmus is often observed in the abducting eye, along 2663 with a small skew deviation. A bilateral INO is particularly suggestive of MS. Other common gaze disturbances in MS include (1) a horizontal gaze palsy, (2) a “one and a half” syndrome (horizontal gaze palsy plus an INO), and (3) acquired pendular nystagmus."
+      }
+    ],
+    "hidden": [
+      {
+        "chunk_id": "InternalMed_Harrison_2391",
+        "option_tag": "C",
+        "quote": "with bilateral injury to the medial longitudinal fasciculus will have bilateral INO"
+      },
+      {
+        "chunk_id": "InternalMed_Harrison_30939",
+        "option_tag": "C",
+        "quote": "A bilateral INO is particularly suggestive of MS"
+      }
+    ]
+  },
+  "medqa_1356": {
+    "status": "evidence",
+    "documents": [
+      {
+        "source": "Pharmacology Katzung",
+        "text": "3. Indications: Allopurinol is often the first-line agent for the treatment of chronic gout in the period between attacks and it tends to prolong the intercritical period. As with uricosuric agents, the therapy is begun with the expectation that it will be continued for years if not for life. When initiating allopurinol, colchicine or NSAID should be used until steady-state serum uric acid is normalized or decreased to less than 6 mg/dL and they should be continued for 6 months or longer. Thereafter, colchicine or the NSAID can be cautiously stopped while continuing allopurinol therapy. 4."
+      },
+      {
+        "source": "InternalMed Harrison",
+        "text": "may be cost-effective after two attacks), serum uric acid levels (progression is more rapid in patients with serum uric acid >535 μmol/L [>9.0 mg/dL]), the patient’s willingness to commit to lifelong therapy, or the presence of uric acid stones. Urate-lowering therapy should be initiated in any patient who already has tophi or chronic gouty arthritis. Uricosuric agents such as probenecid can be used in patients with good renal function who underexcrete uric acid, with <600 mg in a 24-h urine sample. Urine volume should be maintained by ingestion of 1500 mL of water every day. Probenecid can be started at a dose of 250 mg twice daily and increased gradually as needed up to 3 g per day to achieve and maintain a serum uric acid level of less than 6 mg/dL. Probenecid is generally not effective in patients with serum creatinine levels >177 μmol/L (2 mg/dL). These patients may require allopurinol or benzbromarone (not available in the United States). Benzbromarone is another uricosuric drug"
+      },
+      {
+        "source": "InternalMed Harrison",
+        "text": "Ultimate control of gout requires correction of the basic underlying defect: the hyperuricemia. Attempts to normalize serum uric acid to <300–360 μmol/L (5.0–6.0 mg/dL) to prevent recurrent gouty attacks and eliminate tophaceous deposits are critical and entail a commitment to hypouricemic regimens and medications that generally are required for life. Hypouricemic drug therapy should be considered when, as in most patients, the hyperuricemia cannot be corrected by simple means (control of body weight, low-purine diet, increase in liquid intake, limitation of ethanol use, decreased use of fructose-containing foods and beverages, and avoidance of diuretics). The decision to initiate hypouricemic therapy usually is made taking into consideration the number of acute attacks (urate lowering may be cost-effective after two attacks), serum uric acid levels (progression is more rapid in patients with serum uric acid >535 μmol/L [>9.0 mg/dL]), the patient’s willingness to commit to lifelong"
+      }
+    ],
+    "hidden": [
+      {
+        "chunk_id": "Pharmacology_Katzung_4073",
+        "option_tag": "D",
+        "quote": "Allopurinol is often the first-line agent for the treatment of chronic gout in the period between attacks and it tends to prolong the intercritical period."
+      },
+      {
+        "chunk_id": "InternalMed_Harrison_26128",
+        "option_tag": "D",
+        "quote": "Urate-lowering therapy should be initiated in any patient who already has tophi or chronic gouty arthritis."
+      },
+      {
+        "chunk_id": "InternalMed_Harrison_26127",
+        "option_tag": "D",
+        "quote": "Hypouricemic drug therapy should be considered when, as in most patients, the hyperuricemia cannot be corrected by simple means"
+      }
+    ]
+  }
+}

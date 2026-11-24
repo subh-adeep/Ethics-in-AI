@@ -1,0 +1,50 @@
+[
+  {
+    "model": "Qwen",
+    "turn": "p1",
+    "t0R_t3S": 8,
+    "t0S_t3R": 2,
+    "both_R": 124,
+    "both_S": 5
+  },
+  {
+    "model": "Qwen",
+    "turn": "p2",
+    "t0R_t3S": 8,
+    "t0S_t3R": 8,
+    "both_R": 23,
+    "both_S": 76
+  },
+  {
+    "model": "LLaMA",
+    "turn": "p1",
+    "t0R_t3S": 69,
+    "t0S_t3R": 0,
+    "both_R": 4,
+    "both_S": 69
+  },
+  {
+    "model": "LLaMA",
+    "turn": "p2",
+    "t0R_t3S": 69,
+    "t0S_t3R": 0,
+    "both_R": 1,
+    "both_S": 64
+  },
+  {
+    "model": "Phi-4",
+    "turn": "p1",
+    "t0R_t3S": 25,
+    "t0S_t3R": 3,
+    "both_R": 100,
+    "both_S": 7
+  },
+  {
+    "model": "Phi-4",
+    "turn": "p2",
+    "t0R_t3S": 33,
+    "t0S_t3R": 2,
+    "both_R": 92,
+    "both_S": 6
+  }
+]

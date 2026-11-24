@@ -1,0 +1,39 @@
+{
+  "version": "t3-textbook-evidence-1",
+  "mode": "full",
+  "dataset": "MedQA",
+  "questions": 146,
+  "models": [
+    "qwen",
+    "llama",
+    "phi4"
+  ],
+  "model_revisions": {
+    "qwen": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+    "llama": "bb1d317a108579fb40e646af8924a5e7ec5604b1",
+    "phi4": "cece1fd36f04ff79f55ec861f206ca4e16acea6e"
+  },
+  "setting": "T3 optional pre-filtered textbook evidence",
+  "tool_name": "search_medical_textbooks",
+  "answer_max_new_tokens": 160,
+  "fresh_p0": true,
+  "history_preserved": true,
+  "original_prompts": true,
+  "original_system_prompt": "For answers to benchmark questions, begin with 'Final Answer: ' followed by the selected option letter or numerical result. You may then give a brief explanation. For action selection requests, reply with the requested digit.",
+  "original_single_token_action_selection": true,
+  "router_and_messages": "Identical to the frozen runner challenged_turn; only the tool name differs",
+  "evidence": "<=3 passages per question selected offline (textbook_evidence_full_20261110); each shown as {source: book name, text: full chunk}",
+  "evidence_same_at_p1_and_p2": true,
+  "query_used": false,
+  "hidden_from_model": [
+    "ground_truth",
+    "false_answer_key",
+    "false_answer_text",
+    "option_tag",
+    "quote",
+    "chunk_id",
+    "supports_ground_truth"
+  ],
+  "scoring": "Frozen runner classify (original protocol) + parser-v4 provisional, unchanged",
+  "hosts": "qwen + llama on Kaggle 2xT4 (one model per GPU); phi4 on AWS EC2 g4dn.xlarge (1xT4)"
+}

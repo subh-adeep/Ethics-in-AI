@@ -1,0 +1,17 @@
+{
+  "at": "2026-11-10T16:40:54.819551+00:00",
+  "kernel": "subhadeepsing/textbook-tool-full-20261110",
+  "mode": "full",
+  "models": [
+    "qwen",
+    "llama"
+  ],
+  "source_sha256": "5f16132a72d9de579fdff8352bd55713c298c846b46ebf8cedf45a48e19234cb",
+  "bytes": 476631,
+  "response": {
+    "ref": "/code/subhadeepsing/textbook-tool-full-20261110",
+    "url": "https://www.kaggle.com/code/subhadeepsing/textbook-tool-full-20261110",
+    "versionNumber": 1,
+    "kernelId": 144236478
+  }
+}

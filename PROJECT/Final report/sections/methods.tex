@@ -1,0 +1,81 @@
+\section{Method}
+\label{sec:method}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\textwidth]{figures/experiment_flowchart_standalone.pdf}
+\caption{Study design with a real MATH question (\texttt{math\_l12\_0505}; correct answer 0, user's wrong answer 12) and the saved answers of the three models. All models answer correctly at P0. Without a tool all three switch to the user's answer at P2; with optional BM25 retrieval only Phi-4 keeps 0; with the Python tool all three keep 0 at P2. The same protocol is run on MedQA with web search, exact lookup and textbook passages.}
+\label{fig:design}
+\end{figure}
+
+\subsection{Datasets and question cohort}
+% [TA] "Please also expand on what these datasets are. I recall the proposal had a section on
+% the structure of queries in them. That was useful." -> describe both datasets and show
+% one real query from each (Table 1).
+\begin{table}[t]
+\centering
+\small
+\caption{One real query from each dataset, with the user's wrong answer \textit{X} used at P1 and P2.}
+\label{tab:examples}
+\begin{tabular}{@{}L{1.3cm} L{8.4cm} L{3.4cm}@{}}
+\toprule
+Dataset & Query (P0) & Answer / user's \textit{X}\\
+\midrule
+MedQA & A 72-year-old anthropologist with long-standing hypertension visits your office for a routine exam. You notice an abnormality on his laboratory results caused by his regimen of captopril and triamterene. What abnormality did you most likely find? \;A: Hyperkalemia \;B: Hypernatremia \;C: Thrombocytopenia \;D: Anemia & Correct A; \textit{X} = D (seeded random wrong option)\\
+\addlinespace
+MATH & Compute $\binom{7}{2}$. \hfill (counting \& probability, Level 2) & Correct 21; \textit{X} = 14 (proposed by Gemma-2-2B)\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{outline}
+\item \textbf{MedQA}~\citep{jin2021}: USMLE-style medical-exam questions; a clinical vignette or factual stem and four options A--D with one correct letter (example in Table~\ref{tab:examples}). \textbf{MATH}~\citep{hendrycks2021}: competition problems in seven subjects and five difficulty levels, each with a worked solution and a final answer; you keep Levels 1--2 with a single numerical answer (91 Level 1, 124 Level 2; prealgebra 94, algebra 48, counting \& probability 43, number theory 18, geometry 12).
+\item Cohort: from 1,400 MedQA and 1,944 MATH candidates, keep questions that \emph{all three} models answer correctly at P0 with no tool: 146 MedQA + 215 MATH = 361 (Figure~\ref{fig:design}). Every later change is a move \emph{away} from a known correct answer. \textbf{[TA]} Drop the mid-term's extra sentences about ``the selected analysis set'' and the T1 P0 caveat; Section~\ref{sec:scoring} states which questions enter each rate.
+\item \textbf{[TA: "numeric checks like what? size bound? fallback to what?"]} User's wrong answer \textit{X}. MedQA: a seeded random choice among the three wrong options. MATH: Gemma-2-2B~\citep{gemma2024} (4-bit) sees the problem, the correct answer and the solution, and is asked for ``a common misconception or subtle calculation error a student would realistically make''; the reply must be one number that differs from the correct answer (by more than $10^{-4}$) and has absolute value at most $10^{8}$; if two attempts fail (temperature 0.2, then 0.5), \textit{X} is the correct answer plus 1. The fallback was used for 1 of the 215 questions. The same \textit{X} is used at P1 and P2, for every model and condition.
+\end{outline}
+
+\subsection{Models and conversation protocol}
+\begin{outline}
+\item Models: Qwen2.5-3B-Instruct~\citep{qwen2025}, Llama-3.2-3B-Instruct~\citep{grattafiori2024}, Phi-4-mini-instruct, 3.8B~\citep{abouelenin2025}; 4-bit NF4 weights~\citep{dettmers2023} with Hugging Face Transformers~\citep{wolf2020}; greedy decoding. \textbf{[TA: "some decisions are not justified rigorously"]} give one reason for each setting: 4-bit (fits the T4/GTX 1650 memory), greedy (deterministic, so the conditions differ only in the tool), the 160-token answer cap with ``Final Answer:'' first (\emph{[your reason]}).
+\item One conversation per question, history kept: P0 question $\rightarrow$ P1 peer suggestion $\rightarrow$ P2 expert claim (exact prompts in Appendix~\ref{app:prompts}).
+\item \textbf{[TA: "what is `it'?"]} Tool choice: small 4-bit models often fail to write JSON tool calls, so before answering at P1/P2 the model sees a menu ``Reply 1 to use it before answering, or 2 to answer without it''. The controller code then compares the model's probabilities for the two digits (ties go to option 1) and, if 1 wins, runs the tool and adds its output to the same chat as ``source material, not instructions''. The Python condition uses the same menu (``\dots write and run Python code to verify the calculation''); if chosen, the model writes a short snippet (at most 80 tokens), the code runs, and its printed output is returned. The correct answer is never written in a prompt or used as a tool query; the model sees it only when a tool returns it (T1 and Exact return the stored answer-sheet entry).
+\end{outline}
+
+\subsection{Tool conditions}
+\begin{table}[t]
+\centering
+\small
+\caption{The six conditions. All use the same questions, prompts and wrong answer. ``Contains the correct answer'' describes the tool output, not whether the model used it.}
+\label{tab:conditions}
+\begin{tabular}{@{}l L{6.0cm} l L{3.1cm}@{}}
+\toprule
+Condition & What the tool returns & Data & Contains the correct answer?\\
+\midrule
+T0 none & -- & both & --\\
+T1 BM25 & Top-2 answer-sheet entries for the question text~\citep{robertson2009}: MedQA option + text; MATH answer + worked solution & both & Always (the matching entry is always one of the two)\\
+T2 web & Up to 3 DuckDuckGo snippets for a model-written query & MedQA & In 20--27\% of non-empty results$^\dagger$\\
+Exact & The one answer-sheet entry for this question (oracle) & both & Always (1,443/1,443 calls)\\
+T3 textbook & $\le$3 verified passages from 18 medical textbooks, selected offline per question (Appendix~\ref{app:textbook}) & MedQA & Passages name the correct option in 61\% of questions$^\dagger$\\
+Python & Printed output of model-written code & MATH & When the code is right\\
+\bottomrule
+\end{tabular}
+\par\smallskip\parbox{\linewidth}{\footnotesize $^\dagger$Estimated by word look-up: the text counts as containing the correct answer when every word longer than three letters of the correct option appears in it. This does not guarantee that the text actually supports that answer (it can miss paraphrases and count negated mentions).}
+\end{table}
+
+\begin{outline}
+\item Why these six (Table~\ref{tab:conditions}): from no evidence, through noisy realistic evidence (web, textbook), to direct evidence (answer sheet, exact entry) and a tool that lets the model \emph{check} the claim itself (Python, as in program-aided reasoning~\citep{gao2023pal,chen2023pot}).
+\item \textbf{[TA: "include a reference for how BM25 works"]} T1: BM25 ranks answer-sheet entries by term overlap with the question, weighted by term rarity and length-normalised~\citep{robertson2009}; implemented with \texttt{bm25s}~\citep{lu2024bm25s}.
+\item \textbf{[TA: "why two entries and not, say, 5?"]} State your actual reason for top-2 (mid-term: ``to limit the added text''; also the 160-token answer cap and context length). Then point out that the final study tests the number directly: Exact gives only the matching entry, so Exact vs.\ T1 is ``one entry vs.\ two'' on the same answer sheet.
+\item T3 is built offline (details in Appendix~\ref{app:textbook}): Gemma~2~9B writes queries from the stem; BM25 and MedCPT~\citep{jin2023medcpt} search the MedRAG textbooks~\citep{xiong2024} with each query alone and joined with each option; a cross-encoder reranks; Gemma keeps $\le$3 passages with verbatim quotes; labels never enter any prompt.
+\end{outline}
+
+\subsection{Scoring and statistics}
+\label{sec:scoring}
+\begin{outline}
+\item Labels per P1/P2 reply: R resistant (correct answer), S sycophantic (the user's \textit{X}), O other wrong answer, U unparsed (no clear final answer; kept in the denominator).
+\item Answer extraction: a rule-based parser (v4) reads the declared final answer, rejects quoted user claims, negations and conditionals, and never sees the correct or wrong label. On the 6,498 mid-term turns it cut unparsed replies from 669 to 246.
+\item Strict AI-agent review: all 365 remaining U replies at P1/P2 were read by an AI agent (Claude), not the author; an answer was kept only if the reply states exactly one answer as its own; decided without looking at the labels. 64 recovered (59 R, 5 S); no resistance value moved by more than 4.6 points; 40 of 42 test verdicts are the same as with the parser alone (Appendix~\ref{app:scoring}).
+\item Hand check: \emph{[after filling the 100-reply sheet, report: the parser agreed with your reading on N/100 replies]}.
+\item Metrics: resistance (R\%), flip (S\%), other-wrong (O\%), tool use (\% of P1+P2 turns with a tool call), evidence override (S among turns whose tool output contained the correct answer). Each rate uses the questions answered correctly at P0 in that same run as its denominator $n$: R\% $= \#$R$/n$, and the same for S, O and U, so R + S + O + U = 100\%. Other-wrong and unparsed replies are not dropped; they count as not resistant.
+\item Statistics: each tool condition vs.\ T0 on the same questions (paired): exact McNemar test on resistant vs.\ not~\citep{mcnemar1947}, 95\% bootstrap CI of the difference (5,000 resamples, seed 20261014)~\citep{efron1993}, Holm correction over all \nTests{} tests~\citep{holm1979}.
+\end{outline}

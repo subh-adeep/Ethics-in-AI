@@ -1,0 +1,63 @@
+\section{Discussion}
+\label{sec:discussion}
+
+\begin{outline}
+\item \textbf{Ethical reading.} Tool access does not make small assistants truthful under pressure. Worse, a tool-equipped assistant that calls a tool and then agrees with a wrong user (Llama) produces an answer that \emph{looks} verified; users may trust it more than an unaided model. Evidence override is therefore a key safety metric for agentic assistants, not just accuracy.
+\item \textbf{What helps.} Tools whose output directly settles the claim (an executed computation, the exact answer) help; loosely related evidence (web snippets, textbook passages) does not, and can give the model material to rationalise agreement (Phi-4 replies that start with the user's option while citing evidence for the correct one).
+\item \textbf{Design choices carry ethical weight.} Whether Qwen ever sees evidence depends on option order in a menu. Developers should test tool-choice interfaces for such biases, and prefer tools with checkable outputs plus error feedback.
+\item \textbf{Model ranking depends on the condition}: on MATH at P1, Llama resists \mathLlamaPoneTzero\% without a tool but only \mathLlamaPoneTone\% with BM25, while Phi-4 goes from 41.4\% to 97.7\%; Phi-4 benefits most from tools, Llama the least. A ranking from one condition can mislead.
+\end{outline}
+
+\subsection{Implications for model developers}
+\label{sec:implications}
+% [TA] "It would be good to have a final section on what the implications of this project are
+% (e.g., should model developers try to foster more searching behavior in models?)"
+\begin{outline}
+\item \textbf{Answer the TA's question directly: more searching is not enough.} Llama calls the tool on 100\% of MedQA turns and is the worst with tools; Phi-4 calls it on 81--100\% and gains only when the evidence is direct. Encouraging tool calls without teaching models to \emph{weigh} the evidence against the user can make sycophancy look evidence-backed.
+\item \textbf{Prefer tools with checkable outputs and error feedback.} Code execution helped every model at the expert turn, and showing the error message recovered 42.6\% of the turns lost to crashed code. Retrieval that returns loosely related text (web snippets, textbook passages) did not help and sometimes hurt.
+\item \textbf{Test the tool interface itself.} Qwen's use of the tool flipped from 2/20 to 20/20 when only the order of the menu options changed. Option order, tool names and descriptions should be audited like any other safety-relevant design choice.
+\item \textbf{Measure trust, not only access.} Report evidence override (agreeing with the user although the tool showed the correct answer) next to accuracy; the training-based fix suggested by~\citet{li2026} (fine-tuning on mixed user/document conflicts) is one route.
+\item \textbf{Ethics angle.} For users, a confident answer that cites a tool is more persuasive; an assistant that defers to a wrong user after consulting a tool can therefore do more harm than one without tools --- especially in medicine.
+\end{outline}
+
+\subsection{Changes from the proposal and mid-term plan}
+\label{sec:changes}
+
+\begin{table}[t]
+\centering
+\small
+\caption{What was planned, what was done, and why. All planned conditions and metrics were completed except the two marked ``not run''; four additions were made.}
+\label{tab:changes}
+\begin{tabular}{@{}L{3.6cm} L{3.9cm} L{5.4cm}@{}}
+\toprule
+Planned & Done & Reason\\
+\midrule
+Qwen 3.5 4B (proposal) & Qwen2.5-3B-Instruct & \emph{[add your reason]}\\
+AMPS for mathematics & MATH, Levels 1--2 & Numerical final answers allow exact automatic checking\\
+250 questions per dataset & 146 MedQA + 215 MATH & Only questions all three models answer correctly at P0 were kept\\
+Gemini 2.5 Flash as stance judge & Rule-based parser v4 + strict AI-agent review & Deterministic, never sees the labels, no external API\\
+Web search on both datasets (mid-term milestone not yet met) & MedQA full run (19 Oct); MATH 20-question pilot & MATH snippets were calculator pages without answers and queries corrupted numbers; Python replaced it\\
+Mid-term: one vs.\ two retrieved entries & Exact (one) vs.\ T1 (two) & Done with the same answer sheet\\
+Mid-term: answer-only vs.\ answer + solution (MATH) & Not run; Python tool instead & Tests whether the model can check the claim itself; T1/Exact already give answer + solution\\
+Proposal: order of evidence vs.\ user claim & Not run & Time went to the new tools; future work\\
+Significance testing & McNemar + bootstrap + Holm & Done for all \nTests{} comparisons\\
+Local GTX 1650 & Kaggle and AWS T4 for full runs & 4 GB was too slow for full runs; local GPU used for pilots and the repair loop\\
+-- (not planned) & Exact lookup, T3 textbook, Python + repair loop, Qwen menu probe & Added to explain the results\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{outline}
+\item Point to Table~\ref{tab:changes}; one or two sentences: all promised metrics (flip at P1/P2, unforced/other-wrong errors, tool use, evidence override) and significance tests were delivered; two promised comparisons were replaced or postponed, with reasons; four additions.
+\end{outline}
+
+\subsection{Limitations and future work}
+\begin{outline}
+\item \textbf{[TA]} The caveats the TA asked to remove from the introduction and related work belong here: rates are not directly comparable with SycEval (different models, data and prompts); a tool vs.\ no-tool difference is an association within this protocol, not proof that the evidence itself caused the change (the tool runs also add the menu and tool messages).
+\item Scope: three 3--4B models at 4-bit; MATH Levels 1--2 only; MedQA results say nothing about clinical safety.
+\item Tool use is optional and self-selected, so tool-using and non-using turns are not randomised groups; T0 and tool runs are separate generation runs with slightly different prompts (menu, tool messages).
+\item P2 contains the P1 history, so it does not isolate claimed expertise alone; the 160-token cap cut off some replies (9.3\% of mid-term turns; more with web search).
+\item Scoring: parser rules were developed on these replies (in-sample); the review of unparsed replies was done by one AI agent (Claude), not the author --- \emph{[report your hand-check result]}.
+\item Statistics treat the fixed question set as the population and do not cover sampling randomness (greedy decoding).
+\item Future work: evidence-ordering ablation; an evidence checker that labels the user's claim as supported / contradicted; larger answer budget; mandatory vs.\ optional tool policies; why Llama ignores evidence on multiple-choice questions.
+\end{outline}

@@ -1,0 +1,40 @@
+{
+  "at": "2026-11-09T20:23:31.003394+00:00",
+  "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+  "gpus": [
+    "Tesla T4",
+    "Tesla T4"
+  ],
+  "settings": {
+    "max_queries": 2,
+    "max_query_words": 30,
+    "bm25_k": 10,
+    "dense_k": 10,
+    "keep_per_option": 3,
+    "keep_general": 2,
+    "judge_pool": 10,
+    "max_kept": 3,
+    "query_max_new_tokens": 160,
+    "judge_max_new_tokens": 700,
+    "max_quote_words": 40,
+    "min_words": 20,
+    "min_letter_ratio": 0.6,
+    "max_et_al": 3,
+    "shuffle_seed": 20261110
+  },
+  "models": {
+    "gemma": "unsloth/gemma-2-9b-it-bnb-4bit",
+    "query": "ncbi/MedCPT-Query-Encoder",
+    "article": "ncbi/MedCPT-Article-Encoder",
+    "cross": "ncbi/MedCPT-Cross-Encoder"
+  },
+  "gemma_compute_dtype": "float16",
+  "limit": 2,
+  "packages": {
+    "torch": "2.11.0+cu130",
+    "transformers": "5.17.0",
+    "accelerate": "1.15.0",
+    "bitsandbytes": "0.50.2",
+    "bm25s": "0.3.16"
+  }
+}

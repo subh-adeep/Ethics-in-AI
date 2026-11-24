@@ -43,6 +43,9 @@ Two domains are tested:
 | 9 | Python tool self-correction loop | 1 Nov | 82 failed tool turns | ✅ Done (local GPU) | `results/math_python_full_20261031/self_correction/` |
 | 10 | Calculator tool | 30 Oct | 3 MATH Q × 3 models | ⚠️ Smoke test only, replaced by Python tool | `results/math_calculator_smoke_20261030/` |
 | 11 | EC2 Phi-4 preflight | 20 Oct | infrastructure check | ✅ Done, no full run | `results/ec2_phi4_preflight_20261020/` |
+| 12 | Textbook evidence build for T3 (Gemma 2 9B + BM25/MedCPT hybrid + cross-encoder) | 9–10 Nov | 146 MedQA, evidence only | ✅ Done, 146/146 with 1–3 passages | `results/textbook_evidence_full_20261110/` |
+| 13 | T3 textbook-evidence tool, 3 models (optional tool) | 10–11 Nov | 146 MedQA × 3 models | ✅ Done (smoke + full) | `results/textbook_tool_full_20261110/` |
+| 14 | Qwen tool-choice probe (why Qwen skips tools) | 10 Nov | 20 decision prompts × 7 variants | ✅ Done | `results/qwen_tool_choice_probe_20261110/` |
 
 All results folders are under `PROJECT/codebase/results/`.
 
@@ -86,6 +89,7 @@ Each question is a **3-turn continuous dialogue** ($P_0 \to P_1 \to P_2$) in the
 | **T1** | BM25 retrieval, top-2 | Two best-matching answer-sheet entries (contain ground truth) | MedQA, MATH |
 | **T2** | Web search (DuckDuckGo) | Up to 3 web snippets from a model-written query | MedQA (full), MATH (pilot) |
 | **Exact** | Exact question lookup | The one answer-sheet entry for this question ID (oracle) | MedQA, MATH |
+| **T3** | Pre-filtered textbook evidence | ≤3 verbatim passages from 18 medical textbooks. Gemma 2 9B writes 2 queries; 10 searches run (each query alone and with each option); BM25 + MedCPT top 10 each, cross-encoder rerank, then a Gemma judge keeps ≤3 with verified quotes. See `results/textbook_evidence_full_20261110/README.md` | MedQA |
 | **Py** | Python code execution | Output of model-written Python code (`exec` with `math`, `comb`, `gcd`, `Fraction`, …) | MATH |
 
 **How tool use works (all conditions):** at P1/P2 the model is asked to reply `1` (use the tool) or `2` (answer directly). If it picks 1, the harness runs the tool and adds the result to the **same conversation**, then the model answers. This is scaffolded tool use, not native JSON function calling. Tool use is **optional**: the model decides.
@@ -255,6 +259,30 @@ The 82 tool turns where code crashed were re-run. The error trace was fed back, 
 
 **Finding:** letting the model fix crashed code recovers 42.6% of the turns that had gone wrong. This supports the idea that a reliable tool result is what keeps the model grounded.
 
+### 8. T3 pre-filtered textbook evidence (146 MedQA Q)
+
+The tool returns ≤3 verbatim textbook passages selected for each question (see row 12). The protocol and optional 1/2 tool choice are the same as T2/Exact.
+Source: `results/textbook_tool_full_20261110/README.md`, answer-parser-4.0 for every condition. The cells show resistance %.
+
+| Model | Turn | T0 none | T1 BM25 | T2 web | Exact | **T3 textbook** | T3 tool use |
+|---|---|---:|---:|---:|---:|---:|---:|
+| Qwen | P1 | 91.8% | 91.8% | 70.5% | 91.8% | **87.0%** | 8% |
+| Qwen | P2 | 24.0% | 24.0% | 13.0% | 25.3% | **24.0%** | 6% |
+| LLaMA | P1 | 50.0% | 0.7% | 2.1% | 0.0% | **2.7%** | 100% |
+| LLaMA | P2 | 49.3% | 1.4% | 0.0% | 0.7% | **1.4%** | 100% |
+| Phi-4 | P1 | 87.0% | 96.6% | 90.4% | 100.0% | **74.7%** | 82% |
+| Phi-4 | P2 | 91.1% | 73.3% | 76.7% | 99.3% | **65.8%** | 81% |
+
+**Findings**
+- **Textbook evidence made Phi-4 more sycophantic.** At P2, 33 questions flip from resistant (T0) to sycophantic (T3), and only 2 flip back.
+  This happens even when the passages support the correct option: 21–26% flips on those turns.
+  The reply opens with the user's letter, while the reasoning cites the evidence for the correct answer.
+- **LLaMA** collapses after any tool result, as before.
+- **Qwen** rarely uses the tool, so T3 barely changes it.
+  The cause is a strong bias toward answering "2" at the 1/2 choice: with the options swapped it chose the tool 20/20 times.
+  See `results/qwen_tool_choice_probe_20261110/README.md`.
+- **Indirect evidence does not protect against pressure.** Only the Exact answer sheet, which states the answer outright, kept Phi-4 resistant.
+
 ---
 
 ## 🧭 Key Takeaways for the Report
@@ -269,6 +297,8 @@ The 82 tool turns where code crashed were re-run. The error trace was fed back, 
 4. **Phi-4 is the best tool user**: highest call rate and largest gains in every tool condition.
 5. **Tool reliability matters.** Crashed tool calls lead to sycophancy, and letting the model repair its code recovers many of them.
 6. **Model ranking depends on the condition.** LLaMA is most robust without tools, while Phi-4 benefits most from tools.
+7. **Relevant but indirect evidence can make things worse.** Real textbook passages (T3) lowered Phi-4's P2 resistance from 91% to 66%, while the exact answer sheet raised it to 99%.
+8. **Optional-tool results for Qwen mostly show what happens without evidence.** Qwen skips the tool because of a "2" bias at the 1/2 choice, not because it cannot use tools.
 
 ---
 
@@ -289,7 +319,7 @@ The 82 tool turns where code crashed were re-run. The error trace was fed back, 
 ## 🔭 Next Steps (planned)
 
 For MedQA, replace open web search with tools that give relevant, checkable evidence while keeping the multi-turn chat:
-- **T3 – MedQA textbook lookup:** offline retrieval over the 18 textbooks shipped with MedQA. The query names both the model's answer and the user's answer.
+- ~~T3 – MedQA textbook lookup~~ ✅ done (rows 12–13, results section 8).
 - **T4 – textbook lookup + evidence checker:** returns SUPPORTS / CONTRADICTS / NOT ENOUGH INFO for the user's claim.
 - Also: raise the answer cap to about 400 tokens, and investigate why LLaMA ignores tool evidence on MedQA multiple-choice.
 
