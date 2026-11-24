@@ -49,7 +49,7 @@ We check whether tools help a small language model keep a correct answer when a 
 ├── FINAL_RESULTS_README.md      # every final number, where it comes from, caveats
 ├── LICENSE
 ├── convert_documents.py         # PDF-to-Markdown converter for the papers in Documents/
-├── Documents/Papers/            # papers read for the project (PDF + Markdown)
+├── Documents/Papers/            # papers read for the project (local only, not in git)
 └── PROJECT/
     ├── Proposal phase/          # proposal (LaTeX + PDF)
     ├── Midsem report/

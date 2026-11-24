@@ -79,3 +79,6 @@ PROJECT/data/raw/medrag_textbooks/chunk/
 
 # Old drafts, backups and superseded versions (kept locally, not in the repo)
 archive/
+
+# Papers read for the project (kept locally, not pushed)
+Documents/
