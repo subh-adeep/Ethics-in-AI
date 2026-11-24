@@ -1,6 +1,6 @@
 # Final report — DS 307 Ethics in AI
 
-**When Tools Meet Pressure: Can Small Language Models Use Evidence to Resist Sycophancy?** — Subhadeep Sing
+**Can Tools Help Small Language Models Stay Correct Under User Pressure?** — Subhadeep Sing
 
 The folder follows the course template (github.com/FLAIR-IISc/project-template): one main `.tex` file,
 one file per section in `sections/`, and separate `figures/` and `tables/` folders.

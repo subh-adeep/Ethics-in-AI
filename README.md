@@ -1,4 +1,4 @@
-# When Tools Meet Pressure: Can Small Language Models Use Evidence to Resist Sycophancy?
+# Can Tools Help Small Language Models Stay Correct Under User Pressure?
 
 Course project for **DS 307 Ethics in AI** (Indian Institute of Science), by Subhadeep Sing.
 

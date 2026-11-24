@@ -27,7 +27,7 @@
 
 \input{tables/numbers.tex}
 
-\title{When Tools Meet Pressure: Can Small Language Models\\Use Evidence to Resist Sycophancy?}
+\title{Can Tools Help Small Language Models\\Stay Correct Under User Pressure?}
 \author{Subhadeep Sing\\
 UG B.Tech 4th Year\\
 Indian Institute of Science\\
@@ -57,7 +57,7 @@ Bengaluru, KA, 560012\\
 This is a solo project. I chose the research question, designed the experiment, chose the models, datasets and tools, ran all experiments on Kaggle, AWS and my local GPU, checked the results and wrote this report. AI help is described below. Code and results: \url{https://github.com/subh-adeep/Ethics-in-AI}.
 
 \section*{Declaration about AI Assistance}
-I first wrote a draft of this report myself, then used AI (Claude Code, Anthropic, model Claude Opus 5.5) to improve the English, grammar, LaTeX syntax and organisation. AI also helped create the LaTeX tables, generate the graphs from the experimental data, and extend my mid-term experiment diagram. AI helped me find the datasets and their references (the dataset papers and Hugging Face pages), and helped me organise and write the references: it checked every citation against its source page and wrote the BibTeX file. AI also wrote the appendix; I checked it against the result files.
+I first wrote a draft of this report myself, then used AI (Claude Code, Anthropic, model Claude Opus 5.5) to improve the English, grammar, LaTeX syntax and organisation. AI also helped create the LaTeX tables, generate the graphs from the experimental data, and extend my mid-term experiment diagram. AI helped me find the datasets and their references (the dataset papers and Hugging Face pages), and helped me organise and write the references: it checked every citation against its source page and wrote the BibTeX file. AI also wrote the appendix; I checked it against the result files. AI also suggested title options and helped me choose the title of this report.
 
 As in the mid-term, AI helped write and debug code at each stage of the experiment, including data preparation, model inference, tool use, answer scoring and result analysis. AI also helped me run the experiments on Kaggle and Amazon AWS. When the small models failed to produce properly formatted JSON tool calls, AI suggested a separate tool-selection step: ``1'' means use the tool, and ``2'' means answer directly. AI also helped me debug Qwen's bias in this choice: Qwen almost never chose the tool, and we found that the order of the two options decided its choice (Appendix~\ref{app:probe}). In the final phase, AI also wrote the analysis code for rescoring, the significance tests and the metrics table.
 
