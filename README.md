@@ -61,8 +61,7 @@ We check whether tools help a small language model keep a correct answer when a 
     │   ├── sections/            # abstract, intro, related, methods, results, discussion, conclusion, appendix
     │   ├── figures/  tables/    # figures and tables used in the report
     │   ├── scripts/build_figures.py        # makes every figure, table and number macro from the result files
-    │   ├── references.bib, project_template.sty/.bst, Makefile
-    │   └── AI_USE_LOG.md, CITATION_AUDIT.md, TA_FEEDBACK_RESPONSE.md
+    │   └── references.bib, project_template.sty/.bst, Makefile
     ├── data/
     │   ├── raw/                 # MedQA (4 options), Hendrycks MATH, MedRAG textbooks (chunks git-ignored)
     │   ├── candidate/           # candidate pools
@@ -135,7 +134,7 @@ make                                         # or: pdflatex, bibtex, pdflatex, p
 
 - Tool use is optional, so tool effects are associations, not proof of cause.
 - The unparsed replies were reviewed by an AI agent (Claude), not by hand; every decision is saved with its quote in `final_analysis_20261121/manual_unparsed_review_strict/`.
-- AI assistance is described in the report's "Declaration about AI Assistance" and in `PROJECT/Final report/AI_USE_LOG.md`.
+- AI assistance is described in the report's "Declaration about AI Assistance".
 
 ## License
 

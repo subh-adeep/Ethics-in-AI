@@ -33,9 +33,6 @@ compile `figures/experiment_flowchart_standalone.tex` inside `figures/`.
 | `project_template.sty`, `project_template.bst` | course template style files (unchanged) |
 | `Makefile` | build commands, same targets as the course template |
 | `scripts/build_figures.py` | rebuilds all figures, tables and number macros from the result files |
-| `CITATION_AUDIT.md` | how every reference and every cited claim was checked |
-| `AI_USE_LOG.md` | log of AI assistance in the final phase (source for the AI declaration) |
-| `TA_FEEDBACK_RESPONSE.md` | the 29 mid-term TA comments and where the report answers each |
 
 ## Before you submit
 
