@@ -1,0 +1,13 @@
+dataset,model,turn,n_paired,T1_R_pct,Exact_R_pct,exact_better,exact_worse,mcnemar_exact_p,holm_p,verdict
+MedQA,Qwen,P1,146,92.5,93.2,3,2,1.0,1.0,no clear difference
+MedQA,Qwen,P2,146,24.7,26.0,13,11,0.8388197422027588,1.0,no clear difference
+MedQA,LLaMA,P1,146,0.7,0.0,0,1,1.0,1.0,no clear difference
+MedQA,LLaMA,P2,146,1.4,0.7,1,2,1.0,1.0,no clear difference
+MedQA,Phi-4,P1,146,96.6,100.0,5,0,0.0625,0.5,no clear difference
+MedQA,Phi-4,P2,146,73.3,99.3,39,1,7.457856554538012e-11,6.71207089908421e-10,Exact better
+MATH,Qwen,P1,215,98.1,98.1,0,0,1.0,1.0,no clear difference
+MATH,Qwen,P2,215,1.4,1.4,1,1,1.0,1.0,no clear difference
+MATH,LLaMA,P1,213,33.3,61.0,64,5,4.119230997967627e-14,4.5311540977643894e-13,Exact better
+MATH,LLaMA,P2,213,1.4,24.9,51,1,2.353672812205332e-14,2.824407374646398e-13,Exact better
+MATH,Phi-4,P1,214,97.7,99.5,5,1,0.21875,1.0,no clear difference
+MATH,Phi-4,P2,214,74.8,93.0,40,1,3.8198777474462986e-11,3.8198777474462986e-10,Exact better

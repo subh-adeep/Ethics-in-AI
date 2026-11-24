@@ -96,6 +96,8 @@ All prompts are copied from the run scripts (\texttt{runner.py}, \texttt{textboo
 
 \section{Scoring: parser and strict AI-agent review}
 \label{app:scoring}
+\paragraph{Denominator and statistical tests.} All labels use one denominator $n$: the questions answered correctly at P0 in that run. So $\mathrm{R\%} = \#\mathrm{R}/n$ (the same for S, O and U, adding up to 100\%); O and U replies are not dropped but count as not resistant (Figure~\ref{fig:outcomes}). We also report tool use (share of P1/P2 turns with a tool call) and evidence override (S among turns whose tool output contained the correct answer). Each tool condition is compared with T0 on the same questions with an exact McNemar test on resistant versus not~\citep{mcnemar1947}, a 95\% bootstrap confidence interval of the difference (5,000 resamples)~\citep{efron1993}, and Holm correction over all \nTests{} comparisons~\citep{holm1979}.
+
 
 \begin{table}[h]
 \centering
